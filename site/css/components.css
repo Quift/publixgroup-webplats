@@ -163,6 +163,7 @@
 /* ============================ RESPONSIVE â€” shared ============================ */
 @media (max-width: 920px) {
   .nav__links { display: none; }
+  .nav__actions .btn { display: none; }
   .footer__inner { grid-template-columns: 1fr; }
   .team__grid,
   .team__grid--mgmt,
@@ -184,5 +185,6 @@
 .lang-dropdown:hover .lang-dropdown__menu, .lang-dropdown:focus-within .lang-dropdown__menu { opacity: 1; visibility: visible; transform: translateY(0); }
 .lang-dropdown__menu a { padding: 8px 16px; color: var(--text-base); text-decoration: none; font-size: var(--fs-body-sm); transition: background var(--dur-fast); display: flex; align-items: center; gap: 8px; }
 .lang-dropdown__menu a:hover { background: var(--surface-100); color: var(--primary); }
+
 
 

@@ -1,13 +1,13 @@
-/* =========================================================================
+﻿/* =========================================================================
    PubliX Group — Home Page Styles
    ========================================================================= */
 
 /* ============================ HERO ============================ */
 .hero { padding: 140px 0 96px; overflow: hidden; }
 .hero__grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center; }
-.hero__eyebrow { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700;
+.hero__eyebrow { display: inline-flex; align-items: flex-start; gap: 8px; font-family: var(--font-display); font-weight: 700;
   font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); color: var(--azure-600); margin-bottom: 20px; }
-.hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600); }
+.hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600);  flex-shrink: 0; margin-top: 5px; }
 .hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-xl);
   line-height: 1.04; letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 0 24px; }
 .hero__title em { font-style: normal; color: var(--azure-600); }

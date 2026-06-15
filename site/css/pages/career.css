@@ -1,13 +1,13 @@
-/* =========================================================================
+﻿/* =========================================================================
    PubliX Group — Career Page Styles
    ========================================================================= */
 
 /* ============================ CAREER HERO ============================ */
 .career-hero { padding: 160px 0 96px; text-align: center; }
 .career-hero .container { max-width: 780px; }
-.career-hero__eyebrow { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700;
+.career-hero__eyebrow { display: inline-flex; align-items: flex-start; gap: 8px; font-family: var(--font-display); font-weight: 700;
   font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); color: var(--azure-600); margin-bottom: 20px; }
-.career-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600); }
+.career-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600);  flex-shrink: 0; margin-top: 5px; }
 .career-hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-xl);
   line-height: 1.06; letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 0 28px; }
 .career-hero__sub { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--text-muted);

@@ -1,4 +1,4 @@
-/* =========================================================================
+﻿/* =========================================================================
    PubliX Group — Process Page Styles
    Hero, timeline, FAQ accordion, cookie banner, newsletter
    ========================================================================= */
@@ -6,7 +6,7 @@
 /* ============================ PROCESS HERO ============================ */
 .process-hero { padding: 140px 0 80px; text-align: center; }
 .process-hero__eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
+  display: inline-flex; align-items: flex-start; gap: 8px;
   font-family: var(--font-display); font-weight: 700;
   font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline);
   color: var(--azure-600); margin-bottom: 20px;

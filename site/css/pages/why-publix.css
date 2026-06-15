@@ -1,12 +1,12 @@
-/* =========================================================================
+﻿/* =========================================================================
    PubliX Group — Why PubliX Page Styles
    ========================================================================= */
 
 /* ============================ NARRATIVE HERO ============================ */
 .why-hero { padding: 140px 0 80px; text-align: center; }
-.why-hero__eyebrow { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700;
+.why-hero__eyebrow { display: inline-flex; align-items: flex-start; gap: 8px; font-family: var(--font-display); font-weight: 700;
   font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); color: var(--azure-600); margin-bottom: 20px; }
-.why-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600); }
+.why-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600);  flex-shrink: 0; margin-top: 5px; }
 .why-hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-xl);
   line-height: 1.04; letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 auto 24px; max-width: 18ch; }
 .why-hero__title em { font-style: normal; color: var(--azure-600); }
