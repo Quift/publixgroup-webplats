@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PubliX Group etablerer seg i Finland gjennom partnerskap med Aspicore — PubliX Group</title>
+<meta name="description" content="En fullservice programvareleverandør innen tilskuddsforvaltning, som markerer PubliX Groups inntreden på det finske markedet.">
+<link rel="stylesheet" href="../../Design-system/styles.css">
+<link rel="stylesheet" href="../../Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/pages/news-article.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="../../index.html"><img src="../../Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="../../index.html">Hjem</a>
+      <a href="../../why-publix.html">Hvorfor PubliX</a>
+      <a href="../../about.html">Om oss</a>
+      <a href="../../career.html">Team</a>
+      <a href="../../companies.html">Selskaper</a>
+      <a href="../../news.html" class="active">Nyheter</a>
+      <a href="../../contact.html">Kontakt</a>
+    </nav>
+    <div class="nav__actions">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          🇳🇴 NO <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="sv">🇸🇪 SV</a>
+          <a href="#" data-lang="da">🇩🇰 DA</a>
+          <a href="#" data-lang="no">🇳🇴 NO</a>
+          <a href="#" data-lang="fi">🇫🇮 FI</a>
+          <a href="#" data-lang="de">🇩🇪 DE</a>
+        </div>
+      </div>
+      <a class="btn btn--accent btn--sm" href="../../index.html#review">Be om en vurdering <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="article-hero">
+  <img class="article-hero__pattern" src="../../Design-system/assets/patterns/dot-skyline.svg" alt="">
+  <div class="container article-hero__inner fade-in">
+    <div class="article-hero__meta">
+      <span class="article-hero__date">2. september 2025</span>
+      <span class="news-card__badge news-card__badge--acquisition">Oppkjøp</span>
+    </div>
+    <h1 class="article-hero__title">PubliX Group etablerer seg i Finland gjennom partnerskap med Aspicore</h1>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="article-content">
+  <div class="container article-content__grid">
+    <div class="article-body fade-in">
+      <p class="lead">En fullservice programvareleverandør innen tilskuddsforvaltning, som markerer PubliX Groups inntreden på det finske markedet.</p>
+      <p>PubliX Group bygger en ledende plattform av vertikale SaaS-selskaper som betjener offentlig sektor i Nord-Europa. Gjennom vårt seneste strategiske grep styrker vi vår posisjon og utvider vår evne til å levere virksomhetskritiske programvareløsninger til kommuner, regioner og offentlige myndigheter.</p>
+      <p>"Vi er svært glade for å kunngjøre dette neste steget på vår reise," sier Alexander Hübel, Group CEO for PubliX Group. "Dette samsvarer perfekt med vår visjon om å styrke offentlig sektor med de aller beste digitale verktøyene som er tilgjengelige på markedet."</p>
+      <p>Med denne tilføyelsen fortsetter gruppen å demonstrere sitt engasjement for langsiktig verdiskaping, med fokus på selskaper som deler en dyp forståelse for sluttbrukernes daglige realiteter og regulatoriske krav.</p>
+    </div>
+    <div class="article-sidebar fade-in fade-in-d1">
+      <img src="https://cdn.prod.website-files.com/68666b316c0fb876841551a6/68b00d1c34fa5c13a999eecd_Aspicore%20logo.png" alt="Logo" class="article-sidebar__logo">
+      <h3 class="article-sidebar__title">Om Aspicore</h3>
+      <p class="article-sidebar__text">Aspicore er Finlands ledende plattform for stiftelsesforvaltning, bygget gjennom mer enn ti års tett samarbeid med tilskuddsgivende organisasjoner.</p>
+      <a href="../../companies.html" class="btn btn--navy">Se alle selskaper</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__base">
+    <span>© 2026 PubliX Group AB</span>
+  </div>
+</footer>
+
+<script src="../../js/lang.js"></script>
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+  });
+}, { passive: true });
+</script>
+</body>
+</html>

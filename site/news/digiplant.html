@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PubliX Group partners with digiPlant — PubliX Group</title>
+<meta name="description" content="A market leader within application management systems for foundations, strengthening PubliX's position in the grant management vertical.">
+<link rel="stylesheet" href="../Design-system/styles.css">
+<link rel="stylesheet" href="../Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/pages/news-article.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="../index.html"><img src="../Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="../index.html">Home</a>
+      <a href="../why-publix.html">Why PubliX</a>
+      <a href="../about.html">About</a>
+      <a href="../career.html">Team</a>
+      <a href="../companies.html">Companies</a>
+      <a href="../news.html" class="active">News</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          🇬🇧 EN <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="sv">🇸🇪 SV</a>
+          <a href="#" data-lang="da">🇩🇰 DA</a>
+          <a href="#" data-lang="no">🇳🇴 NO</a>
+          <a href="#" data-lang="fi">🇫🇮 FI</a>
+          <a href="#" data-lang="de">🇩🇪 DE</a>
+        </div>
+      </div>
+      <a class="btn btn--accent btn--sm" href="../index.html#review">Apply for a review <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="article-hero">
+  <img class="article-hero__pattern" src="../Design-system/assets/patterns/dot-skyline.svg" alt="">
+  <div class="container article-hero__inner fade-in">
+    <div class="article-hero__meta">
+      <span class="article-hero__date">August 25, 2025</span>
+      <span class="news-card__badge news-card__badge--acquisition">Acquisition</span>
+    </div>
+    <h1 class="article-hero__title">PubliX Group partners with digiPlant</h1>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="article-content">
+  <div class="container article-content__grid">
+    <div class="article-body fade-in">
+      <p class="lead">A market leader within application management systems for foundations, strengthening PubliX's position in the grant management vertical.</p>
+      <p>PubliX Group is building a leading platform of vertical SaaS companies serving the public sector across Northern Europe. Through our latest strategic move, we are strengthening our position and expanding our ability to deliver mission-critical software solutions to municipalities, regions, and public authorities.</p>
+      <p>"We are thrilled to announce this next step in our journey," said Alexander Hübel, Group CEO of PubliX Group. "This aligns perfectly with our vision to empower the public sector with the very best digital tools available on the market."</p>
+      <p>With this addition, the group continues to demonstrate its commitment to long-term value creation, focusing on companies that share a deep understanding of their end-users' daily realities and regulatory requirements.</p>
+    </div>
+    <div class="article-sidebar fade-in fade-in-d1">
+      <img src="https://cdn.prod.website-files.com/68666b316c0fb876841551a6/68a8299d86ac22aa61d2bea0_digiPlant%20logo.png" alt="Logo" class="article-sidebar__logo">
+      <h3 class="article-sidebar__title">About digiPlant</h3>
+      <p class="article-sidebar__text">digiPlant modernises public procurement with their industry-leading SaaS solutions for foundations and organizations.</p>
+      <a href="../companies.html" class="btn btn--navy">View all companies</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__base">
+    <span>© 2026 PubliX Group AB</span>
+  </div>
+</footer>
+
+<script src="../js/lang.js"></script>
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+  });
+}, { passive: true });
+</script>
+</body>
+</html>

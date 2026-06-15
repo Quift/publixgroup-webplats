@@ -1,0 +1,107 @@
+﻿/* ======================== ARTICLE HERO ======================== */
+.article-hero {
+  background: var(--navy-500);
+  padding: 180px 0 100px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+.article-hero__pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  pointer-events: none;
+}
+.article-hero__inner {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+.article-hero__meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.article-hero__date {
+  font-family: var(--font-mono);
+  font-size: var(--fs-body-sm);
+  color: var(--navy-200);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.article-hero__title {
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: var(--fw-semibold);
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: white;
+}
+
+/* ======================== ARTICLE CONTENT ======================== */
+.article-content {
+  padding: 80px 0;
+}
+.article-content__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+@media (min-width: 992px) {
+  .article-content__grid {
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+  }
+}
+
+.article-body {
+  font-size: var(--fs-body-base);
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.article-body p {
+  margin-bottom: 24px;
+}
+.article-body .lead {
+  font-size: var(--fs-body-lg);
+  color: var(--text-base);
+  font-weight: var(--fw-medium);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* ======================== ARTICLE SIDEBAR ======================== */
+.article-sidebar {
+  position: sticky;
+  top: 120px;
+  background: var(--surface-100);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border: 1px solid var(--border-light);
+}
+.article-sidebar__logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+.article-sidebar__title {
+  font-size: var(--fs-body-lg);
+  font-weight: var(--fw-semibold);
+  color: var(--text-base);
+  margin-bottom: 12px;
+}
+.article-sidebar__text {
+  font-size: var(--fs-body-sm);
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+.article-sidebar .btn {
+  width: 100%;
+  justify-content: center;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PubliX Group ingår partnerskap med Embrace Safety — PubliX Group</title>
+<meta name="description" content="En kraftfull SaaS-plattform som möjliggör kunskapsbaserad brottsprevention och trygghetsfrämjande för kommuner och lokala myndigheter.">
+<link rel="stylesheet" href="../../Design-system/styles.css">
+<link rel="stylesheet" href="../../Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/pages/news-article.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="../../index.html"><img src="../../Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="../../index.html">Hem</a>
+      <a href="../../why-publix.html">Varför PubliX</a>
+      <a href="../../about.html">Om oss</a>
+      <a href="../../career.html">Team</a>
+      <a href="../../companies.html">Företag</a>
+      <a href="../../news.html" class="active">Nyheter</a>
+      <a href="../../contact.html">Kontakt</a>
+    </nav>
+    <div class="nav__actions">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          🇬🇧 EN <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="sv">🇸🇪 SV</a>
+          <a href="#" data-lang="da">🇩🇰 DA</a>
+          <a href="#" data-lang="no">🇳🇴 NO</a>
+          <a href="#" data-lang="fi">🇫🇮 FI</a>
+          <a href="#" data-lang="de">🇩🇪 DE</a>
+        </div>
+      </div>
+      <a class="btn btn--accent btn--sm" href="../../index.html#review">Ansök om en granskning <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="article-hero">
+  <img class="article-hero__pattern" src="../../Design-system/assets/patterns/dot-skyline.svg" alt="">
+  <div class="container article-hero__inner fade-in">
+    <div class="article-hero__meta">
+      <span class="article-hero__date">14 april 2026</span>
+      <span class="news-card__badge news-card__badge--acquisition">Förvärv</span>
+    </div>
+    <h1 class="article-hero__title">PubliX Group ingår partnerskap med Embrace Safety</h1>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="article-content">
+  <div class="container article-content__grid">
+    <div class="article-body fade-in">
+      <p class="lead">En kraftfull SaaS-plattform som möjliggör kunskapsbaserad brottsprevention och trygghetsfrämjande för kommuner och lokala myndigheter.</p>
+      <p>PubliX Group bygger en ledande plattform av vertikala SaaS-bolag som riktar sig till den offentliga sektorn i norra Europa. Genom vårt senaste strategiska drag stärker vi vår position och utökar vår förmåga att leverera affärskritiska mjukvarulösningar till kommuner, regioner och offentliga myndigheter.</p>
+      <p>"Vi är glada över att kunna tillkännage nästa steg på vår resa", säger Alexander Hübel, VD för PubliX Group. "Detta är helt i linje med vår vision om att ge den offentliga sektorn de allra bästa digitala verktygen som finns på marknaden."</p>
+      <p>Med detta tillskott fortsätter koncernen att visa sitt engagemang för långsiktigt värdeskapande, med fokus på företag som delar en djup förståelse för sina slutanvändares vardag och regulatoriska krav.</p>
+    </div>
+    <div class="article-sidebar fade-in fade-in-d1">
+      <img src="https://cdn.prod.website-files.com/68666b316c0fb876841551a6/69a86e835362790e21809a02_embracE_logo.png" alt="Logo" class="article-sidebar__logo">
+      <h3 class="article-sidebar__title">Om Embrace Safety</h3>
+      <p class="article-sidebar__text">Embrace Safety hjälper offentliga organisationer och företag att hantera arbetsplatssäkerhet och regelefterlevnad genom en modern digital plattform.</p>
+      <a href="../../companies.html" class="btn btn--navy">Se alla företag</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__base">
+    <span>© 2026 PubliX Group AB</span>
+  </div>
+</footer>
+
+<script src="../../js/lang.js"></script>
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+  });
+}, { passive: true });
+</script>
+</body>
+</html>

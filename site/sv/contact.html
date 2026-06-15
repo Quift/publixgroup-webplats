@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt — PubliX Group</title>
+<meta name="description" content="Kom i kontakt med PubliX Group. Nå Alexander Hübel, vd, för konfidentiella samtal om ditt SaaS-bolag. Stockholmskontor: Kungsgatan 37.">
+<meta property="og:title" content="Kontakt — PubliX Group">
+<meta property="og:description" content="Kom i kontakt med PubliX Group. Nå Alexander Hübel, vd, för konfidentiella samtal om ditt SaaS-bolag. Stockholmskontor: Kungsgatan 37.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://publixgroup.io/contact.html">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../Design-system/styles.css">
+<link rel="stylesheet" href="../Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/pages/contact.css">
+</head>
+<body>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">Hem</a>
+      <a href="why-publix.html">Varför PubliX</a>
+      <a href="about.html">Om oss</a>
+      <a href="career.html">Team</a>
+      <a href="companies.html">Bolag</a>
+      <a href="news.html">Nyheter</a>
+      <a href="contact.html" class="active">Kontakt</a>
+    </nav>
+        <div class="nav__actions">
+                  <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          🇬🇧 EN <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="sv">🇸🇪 SV</a>
+          <a href="#" data-lang="da">🇩🇰 DA</a>
+          <a href="#" data-lang="no">🇳🇴 NO</a>
+          <a href="#" data-lang="fi">🇫🇮 FI</a>
+          <a href="#" data-lang="de">🇩🇪 DE</a>
+        </div>
+      </div></div>
+    </div>      <a class="btn btn--accent btn--sm" href="index.html#review">Ansök om en utvärdering <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- ======================== CONTACT HERO + FORM ======================== -->
+<section class="contact-hero" id="top" style="position: relative; overflow: hidden;">
+  <img src="Design-system/assets/patterns/dot-skyline.svg" alt="" style="position: absolute; right: -60px; bottom: -40px; height: 300px; opacity: 0.06; pointer-events: none;">
+  <div class="container">
+    <!-- Header — full width -->
+    <div class="fade-in" style="margin-bottom: 48px;">
+      <div class="contact-hero__eyebrow"><span class="dot"></span> Funderar du på något?</div>
+      <h1 class="contact-hero__title">Låt oss prata</h1>
+      <p class="contact-hero__sub">Oavsett om du är en grundare som utforskar dina alternativ eller bara är nyfiken på vad vi gör – är varje samtal konfidentiellt.</p>
+    </div>
+
+    <!-- Two-column: contact info + form -->
+    <div class="contact__grid">
+
+      <!-- Left: contact info -->
+      <div class="fade-in">
+        <h3 style="font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3); color: var(--text-strong); margin: 0 0 20px; letter-spacing: var(--ls-snug);">Kontakta oss direkt</h3>
+        <!-- Alexander card -->
+        <div class="contact-card">
+          <div class="contact-card__photo">
+            <img src="https://cdn.prod.website-files.com/68666b316c0fb876841551a6/69cba2bbfa34a884635290f5_Alexander%20H%C3%BCbel.jpeg" alt="Alexander Hübel">
+          </div>
+          <div class="contact-card__info">
+            <p class="contact-card__name">Alexander Hübel</p>
+            <p class="contact-card__role">vd, PubliX Group</p>
+            <a class="contact-card__email" href="mailto:alexander.hubel@publixgroup.io">alexander.hubel@publixgroup.io</a>
+          </div>
+        </div>
+
+        <!-- General inquiries -->
+        <div class="contact-info">
+          <div class="contact-info__item">
+            <i class="ph ph-envelope"></i>
+            <div>
+              <div class="contact-info__label">Allmänna förfrågningar</div>
+              <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <i class="ph ph-map-pin"></i>
+            <div>
+              <div class="contact-info__label">Kontor</div>
+              <span>Kungsgatan 37, 8tr</span><br>
+              <span>111 56 Stockholm</span>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <i class="ph ph-phone"></i>
+            <div>
+              <div class="contact-info__label">Ring Alexander direkt</div>
+              <a href="tel:+46768592923">+46 76 859 2923</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: form card -->
+      <div class="fade-in fade-in-d1">
+        <div class="form-card">
+          <h3 class="form-card__title">...eller skicka ett meddelande</h3>
+          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('contact-form').innerHTML = '<div style=\'text-align:center; padding:32px 0;\'><i class=\'ph ph-check-circle\' style=\'font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;\'></i><h3 style=\'font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;\'>Tack!</h3><p style=\'color:var(--text-muted); font-size:var(--fs-body-sm);\'>Ditt meddelande har skickats. Alexander återkommer till dig inom 2 arbetsdagar.</p></div>';">
+            <div class="form-field">
+              <label for="c-name">Namn</label>
+              <input type="text" id="c-name" placeholder="Ditt fullständiga namn" required>
+            </div>
+            <div class="form-field">
+              <label for="c-email">E-post</label>
+              <input type="email" id="c-email" placeholder="du@foretag.se" required>
+            </div>
+            <div class="form-field">
+              <label for="c-company">Företag</label>
+              <input type="text" id="c-company" placeholder="Ditt Företag AB">
+            </div>
+            <div class="form-field">
+              <label for="c-message">Meddelande</label>
+              <textarea id="c-message" placeholder="Berätta om ditt bolag..." required></textarea>
+            </div>
+            <button class="btn btn--accent btn--lg" type="submit">Skicka meddelande <i class="ph ph-arrow-right"></i></button>
+            <p class="form-card__legal">Ditt meddelande går direkt till Alexander. Alla samtal är konfidentiella.</p>
+            <div class="form-card__micro"><i class="ph ph-clock"></i> Vi svarar inom 2 arbetsdagar</div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">Låt oss prata om framtiden för offentliga tjänster</h2>
+    <p class="cta-bottom__sub">Oavsett om du bygger digitala lösningar för den offentliga sektorn eller bara är nyfiken på hur vi arbetar – hör gärna av dig.</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">Upptäck din tillväxtpotential <i class="ph ph-arrow-right"></i></a>
+    </div>
+    <p class="cta-bottom__micro">Eller ring Alexander direkt: <a href="tel:+46768592923">+46 76 859 2923</a></p>
+  </div>
+</section>
+
+<!-- ======================== COOKIE BANNER ======================== -->
+<div class="cookie-banner" id="cookie-banner">
+  <p class="cookie-banner__text">Vi använder cookies för att förbättra din upplevelse. Genom att fortsätta godkänner du vår <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">cookiepolicy</a>.</p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn--on-navy btn--sm" onclick="document.getElementById('cookie-banner').classList.add('hidden'); localStorage.setItem('px_cookies','1');">Acceptera</button>
+    <button class="btn btn--on-navy-outline btn--sm" onclick="document.getElementById('cookie-banner').classList.add('hidden'); localStorage.setItem('px_cookies','0');">Avböj</button>
+  </div>
+</div>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group">
+      <p>Vi samarbetar med grundarledda SaaS-bolag som digitaliserar offentliga tjänster i norra Europa.</p>
+      <span class="footer__org">Org. 559485-5487 · Backas upp av <a href="https://aspirapartners.se" target="_blank">Aspira Partners</a></span>
+    </div>
+    <div class="footer__col">
+      <h4>Navigera</h4>
+      <a href="index.html">Hem</a>
+      <a href="why-publix.html">Varför PubliX</a>
+      <a href="about.html">Om oss</a>
+      <a href="career.html">Team</a>
+      <a href="companies.html">Bolag</a>
+      <a href="news.html">Nyheter</a>
+      <a href="contact.html">Kontakt</a>
+      <a href="index.html#review">Tillväxtutvärdering</a>
+    </div>
+    <div class="footer__col">
+      <h4>Stockholm</h4>
+      <span>Kungsgatan 37, 8tr</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="https://publixgroup.io/legal/privacy-policy" target="_blank">Integritetspolicy</a>
+      <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Cookiepolicy</a>
+    </div>
+    <div class="footer__col">
+      <h4>Håll dig uppdaterad</h4>
+      <span>Få de senaste nyheterna från PubliX – förvärv, insikter och grundarberättelser.</span>
+      <form class="footer__newsletter-form" onsubmit="event.preventDefault(); this.innerHTML = '<span style=\'color:var(--azure-400);\'>✓ Subscribed!</span>';">
+        <input type="email" placeholder="din@epost.se" required>
+        <button type="submit">Prenumerera</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>© 2026 PubliX Group AB</span>
+    <span>Alexander Hübel, vd</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+// Nav scroll effect
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+  });
+}, { passive: true });
+
+// Initial check for elements already in viewport
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+});
+
+// Cookie banner — hide if already dismissed
+if (localStorage.getItem('px_cookies')) {
+  document.getElementById('cookie-banner').classList.add('hidden');
+}
+</script>
+<script src="../js/lang.js"></script>
+</body>
+</html>
