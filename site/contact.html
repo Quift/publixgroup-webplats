@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -32,9 +32,21 @@
       <a href="news.html">News</a>
       <a href="contact.html" class="active">Contact</a>
     </nav>
-    <div class="nav__actions">
-      <a class="nav__lang" href="sv/contact.html" title="Svenska">SV</a>
-      <a class="btn btn--accent btn--sm" href="index.html#review">Growth assessment <i class="ph ph-arrow-right"></i></a>
+        <div class="nav__actions">
+                  <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          🇬🇧 EN <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="sv">🇸🇪 SV</a>
+          <a href="#" data-lang="da">🇩🇰 DA</a>
+          <a href="#" data-lang="no">🇳🇴 NO</a>
+          <a href="#" data-lang="fi">🇫🇮 FI</a>
+          <a href="#" data-lang="de">🇩🇪 DE</a>
+        </div>
+      </div></div>
+    </div>      <a class="btn btn--accent btn--sm" href="index.html#review">Apply for a review <i class="ph ph-arrow-right"></i></a>
     </div>
   </div>
 </header>
@@ -211,5 +223,6 @@ if (localStorage.getItem('px_cookies')) {
   document.getElementById('cookie-banner').classList.add('hidden');
 }
 </script>
+<script src="js/lang.js"></script>
 </body>
 </html>
