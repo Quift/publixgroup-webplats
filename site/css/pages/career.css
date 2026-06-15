@@ -1,0 +1,73 @@
+/* =========================================================================
+   PubliX Group — Career Page Styles
+   ========================================================================= */
+
+/* ============================ CAREER HERO ============================ */
+.career-hero { padding: 160px 0 96px; text-align: center; }
+.career-hero .container { max-width: 780px; }
+.career-hero__eyebrow { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700;
+  font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); color: var(--azure-600); margin-bottom: 20px; }
+.career-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600); }
+.career-hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-xl);
+  line-height: 1.06; letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 0 28px; }
+.career-hero__sub { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--text-muted);
+  margin: 0 auto; max-width: 62ch; }
+
+/* ============================ WHY JOIN ============================ */
+.why-join { padding: var(--section-y) 0; background: var(--navy-50); }
+.why-join__head { text-align: center; margin-bottom: 56px; }
+.why-join__head .section-sub { margin-left: auto; margin-right: auto; }
+.why-join__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.why-card { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl);
+  padding: 36px; box-shadow: var(--shadow-sm); text-align: center;
+  transition: transform var(--dur-base), box-shadow var(--dur-base); }
+.why-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.why-card__icon { width: 56px; height: 56px; border-radius: var(--radius-lg); background: var(--azure-100);
+  color: var(--azure-600); display: flex; align-items: center; justify-content: center;
+  font-size: 26px; margin: 0 auto 20px; }
+.why-card h3 { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-h3);
+  color: var(--text-strong); margin: 0 0 10px; letter-spacing: var(--ls-snug); }
+.why-card p { font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-muted); margin: 0; }
+
+/* ============================ TEAMTAILOR CTA ============================ */
+.tt-cta { padding: var(--section-y) 0; }
+.tt-cta__head { text-align: center; margin-bottom: 48px; }
+.tt-cta__head .section-sub { margin-left: auto; margin-right: auto; }
+.tt-card { background: var(--surface-navy); border-radius: var(--radius-xl); padding: 64px 48px; text-align: center;
+  max-width: 720px; margin: 0 auto; box-shadow: var(--shadow-xl); position: relative; overflow: hidden; }
+.tt-card__pattern { position: absolute; right: -40px; bottom: -20px; height: 80%; opacity: 0.15; pointer-events: none; }
+.tt-card__inner { position: relative; z-index: 1; }
+.tt-card__icon { width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.08);
+  display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;
+  font-size: 30px; color: var(--azure-400); }
+.tt-card h3 { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-h2);
+  color: #fff; margin: 0 0 12px; letter-spacing: var(--ls-snug); }
+.tt-card p { font-size: var(--fs-body-lg); color: var(--navy-200); margin: 0 0 32px; line-height: var(--lh-body); }
+
+/* ============================ PORTFOLIO CAREERS ============================ */
+.portfolio-careers { padding: var(--section-y) 0; background: var(--slate-50); }
+.portfolio-careers__head { text-align: center; margin-bottom: 48px; }
+.portfolio-careers__head .section-sub { margin-left: auto; margin-right: auto; }
+.portfolio-careers__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.pc-card { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);
+  padding: 28px 24px; text-align: center; transition: transform var(--dur-base), box-shadow var(--dur-base); }
+.pc-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.pc-card h4 { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-body);
+  color: var(--text-strong); margin: 0 0 6px; }
+.pc-card p { font-size: var(--fs-caption); color: var(--text-muted); margin: 0 0 16px; }
+.pc-card a { font-size: var(--fs-caption); color: var(--azure-600); font-weight: var(--fw-medium);
+  transition: color var(--dur-fast); }
+.pc-card a:hover { color: var(--azure-700); }
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width: 920px) {
+  .why-join__grid { grid-template-columns: 1fr; }
+  .portfolio-careers__grid { grid-template-columns: repeat(3, 1fr); }
+  .career-hero { padding-top: 120px; }
+  .career-hero__title { font-size: var(--fs-display-lg); }
+}
+@media (max-width: 560px) {
+  .career-hero__title { font-size: var(--fs-h1); }
+  .portfolio-careers__grid { grid-template-columns: repeat(2, 1fr); }
+  .tt-card { padding: 48px 28px; }
+}

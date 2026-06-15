@@ -1,0 +1,73 @@
+<!-- @dsCard group="Components" viewport="700x600" name="Forms & Buttons" subtitle="Button, IconButton, Input, Select, Checkbox, Switch" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../assets/icons/phosphor/phosphor.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-page); color: var(--text-body); padding: 26px; }
+  .group { margin-bottom: 24px; }
+  .glabel { font-family: var(--font-display); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-subtle); margin-bottom: 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .stack { display: flex; flex-direction: column; gap: 14px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { Button, IconButton, Input, Select, Checkbox, Switch } = window.PubliXGroupDesignSystem_c7bc72;
+function Demo() {
+  return (
+    <React.Fragment>
+      <div className="group">
+        <div className="glabel">Buttons</div>
+        <div className="row" style={{marginBottom:12}}>
+          <Button variant="primary" iconRight="ph-arrow-right">Get in touch</Button>
+          <Button variant="accent">Review application</Button>
+          <Button variant="secondary" iconLeft="ph-plus">New shift</Button>
+          <Button variant="ghost">Cancel</Button>
+          <Button variant="danger" iconLeft="ph-flag">Flag</Button>
+        </div>
+        <div className="row">
+          <Button size="sm" variant="primary">Small</Button>
+          <Button size="md" variant="primary">Medium</Button>
+          <Button size="lg" variant="primary">Large</Button>
+          <Button variant="primary" disabled>Disabled</Button>
+          <IconButton icon="ph-caret-left" variant="outline" label="Prev" />
+          <IconButton icon="ph-caret-right" variant="outline" label="Next" />
+          <IconButton icon="ph-dots-three" label="More" />
+        </div>
+      </div>
+
+      <div className="group">
+        <div className="glabel">Inputs</div>
+        <div className="cols">
+          <Input label="Organisation" icon="ph-magnifying-glass" placeholder="Search municipalities…" />
+          <Select label="Region" placeholder="Choose a region" options={["Stockholm","Örebro","Espoo","Pori"]} />
+          <Input label="Org. number" required hint="e.g. 559485-5487" defaultValue="559485-5487" />
+          <Input label="Email" error="Enter a valid email address" defaultValue="hej@" />
+        </div>
+      </div>
+
+      <div className="group" style={{marginBottom:0}}>
+        <div className="glabel">Selection</div>
+        <div className="stack">
+          <Checkbox label="Notify case worker on decision" defaultChecked />
+          <Checkbox label="Include archived applications" description="Adds rounds closed before 2023" />
+          <Switch label="Auto-approve recurring grants" defaultChecked />
+          <Switch label="SMS reminders to staff" />
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>

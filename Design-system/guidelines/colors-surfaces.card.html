@@ -1,0 +1,36 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Surfaces & Text" subtitle="Semantic layering — light app surfaces and the dark navy section" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-page); padding: 20px; display: flex; gap: 16px; }
+  .panel { flex: 1; border-radius: var(--radius-lg); padding: 18px; }
+  .light { background: var(--surface-page); border: 1px solid var(--border-default); }
+  .card { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px; box-shadow: var(--shadow-sm); }
+  .navy { background: var(--surface-navy); }
+  h4 { font-family: var(--font-display); font-weight: 600; margin: 0 0 4px; font-size: 16px; }
+  p { margin: 0; font-size: 13px; line-height: 1.5; }
+  .on-light h4 { color: var(--text-strong); } .on-light p { color: var(--text-muted); }
+  .on-navy h4 { color: var(--text-on-navy); } .on-navy p { color: var(--text-on-navy-muted); }
+  .lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700; margin-bottom: 10px; display:block; }
+  .on-light .lbl { color: var(--text-subtle); } .on-navy .lbl { color: var(--navy-300); }
+  a { color: var(--text-link); text-decoration: none; font-weight: 600; font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="panel light on-light">
+    <span class="lbl">surface-page → surface-card</span>
+    <div class="card">
+      <h4>Application #4821</h4>
+      <p>Body text on a raised card. <a href="#">Review →</a></p>
+    </div>
+  </div>
+  <div class="panel navy on-navy">
+    <span class="lbl">surface-navy</span>
+    <h4>Building better public services</h4>
+    <p>Inverse text on the brand navy section, used for heroes and footers.</p>
+  </div>
+</body>
+</html>

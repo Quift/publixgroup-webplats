@@ -1,0 +1,333 @@
+/* =========================================================================
+   PubliX Group — Contact Page Styles
+   ========================================================================= */
+
+/* ============================ CONTACT HERO ============================ */
+.contact-hero {
+  padding-top: 140px;
+  padding-bottom: 96px;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ---- Left column copy ---- */
+.contact-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-overline);
+  color: var(--azure-600);
+  margin-bottom: 20px;
+}
+.contact-hero__eyebrow .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--azure-600);
+}
+
+.contact-hero__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-display-xl);
+  line-height: 1.04;
+  letter-spacing: var(--ls-tight);
+  color: var(--text-strong);
+  margin: 0 0 20px;
+}
+
+.contact-hero__sub {
+  font-size: var(--fs-body-lg);
+  line-height: var(--lh-body);
+  color: var(--text-muted);
+  margin: 0 0 40px;
+  max-width: 48ch;
+}
+
+/* ---- Alexander contact card ---- */
+.contact-card {
+  background: var(--navy-50);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  transition: box-shadow var(--dur-base) var(--ease-standard);
+}
+.contact-card:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-card__photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2px solid var(--border-subtle);
+}
+.contact-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.contact-card__name {
+  font-family: var(--font-display);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-body);
+  color: var(--text-strong);
+  margin: 0;
+}
+.contact-card__role {
+  font-size: var(--fs-caption);
+  color: var(--text-muted);
+  margin: 0;
+}
+.contact-card__email {
+  font-size: var(--fs-caption);
+  color: var(--azure-600);
+  transition: color var(--dur-fast);
+}
+.contact-card__email:hover {
+  color: var(--azure-700);
+}
+
+/* ---- Contact info rows (email, office) ---- */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: var(--fs-body-sm);
+  line-height: var(--lh-body);
+  color: var(--text-body);
+}
+
+.contact-info__item i {
+  font-size: 20px;
+  color: var(--azure-600);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contact-info__item a {
+  color: var(--azure-600);
+  transition: color var(--dur-fast);
+}
+.contact-info__item a:hover {
+  color: var(--azure-700);
+}
+
+.contact-info__label {
+  font-size: var(--fs-caption);
+  font-weight: var(--fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-overline);
+  color: var(--text-subtle);
+  margin-bottom: 4px;
+}
+
+/* ---- Form fields spacing ---- */
+.contact-hero .form-field { margin-bottom: 20px; }
+.contact-hero .form-field label {
+  display: block; font-size: var(--fs-body-sm); font-weight: var(--fw-medium);
+  color: var(--text-strong); margin-bottom: 6px;
+}
+.contact-hero .form-field input,
+.contact-hero .form-field select {
+  width: 100%; height: var(--control-h-md); padding: 0 14px;
+  font-family: var(--font-text); font-size: var(--fs-body-sm); color: var(--text-body);
+  background: var(--surface-sunken); border: 1px solid var(--border-default); border-radius: var(--radius-sm);
+  transition: border-color var(--dur-fast); outline: none;
+}
+.contact-hero .form-field input:focus,
+.contact-hero .form-field select:focus { border-color: var(--azure-600); box-shadow: var(--ring); }
+.contact-hero .form-field input::placeholder { color: var(--text-subtle); }
+
+/* ---- Form — textarea ---- */
+.form-field textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 12px 14px;
+  font-family: var(--font-text);
+  font-size: var(--fs-body-sm);
+  color: var(--text-body);
+  background: var(--surface-sunken);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--dur-fast);
+  outline: none;
+  resize: vertical;
+  line-height: var(--lh-body);
+}
+.form-field textarea:focus {
+  border-color: var(--azure-600);
+  box-shadow: var(--ring);
+}
+.form-field textarea::placeholder {
+  color: var(--text-subtle);
+}
+
+/* ---- Form micro-CTA ---- */
+.form-card__micro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-subtle);
+  margin-top: 12px;
+}
+.form-card__micro i {
+  color: var(--success-600);
+  font-size: 16px;
+}
+
+/* ============================ CTA BOTTOM — micro ======================== */
+.cta-bottom__micro {
+  font-size: var(--fs-body-sm);
+  color: var(--navy-300);
+  margin-top: 20px;
+}
+.cta-bottom__micro a {
+  color: var(--azure-400);
+  transition: color var(--dur-fast);
+}
+.cta-bottom__micro a:hover {
+  color: var(--azure-300);
+}
+
+/* ============================ COOKIE BANNER ============================ */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: var(--surface-navy);
+  border-top: 1px solid var(--border-navy);
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  transform: translateY(0);
+  transition: transform var(--dur-entrance) var(--ease-out);
+}
+.cookie-banner.hidden {
+  transform: translateY(100%);
+  pointer-events: none;
+}
+.cookie-banner__text {
+  font-size: var(--fs-body-sm);
+  color: var(--navy-200);
+  line-height: var(--lh-body);
+}
+.cookie-banner__text a {
+  color: var(--azure-400);
+  text-decoration: underline;
+  transition: color var(--dur-fast);
+}
+.cookie-banner__text a:hover {
+  color: var(--azure-300);
+}
+.cookie-banner__actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* ============================ NEWSLETTER FORM (footer) ================= */
+.footer__newsletter-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+.footer__newsletter-form input {
+  flex: 1;
+  height: var(--control-h-sm);
+  padding: 0 12px;
+  font-family: var(--font-text);
+  font-size: var(--fs-caption);
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: var(--radius-sm);
+  outline: none;
+  transition: border-color var(--dur-fast);
+}
+.footer__newsletter-form input::placeholder {
+  color: var(--navy-400);
+}
+.footer__newsletter-form input:focus {
+  border-color: var(--azure-500);
+}
+.footer__newsletter-form button {
+  height: var(--control-h-sm);
+  padding: 0 14px;
+  font-family: var(--font-text);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-caption);
+  color: #fff;
+  background: var(--azure-600);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--dur-fast);
+}
+.footer__newsletter-form button:hover {
+  background: var(--azure-500);
+}
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width: 920px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .contact-hero {
+    padding-top: 100px;
+    padding-bottom: 64px;
+  }
+  .contact-hero__title {
+    font-size: var(--fs-display-lg);
+  }
+  .cookie-banner {
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-hero__title {
+    font-size: var(--fs-h1);
+  }
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

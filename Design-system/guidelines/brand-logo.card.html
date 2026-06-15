@@ -1,0 +1,28 @@
+<!-- @dsCard group="Brand" viewport="700x300" name="Logo Lockups" subtitle="Primary wordmark on light and on navy. Single-colour, never recoloured." -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); display: grid; grid-template-columns: 1fr 1fr; }
+  .panel { padding: 40px 36px; display: flex; flex-direction: column; justify-content: center; gap: 16px; min-height: 220px; }
+  .light { background: var(--surface-card); }
+  .navy { background: var(--surface-navy); }
+  img { height: 40px; }
+  .cap { font-family: var(--font-mono); font-size: 10px; }
+  .light .cap { color: var(--text-subtle); }
+  .navy .cap { color: var(--navy-300); }
+</style>
+</head>
+<body>
+  <div class="panel light">
+    <img src="../assets/logo/publix-logo.svg" alt="PubliX Group">
+    <div class="cap">publix-logo.svg · navy on light</div>
+  </div>
+  <div class="panel navy">
+    <img src="../assets/logo/publix-logo-white.svg" alt="PubliX Group">
+    <div class="cap">publix-logo-white.svg · white on navy</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* ===========================================================================
+   PubliX Group — Motion tokens
+   Calm, confident, never bouncy. Short fades + small upward translates.
+   Public-sector software should feel steady and trustworthy.
+   =========================================================================== */
+
+:root {
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);     /* @kind other */
+  --ease-out:      cubic-bezier(0.16, 1, 0.3, 1);  /* @kind other */
+  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1); /* @kind other */
+
+  --dur-instant: 80ms;  /* @kind other */
+  --dur-fast:    140ms;  /* @kind other */
+  --dur-base:    220ms;  /* @kind other */
+  --dur-slow:    360ms;  /* @kind other */
+  --dur-entrance:520ms;  /* @kind other */
+
+  --lift-hover: -2px;    /* @kind other */
+  --press-scale: 0.98;   /* @kind other */
+}

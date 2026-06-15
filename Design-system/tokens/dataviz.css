@@ -1,0 +1,86 @@
+/* ===========================================================================
+   PubliX Group — Data-visualization tokens
+   ---------------------------------------------------------------------------
+   PubliX's portfolio runs on financial & operational data — grants paid,
+   budgets, shift coverage, savings. Charts therefore need a dedicated,
+   brand-cohesive palette beyond the UI semantics.
+
+   Four sub-systems:
+     1. CATEGORICAL  — up to 8 qualitative series (distinct hues)
+     2. SEQUENTIAL   — single-hue ramps for magnitude / heatmaps (azure, teal)
+     3. DIVERGING    — loss ↔ neutral ↔ gain, for budget/variance/profit-loss
+     4. FINANCE      — fixed semantics: positive / negative / benchmark / forecast
+   Plus chart chrome (grid, axis, tooltip).
+
+   All hues are tuned to read on white and to sit with navy + azure. Order of
+   the categorical series is deliberate: brand azure first, then maximally
+   separated hues, ending on muted steel.  NOTE: provisional palette — pending
+   the reference colour scheme; tune hues here and every chart updates.
+   =========================================================================== */
+
+:root {
+  /* ---- 1. Categorical (qualitative series) ------------------------------- */
+  --viz-cat-1: #2563D4; /* azure   — primary series (brand action) */
+  --viz-cat-2: #119A8B; /* teal    */
+  --viz-cat-3: #E0A12E; /* amber   */
+  --viz-cat-4: #6D5BD0; /* violet  */
+  --viz-cat-5: #2E8C57; /* green   */
+  --viz-cat-6: #E2664E; /* coral   */
+  --viz-cat-7: #C2487E; /* magenta */
+  --viz-cat-8: #5B7DA6; /* steel   — muted closer, good for "other" */
+
+  /* soft fills (≈12% tints) for area/stacked backgrounds & legends */
+  --viz-cat-1-soft: #E4ECFB;
+  --viz-cat-2-soft: #DEF1EF;
+  --viz-cat-3-soft: #FAEFD8;
+  --viz-cat-4-soft: #E8E4F8;
+  --viz-cat-5-soft: #E2F1E9;
+  --viz-cat-6-soft: #FBE6E1;
+  --viz-cat-7-soft: #F7E1EC;
+  --viz-cat-8-soft: #E6ECF3;
+
+  /* ---- 2. Sequential ramps (low → high) ---------------------------------- */
+  /* Azure/navy — the default magnitude ramp (e.g. volume, intensity) */
+  --viz-seq-azure-1: #E4EDF7;
+  --viz-seq-azure-2: #BBD2EE;
+  --viz-seq-azure-3: #8FB3DD;
+  --viz-seq-azure-4: #5285C6;
+  --viz-seq-azure-5: #2B62AD;
+  --viz-seq-azure-6: #1B4585;
+  --viz-seq-azure-7: #0E2240;
+
+  /* Teal — alternate ramp for a second metric on one view */
+  --viz-seq-teal-1: #E0F2F0;
+  --viz-seq-teal-2: #A9DDD7;
+  --viz-seq-teal-3: #6FC6BC;
+  --viz-seq-teal-4: #2FA597;
+  --viz-seq-teal-5: #1B7E73;
+  --viz-seq-teal-6: #0E574F;
+
+  /* ---- 3. Diverging (loss ↔ neutral ↔ gain) ------------------------------ */
+  --viz-div-neg-3: #A8322A; /* worst  */
+  --viz-div-neg-2: #D2604F;
+  --viz-div-neg-1: #F0A99E;
+  --viz-div-mid:   #EAECEF; /* zero / no variance */
+  --viz-div-pos-1: #8FCBAE;
+  --viz-div-pos-2: #3FA976;
+  --viz-div-pos-3: #1B7A50; /* best   */
+
+  /* ---- 4. Finance semantics (fixed meaning) ------------------------------ */
+  --viz-positive:      #1F8A5B; /* gain, surplus, paid, on-budget */
+  --viz-positive-soft: #E1F3EA;
+  --viz-negative:      #C8453B; /* loss, deficit, overdue, over-budget */
+  --viz-negative-soft: #FBE7E5;
+  --viz-neutral:       #6B7589; /* no change / not applicable */
+  --viz-benchmark:     #0E2240; /* target / benchmark line (navy) */
+  --viz-forecast:      #2563D4; /* projected / forecast (azure, usually dashed) */
+
+  /* ---- Chart chrome ------------------------------------------------------ */
+  --viz-grid:        #E4E8EE; /* gridlines */
+  --viz-grid-strong: #D6DBE3; /* zero/baseline */
+  --viz-axis:        #B4BCC8; /* axis lines & ticks */
+  --viz-axis-label:  #6B7589; /* axis & tick labels */
+  --viz-plot-bg:     #FFFFFF; /* plot area */
+  --viz-tooltip-bg:  #0A1A33; /* navy-900 */
+  --viz-tooltip-fg:  #FFFFFF;
+}

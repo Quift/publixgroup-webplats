@@ -1,0 +1,74 @@
+/* =========================================================================
+   PubliX Group — News Page Styles
+   ========================================================================= */
+
+/* ============================ HERO ============================ */
+.news-hero { padding: 160px 0 96px; text-align: center; }
+.news-hero .container { max-width: 780px; }
+.news-hero__eyebrow { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700;
+  font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); color: var(--azure-600); margin-bottom: 20px; }
+.news-hero__eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure-600); }
+.news-hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-xl);
+  line-height: 1.06; letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 0 28px; }
+.news-hero__sub { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--text-muted);
+  margin: 0 auto; max-width: 62ch; }
+
+/* ============================ FILTERS ============================ */
+.news-filters { display: flex; gap: 8px; justify-content: center; margin-bottom: 56px; flex-wrap: wrap; }
+.news-filter { appearance: none; border: 1px solid var(--border-default); background: #fff; cursor: pointer;
+  font-family: var(--font-text); font-size: var(--fs-body-sm); font-weight: var(--fw-medium); color: var(--text-muted);
+  padding: 8px 18px; border-radius: var(--radius-pill); transition: all var(--dur-fast); }
+.news-filter:hover { border-color: var(--slate-400); color: var(--navy-800); }
+.news-filter--active { background: var(--navy-800); border-color: var(--navy-800); color: #fff; }
+
+/* ============================ NEWS GRID ============================ */
+.news-section { padding: 0 0 var(--section-y); }
+.news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+
+/* ============================ NEWS CARD ============================ */
+.news-card { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl);
+  overflow: hidden; box-shadow: var(--shadow-sm); display: flex; flex-direction: column;
+  transition: transform var(--dur-base) var(--ease-standard), box-shadow var(--dur-base) var(--ease-standard); }
+.news-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-xl); }
+
+/* Card header / logo area */
+.news-card__header { padding: 32px; background: var(--navy-50); border-bottom: 1px solid var(--border-subtle);
+  display: flex; align-items: center; justify-content: center; min-height: 160px; }
+.news-card__logo { max-height: 56px; max-width: 180px; object-fit: contain; }
+
+/* Card body */
+.news-card__body { padding: 28px 32px 32px; display: flex; flex-direction: column; flex: 1; }
+.news-card__meta { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.news-card__date { font-size: var(--fs-caption); color: var(--text-muted); }
+.news-card__badge { display: inline-flex; align-items: center; font-size: 12px; font-weight: var(--fw-semibold);
+  padding: 3px 10px; border-radius: var(--radius-pill); }
+.news-card__badge--acquisition { background: var(--azure-100); color: var(--azure-700); }
+.news-card__badge--appointment { background: var(--success-100); color: var(--success-700); }
+.news-card__title { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3);
+  letter-spacing: var(--ls-snug); color: var(--text-strong); margin: 0 0 12px; line-height: 1.3; }
+.news-card__excerpt { font-size: var(--fs-body-sm); line-height: var(--lh-body); color: var(--text-muted);
+  margin: 0 0 20px; flex: 1; }
+.news-card__link { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-body-sm);
+  font-weight: var(--fw-semibold); color: var(--azure-600); transition: color var(--dur-fast); margin-top: auto; }
+.news-card__link:hover { color: var(--azure-700); }
+.news-card__link i { font-size: 14px; transition: transform var(--dur-fast); }
+.news-card__link:hover i { transform: translateX(3px); }
+
+/* ============================ FEATURED CARD ============================ */
+.news-card--featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.2fr; }
+.news-card--featured .news-card__header { border-bottom: none; border-right: 1px solid var(--border-subtle);
+  min-height: 240px; }
+.news-card--featured .news-card__title { font-size: var(--fs-h2); }
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width: 920px) {
+  .news-grid { grid-template-columns: 1fr 1fr; }
+  .news-card--featured { grid-template-columns: 1fr; }
+  .news-card--featured .news-card__header { border-right: none; border-bottom: 1px solid var(--border-subtle); min-height: 160px; }
+  .news-hero { padding-top: 120px; }
+  .news-hero__title { font-size: var(--fs-display-lg); }
+}
+@media (max-width: 560px) {
+  .news-grid { grid-template-columns: 1fr; }
+  .news-hero__title { font-size: var(--fs-h1); }
+}

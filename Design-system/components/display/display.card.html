@@ -1,0 +1,77 @@
+<!-- @dsCard group="Components" viewport="700x560" name="Badges, Tags, Avatars & Cards" subtitle="Status pills, chips, avatars, surface cards and metric tiles" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../assets/icons/phosphor/phosphor.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-page); color: var(--text-body); padding: 26px; }
+  .group { margin-bottom: 22px; }
+  .glabel { font-family: var(--font-display); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-subtle); margin-bottom: 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .cards { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 14px; }
+  h4 { font-family: var(--font-display); font-weight: 600; font-size: 16px; margin: 0 0 4px; color: var(--text-strong); }
+  .muted { color: var(--text-muted); font-size: 13px; margin: 0; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { Badge, Tag, Avatar, Card, StatCard } = window.PubliXGroupDesignSystem_c7bc72;
+function Demo() {
+  return (
+    <React.Fragment>
+      <div className="group">
+        <div className="glabel">Badges</div>
+        <div className="row">
+          <Badge tone="success" dot>Grant paid</Badge>
+          <Badge tone="warning" dot>Pending review</Badge>
+          <Badge tone="danger" icon="ph-flag">Flagged</Badge>
+          <Badge tone="info" dot>In progress</Badge>
+          <Badge tone="brand">Social care</Badge>
+          <Badge tone="solid">GovTech</Badge>
+        </div>
+      </div>
+
+      <div className="group">
+        <div className="glabel">Tags & Avatars</div>
+        <div className="row" style={{marginBottom:12}}>
+          <Tag icon="ph-buildings">Municipalities</Tag>
+          <Tag selectable selected>Healthcare</Tag>
+          <Tag selectable>Education</Tag>
+          <Tag onRemove={()=>{}}>Stockholm</Tag>
+        </div>
+        <div className="row">
+          <Avatar name="Alexander Hübel" />
+          <Avatar name="Mattias Lind" tone="navy" />
+          <Avatar name="Juha Tanner" tone="azure" size="lg" />
+          <Avatar name="Tidvis" shape="square" tone="navy" size="lg" />
+        </div>
+      </div>
+
+      <div className="group" style={{marginBottom:0}}>
+        <div className="glabel">Cards & Stats</div>
+        <div className="cards">
+          <Card interactive>
+            <h4>Application #4821</h4>
+            <p className="muted">Submitted 12 May · Stockholm</p>
+            <div className="row" style={{marginTop:12}}>
+              <Badge tone="warning" dot>Pending review</Badge>
+            </div>
+          </Card>
+          <StatCard label="Annual savings" value="€7.0M" icon="ph-coins" trend="+18%" footnote="Ostrobothnia" />
+          <StatCard navy label="Shifts filled" value="92%" icon="ph-check-circle" trend="+4 pts" />
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>

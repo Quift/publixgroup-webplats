@@ -1,0 +1,103 @@
+/* ===========================================================================
+   PubliX Group — Colour tokens
+   ---------------------------------------------------------------------------
+   The brand is navy-led, cool and institutional. Navy carries authority and
+   trust (public sector); a single bright Azure is the digital "signal" / action
+   colour; cool slate neutrals keep surfaces calm; semantics are tuned Nordic-cool.
+   Portfolio companies own their own colours — PubliX itself stays navy + neutral.
+   =========================================================================== */
+
+:root {
+  /* ---- Brand: Navy ------------------------------------------------------- */
+  --navy-950: #06122A; /* near-black navy — deepest backgrounds, hero wash */
+  --navy-900: #0A1A33; /* primary dark surface */
+  --navy-800: #0E2240; /* PRIMARY BRAND NAVY — logo, headings on light */
+  --navy-700: #16335C;
+  --navy-600: #1E4A85;
+  --navy-500: #2B62AD; /* mid civic blue */
+  --navy-400: #5285C6;
+  --navy-300: #8FB3DD;
+  --navy-200: #C3D6EC;
+  --navy-100: #E4EDF7;
+  --navy-50:  #F2F6FB;
+
+  /* ---- Action: Azure (the digital signal) -------------------------------- */
+  --azure-700: #1B53C0;
+  --azure-600: #2563D4; /* PRIMARY ACTION — buttons, links, focus */
+  --azure-500: #3B7BEA;
+  --azure-300: #94BCF4;
+  --azure-100: #E5EFFD;
+
+  /* ---- Neutral: cool slate ----------------------------------------------- */
+  --slate-950: #0B1220;
+  --slate-900: #161E2E;
+  --slate-800: #232C3D;
+  --slate-700: #3A4456;
+  --slate-600: #525C70;
+  --slate-500: #6B7589;
+  --slate-400: #8C95A6;
+  --slate-300: #B4BCC8;
+  --slate-200: #D6DBE3;
+  --slate-150: #E4E8EE;
+  --slate-100: #EEF1F5;
+  --slate-50:  #F6F8FA;
+  --white:     #FFFFFF;
+
+  /* ---- Semantic: Nordic-cool --------------------------------------------- */
+  --success-600: #1F8A5B; /* paid grant, healthy, complete */
+  --success-100: #E1F3EA;
+  --warning-600: #B8791A; /* pending, attention */
+  --warning-100: #FBEFD9;
+  --danger-600:  #C8453B; /* error, fraud flag, overdue */
+  --danger-100:  #FBE7E5;
+  --info-600:    #2563D4;
+  --info-100:    #E5EFFD;
+
+  /* =========================================================================
+     SEMANTIC ALIASES — prefer these in product & component code
+     ========================================================================= */
+
+  /* Text */
+  --text-strong:   var(--navy-800);  /* headings, key figures */
+  --text-body:     var(--slate-800); /* default paragraph */
+  --text-muted:    var(--slate-600); /* secondary, captions */
+  --text-subtle:   var(--slate-500); /* meta, placeholders */
+  --text-on-navy:  var(--white);     /* text on dark navy surfaces */
+  --text-on-navy-muted: var(--navy-200);
+  --text-link:     var(--azure-600);
+  --text-inverse:  var(--white);
+
+  /* Surfaces */
+  --surface-page:    var(--slate-50);  /* app background */
+  --surface-card:    var(--white);     /* cards, panels */
+  --surface-raised:  var(--white);
+  --surface-sunken:  var(--slate-100); /* wells, inputs at rest */
+  --surface-navy:    var(--navy-800);  /* hero / footer / dark sections */
+  --surface-navy-deep: var(--navy-950);
+  --surface-accent-soft: var(--navy-50);
+
+  /* Borders & lines */
+  --border-subtle:  var(--slate-150);
+  --border-default: var(--slate-200);
+  --border-strong:  var(--slate-300);
+  --border-navy:    rgba(255, 255, 255, 0.14); /* hairlines on navy */
+  --divider:        var(--slate-150);
+
+  /* Brand / action */
+  --brand:          var(--navy-800);
+  --brand-contrast: var(--white);
+  --action:         var(--azure-600);
+  --action-hover:   var(--azure-700);
+  --action-soft:    var(--azure-100);
+  --focus-ring:     var(--azure-500);
+
+  /* Status surfaces */
+  --status-success-fg: var(--success-600);
+  --status-success-bg: var(--success-100);
+  --status-warning-fg: var(--warning-600);
+  --status-warning-bg: var(--warning-100);
+  --status-danger-fg:  var(--danger-600);
+  --status-danger-bg:  var(--danger-100);
+  --status-info-fg:    var(--info-600);
+  --status-info-bg:    var(--info-100);
+}

@@ -1,0 +1,39 @@
+<!-- @dsCard group="Data Viz" viewport="700x180" name="Sequential Ramps" subtitle="Single-hue magnitude scales — azure (default) and teal (alternate)" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-card); padding: 22px 24px; }
+  .ramp { display: flex; height: 44px; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .ramp .step { flex: 1; }
+  .lbl { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; color: var(--text-subtle); margin: 7px 2px 18px; }
+  .name { font-size: 12px; font-weight: 600; color: var(--text-strong); margin-bottom: 8px; }
+</style>
+</head>
+<body>
+  <div class="name">Azure — default magnitude ramp</div>
+  <div class="ramp">
+    <div class="step" style="background:var(--viz-seq-azure-1)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-2)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-3)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-4)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-5)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-6)"></div>
+    <div class="step" style="background:var(--viz-seq-azure-7)"></div>
+  </div>
+  <div class="lbl"><span>low · --viz-seq-azure-1</span><span>--viz-seq-azure-7 · high</span></div>
+
+  <div class="name">Teal — alternate ramp</div>
+  <div class="ramp">
+    <div class="step" style="background:var(--viz-seq-teal-1)"></div>
+    <div class="step" style="background:var(--viz-seq-teal-2)"></div>
+    <div class="step" style="background:var(--viz-seq-teal-3)"></div>
+    <div class="step" style="background:var(--viz-seq-teal-4)"></div>
+    <div class="step" style="background:var(--viz-seq-teal-5)"></div>
+    <div class="step" style="background:var(--viz-seq-teal-6)"></div>
+  </div>
+  <div class="lbl"><span>low · --viz-seq-teal-1</span><span>--viz-seq-teal-6 · high</span></div>
+</body>
+</html>

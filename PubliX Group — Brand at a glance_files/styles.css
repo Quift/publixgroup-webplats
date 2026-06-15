@@ -1,0 +1,10 @@
+/* PubliX Group — global stylesheet entrypoint.
+   Consumers link THIS file only. Keep it a list of @imports. */
+@import "./tokens/fonts.css";
+@import "./tokens/colors.css";
+@import "./tokens/typography.css";
+@import "./tokens/spacing.css";
+@import "./tokens/radius.css";
+@import "./tokens/shadow.css";
+@import "./tokens/motion.css";
+@import "./tokens/dataviz.css";

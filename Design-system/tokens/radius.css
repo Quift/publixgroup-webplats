@@ -1,0 +1,14 @@
+/* ===========================================================================
+   PubliX Group — Radius tokens
+   The brand mark is built from squares with a small soft radius (≈2.5/8 ≈ 0.31).
+   Corners are restrained and squared-off, never pill-soft (except true pills).
+   =========================================================================== */
+
+:root {
+  --radius-xs:   3px;   /* tags, chips, the pixel-square feel */
+  --radius-sm:   6px;   /* inputs, small buttons */
+  --radius-md:   10px;  /* buttons, cards */
+  --radius-lg:   16px;  /* large cards, panels, media */
+  --radius-xl:   24px;  /* hero media, feature blocks */
+  --radius-pill: 999px; /* avatars, toggles, status dots */
+}

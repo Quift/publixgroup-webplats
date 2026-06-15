@@ -1,0 +1,177 @@
+/* =========================================================================
+   PubliX Group — Shared Components
+   Nav, footer, buttons, team grid, cards — used across multiple pages
+   ========================================================================= */
+
+/* ============================ BUTTONS ============================ */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-text); font-weight: var(--fw-semibold);
+  font-size: 15px; border: 1px solid transparent;
+  border-radius: var(--radius-md); cursor: pointer;
+  transition: all var(--dur-base) var(--ease-standard);
+  text-decoration: none;
+}
+.btn--lg  { height: var(--control-h-lg); padding: 0 28px; font-size: 16px; }
+.btn--md  { height: var(--control-h-md); padding: 0 20px; }
+.btn--sm  { height: var(--control-h-sm); padding: 0 16px; font-size: 14px; }
+.btn--primary        { background: var(--navy-800); color: #fff; }
+.btn--primary:hover  { background: var(--navy-700); }
+.btn--accent         { background: var(--azure-600); color: #fff; }
+.btn--accent:hover   { background: var(--azure-700); }
+.btn--secondary      { background: #fff; color: var(--navy-800); border-color: var(--border-strong); }
+.btn--secondary:hover{ border-color: var(--slate-400); background: var(--slate-50); }
+.btn--ghost          { background: transparent; color: var(--azure-600); padding-left: 0; padding-right: 0; }
+.btn--ghost:hover    { color: var(--azure-700); }
+.btn--on-navy        { background: var(--azure-600); color: #fff; }
+.btn--on-navy:hover  { background: var(--azure-500); }
+.btn--on-navy-outline      { background: transparent; color: #fff; border-color: rgba(255,255,255,0.3); }
+.btn--on-navy-outline:hover{ border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.06); }
+.btn i { font-size: 16px; transition: transform var(--dur-fast); }
+.btn:hover i.ph-arrow-right    { transform: translateX(3px); }
+.btn:hover i.ph-arrow-up-right { transform: translate(2px, -2px); }
+
+/* ============================ NAV ============================ */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--dur-base), box-shadow var(--dur-base);
+}
+.nav--scrolled {
+  border-bottom-color: var(--border-subtle);
+  box-shadow: var(--shadow-xs);
+}
+.nav__inner {
+  max-width: var(--container-max); margin: 0 auto; padding: 14px 32px;
+  display: flex; align-items: center; gap: 28px;
+}
+.nav__logo img { height: 30px; display: block; }
+.nav__links {
+  display: flex; align-items: center; gap: 26px; margin-left: auto;
+}
+.nav__links a {
+  font-size: var(--fs-body-sm); font-weight: var(--fw-medium);
+  color: var(--text-muted); transition: color var(--dur-fast);
+}
+.nav__links a:hover  { color: var(--navy-800); }
+.nav__links a.active { color: var(--navy-800); font-weight: var(--fw-semibold); }
+.nav__actions { display: flex; align-items: center; gap: 16px; }
+.nav__lang {
+  font-size: var(--fs-body-sm); font-weight: var(--fw-semibold);
+  color: var(--text-muted); transition: color var(--dur-fast);
+}
+.nav__lang:hover { color: var(--navy-800); }
+
+/* ============================ TEAM GRID ============================ */
+.team { padding: var(--section-y) 0; }
+.team__head { text-align: center; margin-bottom: 48px; }
+.team__head .section-sub { margin-left: auto; margin-right: auto; }
+
+.team__grid {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 24px;
+}
+.team__member { text-align: center; }
+.team__photo {
+  width: 100%; aspect-ratio: 3/4; border-radius: var(--radius-lg);
+  overflow: hidden; background: var(--navy-50); margin-bottom: 16px;
+  border: 1px solid var(--border-subtle); box-shadow: var(--shadow-sm);
+  transition: transform var(--dur-base), box-shadow var(--dur-base);
+}
+.team__photo:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.team__photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.team__photo--initials {
+  display: flex; align-items: center; justify-content: center;
+  background: var(--navy-100); color: var(--navy-600);
+  font-family: var(--font-display); font-weight: 700; font-size: 28px;
+}
+.team__name {
+  font-family: var(--font-display); font-weight: var(--fw-semibold);
+  font-size: var(--fs-body); color: var(--text-strong); margin: 0 0 4px;
+}
+.team__role { font-size: var(--fs-caption); color: var(--text-muted); margin: 0 0 8px; }
+.team__link { font-size: var(--fs-caption); color: var(--azure-600); transition: color var(--dur-fast); }
+.team__link:hover { color: var(--azure-700); }
+.team__divider {
+  text-align: center; margin: 56px 0 40px; padding-top: 48px;
+  border-top: 1px solid var(--divider);
+}
+
+/* Team grid variants — unified 4-col layout */
+.team__grid--mgmt,
+.team__grid--board,
+.team__grid--founders { grid-template-columns: repeat(4, 1fr); }
+
+/* ============================ BOTTOM CTA ============================ */
+.cta-bottom {
+  position: relative; background: var(--surface-navy);
+  overflow: hidden; padding: 96px 0;
+}
+.cta-bottom__pattern {
+  position: absolute; right: 0; bottom: 0; height: 75%;
+  opacity: 0.45; pointer-events: none;
+}
+.cta-bottom__inner {
+  position: relative; z-index: 1; text-align: center;
+  max-width: 640px; margin: 0 auto;
+}
+.cta-bottom__title {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: var(--fs-display-lg); line-height: 1.08;
+  letter-spacing: var(--ls-tight); color: #fff; margin: 0 0 18px;
+}
+.cta-bottom__sub {
+  font-size: var(--fs-body-lg); line-height: var(--lh-body);
+  color: var(--navy-200); margin: 0 0 32px;
+}
+.cta-bottom__actions {
+  display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+}
+
+/* ============================ FOOTER ============================ */
+.footer { background: var(--surface-navy-deep); color: var(--navy-200); }
+.footer__inner {
+  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px;
+  padding: 64px 0 44px;
+}
+.footer__brand img { height: 30px; margin-bottom: 18px; }
+.footer__brand p {
+  font-size: var(--fs-body-sm); line-height: var(--lh-body);
+  color: var(--navy-300); max-width: 40ch; margin: 0 0 16px;
+}
+.footer__org { font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--navy-400); }
+.footer__org a { color: var(--azure-400); transition: color var(--dur-fast); }
+.footer__org a:hover { color: var(--azure-300); }
+.footer__col h4 {
+  font-family: var(--font-display); font-size: 12px; text-transform: uppercase;
+  letter-spacing: var(--ls-overline); color: var(--navy-400);
+  margin: 0 0 16px; font-weight: 700;
+}
+.footer__col a, .footer__col span {
+  display: block; font-size: var(--fs-body-sm); color: var(--navy-200);
+  text-decoration: none; margin-bottom: 10px;
+}
+.footer__col a:hover { color: #fff; }
+.footer__base {
+  border-top: 1px solid var(--border-navy); padding: 22px 0;
+  display: flex; justify-content: space-between;
+  font-size: var(--fs-caption); color: var(--navy-400);
+}
+
+/* ============================ RESPONSIVE — shared ============================ */
+@media (max-width: 920px) {
+  .nav__links { display: none; }
+  .footer__inner { grid-template-columns: 1fr; }
+  .team__grid,
+  .team__grid--mgmt,
+  .team__grid--board,
+  .team__grid--founders { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 560px) {
+  .team__grid,
+  .team__grid--mgmt,
+  .team__grid--board,
+  .team__grid--founders { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,58 @@
+/* ===========================================================================
+   PubliX Group — Typography tokens
+   Sora (display) is reserved for headlines, big numbers and the wordmark voice.
+   Hanken Grotesk (text) carries everything readable. Plex Mono for data.
+   Scale is a ~1.20 minor-third on a 16px base, hand-tuned at the top end.
+   =========================================================================== */
+
+:root {
+  /* Families */
+  --font-display: "Sora", "Hanken Grotesk", system-ui, sans-serif;
+  --font-text:    "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Weights */
+  --fw-regular:  400; /* @kind font */
+  --fw-medium:   500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold:     700; /* @kind font */
+  --fw-extra:    800; /* @kind font */
+
+  /* Type scale (font-size) */
+  --fs-display-2xl: 4.5rem;   /* 72 — hero on web */
+  --fs-display-xl:  3.5rem;   /* 56 */
+  --fs-display-lg:  2.75rem;  /* 44 */
+  --fs-h1:          2.125rem; /* 34 */
+  --fs-h2:          1.625rem; /* 26 */
+  --fs-h3:          1.3125rem;/* 21 */
+  --fs-h4:          1.125rem; /* 18 */
+  --fs-body-lg:     1.125rem; /* 18 */
+  --fs-body:        1rem;     /* 16 */
+  --fs-body-sm:     0.9375rem;/* 15 */
+  --fs-caption:     0.8125rem;/* 13 */
+  --fs-overline:    0.75rem;  /* 12 */
+
+  /* Line heights */
+  --lh-tight:    1.05;  /* @kind font */
+  --lh-heading:  1.15;  /* @kind font */
+  --lh-snug:     1.3;   /* @kind font */
+  --lh-body:     1.55;  /* @kind font */
+  --lh-relaxed:  1.7;   /* @kind font */
+
+  /* Letter spacing */
+  --ls-tight:    -0.02em; /* @kind font */
+  --ls-snug:     -0.01em; /* @kind font */
+  --ls-normal:   0;       /* @kind font */
+  --ls-wide:     0.02em;  /* @kind font */
+  --ls-overline: 0.14em;  /* @kind font */
+
+  /* Semantic roles */
+  --text-display-font: var(--font-display);
+  --text-display-weight: var(--fw-bold);
+  --text-heading-font: var(--font-display);
+  --text-heading-weight: var(--fw-semibold);
+  --text-body-font: var(--font-text);
+  --text-body-weight: var(--fw-regular);
+  --text-eyebrow-transform: uppercase;
+  --text-eyebrow-spacing: var(--ls-overline);
+}

@@ -1,0 +1,75 @@
+<!-- @dsCard group="Data Viz" viewport="700x340" name="Charts in use" subtitle="The palette applied — budget variance (diverging) and grant volume by sector (categorical)" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-page); padding: 20px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; }
+  .panel { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 16px 18px; box-shadow: var(--shadow-sm); }
+  .ttl { font-family: var(--font-display); font-weight: 600; font-size: 14px; color: var(--text-strong); margin: 0 0 2px; }
+  .sub { font-size: 11px; color: var(--text-muted); margin: 0 0 12px; }
+  text { font-family: var(--font-mono); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; }
+  .lg { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-body); }
+  .lg .d { width: 10px; height: 10px; border-radius: 3px; }
+  .v { font-family: var(--font-mono); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="panel">
+    <p class="ttl">Budget variance by month</p>
+    <p class="sub">vs. plan · diverging scale · dashed forecast benchmark +10%</p>
+    <svg viewBox="0 0 340 150" width="100%" height="150">
+      <!-- gridlines -->
+      <line x1="30" y1="20" x2="330" y2="20" stroke="var(--viz-grid)" />
+      <line x1="30" y1="56" x2="330" y2="56" stroke="var(--viz-grid)" />
+      <line x1="30" y1="128" x2="330" y2="128" stroke="var(--viz-grid)" />
+      <!-- benchmark / forecast line at +10% -->
+      <line x1="30" y1="66" x2="330" y2="66" stroke="var(--viz-forecast)" stroke-width="1.5" stroke-dasharray="4 3" />
+      <!-- zero baseline -->
+      <line x1="30" y1="92" x2="330" y2="92" stroke="var(--viz-grid-strong)" stroke-width="1.5" />
+      <!-- bars -->
+      <rect x="36"  y="61"  width="22" height="31" rx="2" fill="var(--viz-positive)"/>
+      <rect x="72"  y="71"  width="22" height="21" rx="2" fill="var(--viz-positive)"/>
+      <rect x="108" y="92"  width="22" height="13" rx="2" fill="var(--viz-negative)"/>
+      <rect x="144" y="53"  width="22" height="39" rx="2" fill="var(--viz-positive)"/>
+      <rect x="180" y="92"  width="22" height="26" rx="2" fill="var(--viz-negative)"/>
+      <rect x="216" y="76"  width="22" height="16" rx="2" fill="var(--viz-positive)"/>
+      <rect x="252" y="45"  width="22" height="47" rx="2" fill="var(--viz-positive)"/>
+      <rect x="288" y="92"  width="22" height="8"  rx="2" fill="var(--viz-negative)"/>
+      <!-- axis labels -->
+      <text x="14" y="24" font-size="9" fill="var(--viz-axis-label)">+18</text>
+      <text x="18" y="95" font-size="9" fill="var(--viz-axis-label)">0</text>
+      <text x="10" y="131" fill="var(--viz-axis-label)" font-size="9">−12</text>
+      <g font-size="9" fill="var(--viz-axis-label)" text-anchor="middle">
+        <text x="47" y="144">J</text><text x="83" y="144">F</text><text x="119" y="144">M</text><text x="155" y="144">A</text>
+        <text x="191" y="144">M</text><text x="227" y="144">J</text><text x="263" y="144">J</text><text x="299" y="144">A</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="panel">
+    <p class="ttl">Grant volume by sector</p>
+    <p class="sub">categorical series</p>
+    <svg viewBox="0 0 120 120" width="120" height="120" style="display:block;margin:0 auto">
+      <g transform="rotate(-90 60 60)" fill="none" stroke-width="20">
+        <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-1)" stroke-dasharray="90 174" stroke-dashoffset="0"/>
+        <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-2)" stroke-dasharray="63 201" stroke-dashoffset="-90"/>
+        <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-3)" stroke-dasharray="47 217" stroke-dashoffset="-153"/>
+        <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-4)" stroke-dasharray="37 227" stroke-dashoffset="-200"/>
+        <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-5)" stroke-dasharray="27 237" stroke-dashoffset="-237"/>
+      </g>
+      <text x="60" y="56" text-anchor="middle" font-size="18" font-weight="600" fill="var(--text-strong)">€48M</text>
+      <text x="60" y="70" text-anchor="middle" font-size="8" fill="var(--viz-axis-label)">total</text>
+    </svg>
+    <div class="legend">
+      <span class="lg"><span class="d" style="background:var(--viz-cat-1)"></span>Care <span class="v">34%</span></span>
+      <span class="lg"><span class="d" style="background:var(--viz-cat-2)"></span>Health <span class="v">24%</span></span>
+      <span class="lg"><span class="d" style="background:var(--viz-cat-3)"></span>NGOs <span class="v">18%</span></span>
+      <span class="lg"><span class="d" style="background:var(--viz-cat-4)"></span>Munic. <span class="v">14%</span></span>
+      <span class="lg"><span class="d" style="background:var(--viz-cat-5)"></span>Edu <span class="v">10%</span></span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!-- @dsCard group="Brand" viewport="700x240" name="Dot-Skyline Pattern" subtitle="The mark's pixels scaled up into a city skyline / equalizer — used on navy" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; }
+  .stage { position: relative; height: 240px; background: var(--surface-navy); overflow: hidden; display: flex; align-items: flex-end; }
+  .pat { width: 100%; height: 150px; object-fit: cover; object-position: bottom; opacity: 0.9; }
+  .cap { position: absolute; top: 20px; left: 24px; font-family: var(--font-mono); font-size: 11px; color: var(--navy-300); }
+  .ttl { position: absolute; top: 40px; left: 24px; font-family: var(--font-display); font-weight: 600; font-size: 22px; color: #fff; letter-spacing: -0.01em; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="cap">dot-skyline.svg</div>
+    <div class="ttl">Let's talk about the future<br>of public services</div>
+    <img class="pat" src="../assets/patterns/dot-skyline.svg" alt="dot pattern">
+  </div>
+</body>
+</html>

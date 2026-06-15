@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PubliX Group — Brand at a glance</title>
+<link rel="stylesheet" href="styles.css">
+<template id="__bundler_thumbnail">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" rx="16" fill="#0E2240"/>
+    <g fill="#FFFFFF">
+      <rect x="34" y="58" width="7" height="7" rx="1.5"/>
+      <rect x="44" y="48" width="7" height="7" rx="1.5"/>
+      <rect x="44" y="58" width="7" height="7" rx="1.5"/>
+      <rect x="54" y="38" width="7" height="7" rx="1.5"/>
+      <rect x="54" y="48" width="7" height="7" rx="1.5"/>
+      <rect x="54" y="58" width="7" height="7" rx="1.5"/>
+      <rect x="34" y="48" width="7" height="7" rx="1.5" fill="#2563D4"/>
+    </g>
+  </svg>
+</template>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; font-family: var(--font-text); color: var(--text-body); background: var(--slate-100); -webkit-font-smoothing: antialiased; }
+  .doc { max-width: 920px; margin: 0 auto; background: var(--surface-card); box-shadow: 0 1px 40px rgba(6,18,42,0.10); }
+  .pad { padding: 56px 64px; }
+  .eyebrow { font-family: var(--font-display); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: var(--ls-overline); }
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h1); letter-spacing: var(--ls-tight); color: var(--text-strong); margin: 0 0 6px; }
+  .lead { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--text-muted); margin: 0 0 32px; max-width: 60ch; }
+  .section-k { color: var(--azure-600); margin-bottom: 14px; display: block; }
+
+  /* HERO */
+  .hero { position: relative; background: var(--navy-950); overflow: hidden; }
+  .hero__pattern { position: absolute; right: 0; bottom: 0; height: 78%; opacity: 0.45; }
+  .hero__inner { position: relative; z-index: 1; padding: 64px 64px 72px; }
+  .hero__logo { height: 38px; margin-bottom: 56px; }
+  .hero__eyebrow { color: var(--azure-300); margin-bottom: 18px; }
+  .hero__title { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-display-lg); line-height: 1.06; letter-spacing: var(--ls-tight); color: #fff; margin: 0 0 18px; max-width: 16ch; }
+  .hero__sub { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--navy-200); margin: 0; max-width: 50ch; }
+
+  /* IDEA + mark */
+  .idea { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: center; border-bottom: 1px solid var(--divider); }
+  .idea p { font-size: var(--fs-body-lg); line-height: var(--lh-body); color: var(--text-body); margin: 0 0 14px; }
+  .idea strong { color: var(--navy-800); font-weight: var(--fw-semibold); }
+  .markbox { background: var(--navy-50); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 32px; text-align: center; color: var(--navy-800); }
+  .markbox img { height: 84px; }
+  .markbox .cap { font-family: var(--font-mono); font-size: 11px; color: var(--text-subtle); margin-top: 16px; }
+
+  /* swatch grids */
+  .swrow { display: flex; gap: 8px; margin-bottom: 8px; }
+  .sw { flex: 1; }
+  .sw .chip { height: 52px; border-radius: var(--radius-sm); border: 1px solid rgba(14,34,64,0.06); }
+  .sw .n { font-size: 10px; font-weight: 600; color: var(--text-strong); margin-top: 6px; }
+  .sw .h { font-family: var(--font-mono); font-size: 9px; color: var(--text-subtle); }
+  .blockgap { margin-bottom: 30px; }
+  .minittl { font-family: var(--font-display); font-weight: 600; font-size: 14px; color: var(--text-strong); margin: 0 0 12px; }
+
+  /* dataviz */
+  .grayband { background: var(--slate-50); border-top: 1px solid var(--divider); border-bottom: 1px solid var(--divider); }
+  .viz-cats { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; }
+  .viz-cats .c { height: 46px; border-radius: var(--radius-sm); }
+  .div { display: flex; height: 38px; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .div span { flex: 1; }
+  .divlbl { display: flex; justify-content: space-between; font-size: 12px; font-weight: 600; margin-top: 10px; }
+  .charts { display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; margin-top: 8px; }
+  .panel { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 16px 18px; box-shadow: var(--shadow-sm); }
+  .panel .pt { font-family: var(--font-display); font-weight: 600; font-size: 13px; color: var(--text-strong); margin: 0 0 12px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 8px; }
+  .lg { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-body); }
+  .lg .d { width: 9px; height: 9px; border-radius: 2px; }
+  .lg .v { font-family: var(--font-mono); font-weight: 600; }
+  text { font-family: var(--font-mono); }
+
+  /* type */
+  .typespec { border-bottom: 1px solid var(--divider); }
+  .type-display { font-family: var(--font-display); font-weight: 700; font-size: 46px; letter-spacing: var(--ls-tight); color: var(--text-strong); line-height: 1.04; margin: 0 0 4px; }
+  .type-meta { font-family: var(--font-mono); font-size: 12px; color: var(--text-subtle); margin-bottom: 26px; }
+  .type-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .type-body { font-size: 16px; line-height: 1.6; color: var(--text-body); }
+  .type-tag { font-family: var(--font-display); font-weight: 600; font-size: 13px; color: var(--navy-700); margin-bottom: 8px; }
+
+  /* component preview */
+  .btnrow { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+  .b { display: inline-flex; align-items: center; height: 42px; padding: 0 18px; border-radius: var(--radius-md); font-family: var(--font-text); font-weight: 600; font-size: 15px; border: 1px solid transparent; }
+  .b-pri { background: var(--navy-800); color: #fff; }
+  .b-acc { background: var(--azure-600); color: #fff; }
+  .b-sec { background: #fff; color: var(--navy-800); border-color: var(--border-strong); }
+  .b-ghost { background: transparent; color: var(--navy-700); }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; }
+  .bd { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 11px; border-radius: var(--radius-pill); }
+  .bd .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  /* footer */
+  .foot { background: var(--surface-navy-deep); color: var(--navy-200); padding: 44px 64px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+  .foot img { height: 28px; margin-bottom: 14px; }
+  .foot p { font-size: 13px; line-height: 1.6; margin: 0; color: var(--navy-300); }
+  .foot .org { font-family: var(--font-mono); font-size: 11px; color: var(--navy-400); margin-top: 10px; }
+  .foot .addr { text-align: right; font-size: 13px; color: var(--navy-200); line-height: 1.7; }
+
+  @media (max-width: 720px) {
+    .pad, .hero__inner, .foot { padding-left: 28px; padding-right: 28px; }
+    .idea, .type-pair, .charts { grid-template-columns: 1fr; }
+    .viz-cats { grid-template-columns: repeat(4, 1fr); }
+    .foot .addr { text-align: left; }
+  }
+
+  /* ---- Print ---- */
+  @page { size: A4 portrait; margin: 12mm; }
+  @media print {
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+      animation-delay: -99s !important; animation-duration: .001s !important;
+      animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+      transition-duration: 0s !important;
+    }
+    html, body { background: #fff !important; }
+    .doc { max-width: none !important; box-shadow: none !important; }
+    .pad { padding: 30px 34px !important; }
+    .hero__inner { padding: 40px 34px 46px !important; }
+    .foot { padding: 32px 34px !important; }
+    .hero, .grayband, .foot { break-inside: avoid; }
+    .markbox, .panel, .charts, .swrow, .viz-cats, .div, .type-pair, .btnrow, .badges, .legend, .idea, .blockgap { break-inside: avoid; }
+    h2 { break-after: avoid; }
+    .foot { break-before: page; }
+    section.grayband { break-before: page; }
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- HERO -->
+  <header class="hero">
+    <img class="hero__pattern" src="assets/patterns/dot-skyline.svg" alt="">
+    <div class="hero__inner">
+      <img class="hero__logo" src="assets/logo/publix-logo-white.svg" alt="PubliX Group">
+      <span class="eyebrow hero__eyebrow">Brand at a glance · 2026</span>
+      <h1 class="hero__title">A brand for the future of public services</h1>
+      <p class="hero__sub">Our visual system — navy-led, precise and human — built to present mission-critical public-sector data with clarity and trust.</p>
+    </div>
+  </header>
+
+  <!-- IDEA -->
+  <section class="pad idea">
+    <div>
+      <span class="eyebrow section-k">The idea</span>
+      <h2>Data, turning into progress</h2>
+      <p>PubliX Group unites founder-led SaaS companies to modernise public services across the Nordics. The mark is built from pixel-squares that <strong>rise like a bar chart</strong> — data becoming momentum, the accelerator at work.</p>
+      <p>Everything else stays calm and squared-off: deep navy for authority, a single bright azure for action, and a disciplined palette engineered for charts and financial reporting.</p>
+    </div>
+    <div class="markbox">
+      <img src="assets/logo/publix-mark-navy.svg" alt="PubliX mark">
+      <div class="cap">the mark</div>
+    </div>
+  </section>
+
+  <!-- COLOUR -->
+  <section class="pad">
+    <span class="eyebrow section-k">Core colour</span>
+    <h2>A navy core, an azure spark</h2>
+    <p class="lead">Navy carries trust and authority; one azure is the digital signal for action and links. Cool slate neutrals keep everything quiet.</p>
+
+    <div class="blockgap">
+      <div class="minittl">Brand navy</div>
+      <div class="swrow">
+        <div class="sw"><div class="chip" style="background:var(--navy-950)"></div><div class="n">950</div><div class="h">#06122A</div></div>
+        <div class="sw"><div class="chip" style="background:var(--navy-800)"></div><div class="n">800 ★</div><div class="h">#0E2240</div></div>
+        <div class="sw"><div class="chip" style="background:var(--navy-600)"></div><div class="n">600</div><div class="h">#1E4A85</div></div>
+        <div class="sw"><div class="chip" style="background:var(--navy-400)"></div><div class="n">400</div><div class="h">#5285C6</div></div>
+        <div class="sw"><div class="chip" style="background:var(--navy-200)"></div><div class="n">200</div><div class="h">#C3D6EC</div></div>
+        <div class="sw"><div class="chip" style="background:var(--navy-50)"></div><div class="n">50</div><div class="h">#F2F6FB</div></div>
+      </div>
+    </div>
+
+    <div class="blockgap">
+      <div class="minittl">Action azure &amp; status</div>
+      <div class="swrow">
+        <div class="sw"><div class="chip" style="background:var(--azure-600)"></div><div class="n">azure ★</div><div class="h">#2563D4</div></div>
+        <div class="sw"><div class="chip" style="background:var(--azure-100); border-color:var(--azure-300)"></div><div class="n">azure-100</div><div class="h">#E5EFFD</div></div>
+        <div class="sw"><div class="chip" style="background:var(--success-600)"></div><div class="n">success</div><div class="h">#1F8A5B</div></div>
+        <div class="sw"><div class="chip" style="background:var(--warning-600)"></div><div class="n">warning</div><div class="h">#B8791A</div></div>
+        <div class="sw"><div class="chip" style="background:var(--danger-600)"></div><div class="n">danger</div><div class="h">#C8453B</div></div>
+        <div class="sw"><div class="chip" style="background:var(--slate-500)"></div><div class="n">slate</div><div class="h">#6B7589</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA COLOUR -->
+  <section class="pad grayband">
+    <span class="eyebrow section-k">Data colour system</span>
+    <h2>Built for financial data</h2>
+    <p class="lead">Because our companies run on grants, budgets and savings, charts get a dedicated, brand-cohesive palette — categorical series, a loss-to-gain diverging scale, and fixed finance semantics.</p>
+
+    <div class="blockgap">
+      <div class="minittl">Categorical — up to 8 series</div>
+      <div class="viz-cats">
+        <div class="c" style="background:var(--viz-cat-1)"></div>
+        <div class="c" style="background:var(--viz-cat-2)"></div>
+        <div class="c" style="background:var(--viz-cat-3)"></div>
+        <div class="c" style="background:var(--viz-cat-4)"></div>
+        <div class="c" style="background:var(--viz-cat-5)"></div>
+        <div class="c" style="background:var(--viz-cat-6)"></div>
+        <div class="c" style="background:var(--viz-cat-7)"></div>
+        <div class="c" style="background:var(--viz-cat-8)"></div>
+      </div>
+    </div>
+
+    <div class="blockgap">
+      <div class="minittl">Diverging — loss ↔ gain</div>
+      <div class="div">
+        <span style="background:var(--viz-div-neg-3)"></span>
+        <span style="background:var(--viz-div-neg-2)"></span>
+        <span style="background:var(--viz-div-neg-1)"></span>
+        <span style="background:var(--viz-div-mid)"></span>
+        <span style="background:var(--viz-div-pos-1)"></span>
+        <span style="background:var(--viz-div-pos-2)"></span>
+        <span style="background:var(--viz-div-pos-3)"></span>
+      </div>
+      <div class="divlbl"><span style="color:var(--viz-negative)">−18% under budget</span><span style="color:var(--viz-positive)">+18% surplus</span></div>
+    </div>
+
+    <div class="charts">
+      <div class="panel">
+        <p class="pt">Budget variance by month</p>
+        <svg viewBox="0 0 340 150" width="100%" height="150">
+          <line x1="30" y1="20" x2="330" y2="20" stroke="var(--viz-grid)" />
+          <line x1="30" y1="56" x2="330" y2="56" stroke="var(--viz-grid)" />
+          <line x1="30" y1="128" x2="330" y2="128" stroke="var(--viz-grid)" />
+          <line x1="30" y1="66" x2="330" y2="66" stroke="var(--viz-forecast)" stroke-width="1.5" stroke-dasharray="4 3" />
+          <line x1="30" y1="92" x2="330" y2="92" stroke="var(--viz-grid-strong)" stroke-width="1.5" />
+          <rect x="36"  y="61"  width="22" height="31" rx="2" fill="var(--viz-positive)"/>
+          <rect x="72"  y="71"  width="22" height="21" rx="2" fill="var(--viz-positive)"/>
+          <rect x="108" y="92"  width="22" height="13" rx="2" fill="var(--viz-negative)"/>
+          <rect x="144" y="53"  width="22" height="39" rx="2" fill="var(--viz-positive)"/>
+          <rect x="180" y="92"  width="22" height="26" rx="2" fill="var(--viz-negative)"/>
+          <rect x="216" y="76"  width="22" height="16" rx="2" fill="var(--viz-positive)"/>
+          <rect x="252" y="45"  width="22" height="47" rx="2" fill="var(--viz-positive)"/>
+          <rect x="288" y="92"  width="22" height="8"  rx="2" fill="var(--viz-negative)"/>
+          <text x="14" y="24" font-size="9" fill="var(--viz-axis-label)">+18</text>
+          <text x="18" y="95" font-size="9" fill="var(--viz-axis-label)">0</text>
+          <text x="10" y="131" font-size="9" fill="var(--viz-axis-label)">−12</text>
+          <g font-size="9" fill="var(--viz-axis-label)" text-anchor="middle">
+            <text x="47" y="144">J</text><text x="83" y="144">F</text><text x="119" y="144">M</text><text x="155" y="144">A</text>
+            <text x="191" y="144">M</text><text x="227" y="144">J</text><text x="263" y="144">J</text><text x="299" y="144">A</text>
+          </g>
+        </svg>
+      </div>
+      <div class="panel">
+        <p class="pt">Grant volume by sector</p>
+        <svg viewBox="0 0 120 120" width="118" height="118" style="display:block;margin:0 auto">
+          <g transform="rotate(-90 60 60)" fill="none" stroke-width="20">
+            <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-1)" stroke-dasharray="90 174"/>
+            <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-2)" stroke-dasharray="63 201" stroke-dashoffset="-90"/>
+            <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-3)" stroke-dasharray="47 217" stroke-dashoffset="-153"/>
+            <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-4)" stroke-dasharray="37 227" stroke-dashoffset="-200"/>
+            <circle cx="60" cy="60" r="42" stroke="var(--viz-cat-5)" stroke-dasharray="27 237" stroke-dashoffset="-237"/>
+          </g>
+          <text x="60" y="56" text-anchor="middle" font-size="17" font-weight="600" fill="var(--text-strong)">€48M</text>
+          <text x="60" y="70" text-anchor="middle" font-size="8" fill="var(--viz-axis-label)">total</text>
+        </svg>
+        <div class="legend">
+          <span class="lg"><span class="d" style="background:var(--viz-cat-1)"></span>Care <span class="v">34%</span></span>
+          <span class="lg"><span class="d" style="background:var(--viz-cat-2)"></span>Health <span class="v">24%</span></span>
+          <span class="lg"><span class="d" style="background:var(--viz-cat-3)"></span>NGOs <span class="v">18%</span></span>
+          <span class="lg"><span class="d" style="background:var(--viz-cat-4)"></span>Munic. <span class="v">14%</span></span>
+          <span class="lg"><span class="d" style="background:var(--viz-cat-5)"></span>Edu <span class="v">10%</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPE -->
+  <section class="pad typespec">
+    <span class="eyebrow section-k">Typography</span>
+    <h2>Geometric meets humanist</h2>
+    <div class="type-display">Sora &amp; Hanken Grotesk</div>
+    <div class="type-meta">display + text · the digital and the human voice</div>
+    <div class="type-pair">
+      <div>
+        <div class="type-tag">Sora — display</div>
+        <div class="type-body" style="font-family:var(--font-display); font-size:22px; font-weight:600; color:var(--text-strong); line-height:1.2;">Headlines, big numbers and the wordmark voice.</div>
+      </div>
+      <div>
+        <div class="type-tag">Hanken Grotesk — text</div>
+        <div class="type-body">Readable, warm body text for everything our partners need to understand — set at a comfortable measure and rhythm.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPONENTS -->
+  <section class="pad">
+    <span class="eyebrow section-k">In the product</span>
+    <h2>Consistent, accessible UI</h2>
+    <p class="lead">A shared component library carries the brand into every portfolio product — buttons, status badges, forms and data tables.</p>
+    <div class="btnrow">
+      <span class="b b-pri">Get in touch</span>
+      <span class="b b-acc">Review application</span>
+      <span class="b b-sec">New shift</span>
+      <span class="b b-ghost">Cancel</span>
+    </div>
+    <div class="badges">
+      <span class="bd" style="background:var(--status-success-bg); color:var(--status-success-fg)"><span class="dot"></span>Grant paid</span>
+      <span class="bd" style="background:var(--status-warning-bg); color:var(--status-warning-fg)"><span class="dot"></span>Pending review</span>
+      <span class="bd" style="background:var(--status-danger-bg); color:var(--status-danger-fg)"><span class="dot"></span>Flagged</span>
+      <span class="bd" style="background:var(--navy-100); color:var(--navy-700)">Social care</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <div>
+      <img src="assets/logo/publix-logo-white.svg" alt="PubliX Group">
+      <p>Building better public services through digital innovation.</p>
+      <div class="org">Org. 559485-5487 · Backed by Aspira Partners</div>
+    </div>
+    <div class="addr">
+      Kungsgatan 37, 8tr<br>
+      111 56 Stockholm, Sweden<br>
+      publixgroup.io
+    </div>
+  </footer>
+
+</div>
+<script>
+  (function () {
+    function go() { setTimeout(function () { window.print(); }, 500); }
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        if (document.readyState === "complete") go();
+        else window.addEventListener("load", go);
+      });
+    } else {
+      window.addEventListener("load", go);
+    }
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Corner Radius" subtitle="Restrained, squared-off — echoing the pixel-square mark" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-text); background: var(--surface-card); padding: 22px; display: flex; gap: 18px; }
+  .item { text-align: center; }
+  .box { width: 86px; height: 70px; background: var(--navy-100); border: 1.5px solid var(--navy-500); }
+  .tok { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); margin-top: 8px; }
+  .v { font-size: 11px; color: var(--text-subtle); }
+</style>
+</head>
+<body>
+  <div class="item"><div class="box" style="border-radius:var(--radius-xs)"></div><div class="tok">xs</div><div class="v">3px</div></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-sm)"></div><div class="tok">sm</div><div class="v">6px</div></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-md)"></div><div class="tok">md</div><div class="v">10px</div></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-lg)"></div><div class="tok">lg</div><div class="v">16px</div></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-xl)"></div><div class="tok">xl</div><div class="v">24px</div></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-pill)"></div><div class="tok">pill</div><div class="v">999px</div></div>
+</body>
+</html>
