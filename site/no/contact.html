@@ -111,22 +111,22 @@
       <div class="fade-in fade-in-d1">
         <div class="form-card">
           <h3 class="form-card__title">...eller send en melding</h3>
-          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('contact-form').innerHTML = '<div style=\'text-align:center; padding:32px 0;\'><i class=\'ph ph-check-circle\' style=\'font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;\'></i><h3 style=\'font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;\'>Takk!</h3><p style=\'color:var(--text-muted); font-size:var(--fs-body-sm);\'>Din melding er sendt. Alexander vil svare deg innen 2 virkedager.</p></div>';">
+          <form id="contact-form" data-netlify="true" name="contact" data-success-action="replace" data-success-msg="<div style='text-align:center; padding:32px 0;'><i class='ph ph-check-circle' style='font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;'></i><h3 style='font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;'>Takk!</h3><p style='color:var(--text-muted); font-size:var(--fs-body-sm);'>Din melding er sendt. Alexander vil svare deg innen 2 virkedager.</p></div>">
             <div class="form-field">
               <label for="c-name">Navn</label>
-              <input type="text" id="c-name" placeholder="Ditt fulle navn" required>
+              <input type="text" id="c-name" name="c-name" placeholder="Ditt fulle navn" required>
             </div>
             <div class="form-field">
               <label for="c-email">E-post</label>
-              <input type="email" id="c-email" placeholder="du@selskap.no" required>
+              <input type="email" id="c-email" name="c-email" placeholder="du@selskap.no" required>
             </div>
             <div class="form-field">
               <label for="c-company">Selskap</label>
-              <input type="text" id="c-company" placeholder="Ditt Selskap AS">
+              <input type="text" id="c-company" name="c-company" placeholder="Ditt Selskap AS">
             </div>
             <div class="form-field">
               <label for="c-message">Melding</label>
-              <textarea id="c-message" placeholder="Fortell oss om selskapet ditt..." required></textarea>
+              <textarea id="c-message" name="c-message" placeholder="Fortell oss om selskapet ditt..." required></textarea>
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Send melding <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Din melding går direkte til Alexander. Alle samtaler er konfidensielle.</p>
@@ -191,8 +191,8 @@
     <div class="footer__col">
       <h4>Hold deg oppdatert</h4>
       <span>Få siste nytt fra PubliX – oppkjøp, innsikt og gründerhistorier.</span>
-      <form class="footer__newsletter-form" onsubmit="event.preventDefault(); this.innerHTML = '<span style=\'color:var(--azure-400);\'>✓ Abonnert!</span>';">
-        <input type="email" placeholder="din@epost.no" required>
+      <form class="footer__newsletter-form" data-netlify="true" name="newsletter" data-success-action="replace" data-success-msg="<span style='color:var(--azure-400);'>✓ Abonnert!</span>">
+        <input name="email" type="email" placeholder="din@epost.no" required>
         <button type="submit">Abonner</button>
       </form>
     </div>
@@ -224,5 +224,6 @@ if (localStorage.getItem('px_cookies')) {
 }
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

@@ -469,30 +469,30 @@
         <div class="form-card">
           <h3 class="form-card__title">Starten Sie Ihre Wachstumsbewertung</h3>
           <p class="form-card__sub">Wir prüfen jede Bewerbung persönlich. Alle Informationen werden streng vertraulich behandelt.</p>
-          <form onsubmit="event.preventDefault(); alert('Vielen Dank für Ihre Bewerbung. Alexander wird sich innerhalb weniger Werktage persönlich bei Ihnen melden.');">
+          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Vielen Dank für Ihre Bewerbung. Alexander wird sich innerhalb weniger Werktage persönlich bei Ihnen melden.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Ihr Name</label>
-                <input type="text" id="f-name" placeholder="Ihr vollständiger Name" required>
+                <input type="text" id="f-name" name="f-name" placeholder="Ihr vollständiger Name" required>
               </div>
               <div class="form-field">
                 <label for="f-role">Ihre Rolle</label>
-                <input type="text" id="f-role" placeholder="Gründer & CEO">
+                <input type="text" id="f-role" name="f-role" placeholder="Gründer & CEO">
               </div>
             </div>
             <div class="form-row">
               <div class="form-field">
                 <label for="f-company">Firmenname</label>
-                <input type="text" id="f-company" placeholder="Ihre Firma AB" required>
+                <input type="text" id="f-company" name="f-company" placeholder="Ihre Firma AB" required>
               </div>
               <div class="form-field">
                 <label for="f-email">E-Mail</label>
-                <input type="email" id="f-email" placeholder="ihre@email.de" required>
+                <input type="email" id="f-email" name="f-email" placeholder="ihre@email.de" required>
               </div>
             </div>
             <div class="form-field">
               <label for="f-vertical">Was macht Ihr Unternehmen?</label>
-              <input type="text" id="f-vertical" placeholder="Beschreiben Sie kurz Ihr Produkt und die Kunden aus dem öffentlichen Sektor, die Sie bedienen">
+              <input type="text" id="f-vertical" name="f-vertical" placeholder="Beschreiben Sie kurz Ihr Produkt und die Kunden aus dem öffentlichen Sektor, die Sie bedienen">
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Bewerbung einreichen <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Ihre Bewerbung geht direkt an Alexander Hübel, Group CEO. Alle Informationen sind vertraulich. Wir beantworten jede Bewerbung innerhalb von 3 Werktagen.</p>
@@ -590,8 +590,8 @@
     <div class="footer__col">
       <h4>Bleiben Sie informiert</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Erhalten Sie das Neueste von der PubliX Group.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Danke! Sie haben sich angemeldet.');">
-        <input class="newsletter__input" type="email" placeholder="ihre@email.de" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Danke! Sie haben sich angemeldet.">
+        <input name="email" class="newsletter__input" type="email" placeholder="ihre@email.de" required>
         <button class="newsletter__btn" type="submit">Abonnieren</button>
       </form>
     </div>
@@ -713,5 +713,6 @@ document.addEventListener('click', (e) => {
 });
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

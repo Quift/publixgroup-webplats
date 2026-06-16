@@ -217,8 +217,8 @@
     <div class="footer__col">
       <h4>Hold deg oppdatert</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Få siste nytt fra PubliX Group.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Takk! Du er nå abonnent.');">
-        <input class="newsletter__input" type="email" placeholder="din@epost.no" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Takk! Du er nå abonnent.">
+        <input name="email" class="newsletter__input" type="email" placeholder="din@epost.no" required>
         <button class="newsletter__btn" type="submit">Abonner</button>
       </form>
     </div>
@@ -286,5 +286,6 @@ if (!localStorage.getItem('publix_cookie_consent')) {
 }
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

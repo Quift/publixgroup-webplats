@@ -469,30 +469,30 @@
         <div class="form-card">
           <h3 class="form-card__title">Start your growth assessment</h3>
           <p class="form-card__sub">We review every application personally. All information is treated as strictly confidential.</p>
-          <form onsubmit="event.preventDefault(); alert('Thank you for your application. Alexander will be in touch personally within a few business days.');">
+          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Thank you for your application. Alexander will be in touch personally within a few business days.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Your name</label>
-                <input type="text" id="f-name" placeholder="Your full name" required>
+                <input type="text" id="f-name" name="f-name" placeholder="Your full name" required>
               </div>
               <div class="form-field">
                 <label for="f-role">Your role</label>
-                <input type="text" id="f-role" placeholder="Founder & CEO">
+                <input type="text" id="f-role" name="f-role" placeholder="Founder & CEO">
               </div>
             </div>
             <div class="form-row">
               <div class="form-field">
                 <label for="f-company">Company name</label>
-                <input type="text" id="f-company" placeholder="Your Company AB" required>
+                <input type="text" id="f-company" name="f-company" placeholder="Your Company AB" required>
               </div>
               <div class="form-field">
                 <label for="f-email">Email</label>
-                <input type="email" id="f-email" placeholder="you@company.se" required>
+                <input type="email" id="f-email" name="f-email" placeholder="you@company.se" required>
               </div>
             </div>
             <div class="form-field">
               <label for="f-vertical">What does your company do?</label>
-              <input type="text" id="f-vertical" placeholder="Briefly describe your product and the public-sector customers you serve">
+              <input type="text" id="f-vertical" name="f-vertical" placeholder="Briefly describe your product and the public-sector customers you serve">
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Submit application <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Your application goes directly to Alexander Hübel, Group CEO. All information is confidential. We respond to every application within 3 business days.</p>
@@ -590,8 +590,8 @@
     <div class="footer__col">
       <h4>Stay updated</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Get the latest from PubliX Group.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Thanks! You\'re subscribed.');">
-        <input class="newsletter__input" type="email" placeholder="your@email.com" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Thanks! You're subscribed.">
+        <input name="email" class="newsletter__input" type="email" placeholder="your@email.com" required>
         <button class="newsletter__btn" type="submit">Subscribe</button>
       </form>
     </div>
@@ -713,5 +713,6 @@ document.addEventListener('click', (e) => {
 });
 </script>
 <script src="js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

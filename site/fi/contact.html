@@ -111,22 +111,22 @@
       <div class="fade-in fade-in-d1">
         <div class="form-card">
           <h3 class="form-card__title">...tai lähetä viesti</h3>
-          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('contact-form').innerHTML = '<div style=\'text-align:center; padding:32px 0;\'><i class=\'ph ph-check-circle\' style=\'font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;\'></i><h3 style=\'font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;\'>Kiitos!</h3><p style=\'color:var(--text-muted); font-size:var(--fs-body-sm);\'>Viestisi on lähetetty. Alexander palaa asiaan 2 työpäivän kuluessa.</p></div>';">
+          <form id="contact-form" data-netlify="true" name="contact" data-success-action="replace" data-success-msg="<div style='text-align:center; padding:32px 0;'><i class='ph ph-check-circle' style='font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;'></i><h3 style='font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;'>Kiitos!</h3><p style='color:var(--text-muted); font-size:var(--fs-body-sm);'>Viestisi on lähetetty. Alexander palaa asiaan 2 työpäivän kuluessa.</p></div>">
             <div class="form-field">
               <label for="c-name">Nimi</label>
-              <input type="text" id="c-name" placeholder="Koko nimesi" required>
+              <input type="text" id="c-name" name="c-name" placeholder="Koko nimesi" required>
             </div>
             <div class="form-field">
               <label for="c-email">Sähköposti</label>
-              <input type="email" id="c-email" placeholder="sinun@yritys.fi" required>
+              <input type="email" id="c-email" name="c-email" placeholder="sinun@yritys.fi" required>
             </div>
             <div class="form-field">
               <label for="c-company">Yritys</label>
-              <input type="text" id="c-company" placeholder="Yrityksesi Oy">
+              <input type="text" id="c-company" name="c-company" placeholder="Yrityksesi Oy">
             </div>
             <div class="form-field">
               <label for="c-message">Viesti</label>
-              <textarea id="c-message" placeholder="Kerro meille yrityksestäsi..." required></textarea>
+              <textarea id="c-message" name="c-message" placeholder="Kerro meille yrityksestäsi..." required></textarea>
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Lähetä viesti <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Viestisi menee suoraan Alexanderille. Kaikki keskustelut ovat luottamuksellisia.</p>
@@ -191,8 +191,8 @@
     <div class="footer__col">
       <h4>Pysy ajan tasalla</h4>
       <span>Saa viimeisimmät uutiset PubliXiltä – yrityskaupat, näkemykset ja perustajien tarinat.</span>
-      <form class="footer__newsletter-form" onsubmit="event.preventDefault(); this.innerHTML = '<span style=\'color:var(--azure-400);\'>✓ Tilattu!</span>';">
-        <input type="email" placeholder="sinun@sahkoposti.fi" required>
+      <form class="footer__newsletter-form" data-netlify="true" name="newsletter" data-success-action="replace" data-success-msg="<span style='color:var(--azure-400);'>✓ Tilattu!</span>">
+        <input name="email" type="email" placeholder="sinun@sahkoposti.fi" required>
         <button type="submit">Tilaa</button>
       </form>
     </div>
@@ -224,5 +224,6 @@ if (localStorage.getItem('px_cookies')) {
 }
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

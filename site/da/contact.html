@@ -111,22 +111,22 @@
       <div class="fade-in fade-in-d1">
         <div class="form-card">
           <h3 class="form-card__title">...eller send en besked</h3>
-          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('contact-form').innerHTML = '<div style=\'text-align:center; padding:32px 0;\'> <i class=\'ph ph-check-circle\' style=\'font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;\'></i> <h3 style=\'font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;\'>Tak!</h3> <p style=\'color:var(--text-muted); font-size:var(--fs-body-sm);\'>Din besked er blevet sendt. Alexander vender tilbage til dig inden for 2 hverdage.</p> </div>';">
+          <form id="contact-form" data-netlify="true" name="contact" data-success-action="replace" data-success-msg="<div style='text-align:center; padding:32px 0;'> <i class='ph ph-check-circle' style='font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;'></i> <h3 style='font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;'>Tak!</h3> <p style='color:var(--text-muted); font-size:var(--fs-body-sm);'>Din besked er blevet sendt. Alexander vender tilbage til dig inden for 2 hverdage.</p> </div>">
             <div class="form-field">
               <label for="c-name">Navn</label>
-              <input type="text" id="c-name" placeholder="Dit fulde navn" required>
+              <input type="text" id="c-name" name="c-name" placeholder="Dit fulde navn" required>
             </div>
             <div class="form-field">
               <label for="c-email">E-mail</label>
-              <input type="email" id="c-email" placeholder="dig@virksomhed.dk" required>
+              <input type="email" id="c-email" name="c-email" placeholder="dig@virksomhed.dk" required>
             </div>
             <div class="form-field">
               <label for="c-company">Virksomhed</label>
-              <input type="text" id="c-company" placeholder="Din Virksomhed A/S">
+              <input type="text" id="c-company" name="c-company" placeholder="Din Virksomhed A/S">
             </div>
             <div class="form-field">
               <label for="c-message">Besked</label>
-              <textarea id="c-message" placeholder="Fortæl os om din virksomhed..." required></textarea>
+              <textarea id="c-message" name="c-message" placeholder="Fortæl os om din virksomhed..." required></textarea>
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Send besked <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Din besked går direkte til Alexander. Alle samtaler er fortrolige.</p>
@@ -191,8 +191,8 @@
     <div class="footer__col">
       <h4>Hold dig opdateret</h4>
       <span>Få det seneste fra PubliX — opkøb, indsigt og stifterhistorier.</span>
-      <form class="footer__newsletter-form" onsubmit="event.preventDefault(); this.innerHTML = '<span style=\'color:var(--azure-400);\'>✓ Tilmeldt!</span>';">
-        <input type="email" placeholder="dig@email.dk" required>
+      <form class="footer__newsletter-form" data-netlify="true" name="newsletter" data-success-action="replace" data-success-msg="<span style='color:var(--azure-400);'>✓ Tilmeldt!</span>">
+        <input name="email" type="email" placeholder="dig@email.dk" required>
         <button type="submit">Tilmeld</button>
       </form>
     </div>
@@ -224,5 +224,6 @@ if (localStorage.getItem('px_cookies')) {
 }
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

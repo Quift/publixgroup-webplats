@@ -449,8 +449,8 @@
     <div class="footer__col">
       <h4>Stay updated</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 14px;">Get the latest from PubliX Group</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.reset(); alert('Thank you for subscribing!');">
-        <input class="newsletter__input" type="email" placeholder="you@company.se" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Thank you for subscribing!">
+        <input name="email" class="newsletter__input" type="email" placeholder="you@company.se" required>
         <button class="newsletter__btn" type="submit">Subscribe</button>
       </form>
     </div>
@@ -510,5 +510,6 @@ if (!localStorage.getItem('publix_cookie_consent')) {
 }
 </script>
 <script src="js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

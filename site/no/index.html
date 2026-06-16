@@ -469,30 +469,30 @@
         <div class="form-card">
           <h3 class="form-card__title">Start din vekstvurdering</h3>
           <p class="form-card__sub">Vi gjennomgår hver søknad personlig. All informasjon behandles strengt konfidensielt.</p>
-          <form onsubmit="event.preventDefault(); alert('Takk for din søknad. Alexander vil ta personlig kontakt i løpet av noen få virkedager.');">
+          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Takk for din søknad. Alexander vil ta personlig kontakt i løpet av noen få virkedager.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Ditt navn</label>
-                <input type="text" id="f-name" placeholder="Ditt fulle navn" required>
+                <input type="text" id="f-name" name="f-name" placeholder="Ditt fulle navn" required>
               </div>
               <div class="form-field">
                 <label for="f-role">Din rolle</label>
-                <input type="text" id="f-role" placeholder="Gründer & administrerende direktør">
+                <input type="text" id="f-role" name="f-role" placeholder="Gründer & administrerende direktør">
               </div>
             </div>
             <div class="form-row">
               <div class="form-field">
                 <label for="f-company">Selskapsnavn</label>
-                <input type="text" id="f-company" placeholder="Ditt Selskap AS" required>
+                <input type="text" id="f-company" name="f-company" placeholder="Ditt Selskap AS" required>
               </div>
               <div class="form-field">
                 <label for="f-email">E-post</label>
-                <input type="email" id="f-email" placeholder="du@selskap.no" required>
+                <input type="email" id="f-email" name="f-email" placeholder="du@selskap.no" required>
               </div>
             </div>
             <div class="form-field">
               <label for="f-vertical">Hva gjør selskapet ditt?</label>
-              <input type="text" id="f-vertical" placeholder="Beskriv kort produktet ditt og hvilke kunder i offentlig sektor dere betjener">
+              <input type="text" id="f-vertical" name="f-vertical" placeholder="Beskriv kort produktet ditt og hvilke kunder i offentlig sektor dere betjener">
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Send inn søknad <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Søknaden din går direkte til Alexander Hübel, konsernsjef. All informasjon er konfidensiell. Vi svarer på alle søknader innen 3 virkedager.</p>
@@ -590,8 +590,8 @@
     <div class="footer__col">
       <h4>Hold deg oppdatert</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Få siste nytt fra PubliX Group.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Takk! Du er nå abonnent.');">
-        <input class="newsletter__input" type="email" placeholder="din@epost.no" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Takk! Du er nå abonnent.">
+        <input name="email" class="newsletter__input" type="email" placeholder="din@epost.no" required>
         <button class="newsletter__btn" type="submit">Abonner</button>
       </form>
     </div>
@@ -713,5 +713,6 @@ document.addEventListener('click', (e) => {
 });
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

@@ -455,30 +455,30 @@
         <div class="form-card">
           <h3 class="form-card__title">Aloita kasvupotentiaalisi arviointi</h3>
           <p class="form-card__sub">Käymme jokaisen hakemuksen läpi henkilökohtaisesti. Kaikkea tietoa käsitellään ehdottoman luottamuksellisesti.</p>
-          <form onsubmit="event.preventDefault(); alert('Kiitos hakemuksestasi. Alexander on sinuun henkilökohtaisesti yhteydessä muutaman arkipäivän kuluessa.');">
+          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Kiitos hakemuksestasi. Alexander on sinuun henkilökohtaisesti yhteydessä muutaman arkipäivän kuluessa.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Nimesi</label>
-                <input type="text" id="f-name" placeholder="Koko nimesi" required>
+                <input type="text" id="f-name" name="f-name" placeholder="Koko nimesi" required>
               </div>
               <div class="form-field">
                 <label for="f-role">Roolisi</label>
-                <input type="text" id="f-role" placeholder="Perustaja & toimitusjohtaja">
+                <input type="text" id="f-role" name="f-role" placeholder="Perustaja & toimitusjohtaja">
               </div>
             </div>
             <div class="form-row">
               <div class="form-field">
                 <label for="f-company">Yrityksen nimi</label>
-                <input type="text" id="f-company" placeholder="Yrityksesi Oy" required>
+                <input type="text" id="f-company" name="f-company" placeholder="Yrityksesi Oy" required>
               </div>
               <div class="form-field">
                 <label for="f-email">Sähköposti</label>
-                <input type="email" id="f-email" placeholder="sinun@sahkoposti.fi" required>
+                <input type="email" id="f-email" name="f-email" placeholder="sinun@sahkoposti.fi" required>
               </div>
             </div>
             <div class="form-field">
               <label for="f-vertical">Mitä yrityksesi tekee?</label>
-              <input type="text" id="f-vertical" placeholder="Kuvaile lyhyesti tuotteesi ja julkisen sektorin asiakkaasi">
+              <input type="text" id="f-vertical" name="f-vertical" placeholder="Kuvaile lyhyesti tuotteesi ja julkisen sektorin asiakkaasi">
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Lähetä hakemus <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Hakemuksesi menee suoraan konsernijohtaja Alexander Hübelille. Kaikki tieto on luottamuksellista. Vastaamme jokaiseen hakemukseen 3 arkipäivän kuluessa.</p>
@@ -576,8 +576,8 @@
     <div class="footer__col">
       <h4>Pysy ajan tasalla</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Saa viimeisimmät uutiset PubliX Groupilta.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Kiitos! Olet tilannut uutiskirjeen.');">
-        <input class="newsletter__input" type="email" placeholder="sinun@sahkoposti.fi" required>
+      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Kiitos! Olet tilannut uutiskirjeen.">
+        <input name="email" class="newsletter__input" type="email" placeholder="sinun@sahkoposti.fi" required>
         <button class="newsletter__btn" type="submit">Tilaa</button>
       </form>
     </div>
@@ -699,5 +699,6 @@ document.addEventListener('click', (e) => {
 });
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>

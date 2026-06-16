@@ -111,22 +111,22 @@
       <div class="fade-in fade-in-d1">
         <div class="form-card">
           <h3 class="form-card__title">...oder eine Nachricht senden</h3>
-          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('contact-form').innerHTML = '<div style=\'text-align:center; padding:32px 0;\'><i class=\'ph ph-check-circle\' style=\'font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;\'></i><h3 style=\'font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;\'>Vielen Dank!</h3><p style=\'color:var(--text-muted); font-size:var(--fs-body-sm);\'>Ihre Nachricht wurde gesendet. Alexander wird sich innerhalb von 2 Werktagen bei Ihnen melden.</p></div>';">
+          <form id="contact-form" data-netlify="true" name="contact" data-success-action="replace" data-success-msg="<div style='text-align:center; padding:32px 0;'><i class='ph ph-check-circle' style='font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;'></i><h3 style='font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;'>Vielen Dank!</h3><p style='color:var(--text-muted); font-size:var(--fs-body-sm);'>Ihre Nachricht wurde gesendet. Alexander wird sich innerhalb von 2 Werktagen bei Ihnen melden.</p></div>">
             <div class="form-field">
               <label for="c-name">Name</label>
-              <input type="text" id="c-name" placeholder="Ihr vollständiger Name" required>
+              <input type="text" id="c-name" name="c-name" placeholder="Ihr vollständiger Name" required>
             </div>
             <div class="form-field">
               <label for="c-email">E-Mail</label>
-              <input type="email" id="c-email" placeholder="sie@unternehmen.de" required>
+              <input type="email" id="c-email" name="c-email" placeholder="sie@unternehmen.de" required>
             </div>
             <div class="form-field">
               <label for="c-company">Unternehmen</label>
-              <input type="text" id="c-company" placeholder="Ihr Unternehmen GmbH">
+              <input type="text" id="c-company" name="c-company" placeholder="Ihr Unternehmen GmbH">
             </div>
             <div class="form-field">
               <label for="c-message">Nachricht</label>
-              <textarea id="c-message" placeholder="Erzählen Sie uns von Ihrem Unternehmen..." required></textarea>
+              <textarea id="c-message" name="c-message" placeholder="Erzählen Sie uns von Ihrem Unternehmen..." required></textarea>
             </div>
             <button class="btn btn--accent btn--lg" type="submit">Nachricht senden <i class="ph ph-arrow-right"></i></button>
             <p class="form-card__legal">Ihre Nachricht geht direkt an Alexander. Alle Gespräche werden vertraulich behandelt.</p>
@@ -191,8 +191,8 @@
     <div class="footer__col">
       <h4>Bleiben Sie informiert</h4>
       <span>Erhalten Sie das Neueste von PubliX – Akquisitionen, Einblicke und Gründergeschichten.</span>
-      <form class="footer__newsletter-form" onsubmit="event.preventDefault(); this.innerHTML = '<span style=\'color:var(--azure-400);\'>✓ Abonniert!</span>';">
-        <input type="email" placeholder="ihre@email.de" required>
+      <form class="footer__newsletter-form" data-netlify="true" name="newsletter" data-success-action="replace" data-success-msg="<span style='color:var(--azure-400);'>✓ Abonniert!</span>">
+        <input name="email" type="email" placeholder="ihre@email.de" required>
         <button type="submit">Abonnieren</button>
       </form>
     </div>
@@ -224,5 +224,6 @@ if (localStorage.getItem('px_cookies')) {
 }
 </script>
 <script src="../js/lang.js"></script>
+<script src="js/forms.js"></script>
 </body>
 </html>
