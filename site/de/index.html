@@ -649,17 +649,17 @@ function renderCo() {
       <p class="co-card__desc">${c.desc}</p>
       <div class="co-card__foot">
         <div class="co-person">
-          <div class="co-avatar">\${initials(c.person)}</div>
+          <div class="co-avatar">${initials(c.person)}</div>
           <div>
-            <div class="co-person__name">\${c.person}</div>
-            <div class="co-person__role">\${c.role} · \${c.loc}</div>
+            <div class="co-person__name">${c.person}</div>
+            <div class="co-person__role">${c.role} · ${c.loc}</div>
           </div>
         </div>
-        <a class="btn btn--secondary btn--sm" href="https://\${c.url}" target="_blank">\${c.url} <i class="ph ph-arrow-up-right"></i></a>
+        <a class="btn btn--secondary btn--sm" href="https://${c.url}" target="_blank">${c.url} <i class="ph ph-arrow-up-right"></i></a>
       </div>
     </div>`;
   document.getElementById('co-dots').innerHTML = COMPANIES.map((co, i) =>
-    `<button class="co-dot\${i === coIdx ? ' co-dot--active' : ''}" onclick="setCo(\${i})">\${co.name}</button>`
+    `<button class="co-dot${i === coIdx ? ' co-dot--active' : ''}" onclick="setCo(${i})">${co.name}</button>`
   ).join('');
 }
 function goCo(d) { coIdx = (coIdx + d + COMPANIES.length) % COMPANIES.length; renderCo(); }
