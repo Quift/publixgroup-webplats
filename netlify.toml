@@ -1,28 +1,33 @@
-[build]
+﻿[build]
   publish = "site"
 
 [[redirects]]
   from = "/"
   to = "/sv/"
   status = 302
+  force = true
   conditions = {Language = ["sv"]}
 [[redirects]]
   from = "/"
   to = "/da/"
   status = 302
+  force = true
   conditions = {Language = ["da"]}
 [[redirects]]
   from = "/"
   to = "/no/"
   status = 302
+  force = true
   conditions = {Language = ["no"]}
 [[redirects]]
   from = "/"
   to = "/fi/"
   status = 302
+  force = true
   conditions = {Language = ["fi"]}
 [[redirects]]
   from = "/"
   to = "/de/"
   status = 302
+  force = true
   conditions = {Language = ["de"]}
