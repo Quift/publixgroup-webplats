@@ -18,37 +18,7 @@
 <link rel="stylesheet" href="../css/pages/career.css">
 <link rel="stylesheet" href="../css/pages/about.css">
 <link rel="stylesheet" href="../css/pages/why-publix.css">
-<style>
-/* Team member — clickable with in-place overlay */
-.team__member { cursor: pointer; position: relative; }
-.team__photo { position: relative; overflow: hidden; }
 
-/* Navy overlay on the photo */
-.team__bio-overlay {
-  position: absolute; inset: 0;
-  background: rgba(15, 25, 50, 0.92);
-  display: flex; align-items: center; justify-content: center;
-  padding: 20px 16px;
-  opacity: 0; transform: translateY(8px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
-  border-radius: inherit;
-}
-.team__member.is-active .team__bio-overlay {
-  opacity: 1; transform: translateY(0);
-  pointer-events: all;
-}
-.team__bio-overlay p {
-  font-size: 13px; line-height: 1.55;
-  color: #fff; margin: 0;
-  text-align: center;
-  font-family: var(--font-display);
-}
-/* Subtle hover hint */
-.team__member:not(.is-active):hover .team__bio-overlay {
-  opacity: 0.35; transform: translateY(0);
-}
-</style>
 </head>
 <body>
 
