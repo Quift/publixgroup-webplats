@@ -1,0 +1,23 @@
+{
+  "name": "publix-webbplats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fix-flags.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quift/publixgroup-webplats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quift/publixgroup-webplats/issues"
+  },
+  "homepage": "https://github.com/Quift/publixgroup-webplats#readme",
+  "dependencies": {
+    "sharp": "^0.35.2"
+  }
+}
