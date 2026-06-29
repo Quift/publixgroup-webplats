@@ -468,7 +468,7 @@
         <div class="form-card">
           <h3 class="form-card__title">Start your growth assessment</h3>
           <p class="form-card__sub">We review every application personally. All information is treated as strictly confidential.</p>
-          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Thank you for your application. Alexander will be in touch personally within a few business days.">
+          <form data-netlify="true" name="application" data-success-action="alert" data-success-msg="Thank you for your application. Alexander will be in touch personally within a few business days.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Your name</label>
@@ -485,8 +485,8 @@
                 <input type="text" id="f-company" name="f-company" placeholder="Your Company AB" required>
               </div>
               <div class="form-field">
-                <label for="f-email">Email</label>
-                <input type="email" id="f-email" name="f-email" placeholder="you@company.se" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@company.se" required>
               </div>
             </div>
             <div class="form-field">
@@ -589,7 +589,7 @@
     <div class="footer__col">
       <h4>Stay updated</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Get the latest from PubliX Group.</p>
-      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Thanks! You're subscribed.">
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="Thanks! You're subscribed.">
         <input name="email" class="newsletter__input" type="email" placeholder="your@email.com" required>
         <button class="newsletter__btn" type="submit">Subscribe</button>
       </form>

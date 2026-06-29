@@ -469,7 +469,7 @@
         <div class="form-card">
           <h3 class="form-card__title">Start din vekstvurdering</h3>
           <p class="form-card__sub">Vi gjennomgår hver søknad personlig. All informasjon behandles strengt konfidensielt.</p>
-          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Takk for din søknad. Alexander vil ta personlig kontakt i løpet av noen få virkedager.">
+          <form data-netlify="true" name="application" data-success-action="alert" data-success-msg="Takk for din søknad. Alexander vil ta personlig kontakt i løpet av noen få virkedager.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Ditt navn</label>
@@ -486,8 +486,8 @@
                 <input type="text" id="f-company" name="f-company" placeholder="Ditt Selskap AS" required>
               </div>
               <div class="form-field">
-                <label for="f-email">E-post</label>
-                <input type="email" id="f-email" name="f-email" placeholder="du@selskap.no" required>
+                <label for="email">E-post</label>
+                <input type="email" id="email" name="email" placeholder="du@selskap.no" required>
               </div>
             </div>
             <div class="form-field">
@@ -590,7 +590,7 @@
     <div class="footer__col">
       <h4>Hold deg oppdatert</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Få siste nytt fra PubliX Group.</p>
-      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Takk! Du er nå abonnent.">
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="Takk! Du er nå abonnent.">
         <input name="email" class="newsletter__input" type="email" placeholder="din@epost.no" required>
         <button class="newsletter__btn" type="submit">Abonner</button>
       </form>

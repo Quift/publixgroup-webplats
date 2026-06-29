@@ -455,7 +455,7 @@
         <div class="form-card">
           <h3 class="form-card__title">Aloita kasvupotentiaalisi arviointi</h3>
           <p class="form-card__sub">Käymme jokaisen hakemuksen läpi henkilökohtaisesti. Kaikkea tietoa käsitellään ehdottoman luottamuksellisesti.</p>
-          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Kiitos hakemuksestasi. Alexander on sinuun henkilökohtaisesti yhteydessä muutaman arkipäivän kuluessa.">
+          <form data-netlify="true" name="application" data-success-action="alert" data-success-msg="Kiitos hakemuksestasi. Alexander on sinuun henkilökohtaisesti yhteydessä muutaman arkipäivän kuluessa.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Nimesi</label>
@@ -472,8 +472,8 @@
                 <input type="text" id="f-company" name="f-company" placeholder="Yrityksesi Oy" required>
               </div>
               <div class="form-field">
-                <label for="f-email">Sähköposti</label>
-                <input type="email" id="f-email" name="f-email" placeholder="sinun@sahkoposti.fi" required>
+                <label for="email">Sähköposti</label>
+                <input type="email" id="email" name="email" placeholder="sinun@sahkoposti.fi" required>
               </div>
             </div>
             <div class="form-field">
@@ -576,7 +576,7 @@
     <div class="footer__col">
       <h4>Pysy ajan tasalla</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Saa viimeisimmät uutiset PubliX Groupilta.</p>
-      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Kiitos! Olet tilannut uutiskirjeen.">
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="Kiitos! Olet tilannut uutiskirjeen.">
         <input name="email" class="newsletter__input" type="email" placeholder="sinun@sahkoposti.fi" required>
         <button class="newsletter__btn" type="submit">Tilaa</button>
       </form>

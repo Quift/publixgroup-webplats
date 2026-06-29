@@ -468,7 +468,7 @@
         <div class="form-card">
           <h3 class="form-card__title">Starta din tillväxtutvärdering</h3>
           <p class="form-card__sub">Vi granskar varje ansökan personligen. All information behandlas strikt konfidentiellt.</p>
-          <form data-netlify="true" name="form" data-success-action="alert" data-success-msg="Tack för din ansökan. Alexander kommer att kontakta dig personligen inom några arbetsdagar.">
+          <form data-netlify="true" name="application" data-success-action="alert" data-success-msg="Tack för din ansökan. Alexander kommer att kontakta dig personligen inom några arbetsdagar.">
             <div class="form-row">
               <div class="form-field">
                 <label for="f-name">Ditt namn</label>
@@ -485,8 +485,8 @@
                 <input type="text" id="f-company" name="f-company" placeholder="Ditt Bolag AB" required>
               </div>
               <div class="form-field">
-                <label for="f-email">E-post</label>
-                <input type="email" id="f-email" name="f-email" placeholder="du@bolag.se" required>
+                <label for="email">E-post</label>
+                <input type="email" id="email" name="email" placeholder="du@bolag.se" required>
               </div>
             </div>
             <div class="form-field">
@@ -589,7 +589,7 @@
     <div class="footer__col">
       <h4>Håll dig uppdaterad</h4>
       <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">Få de senaste nyheterna från PubliX Group.</p>
-      <form class="newsletter" data-netlify="true" name="form" data-success-action="alert" data-success-msg="Tack! Du prenumererar nu.">
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="Tack! Du prenumererar nu.">
         <input name="email" class="newsletter__input" type="email" placeholder="din@epost.se" required>
         <button class="newsletter__btn" type="submit">Prenumerera</button>
       </form>
