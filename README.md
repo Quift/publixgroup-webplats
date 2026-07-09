@@ -18,9 +18,9 @@ Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6
 2. [`site/docs/seo/keywords.md`](site/docs/seo/keywords.md) — meta + changelog
 3. [`site/Design-system/SKILL.md`](site/Design-system/SKILL.md) — visuell identitet
 
-### Onboarding (människor)
+### Site owner (människor)
 
-[`site/docs/NOAH-ONBOARDING.md`](site/docs/NOAH-ONBOARDING.md)
+[`site/docs/SITE-OWNER-MANUAL.md`](site/docs/SITE-OWNER-MANUAL.md) — handoff, tiers, eskalering
 
 ## Struktur
 

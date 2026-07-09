@@ -31,7 +31,7 @@ status: BOOTSTRAPPED — light gate för Fas 8 underhåll; full V5-gate vid U1-u
 
 ## Gate-beslut (2026-07-09)
 
-**Godkänt för Fas 8 underhåll** med Noah/AI-agenter via `publix-site-edit` skill.
+**Godkänt för Fas 8 underhåll** via `publix-site-edit` skill + `SITE-OWNER-MANUAL.md`.
 
 **Ej godkänt för autonom Fas 2–7** utan mänsklig gate — entity/visions/orders saknas.
 

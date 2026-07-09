@@ -3,7 +3,7 @@ name: publix-site-edit
 description: >
   Redigera publixgroup.io med AI-agenter — flerspråkig HTML-site (EN + SV/DA/NO/FI/DE).
   Implementerar site-produktion Fas 8 (underhåll). Triggas vid: ändra PubliX-siten, ny sida,
-  SEO, översättning, favicon, interna länkar, nyhetsartikel, Noah, Netlify deploy.
+  SEO, översättning, favicon, interna länkar, nyhetsartikel, site owner, Netlify deploy.
   Kräver strategisk gate mot docs/foundation/ innan M2+-ändringar.
 ---
 
