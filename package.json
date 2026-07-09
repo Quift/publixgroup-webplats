@@ -1,22 +1,17 @@
 {
   "name": "publix-webbplats",
   "version": "1.0.0",
-  "description": "",
-  "main": "fix-flags.js",
+  "private": true,
+  "description": "PubliX Group static site — publixgroup.io",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "optimize": "node optimize.js",
+    "favicon": "node make_favicon.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Quift/publixgroup-webplats.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Quift/publixgroup-webplats/issues"
-  },
-  "homepage": "https://github.com/Quift/publixgroup-webplats#readme",
+  "license": "UNLICENSED",
   "dependencies": {
     "sharp": "^0.35.2"
   }

@@ -6,9 +6,9 @@ Deploy: push till `main` → Netlify.
 
 ## Redigera siten med AI-agenter
 
-**Skill:** [`.grok/skills/publix-site-edit/SKILL.md`](.grok/skills/publix-site-edit/SKILL.md)
+**Skill:** [`.claude/skills/publix-site-edit/SKILL.md`](.claude/skills/publix-site-edit/SKILL.md)
 
-I Cursor eller Grok: klona repot, öppna projektroten, kör `/publix-site-edit`.
+I Claude Code eller Cursor: klona repot, öppna projektroten, kör `/publix-site-edit`.
 
 Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6 språk) med strategisk gate mot foundation-dokumentationen.
 
@@ -32,7 +32,7 @@ Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6
 | `site/` | Produktions-HTML (EN i root, övriga språk i undermappar) |
 | `site/Design-system/` | Brand, tokens, komponenter |
 | `site/docs/` | Strategi, foundation, SEO-register |
-| `.grok/skills/` | Agent-skills för redigering |
+| `.claude/skills/` | Agent-skill för redigering (Claude Code / Cursor) |
 
 ## Verktyg
 

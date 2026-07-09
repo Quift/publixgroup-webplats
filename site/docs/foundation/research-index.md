@@ -15,7 +15,7 @@ status: bootstrapped
 | Redesign-case | `planning/cases/2026-05-29-publix-website-brand-redesign.md` | Lead magnet, persona, USP |
 | Live site | https://publixgroup.io | Fakta, copy, struktur |
 | Design system | `site/Design-system/readme.md` | Röst, visuell identitet |
-| Brand positioning | `Publix webbplats/Alexanders utkast/.../PubliX_Competitor_Acquirer_Founder_Positioning_v1.md` | Founder-positionering |
+| Brand positioning | `site/docs/foundation/sources/competitor-acquirer-founder-positioning.md` | Founder-positionering |
 
 ## Knowledge-base (vid behov)
 

@@ -11,7 +11,7 @@
 
 Du äger innehåll och riktning. Du behöver inte kunna koda.
 
-**Paket:** denna manual · `OWNER-FAQ.md` · `.grok/skills/publix-site-edit/` · `docs/foundation/`
+**Paket:** denna manual · `OWNER-FAQ.md` · `.claude/skills/publix-site-edit/` · `docs/foundation/`
 
 ---
 
@@ -102,7 +102,7 @@ Repo = GitHub-mappen. Deploy = push main. Tier = ändringens storlek. Foundation
 | Fil | Du | Agent |
 |-----|-----|-------|
 | `OWNER-FAQ.md` | ✓ | ✓ lookup |
-| `.grok/skills/publix-site-edit/SKILL.md` | vet finns | ✓ |
+| `.claude/skills/publix-site-edit/SKILL.md` | vet finns | ✓ |
 | `docs/foundation/` | sällan | ✓ |
 
 ---

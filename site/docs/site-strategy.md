@@ -5,7 +5,7 @@
 
 > **Kanonisk dokumentation:** `site/docs/foundation/` (JTBD, arkitektur, evidens, trafik).
 > Denna fil är en kort sammanfattning. Agenter ska läsa foundation först.
-> Underhåll: `ai/workflows/site-produktion/08-maintenance.md` · skill: `.grok/skills/publix-site-edit/`
+> Underhåll: `ai/workflows/site-produktion/08-maintenance.md` · skill: `.claude/skills/publix-site-edit/`
 
 ## Vad den här siten ÄR
 
