@@ -11,6 +11,12 @@
 | `site/docs/foundation/value-equation.md` | Lead magnet, CTA-logik |
 | `site/docs/foundation/definition-of-ready.md` | Gate-status |
 
+## Site owner
+
+| Fil | Innehåll |
+|-----|----------|
+| `site/docs/SITE-OWNER-MANUAL.md` | Handoff, tiers, eskalering |
+
 ## Operativt
 
 | Fil | Innehåll |
