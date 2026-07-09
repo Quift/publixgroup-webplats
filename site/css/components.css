@@ -179,7 +179,7 @@
 
 /* Language Dropdown */
 .lang-dropdown { position: relative; display: inline-block; }
-.lang-dropdown__btn { background: none; border: none; color: var(--text-base); font-size: var(--fs-body-sm); font-weight: var(--fw-semibold); display: flex; align-items: center; gap: 4px; cursor: pointer; padding: 4px 8px; border-radius: var(--radius-sm); transition: background var(--dur-fast); }
+.lang-dropdown__btn { background: none; border: none; color: var(--text-base); font-family: "Twemoji Country Flags", var(--font-text); font-size: var(--fs-body-sm); font-weight: var(--fw-semibold); display: flex; align-items: center; gap: 4px; cursor: pointer; padding: 4px 8px; border-radius: var(--radius-sm); transition: background var(--dur-fast); }
 .lang-dropdown__btn:hover { background: var(--surface-200); }
 .lang-dropdown__menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: white; border: 1px solid var(--border-light); border-radius: var(--radius-md); box-shadow: var(--shadow-md); min-width: 120px; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all var(--dur-fast) ease; z-index: 100; display: flex; flex-direction: column; padding: 8px 0; }
 .lang-dropdown:hover .lang-dropdown__menu, .lang-dropdown:focus-within .lang-dropdown__menu { opacity: 1; visibility: visible; transform: translateY(0); }

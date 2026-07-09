@@ -3,12 +3,21 @@
    Reset, layout, typography tokens, shared utilities
    ========================================================================= */
 
+/* ---- Country flag emoji polyfill (Windows lacks flag glyphs in Segoe UI Emoji) ---- */
+@font-face {
+  font-family: "Twemoji Country Flags";
+  unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067,
+                 U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+  src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");
+  font-display: swap;
+}
+
 /* ---- Reset ---- */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: var(--font-text);
+  font-family: "Twemoji Country Flags", var(--font-text);
   color: var(--text-body);
   background: var(--surface-card);
   -webkit-font-smoothing: antialiased;
