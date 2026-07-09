@@ -16,12 +16,12 @@ Denna skill är den operativa implementationen för PubliX.
 
 **Läs alltid före ändring (i ordning):**
 
-1. `site/docs/foundation/jtbd.md` — läsarens jobb, DO-n
-2. `site/docs/foundation/architecture.md` — purpose, conversion_goal, restrictions per sida
-3. `site/docs/foundation/proof-inventory.md` — inga claims utan PI-post
-4. `site/docs/foundation/traffic-thesis.md` — SEO-intent
-5. `site/docs/seo/keywords.md` — meta + changelog
-6. `site/docs/site-strategy.md` — övergripande mål (kort sammanfattning)
+1. `site/docs/OWNER-FAQ.md` — tier + agent_action vid oklarheter
+2. `site/docs/SITE-OWNER-MANUAL.md` — röda linjer, eskalering
+3. `site/docs/foundation/architecture.md` — purpose, conversion_goal, restrictions
+4. `site/docs/foundation/proof-inventory.md` — inga claims utan PI-post
+5. `site/docs/foundation/jtbd.md` — läsarens jobb
+6. `site/docs/seo/keywords.md` — meta + changelog
 7. `site/Design-system/SKILL.md` + `readme.md` — visuell identitet
 
 **Repo:** `Quift/publixgroup-webplats` · **Root:** `site/` = EN, språkmappar: `sv/`, `da/`, `no/`, `fi/`, `de/`

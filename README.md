@@ -18,9 +18,12 @@ Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6
 2. [`site/docs/seo/keywords.md`](site/docs/seo/keywords.md) — meta + changelog
 3. [`site/Design-system/SKILL.md`](site/Design-system/SKILL.md) — visuell identitet
 
-### Site owner (människor)
+### Site owner (entreprenör / intern)
 
-[`site/docs/SITE-OWNER-MANUAL.md`](site/docs/SITE-OWNER-MANUAL.md) — handoff, tiers, eskalering
+| Dokument | Syfte |
+|----------|--------|
+| [`SITE-OWNER-MANUAL.md`](site/docs/SITE-OWNER-MANUAL.md) | Start på 5 min, röda linjer, eskalering |
+| [`OWNER-FAQ.md`](site/docs/OWNER-FAQ.md) | Vanliga frågor — agenten läser också |
 
 ## Struktur
 

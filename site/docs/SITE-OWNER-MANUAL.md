@@ -1,57 +1,80 @@
 # Site Owner Manual — PubliX Group / publixgroup.io
 
-**Domän:** https://publixgroup.io  
-**Repo:** https://github.com/Quift/publixgroup-webplats  
-**Deploy:** push `main` → Netlify  
-**Senast uppdaterad:** 2026-07-09  
-**Site owner:** PubliX Group (intern redaktör under Alexander Hübel; teknisk eskalering Pierre-Emil)
+| | |
+|---|---|
+| **Domän** | https://publixgroup.io |
+| **Repo** | https://github.com/Quift/publixgroup-webplats |
+| **Live efter** | Push till `main` → Netlify (~2 min) |
+| **Din agent-skill** | `/publix-site-edit` |
+| **Senast uppdaterad** | 2026-07-09 |
+| **Site owner** | PubliX Group intern (marknad/VD-kontext under Alexander Hübel) |
 
-> Handoff efter bootstrap + Fas 8-setup. Mall: `ai/templates/site/site-owner-manual.md` (Life OS vault).
+Du äger innehåll och riktning. Du behöver inte kunna koda.
 
----
-
-## 1. Vad siten gör
-
-Moderbolagets **M&A- och rekryteringssite** — attraherar founders av nordisk GovTech-SaaS till dialog/förvärv. **Inte** slutkundsmarknadsföring för Tidvis, digiPlant, Sotender m.fl.
-
-Kanon: `docs/foundation/jtbd.md`
+**Paket:** denna manual · `OWNER-FAQ.md` · `.grok/skills/publix-site-edit/` · `docs/foundation/`
 
 ---
 
-## 2. Två lager
+## 0. Start på 5 minuter
 
-| Lager | När | Hur |
-|-------|-----|-----|
-| **Underhåll** | Copy, favicon, nyhetsartikel, SEO | `/publix-site-edit` · Fas 8 |
-| **Strategisk** | Pivot, ny money page, repositioning | `site-produktion` V5 Fas 0–7 |
+1. Klona repot, öppna i Cursor eller Grok
+2. `/publix-site-edit` — beskriv en liten ändring
+3. Agenten ändrar, uppdaterar 6 språk vid behov, deployar efter godkännande
+4. Kolla publixgroup.io
 
----
+**Första övning (M1):** Fixa favicon (känt live-issue — bra test av hela kedjan).
 
-## 3. Kom igång
-
-1. Klona repot
-2. Läs `docs/foundation/` — `architecture.md`, `proof-inventory.md`
-3. Cursor/Grok → `/publix-site-edit`
+Fastnat? → `OWNER-FAQ.md`
 
 ---
 
-## 4. Ändringstiers
+## 1. Vad din webbplats gör (och inte gör)
 
-| Tier | Exempel | Godkännande |
-|------|---------|-------------|
-| M1 | Typo, favicon | Intern |
-| M2 | Copy, nyhetsartikel | Gate mot architecture + PI |
-| M3 | Ny nav-sida, CTA-strategi | **Alexander Hübel + PE** |
-| U1 | Pivot | Full site-produktion |
+**Gör:** Attraherar **founders/VD:ar** av nordisk vertikal SaaS mot offentlig sektor till dialog om förvärv/partnerskap — med lågfriktions-CTA "Discover your growth potential".
+
+**Gör inte:** Sälja Tidvis, digiPlant, Sotender eller annan OpCo-produkt till slutkunder. Det är dotterbolagens egna sites.
 
 ---
 
-## 5. Obligatoriska regler
+## 2. Hur du arbetar med din kodagent
 
-- Inga fakta utan PI-post i `proof-inventory.md`
-- **EN först** → SV, DA, NO, FI, DE
-- Design: `site/Design-system/SKILL.md`
-- Bryter restrictions i `architecture.md` → stopp
+Beskriv målet → `/publix-site-edit` → agenten sätter tier (M1–U1) → M1–M2 körs, M3+ stoppar → deploy.
+
+Agenten läser: `OWNER-FAQ.md`, `docs/foundation/`, design system.
+
+---
+
+## 3. Röda linjer
+
+| Gör inte | Varför |
+|----------|--------|
+| Rikta mot slutkunder / produktkatalog | Fel persona — bryter jtbd |
+| Ny sida i huvudmenyn utan godkännande | M3 — ny strategisk nod |
+| Ta bort `#review` / värderings-CTA | Huvudkonvertering |
+| Påhittade metrics eller förvärvsdatum | Kräver PI-post i proof-inventory |
+| Hype / Silicon Valley-ton | Fel varumärke (GovTech institutionell) |
+
+---
+
+## 4. Grönt ljus
+
+| Du vill… | Tier |
+|----------|------|
+| Typo, favicon, liten CSS | M1 |
+| Nyhetsartikel, sektionscopy, SEO-titel | M2 |
+| Ny pressrelease i `news/` | M2 (med källa) |
+
+**Språk:** Skriv på EN eller SV — agenten uppdaterar EN + SV, DA, NO, FI, DE.
+
+---
+
+## 5. Sanning (kärnfakta)
+
+- PubliX Group AB, org.nr 559485-5487, Stockholm
+- Buy-and-build accelerator för GovTech-SaaS — inte passiv holding
+- Portfölj: Tidvis, digiPlant, Sotender/Koivu, Aspicore, Embrace Safety m.fl.
+- Lead magnet: AI-värdering → möte (medvetet ofullständig rapport)
+- Nya fakta → agenten kollar `proof-inventory.md` först
 
 ---
 
@@ -59,28 +82,33 @@ Kanon: `docs/foundation/jtbd.md`
 
 | Situation | Till |
 |-----------|------|
-| Strategisk riktning | Alexander Hübel |
-| Design system / ny komponent | Pierre-Emil |
-| Deploy/DNS/favicon live | PE eller Stockholm Code |
-| Juridik/förvärvsfakta | Alexander + PE |
+| M3 (ny nav, CTA-strategi) | Alexander Hübel + Pierre-Emil |
+| Design / ny komponent | Pierre-Emil |
+| DNS, Netlify, favicon live | PE eller Stockholm Code |
+| Juridik, förvärvsfakta | Alexander Hübel |
+
+**Leverans/byggare:** Pierre-Emil Chantereau (Konsult)
 
 ---
 
-## 7. Vanliga uppgifter
+## 7. Ord du kan ignorera
 
-| Uppgift | Tier | Notering |
-|---------|------|----------|
-| Favicon | M1 | Känt issue live — bra test av flödet |
-| Ny pressrelease | M2 | Kopiera `news/<slug>.html` → 6 språk |
-| Ny kärnsida i nav | M3 | Uppdatera `architecture.md` först |
+Repo = GitHub-mappen. Deploy = push main. Tier = ändringens storlek. Foundation = strategifiler för agenten.
 
 ---
 
-## 8. Referensfiler
+## 8. Referens
 
-| Fil | Innehåll |
-|-----|----------|
-| `.grok/skills/publix-site-edit/SKILL.md` | Agent-workflow |
-| `docs/foundation/` | Strategisk sanning |
-| `docs/seo/keywords.md` | Meta-changelog |
-| `ai/workflows/site-produktion/08-maintenance.md` | Fas 8-kanon (vault) |
+| Fil | Du | Agent |
+|-----|-----|-------|
+| `OWNER-FAQ.md` | ✓ | ✓ lookup |
+| `.grok/skills/publix-site-edit/SKILL.md` | vet finns | ✓ |
+| `docs/foundation/` | sällan | ✓ |
+
+---
+
+## 9. Changelog
+
+| Datum | Händelse | Smoke test |
+|-------|----------|------------|
+| 2026-07-09 | Fas 9 handoff (v2 entreprenörsmodell) | Favicon M1 — väntar ägare |
