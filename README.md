@@ -38,8 +38,9 @@ Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6
 
 ```bash
 npm install
-node optimize.js    # optimera JPG/PNG under site/
-node make_favicon.js
+node optimize.js       # optimera JPG/PNG under site/
+node make_favicon.js   # favicon.png + apple-touch-icon från favicon.svg
+node generate-sitemap.js  # site/sitemap.xml (produktionssidor)
 ```
 
 ## Repo

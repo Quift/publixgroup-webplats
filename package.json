@@ -5,7 +5,8 @@
   "description": "PubliX Group static site — publixgroup.io",
   "scripts": {
     "optimize": "node optimize.js",
-    "favicon": "node make_favicon.js"
+    "favicon": "node make_favicon.js",
+    "sitemap": "node generate-sitemap.js"
   },
   "repository": {
     "type": "git",

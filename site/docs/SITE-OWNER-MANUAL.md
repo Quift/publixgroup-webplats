@@ -112,4 +112,5 @@ Repo = GitHub-mappen. Deploy = push main. Tier = ändringens storlek. Foundation
 | Datum | Händelse | Smoke test |
 |-------|----------|------------|
 | 2026-07-09 | Fas 9 handoff (v2 entreprenörsmodell) | — |
-| 2026-07-09 | Favicon M1: PNG regenererade, push a2b5fea | **Väntar Netlify-deploy** — live saknar favicon-länkar (deploy ~9 commits efter) |
+| 2026-07-09 | Favicon M1: PNG regenererade, push a2b5fea | Verifiera i flik efter deploy |
+| 2026-07-09 | SEO: robots.txt, sitemap.xml, llms.txt | — |

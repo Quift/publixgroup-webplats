@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Interna agent- och designsystemfiler — inte för allmän indexering
+Disallow: /docs/
+Disallow: /Design-system/
+
+Sitemap: https://publixgroup.io/sitemap.xml

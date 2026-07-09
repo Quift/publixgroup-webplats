@@ -41,3 +41,4 @@ Uppdatera denna fil **varje gång** title, description, H1 eller primärt budska
 | Datum | Sida | Ändring | Av |
 |-------|------|---------|-----|
 | 2026-07-09 | — | Register skapat | PE |
+| 2026-07-09 | site/ | robots.txt, sitemap.xml (84 URL), llms.txt tillagt | PE |

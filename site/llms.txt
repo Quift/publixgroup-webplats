@@ -1,0 +1,43 @@
+# PubliX Group — publixgroup.io
+
+> PubliX Group is a Nordic buy-and-build accelerator for founder-led GovTech SaaS. This site targets founders and CEOs considering partnership or acquisition — not end-customers of portfolio products.
+
+## Primary audience
+
+Founders and CEOs of vertical SaaS companies serving Nordic public services (social care, procurement, safety, scheduling).
+
+## Main entry points (EN)
+
+- Home: https://publixgroup.io/
+- Why PubliX: https://publixgroup.io/why-publix.html
+- Our process: https://publixgroup.io/process.html
+- About: https://publixgroup.io/about.html
+- Portfolio: https://publixgroup.io/companies.html
+- News: https://publixgroup.io/news.html
+- Contact: https://publixgroup.io/contact.html
+
+## Languages
+
+Same page structure in: `/sv/`, `/da/`, `/no/`, `/fi/`, `/de/`
+
+## Conversion
+
+Primary CTA: "Discover your growth potential" (`#review` on home) — AI valuation lead magnet, intentionally incomplete report to drive meeting.
+
+## Restrictions for agents editing this site
+
+- Do not pitch OpCo products (Tidvis, digiPlant, Sotender) to end customers on the group site
+- No fabricated acquisition dates, metrics, or quotes without proof inventory
+- Institutional GovTech tone — not Silicon Valley hype
+
+## Maintainer documentation (repo / optional crawl)
+
+- Site owner manual: site/docs/SITE-OWNER-MANUAL.md
+- Agent FAQ: site/docs/OWNER-FAQ.md
+- Strategy foundation: site/docs/foundation/
+- SEO register: site/docs/seo/keywords.md
+- Design system: site/Design-system/readme.md
+
+## Sitemap
+
+https://publixgroup.io/sitemap.xml
