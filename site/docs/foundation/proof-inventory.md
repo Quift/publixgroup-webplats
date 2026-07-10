@@ -42,6 +42,11 @@ status: bootstrapped — utöka vid nya claims
 | PI-022 | Embrace: lag 2023:196 driver efterfrågan | marknadsbrief | secondary | Acquire |
 | PI-023 | Embrace: finns i 76/290 kommuner | marknadsbrief | secondary | Measure |
 | PI-024 | 5 founder-led companies in group (hero) | live site index | primary | Witness |
+| PI-025 | Sotender >40 000 användare, ~20 kundorganisationer, 11 välfärdsområden (FI) | pressmeddelande Suomikoti v1.1 2026-05-04 | primary | Measure |
+| PI-026 | Sotender lanserar Sverige 2026-05-04 — Suomikoti första svenska kund | pressmeddelande Suomikoti v1.1 2026-05-04 | primary | Witness |
+| PI-027 | Suomikoti: finskspråkigt vård-/omsorgsboende Enskede Stockholm, 53 platser, grundat 1995 | pressmeddelande Suomikoti v1.1 2026-05-04 | primary | Witness |
+| PI-028 | Sotender: tid för vikariehantering kan halveras hos FI-välfärdsområden | pressmeddelande Suomikoti v1.1 (SV), citat T. Santala | secondary | Measure |
+| PI-029 | Sotender: sijaisrekrytointiin kuluva aika voi vähentyä jopa 60 % | Suomikoti lehdistötiedote 5.5.2026 (FI), citat T. Santala | secondary | Measure |
 
 ## Erbjudande / lead magnet
 

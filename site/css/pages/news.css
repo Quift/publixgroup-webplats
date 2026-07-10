@@ -44,6 +44,7 @@
   padding: 3px 10px; border-radius: var(--radius-pill); }
 .news-card__badge--acquisition { background: var(--azure-100); color: var(--azure-700); }
 .news-card__badge--appointment { background: var(--success-100); color: var(--success-700); }
+.news-card__badge--milestone { background: var(--navy-100, #e8ebf5); color: var(--navy-700, #2a3a75); }
 .news-card__title { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3);
   letter-spacing: var(--ls-snug); color: var(--text-strong); margin: 0 0 12px; line-height: 1.3; }
 .news-card__excerpt { font-size: var(--fs-body-sm); line-height: var(--lh-body); color: var(--text-muted);
