@@ -87,16 +87,16 @@
 
 <script src="../js/lang.js"></script>
 <script>
-function revealFadeIns() {
+function revealFadeIns(immediate) {
   document.querySelectorAll('.fade-in').forEach(el => {
-    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+    if (immediate || el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
   });
 }
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
   revealFadeIns();
 }, { passive: true });
-revealFadeIns();
+revealFadeIns(true);
 </script>
 <script src="js/forms.js"></script>
 </body>

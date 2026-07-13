@@ -268,9 +268,7 @@ window.addEventListener('scroll', () => {
   });
 }, { passive: true });
 
-document.querySelectorAll('.fade-in').forEach(el => {
-  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
-});
+document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
 
 // Filter logic
 document.querySelectorAll('.news-filter').forEach(btn => {
