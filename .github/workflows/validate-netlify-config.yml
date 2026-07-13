@@ -1,0 +1,46 @@
+name: Validate netlify.toml
+
+on:
+  push:
+    branches: [main]
+    paths: ['netlify.toml']
+  pull_request:
+    paths: ['netlify.toml']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for UTF-8 BOM
+        run: |
+          if [ "$(head -c 3 netlify.toml | xxd -p)" = "efbbbf" ]; then
+            echo "::error file=netlify.toml,line=1::netlify.toml börjar med UTF-8 BOM (EF BB BF). TOML-specen förbjuder BOM och Netlifys parser kraschar. Spara filen som UTF-8 utan BOM (se .editorconfig)."
+            exit 1
+          fi
+          echo "No BOM detected"
+
+      - name: Validate TOML syntax
+        run: |
+          python3 -c "
+          import tomllib, sys
+          try:
+              with open('netlify.toml', 'rb') as f:
+                  data = tomllib.load(f)
+              print(f'TOML valid. Redirects: {len(data.get(\"redirects\", []))}, Headers: {len(data.get(\"headers\", []))}')
+          except tomllib.TOMLDecodeError as e:
+              print(f'::error file=netlify.toml::TOML parse error: {e}')
+              sys.exit(1)
+          "
+
+      - name: Warn on force=true + conditions
+        run: |
+          python3 -c "
+          import tomllib
+          with open('netlify.toml', 'rb') as f:
+              data = tomllib.load(f)
+          for i, r in enumerate(data.get('redirects', []), 1):
+              if r.get('force') and r.get('conditions'):
+                  print(f'::warning file=netlify.toml::Redirect #{i} kombinerar force=true med conditions ({r.get(\"conditions\")}) — Netlifys parser kan avvisa detta (se commit 41de38f som knäckte deploys i 3 veckor).')
+          "
