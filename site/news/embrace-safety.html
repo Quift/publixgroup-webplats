@@ -89,7 +89,7 @@
 <script>
 function revealFadeIns() {
   document.querySelectorAll('.fade-in').forEach(el => {
-    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
   });
 }
 window.addEventListener('scroll', () => {

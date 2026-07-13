@@ -323,13 +323,13 @@
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
   document.querySelectorAll('.fade-in').forEach(el => {
-    if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
   });
 }, { passive: true });
 
 // Initial check for elements already in viewport
 document.querySelectorAll('.fade-in').forEach(el => {
-  if (el.getBoundingClientRect().top < window.innerHeight * 0.88) el.classList.add('visible');
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
 
 // Cookie banner
