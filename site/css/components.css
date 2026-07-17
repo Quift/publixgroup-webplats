@@ -218,3 +218,21 @@
 .team__member:not(.is-active):hover .team__bio-overlay {
   opacity: 0.35; transform: translateY(0);
 }
+
+/* ============================ FOUNDER / LEADER QUOTE ============================ */
+/* Shared quote component — used on companies, why-publix, about (any page). */
+.founder-quote { position: relative; background: var(--surface-navy); overflow: hidden; padding: 112px 0; }
+.founder-quote__pattern { position: absolute; right: 0; bottom: 0; height: 80%; opacity: 0.2; pointer-events: none; }
+.founder-quote__inner { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; text-align: center; }
+.founder-quote__icon { width: 56px; height: 56px; border-radius: 50%; background: rgba(255,255,255,0.08);
+  display: flex; align-items: center; justify-content: center; margin: 0 auto 32px;
+  font-size: 26px; color: #fff; }
+.founder-quote__text { font-family: var(--font-display); font-weight: var(--fw-medium); font-size: var(--fs-h2);
+  line-height: 1.4; color: #fff; margin: 0 0 40px; font-style: italic; letter-spacing: var(--ls-snug); }
+.founder-quote__attribution { display: flex; align-items: center; gap: 16px; justify-content: center; }
+.founder-quote__photo { width: 56px; height: 56px; border-radius: 50%; overflow: hidden;
+  border: 3px solid rgba(255,255,255,0.2); flex-shrink: 0; }
+.founder-quote__photo img { width: 100%; height: 100%; object-fit: cover; }
+.founder-quote__cite-name { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-body);
+  color: #fff; margin: 0 0 2px; }
+.founder-quote__cite-role { font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0; }
