@@ -652,23 +652,23 @@
 const COMPANIES = [
   { id:"tidvis", name:"Tidvis", cat:"Sozialfürsorge", tone:"brand",
     logo:"../Design-system/assets/portfolio/tidvis.jpg",
-    person:"Adam Hjort", role:"CEO", loc:"Stockholm, Schweden", url:"tidvis.se",
+    person:"Adam Hjort", photo:"../img/team-adam-hjort.jpg", role:"CEO", loc:"Stockholm, Schweden", url:"tidvis.se",
     desc:"Eine führende Softwareplattform für den schwedischen Bereich der persönlichen Pflege – Personalplanung, Berichterstattung, Kommunikation und Gehaltsabrechnung in einem sicheren System." },
   { id:"digiplant", name:"digiPlant", cat:"Verbände / NGOs", tone:"info",
     logo:"../Design-system/assets/portfolio/digiplant.png",
-    person:"Alexander Törnqvist", role:"Mitgründer & CEO", loc:"Örebro, Schweden", url:"digiplant.se",
+    person:"Alexander Törnqvist", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/68a824549776727eae163a3b_Alexander%20T%C3%B6rnqvist.jpg", role:"Mitgründer & CEO", loc:"Örebro, Schweden", url:"digiplant.se",
     desc:"SBS Manager – ein komplettes Antragsmanagementsystem für Fördermittel und Sponsoring von Stiftungen, Fonds und Fördermittelgebern." },
   { id:"aspicore", name:"Aspicore", cat:"Verbände / NGOs", tone:"info",
     logo:"../Design-system/assets/portfolio/aspicore.png",
-    person:"Harri Tanner", role:"Mitgründer & CEO", loc:"Espoo, Finnland", url:"aspicore.com",
+    person:"Harri Tanner", photo:"../img/team-harri-tanner.jpg", role:"Mitgründer & CEO", loc:"Espoo, Finnland", url:"aspicore.com",
     desc:"Apuraha4 automatisiert den gesamten Lebenszyklus von Fördermitteln – Anträge, Entscheidungen, Auszahlungen, Berichterstattung – spart Zeit und verbessert die Transparenz." },
   { id:"koivu", name:"Koivu Solutions", cat:"Gesundheitswesen", tone:"success",
     logo:"../Design-system/assets/portfolio/sotender.png",
-    person:"Janne Salmi", role:"Mitgründer & CEO", loc:"Pori, Finnland", url:"sotender.io",
+    person:"Janne Salmi", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/6941c03c0c754c83e50335a3_Janne%20Salmi.png", role:"Mitgründer & CEO", loc:"Pori, Finnland", url:"sotender.io",
     desc:"Sotender – eine benutzerfreundliche mobile App, die im Gesundheitswesen Tätige mit offenen Schichten verbindet, mit messbaren Auswirkungen für Anbieter und Personal." },
   { id:"embrace", name:"Embrace Safety", cat:"Kommunen", tone:"warning",
     logo:"../Design-system/assets/portfolio/embrace.png",
-    person:"Johan Rydberg", role:"CEO & Vertriebsleiter", loc:"Örebro, Schweden", url:"embrace-safety.se",
+    person:"Johan Rydberg", photo:"../img/team-johan-rydberg.jpg", role:"CEO & Vertriebsleiter", loc:"Örebro, Schweden", url:"embrace-safety.se",
     desc:"EMBRACE – eine leistungsstarke, benutzerfreundliche Plattform für Kommunen und Polizeibehörden in der täglichen Kriminalprävention und Sicherheitsarbeit." },
 ];
 let coIdx = 0;
@@ -685,7 +685,7 @@ function renderCo() {
       <p class="co-card__desc">${c.desc}</p>
       <div class="co-card__foot">
         <div class="co-person">
-          <div class="co-avatar">${initials(c.person)}</div>
+          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" alt="${c.person}">` : initials(c.person)}</div>
           <div>
             <div class="co-person__name">${c.person}</div>
             <div class="co-person__role">${c.role} · ${c.loc}</div>

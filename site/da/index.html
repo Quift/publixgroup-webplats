@@ -652,23 +652,23 @@
 const COMPANIES = [
   { id:"tidvis", name:"Tidvis", cat:"Social omsorg", tone:"brand",
     logo:"../Design-system/assets/portfolio/tidvis.jpg",
-    person:"Adam Hjort", role:"Stifter & CEO", loc:"Stockholm, Sverige", url:"tidvis.se",
+    person:"Adam Hjort", photo:"../img/team-adam-hjort.jpg", role:"Stifter & CEO", loc:"Stockholm, Sverige", url:"tidvis.se",
     desc:"En førende softwareplatform til den svenske personplejesektor — vagtplanlægning, rapportering, kommunikation og løn i ét sikkert system." },
   { id:"digiplant", name:"digiPlant", cat:"Foreninger / NGO'er", tone:"info",
     logo:"../Design-system/assets/portfolio/digiplant.png",
-    person:"Alexander Törnqvist", role:"Medstifter & CEO", loc:"Örebro, Sverige", url:"digiplant.se",
+    person:"Alexander Törnqvist", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/68a824549776727eae163a3b_Alexander%20T%C3%B6rnqvist.jpg", role:"Medstifter & CEO", loc:"Örebro, Sverige", url:"digiplant.se",
     desc:"SBS Manager — et komplet ansøgningssystem til tilskud og sponsorater fra fonde, puljer og tilskudsgivere." },
   { id:"aspicore", name:"Aspicore", cat:"Foreninger / NGO'er", tone:"info",
     logo:"../Design-system/assets/portfolio/aspicore.png",
-    person:"Harri Tanner", role:"Medstifter & CEO", loc:"Espoo, Finland", url:"aspicore.com",
+    person:"Harri Tanner", photo:"../img/team-harri-tanner.jpg", role:"Medstifter & CEO", loc:"Espoo, Finland", url:"aspicore.com",
     desc:"Apuraha4 automatiserer hele tilskudscyklussen — ansøgninger, beslutninger, udbetalinger, rapportering — hvilket sparer tid og forbedrer gennemsigtigheden." },
   { id:"koivu", name:"Koivu Solutions", cat:"Sundhedsvæsen", tone:"success",
     logo:"../Design-system/assets/portfolio/sotender.png",
-    person:"Janne Salmi", role:"Medstifter & CEO", loc:"Björneborg, Finland", url:"sotender.io",
+    person:"Janne Salmi", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/6941c03c0c754c83e50335a3_Janne%20Salmi.png", role:"Medstifter & CEO", loc:"Björneborg, Finland", url:"sotender.io",
     desc:"Sotender — en brugervenlig mobilapp, der forbinder sundhedspersonale med ledige vagter, med mærkbar effekt for udbydere og personale." },
   { id:"embrace", name:"Embrace Safety", cat:"Kommuner", tone:"warning",
     logo:"../Design-system/assets/portfolio/embrace.png",
-    person:"Johan Rydberg", role:"CEO & Salgschef", loc:"Örebro, Sverige", url:"embrace-safety.se",
+    person:"Johan Rydberg", photo:"../img/team-johan-rydberg.jpg", role:"CEO & Salgschef", loc:"Örebro, Sverige", url:"embrace-safety.se",
     desc:"EMBRACE — en stærk, brugervenlig platform til kommuner og politimyndigheder i det daglige kriminalitetsforebyggende og tryghedsskabende arbejde." },
 ];
 let coIdx = 0;
@@ -685,7 +685,7 @@ function renderCo() {
       <p class="co-card__desc">${c.desc}</p>
       <div class="co-card__foot">
         <div class="co-person">
-          <div class="co-avatar">${initials(c.person)}</div>
+          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" alt="${c.person}">` : initials(c.person)}</div>
           <div>
             <div class="co-person__name">${c.person}</div>
             <div class="co-person__role">${c.role} · ${c.loc}</div>

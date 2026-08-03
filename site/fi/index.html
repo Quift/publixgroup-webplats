@@ -638,23 +638,23 @@
 const COMPANIES = [
   { id:"tidvis", name:"Tidvis", cat:"Sosiaalihuolto", tone:"brand",
     logo:"../Design-system/assets/portfolio/tidvis.jpg",
-    person:"Adam Hjort", role:"Toimitusjohtaja", loc:"Stockholm, Ruotsi", url:"tidvis.se",
+    person:"Adam Hjort", photo:"../img/team-adam-hjort.jpg", role:"Toimitusjohtaja", loc:"Stockholm, Ruotsi", url:"tidvis.se",
     desc:"Johtava ohjelmistoalusta Ruotsin henkilökohtaisen avun sektorille – työvuorosuunnittelu, raportointi, viestintä ja palkanlaskenta yhdessä turvallisessa järjestelmässä." },
   { id:"digiplant", name:"digiPlant", cat:"Yhdistykset / Säätiöt", tone:"info",
     logo:"../Design-system/assets/portfolio/digiplant.png",
-    person:"Alexander Törnqvist", role:"Toimitusjohtaja", loc:"Örebro, Ruotsi", url:"digiplant.se",
+    person:"Alexander Törnqvist", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/68a824549776727eae163a3b_Alexander%20T%C3%B6rnqvist.jpg", role:"Toimitusjohtaja", loc:"Örebro, Ruotsi", url:"digiplant.se",
     desc:"SBS Manager — täydellinen hakemusten hallintajärjestelmä säätiöiden, rahastojen ja apurahoittajien avustuksille ja stipendeille." },
   { id:"aspicore", name:"Aspicore", cat:"Yhdistykset / Säätiöt", tone:"info",
     logo:"../Design-system/assets/portfolio/aspicore.png",
-    person:"Harri Tanner", role:"Toimitusjohtaja", loc:"Espoo, Suomi", url:"aspicore.com",
+    person:"Harri Tanner", photo:"../img/team-harri-tanner.jpg", role:"Toimitusjohtaja", loc:"Espoo, Suomi", url:"aspicore.com",
     desc:"Apuraha4 automatisoi koko apurahaprosessin – hakemukset, päätökset, maksut, raportoinnin – säästäen aikaa ja parantaen läpinäkyvyyttä." },
   { id:"koivu", name:"Koivu Solutions", cat:"Terveydenhuolto", tone:"success",
     logo:"../Design-system/assets/portfolio/sotender.png",
-    person:"Janne Salmi", role:"Toimitusjohtaja", loc:"Pori, Suomi", url:"sotender.io",
+    person:"Janne Salmi", photo:"https://cdn.prod.website-files.com/68666b316c0fb876841551a6/6941c03c0c754c83e50335a3_Janne%20Salmi.png", role:"Toimitusjohtaja", loc:"Pori, Suomi", url:"sotender.io",
     desc:"Sotender — helppokäyttöinen mobiilisovellus, joka yhdistää terveydenhuollon työntekijät avoimiin vuoroihin, tuoden mitattavia vaikutuksia palveluntarjoajille ja henkilöstölle." },
   { id:"embrace", name:"Embrace Safety", cat:"Kunnat", tone:"warning",
     logo:"../Design-system/assets/portfolio/embrace.png",
-    person:"Johan Rydberg", role:"Toimitusjohtaja ja myyntijohtaja", loc:"Örebro, Ruotsi", url:"embrace-safety.se",
+    person:"Johan Rydberg", photo:"../img/team-johan-rydberg.jpg", role:"Toimitusjohtaja ja myyntijohtaja", loc:"Örebro, Ruotsi", url:"embrace-safety.se",
     desc:"EMBRACE — tehokas ja helppokäyttöinen alusta kunnille ja poliisille päivittäiseen rikosten torjuntaan ja turvallisuustyöhön." },
 ];
 let coIdx = 0;
@@ -671,7 +671,7 @@ function renderCo() {
       <p class="co-card__desc">${c.desc}</p>
       <div class="co-card__foot">
         <div class="co-person">
-          <div class="co-avatar">${initials(c.person)}</div>
+          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" alt="${c.person}">` : initials(c.person)}</div>
           <div>
             <div class="co-person__name">${c.person}</div>
             <div class="co-person__role">${c.role} · ${c.loc}</div>
