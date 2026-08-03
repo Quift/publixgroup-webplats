@@ -52,6 +52,8 @@
 .pc-card { background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);
   padding: 28px 24px; text-align: center; transition: transform var(--dur-base), box-shadow var(--dur-base); }
 .pc-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.pc-card__logo { height: 48px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; }
+.pc-card__logo img { max-height: 48px; max-width: 100%; width: auto; object-fit: contain; }
 .pc-card h4 { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-body);
   color: var(--text-strong); margin: 0 0 6px; }
 .pc-card p { font-size: var(--fs-caption); color: var(--text-muted); margin: 0 0 16px; }
