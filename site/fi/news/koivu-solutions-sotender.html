@@ -24,6 +24,15 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/news/koivu-solutions-sotender.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/news/koivu-solutions-sotender.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/news/koivu-solutions-sotender.html">
+
+<!-- ======================== COOKIE BANNER ======================== -->
+<div class="cookie-banner hidden" id="cookie-banner">
+  <p class="cookie-banner__text">Käytämme evästeitä parantaaksemme käyttökokemustasi. <a href="../cookie-policy.html">Lue evästekäytäntömme</a></p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Hyväksy</button>
+    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Hylkää</button>
+  </div>
+</div>
 <script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -133,5 +142,19 @@ window.addEventListener('scroll', () => {
 revealFadeIns(true);
 </script>
 <script src="js/forms.js"></script>
+<script>
+// Cookie banner
+function acceptCookies() {
+  localStorage.setItem('publix_cookie_consent', 'accepted');
+  document.getElementById('cookie-banner').classList.add('hidden');
+}
+function declineCookies() {
+  localStorage.setItem('publix_cookie_consent', 'declined');
+  document.getElementById('cookie-banner').classList.add('hidden');
+}
+if (!localStorage.getItem('publix_cookie_consent')) {
+  document.getElementById('cookie-banner').classList.remove('hidden');
+}
+</script>
 </body>
 </html>
