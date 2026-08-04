@@ -323,8 +323,6 @@
       <span>Kungsgatan 37, 8. sal</span>
       <span>111 56 Stockholm</span>
       <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
-      <a href="https://publixgroup.io/legal/privacy-policy" target="_blank">Privatlivspolitik</a>
-      <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Cookiepolitik</a>
     </div>
     <div class="footer__col">
       <h4>Hold dig opdateret</h4>
@@ -342,15 +340,6 @@
 </footer>
 
 <!-- ======================== JAVASCRIPT ======================== -->
-<!-- ======================== COOKIE BANNER ======================== -->
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Vi bruger cookies til at forbedre din oplevelse. <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Læs vores cookiepolitik</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Accepter</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Afvis</button>
-  </div>
-</div>
-
 <script>
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
@@ -363,18 +352,6 @@ document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
 
-// Cookie banner
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 // In-place bio overlay on team photos
 document.querySelectorAll('.team__member[data-bio]').forEach(member => {
   // Inject overlay element into the photo

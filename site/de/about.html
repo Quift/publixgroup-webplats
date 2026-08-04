@@ -238,8 +238,6 @@
       <span>Kungsgatan 37, 8tr</span>
       <span>111 56 Stockholm</span>
       <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
-      <a href="https://publixgroup.io/legal/privacy-policy" target="_blank">Datenschutzrichtlinie</a>
-      <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Cookie-Richtlinie</a>
     </div>
     <div class="footer__col">
       <h4>Bleiben Sie informiert</h4>
@@ -257,15 +255,6 @@
 </footer>
 
 <!-- ======================== JAVASCRIPT ======================== -->
-<!-- ======================== COOKIE BANNER ======================== -->
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Lesen Sie unsere Cookie-Richtlinie</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Akzeptieren</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Ablehnen</button>
-  </div>
-</div>
-
 <script>
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
@@ -279,18 +268,6 @@ document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
 
-// Cookie banner
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 <script src="../js/lang.js"></script>
 <script src="js/forms.js"></script>

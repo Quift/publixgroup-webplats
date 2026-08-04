@@ -47,7 +47,7 @@
       <a href="contact.html">Contact</a>
     </nav>
         <div class="nav__actions">
-      <a class="btn btn--accent btn--sm" href="#review">Discover your growth potential <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--accent btn--sm" href="index.html#review">Discover your growth potential <i class="ph ph-arrow-right"></i></a>
     <div class="lang-dropdown">
         <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
           🇬🇧 EN <i class="ph ph-caret-down"></i>
@@ -241,8 +241,6 @@
       <span>Kungsgatan 37, 8tr</span>
       <span>111 56 Stockholm</span>
       <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
-      <a href="https://publixgroup.io/legal/privacy-policy" target="_blank">Privacy policy</a>
-      <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Cookie policy</a>
     </div>
     <div class="footer__col">
       <h4>Stay updated</h4>
@@ -260,15 +258,6 @@
 </footer>
 
 <!-- ======================== JAVASCRIPT ======================== -->
-<!-- ======================== COOKIE BANNER ======================== -->
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">We use cookies to improve your experience. <a href="https://publixgroup.io/legal/cookie-policy" target="_blank">Read our cookie policy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Accept</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Decline</button>
-  </div>
-</div>
-
 <script>
 // Scroll effects
 window.addEventListener('scroll', () => {
@@ -300,18 +289,6 @@ document.querySelectorAll('.news-filter').forEach(btn => {
   });
 });
 
-// Cookie banner
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 <script src="js/lang.js"></script>
 <script src="js/forms.js"></script>
