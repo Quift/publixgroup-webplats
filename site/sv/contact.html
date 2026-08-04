@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/contact.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/contact.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/contact.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Hoppa till innehåll</a>
@@ -226,10 +226,6 @@ document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
 
-// Cookie banner — hide if already dismissed
-if (localStorage.getItem('px_cookies')) {
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
 </script>
 <script src="../js/lang.js"></script>
 <script src="js/forms.js"></script>

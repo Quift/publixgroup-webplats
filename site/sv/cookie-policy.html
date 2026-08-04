@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cookiepolicy — PubliX Group</title>
-<meta name="description" content="Så använder PubliX Group cookies på publixgroup.io: endast funktionella cookies, cookielös analys via Plausible.">
+<meta name="description" content="Så använder PubliX Group cookies på publixgroup.io: funktionella cookies plus Google Analytics 4 med opt-in.">
 <meta property="og:title" content="Cookiepolicy — PubliX Group">
-<meta property="og:description" content="Så använder PubliX Group cookies på publixgroup.io: endast funktionella cookies, cookielös analys via Plausible.">
+<meta property="og:description" content="Så använder PubliX Group cookies på publixgroup.io: funktionella cookies plus Google Analytics 4 med opt-in.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://publixgroup.io/sv/cookie-policy.html">
 <meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/cookie-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/cookie-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/cookie-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Hoppa till innehåll</a>
@@ -88,14 +88,20 @@
 <li><strong>nf_lang</strong> — Kommer ihåg det språk du valt via språkväxlaren. Sätts endast när du aktivt byter språk. Livstid: session.</li>
 <li><strong>Netlify sessionscookies</strong> — Sätts av vår formulärleverantör (Netlify) när du skickar kontaktformuläret eller prenumererar på nyhetsbrevet, för spam-skydd (Akismet).</li>
 </ul>
-<h3>Analys</h3>
-<p>Vi använder <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analytics</a> för anonym, aggregerad besöksstatistik. Plausible <strong>använder inga cookies</strong> och samlar inte in eller behandlar några personuppgifter. Det är fullt GDPR-, CCPA- och PECR-kompatibelt utan krav på samtycke.</p>
+<h3>Analys — endast med samtycke</h3>
+<p>Vi använder <strong>Google Analytics 4 (GA4)</strong> för att förstå hur besökare använder publixgroup.io. GA4 sätter cookies som lagrar en pseudonym identifierare i upp till 2 år:</p>
+<ul>
+<li><strong>_ga</strong> — Google Analytics klient-ID. Livstid: 2 år.</li>
+<li><strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 sessionsstatus. Livstid: 2 år.</li>
+</ul>
+<p><strong>Dessa cookies laddas endast efter att du klickat "Acceptera" i vår cookie-banner.</strong> Om du avböjer (eller ignorerar bannern) sätts inga analys-cookies och ingen analysdata samlas in. GA4 loggar eller lagrar inte fullständiga IP-adresser; Google använder IP-adressen enbart kortvarigt för att härleda grov geolokalisering och kastar den sedan.</p>
+<p>Google Analytics tillhandahålls av Google Ireland Limited. Data kan behandlas av Google LLC (USA) enligt <a href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en" target="_blank" rel="noopener">EU-US Data Privacy Framework</a>. Se <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles integritetspolicy</a>.</p>
 <h3>Marknadsföring / spårning</h3>
-<p>Vi använder <strong>inga</strong> cookies för marknadsföring, annonsering eller korssidespårning. Inga tredjepartsspårare (Google Analytics, Meta Pixel, LinkedIn Insight, etc.) körs på denna webbplats.</p>
+<p>Vi använder <strong>inga</strong> cookies för marknadsföring, annonsering eller korssidespårning. Inga tredjeparts marknadsföringsspårare (Meta Pixel, LinkedIn Insight, etc.) körs på denna webbplats.</p>
       </section>
       <section class="legal__section fade-in">
-        <h2>Hantera cookies</h2>
-        <p>Du kan acceptera eller avvisa icke-nödvändiga cookies via bannern längst ner på sidan. Du kan också radera cookies från din webbläsare när som helst via webbläsarens inställningar.</p>
+        <h2>Hantera ditt samtycke</h2>
+        <p>Du kan acceptera eller avvisa analys-cookies via bannern längst ner på sidan. Du kan ändra dig när som helst — <a href="#" onclick="resetCookieChoice(); return false;">återställ ditt cookie-val</a> för att visa bannern igen. Du kan också radera cookies från din webbläsare när som helst via webbläsarens inställningar.</p>
       </section>
       <section class="legal__section fade-in">
         <h2>Ändringar av denna policy</h2>
@@ -149,14 +155,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Vi använder cookies för att förbättra din upplevelse. <a href="cookie-policy.html">Läs vår cookiepolicy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Acceptera</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Avböj</button>
-  </div>
-</div>
-
 <script src="../js/lang.js"></script>
 <script src="../js/forms.js"></script>
 <script>
@@ -169,17 +167,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

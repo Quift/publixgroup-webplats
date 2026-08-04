@@ -35,15 +35,7 @@
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/team.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/team.html">
 
-<!-- ======================== COOKIE BANNER ======================== -->
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Vi bruker informasjonskapsler for å forbedre din opplevelse. <a href="cookie-policy.html">Les vår informasjonskapselpolicy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Godta</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Avslå</button>
-  </div>
-</div>
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Hopp til innhold</a>
@@ -394,18 +386,6 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Cookie banner
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 <script src="../js/lang.js"></script>
 <script src="js/forms.js"></script>

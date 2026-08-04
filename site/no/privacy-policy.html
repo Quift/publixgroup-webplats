@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/privacy-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/privacy-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/privacy-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Hopp til innhold</a>
@@ -87,8 +87,8 @@
 <p>Når du sender kontaktskjemaet, samler vi inn: navn, e-post, selskap, melding. Oppgitt direkte av deg.</p>
 <h3>Nyhetsbrev</h3>
 <p>Når du abonnerer, samler vi inn: e-postadresse. Oppgitt direkte av deg.</p>
-<h3>Analyse</h3>
-<p>Vi bruker <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analytics</a>, som kun samler inn aggregert, anonym statistikk (sidevisninger, henvisende nettsted, land, enhetstype). Ingen kapsler. Ingen personlige identifikatorer. Ingen sporing på tvers av nettsteder.</p>
+<h3>Analyse — kun med samtykke</h3>
+<p>Vi bruker <strong>Google Analytics 4</strong> for aggregert brukerstatistikk (sidevisninger, henvisende nettsteder, land, enhetstype). GA4 bruker informasjonskapsler (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>) som kun settes etter at du har samtykket via vårt cookie-banner. Hvis du avslår, settes ingen analyse-kapsler og ingen analysedata samles inn. GA4 logger eller lagrer ikke fulle IP-adresser; Google bruker IP-adressen kun kortvarig for å utlede grov geolokalisering og forkaster den deretter.</p>
 <h3>Serverlogger</h3>
 <p>Vår vertsleverandør Netlify registrerer standard HTTP-tilgangslogger (IP-adresse, tidsstempel, forespurt URL, user agent) av sikkerhets- og misbruksforebyggingshensyn. Oppbevares iht. Netlifys datapolicy.</p>
       </section>
@@ -106,7 +106,7 @@
 <li>Kontakthenvendelser: opptil 24 måneder fra siste interaksjon</li>
 <li>Nyhetsbrevabonnement: til du avslutter</li>
 <li>Serverlogger: iht. Netlifys retensjon (vanligvis 30 dager)</li>
-<li>Analyse: aggregert, ingen brukerspesifikk oppbevaring</li>
+<li>Analyse: kun hvis du samtykker. GA4-kapsler utløper etter 2 år; aggregerte data lagres iht. Google Analytics' standardverdier.</li>
 </ul>
       </section>
       <section class="legal__section fade-in">
@@ -114,7 +114,7 @@
         <p>Vi bruker følgende databehandlere, alle bundet av GDPR-databehandleravtaler:</p>
 <ul>
 <li><strong>Netlify, Inc.</strong> — nettstedshosting og skjemabehandling (USA; EU-US Data Privacy Framework)</li>
-<li><strong>Plausible Insights OÜ</strong> — anonym analyse (Estland, EU)</li>
+<li><strong>Google Ireland Limited</strong> — analyse (Irland, EU). Underdatabehandler: <strong>Google LLC</strong> (USA, under EU-US Data Privacy Framework). Kun når du samtykker via vårt cookie-banner.</li>
 </ul>
 <p>Vi <strong>selger ikke</strong> dataene dine eller deler dem med annonsører eller markedsføringsplattformer.</p>
       </section>
@@ -181,14 +181,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Vi bruker informasjonskapsler for å forbedre din opplevelse. <a href="cookie-policy.html">Les vår informasjonskapselpolicy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Godta</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Avslå</button>
-  </div>
-</div>
-
 <script src="../js/lang.js"></script>
 <script src="../js/forms.js"></script>
 <script>
@@ -201,17 +193,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

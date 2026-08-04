@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Evästekäytäntö — PubliX Group</title>
-<meta name="description" content="Näin PubliX Group käyttää evästeitä publixgroup.io-sivustolla: vain toiminnalliset evästeet, evästeetön analytiikka Plausible-palvelun kautta.">
+<meta name="description" content="Näin PubliX Group käyttää evästeitä publixgroup.io-sivustolla: toiminnalliset evästeet sekä opt-in Google Analytics 4.">
 <meta property="og:title" content="Evästekäytäntö — PubliX Group">
-<meta property="og:description" content="Näin PubliX Group käyttää evästeitä publixgroup.io-sivustolla: vain toiminnalliset evästeet, evästeetön analytiikka Plausible-palvelun kautta.">
+<meta property="og:description" content="Näin PubliX Group käyttää evästeitä publixgroup.io-sivustolla: toiminnalliset evästeet sekä opt-in Google Analytics 4.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://publixgroup.io/fi/cookie-policy.html">
 <meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/cookie-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/cookie-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/cookie-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Siirry sisältöön</a>
@@ -88,14 +88,20 @@
 <li><strong>nf_lang</strong> — Muistaa kielivalinnan, jonka olet tehnyt kielenvaihtimen kautta. Asetetaan vain, kun aktiivisesti vaihdat kieltä. Kesto: istunto.</li>
 <li><strong>Netlify-istuntoevästeet</strong> — Lomakepalvelumme (Netlify) asettaa lähettäessäsi yhteydenottolomakkeen tai tilatessasi uutiskirjeen roskapostisuojaukseen (Akismet).</li>
 </ul>
-<h3>Analytiikka</h3>
-<p>Käytämme <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analyticsia</a> anonyymiin, aggregoituun käyttötilastointiin. Plausible <strong>ei käytä evästeitä</strong> eikä kerää tai käsittele henkilötietoja. Se on täysin GDPR-, CCPA- ja PECR-yhteensopiva ilman suostumusvaatimusta.</p>
+<h3>Analytiikka — vain suostumuksella</h3>
+<p>Käytämme <strong>Google Analytics 4:ää (GA4)</strong> ymmärtääksemme, kuinka kävijät käyttävät publixgroup.io-sivustoa. GA4 asettaa evästeet, jotka tallentavat pseudonyymin tunnisteen enintään 2 vuoden ajaksi:</p>
+<ul>
+<li><strong>_ga</strong> — Google Analytics -asiakastunniste. Kesto: 2 vuotta.</li>
+<li><strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 -istunnon tila. Kesto: 2 vuotta.</li>
+</ul>
+<p><strong>Nämä evästeet ladataan vasta, kun olet napsauttanut "Hyväksy" cookie-bannerissamme.</strong> Jos kieltäydyt (tai ohitat bannerin), analytiikkaevästeitä ei aseteta eikä analytiikkatietoja kerätä. GA4 ei kirjaa tai tallenna täydellisiä IP-osoitteita; Google käyttää IP-osoitetta vain hetkellisesti karkean sijaintitiedon johtamiseen ja hylkää sen sen jälkeen.</p>
+<p>Google Analyticsin tarjoaa Google Ireland Limited. Tietoja voi käsitellä Google LLC (Yhdysvallat) <a href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en" target="_blank" rel="noopener">EU-US Data Privacy Frameworkin</a> alla. Katso <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googlen tietosuojakäytäntö</a>.</p>
 <h3>Markkinointi / seuranta</h3>
-<p><strong>Emme</strong> käytä markkinointi-, mainos- tai sivustojen väliseen seurantaan liittyviä evästeitä. Sivustolla ei ole kolmannen osapuolen seurantaa (Google Analytics, Meta Pixel, LinkedIn Insight jne.).</p>
+<p><strong>Emme</strong> käytä markkinointi-, mainos- tai sivustojen väliseen seurantaan liittyviä evästeitä. Sivustolla ei ole kolmannen osapuolen markkinointiseurantaa (Meta Pixel, LinkedIn Insight jne.).</p>
       </section>
       <section class="legal__section fade-in">
-        <h2>Evästeiden hallinta</h2>
-        <p>Voit hyväksyä tai hylätä ei-välttämättömät evästeet sivun alalaidassa olevan bannerin kautta. Voit myös poistaa evästeet selaimestasi milloin tahansa selaimen asetuksista.</p>
+        <h2>Suostumuksesi hallinta</h2>
+        <p>Voit hyväksyä tai hylätä analytiikkaevästeet sivun alalaidassa olevan bannerin kautta. Voit muuttaa mieltäsi milloin tahansa — <a href="#" onclick="resetCookieChoice(); return false;">nollaa evästevalintasi</a> näyttääksesi bannerin uudelleen. Voit myös poistaa evästeet selaimestasi milloin tahansa selaimen asetuksista.</p>
       </section>
       <section class="legal__section fade-in">
         <h2>Muutokset tähän käytäntöön</h2>
@@ -149,14 +155,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Käytämme evästeitä parantaaksemme käyttökokemustasi. <a href="cookie-policy.html">Lue evästekäytäntömme</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Hyväksy</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Hylkää</button>
-  </div>
-</div>
-
 <script src="../js/lang.js"></script>
 <script src="../js/forms.js"></script>
 <script>
@@ -169,17 +167,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

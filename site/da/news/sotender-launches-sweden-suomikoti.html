@@ -35,14 +35,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-<!-- ======================== COOKIE BANNER ======================== -->
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Vi bruger cookies for at forbedre din oplevelse. <a href="../cookie-policy.html">Læs vores cookiepolitik</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Acceptér</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Afvis</button>
-  </div>
-</div>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -60,7 +52,7 @@
   "inLanguage": "da"
 }
 </script>
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Spring til indhold</a>
@@ -167,18 +159,6 @@ revealFadeIns(true);
 </script>
 <script src="../../js/forms.js"></script>
 <script>
-// Cookie banner
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

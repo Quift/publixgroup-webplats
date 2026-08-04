@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/privacy-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/privacy-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/privacy-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Zum Inhalt springen</a>
@@ -87,8 +87,8 @@
 <p>Wenn Sie das Kontaktformular absenden, erheben wir: Name, E-Mail, Unternehmen, Nachricht. Direkt von Ihnen angegeben.</p>
 <h3>Newsletter</h3>
 <p>Wenn Sie sich anmelden, erheben wir: E-Mail-Adresse. Direkt von Ihnen angegeben.</p>
-<h3>Analyse</h3>
-<p>Wir verwenden <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analytics</a>, das nur aggregierte, anonyme Statistiken erhebt (Seitenaufrufe, verweisende Website, Land, Gerätetyp). Keine Cookies. Keine personenbezogenen Identifikatoren. Kein seitenübergreifendes Tracking.</p>
+<h3>Analyse — nur mit Einwilligung</h3>
+<p>Wir verwenden <strong>Google Analytics 4</strong> für aggregierte Nutzungsstatistiken (Seitenaufrufe, verweisende Websites, Land, Gerätetyp). GA4 verwendet Cookies (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>), die nur gesetzt werden, nachdem Sie über unser Cookie-Banner eingewilligt haben. Wenn Sie ablehnen, werden keine Analyse-Cookies gesetzt und keine Analysedaten erhoben. GA4 protokolliert oder speichert keine vollständigen IP-Adressen; Google verwendet die IP nur kurzzeitig, um eine grobe Geolokalisierung abzuleiten, und verwirft sie anschließend.</p>
 <h3>Serverprotokolle</h3>
 <p>Unser Hosting-Anbieter Netlify erfasst standardmäßige HTTP-Zugriffsprotokolle (IP-Adresse, Zeitstempel, angeforderte URL, User Agent) zur Sicherheit und Missbrauchsprävention. Aufbewahrung gemäß Netlifys Datenrichtlinie.</p>
       </section>
@@ -106,7 +106,7 @@
 <li>Kontaktanfragen: bis zu 24 Monate ab letzter Interaktion</li>
 <li>Newsletter-Abonnements: bis Sie sich abmelden</li>
 <li>Serverprotokolle: gemäß Netlifys Aufbewahrungsfrist (in der Regel 30 Tage)</li>
-<li>Analyse: aggregiert, keine benutzerspezifische Aufbewahrung</li>
+<li>Analyse: nur bei Ihrer Einwilligung. GA4-Cookies laufen nach 2 Jahren ab; aggregierte Daten werden gemäß den Standardwerten von Google Analytics aufbewahrt.</li>
 </ul>
       </section>
       <section class="legal__section fade-in">
@@ -114,7 +114,7 @@
         <p>Wir verwenden die folgenden Auftragsverarbeiter, alle durch DSGVO-Auftragsverarbeitungsverträge gebunden:</p>
 <ul>
 <li><strong>Netlify, Inc.</strong> — Website-Hosting und Formularverarbeitung (USA; EU-US Data Privacy Framework)</li>
-<li><strong>Plausible Insights OÜ</strong> — anonyme Analyse (Estland, EU)</li>
+<li><strong>Google Ireland Limited</strong> — Analyse (Irland, EU). Unterauftragsverarbeiter: <strong>Google LLC</strong> (USA, im Rahmen des EU-US Data Privacy Framework). Nur wenn Sie über unser Cookie-Banner einwilligen.</li>
 </ul>
 <p>Wir <strong>verkaufen</strong> Ihre Daten <strong>nicht</strong> und geben sie nicht an Werbetreibende oder Marketingplattformen weiter.</p>
       </section>
@@ -181,14 +181,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. <a href="cookie-policy.html">Lesen Sie unsere Cookie-Richtlinie</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Akzeptieren</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Ablehnen</button>
-  </div>
-</div>
-
 <script src="../js/lang.js"></script>
 <script src="../js/forms.js"></script>
 <script>
@@ -201,17 +193,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

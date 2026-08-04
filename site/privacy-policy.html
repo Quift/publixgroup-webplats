@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/privacy-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/privacy-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/privacy-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Skip to content</a>
@@ -87,8 +87,8 @@
 <p>When you submit the contact form we collect: name, email, company, message. Provided directly by you.</p>
 <h3>Newsletter</h3>
 <p>When you subscribe we collect: email address. Provided directly by you.</p>
-<h3>Analytics</h3>
-<p>We use <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analytics</a>, which collects only aggregated, anonymous statistics (page views, referring site, country, device type). No cookies. No personal identifiers. No cross-site tracking.</p>
+<h3>Analytics — opt-in only</h3>
+<p>We use <strong>Google Analytics 4</strong> for aggregated site-usage statistics (page views, referrers, country, device type). GA4 uses cookies (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>) that are set only after you consent via our cookie banner. If you decline, no analytics cookies are set and no analytics data is collected. GA4 does not log or store full IP addresses; Google uses the IP only transiently to derive coarse geolocation and then discards it.</p>
 <h3>Server logs</h3>
 <p>Our hosting provider Netlify records standard HTTP access logs (IP address, timestamp, requested URL, user agent) for security and abuse prevention. Retained per Netlify's data policy.</p>
       </section>
@@ -106,7 +106,7 @@
 <li>Contact enquiries: up to 24 months from last interaction</li>
 <li>Newsletter subscriptions: until you unsubscribe</li>
 <li>Server logs: per Netlify's retention (typically 30 days)</li>
-<li>Analytics: aggregated, no per-user retention</li>
+<li>Analytics: only if you consent. GA4 cookies expire after 2 years; aggregated data retained per Google Analytics defaults.</li>
 </ul>
       </section>
       <section class="legal__section fade-in">
@@ -114,7 +114,7 @@
         <p>We use the following processors, each bound by GDPR data processing agreements:</p>
 <ul>
 <li><strong>Netlify, Inc.</strong> — website hosting and form submissions (US-based; EU-US Data Privacy Framework)</li>
-<li><strong>Plausible Insights OÜ</strong> — anonymous analytics (Estonia, EU)</li>
+<li><strong>Google Ireland Limited</strong> — analytics (Ireland, EU). Sub-processor: <strong>Google LLC</strong> (United States, under the EU-US Data Privacy Framework). Only when you consent via our cookie banner.</li>
 </ul>
 <p>We do <strong>not</strong> sell your data or share it with advertisers or marketing platforms.</p>
       </section>
@@ -181,14 +181,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">We use cookies to improve your experience. <a href="cookie-policy.html">Read our cookie policy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Accept</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Decline</button>
-  </div>
-</div>
-
 <script src="js/lang.js"></script>
 <script src="js/forms.js"></script>
 <script>
@@ -201,17 +193,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/privacy-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/privacy-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/privacy-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="../js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Siirry sisältöön</a>
@@ -87,8 +87,8 @@
 <p>Kun lähetät yhteydenottolomakkeen, keräämme: nimen, sähköpostiosoitteen, yrityksen ja viestin. Antamasi tiedot.</p>
 <h3>Uutiskirje</h3>
 <p>Kun tilaat uutiskirjeen, keräämme: sähköpostiosoitteen. Antamasi tieto.</p>
-<h3>Analytiikka</h3>
-<p>Käytämme <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analyticsia</a>, joka kerää vain aggregoituja, anonyymejä tilastoja (sivukatselut, viittaava sivusto, maa, laitetyyppi). Ei evästeitä. Ei henkilökohtaisia tunnisteita. Ei sivustojenvälistä seurantaa.</p>
+<h3>Analytiikka — vain suostumuksella</h3>
+<p>Käytämme <strong>Google Analytics 4:ää</strong> aggregoituun käyttötilastointiin (sivukatselut, viittaavat sivustot, maa, laitetyyppi). GA4 käyttää evästeitä (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>), jotka asetetaan vain, kun olet antanut suostumuksesi cookie-bannerimme kautta. Jos kieltäydyt, analytiikkaevästeitä ei aseteta eikä analytiikkatietoja kerätä. GA4 ei kirjaa tai tallenna täydellisiä IP-osoitteita; Google käyttää IP-osoitetta vain hetkellisesti karkean sijaintitiedon johtamiseen ja hylkää sen sen jälkeen.</p>
 <h3>Palvelinlokit</h3>
 <p>Isännöintipalvelumme Netlify tallentaa vakiomuotoisia HTTP-käyttölokeja (IP-osoite, aikaleima, pyydetty URL, käyttäjäagentti) turvallisuus- ja väärinkäytön estämistä varten. Säilytetään Netlifyn tietosuojakäytännön mukaisesti.</p>
       </section>
@@ -106,7 +106,7 @@
 <li>Yhteydenotot: enintään 24 kuukautta viimeisestä vuorovaikutuksesta</li>
 <li>Uutiskirjeen tilaukset: kunnes peruutat</li>
 <li>Palvelinlokit: Netlifyn säilytysajan mukaisesti (yleensä 30 päivää)</li>
-<li>Analytiikka: aggregoitu, ei käyttäjäkohtaista säilytystä</li>
+<li>Analytiikka: vain jos annat suostumuksen. GA4-evästeet vanhentuvat 2 vuoden kuluttua; aggregoituja tietoja säilytetään Google Analyticsin oletusarvojen mukaisesti.</li>
 </ul>
       </section>
       <section class="legal__section fade-in">
@@ -114,7 +114,7 @@
         <p>Käytämme seuraavia käsittelijöitä, jotka kaikki ovat sitoutuneet GDPR:n mukaisiin tietojenkäsittelysopimuksiin:</p>
 <ul>
 <li><strong>Netlify, Inc.</strong> — verkkosivujen isännöinti ja lomakkeiden käsittely (USA; EU-US Data Privacy Framework)</li>
-<li><strong>Plausible Insights OÜ</strong> — anonyymi analytiikka (Viro, EU)</li>
+<li><strong>Google Ireland Limited</strong> — analytiikka (Irlanti, EU). Alikäsittelijä: <strong>Google LLC</strong> (Yhdysvallat, EU-US Data Privacy Frameworkin alla). Vain kun annat suostumuksen cookie-bannerimme kautta.</li>
 </ul>
 <p><strong>Emme myy</strong> tietojasi tai jaa niitä mainostajille tai markkinointialustoille.</p>
       </section>
@@ -181,14 +181,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">Käytämme evästeitä parantaaksemme käyttökokemustasi. <a href="cookie-policy.html">Lue evästekäytäntömme</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Hyväksy</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Hylkää</button>
-  </div>
-</div>
-
 <script src="../js/lang.js"></script>
 <script src="../js/forms.js"></script>
 <script>
@@ -201,17 +193,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>

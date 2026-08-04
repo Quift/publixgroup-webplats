@@ -42,3 +42,4 @@ Uppdatera denna fil **varje gång** title, description, H1 eller primärt budska
 |-------|------|---------|-----|
 | 2026-07-09 | — | Register skapat | PE |
 | 2026-07-09 | site/ | robots.txt, sitemap.xml (84 URL), llms.txt tillagt | PE |
+| 2026-08-04 | all-lang | Analytics-plattform swap: Plausible → Google Analytics 4 (G-F39X0LXQTH) med samtyckesgate. `cookie-policy.html` + `privacy-policy.html` (6 språk) uppdaterade — GA4-cookies (`_ga`, `_ga_F39X0LXQTH`), Google Ireland Ltd + Google LLC (EU-US DPF) som sub-processor. Ny `js/consent.js` äger bannern och GA-loadern; Plausible-taggen borttagen från alla 102 sidor. Meta description på legal-sidor uppdaterad. | Noak |

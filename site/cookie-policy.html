@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cookie policy — PubliX Group</title>
-<meta name="description" content="How PubliX Group uses cookies on publixgroup.io: functional cookies only, cookieless analytics via Plausible.">
+<meta name="description" content="How PubliX Group uses cookies on publixgroup.io: functional cookies plus opt-in Google Analytics 4.">
 <meta property="og:title" content="Cookie policy — PubliX Group">
-<meta property="og:description" content="How PubliX Group uses cookies on publixgroup.io: functional cookies only, cookieless analytics via Plausible.">
+<meta property="og:description" content="How PubliX Group uses cookies on publixgroup.io: functional cookies plus opt-in Google Analytics 4.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://publixgroup.io/cookie-policy.html">
 <meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
@@ -31,7 +31,7 @@
 <link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/cookie-policy.html">
 <link rel="alternate" hreflang="de" href="https://publixgroup.io/de/cookie-policy.html">
 <link rel="alternate" hreflang="x-default" href="https://publixgroup.io/cookie-policy.html">
-<script defer data-domain="publixgroup.io" src="https://plausible.io/js/script.js"></script>
+<script src="js/consent.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Skip to content</a>
@@ -88,14 +88,20 @@
 <li><strong>nf_lang</strong> — Remembers the language you have chosen via the language switcher. Set only when you actively switch language. Lifetime: session.</li>
 <li><strong>Netlify session cookies</strong> — Set by our forms provider (Netlify) when you submit the contact form or subscribe to the newsletter, for spam prevention (Akismet).</li>
 </ul>
-<h3>Analytics</h3>
-<p>We use <a href="https://plausible.io/data-policy" target="_blank" rel="noopener">Plausible Analytics</a> for anonymous, aggregated site usage statistics. Plausible <strong>does not use cookies</strong> and does not collect or process any personal data. It is fully GDPR, CCPA and PECR compliant without requiring consent.</p>
+<h3>Analytics — opt-in only</h3>
+<p>We use <strong>Google Analytics 4 (GA4)</strong> to understand how visitors use publixgroup.io. GA4 sets cookies that store a pseudonymous identifier for up to 2 years:</p>
+<ul>
+<li><strong>_ga</strong> — Google Analytics client identifier. Lifetime: 2 years.</li>
+<li><strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 session state. Lifetime: 2 years.</li>
+</ul>
+<p><strong>These cookies load only after you click "Accept" in our cookie banner.</strong> If you decline (or ignore the banner), no analytics cookies are set and no analytics data is collected. GA4 does not log or store full IP addresses; Google uses the IP only transiently to derive coarse geolocation and then discards it.</p>
+<p>Google Analytics is provided by Google Ireland Limited. Data may be processed by Google LLC (United States) under the <a href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en" target="_blank" rel="noopener">EU-US Data Privacy Framework</a>. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
 <h3>Marketing / tracking</h3>
-<p>We do <strong>not</strong> use marketing, advertising or cross-site tracking cookies. No third-party trackers (Google Analytics, Meta Pixel, LinkedIn Insight, etc.) run on this site.</p>
+<p>We do <strong>not</strong> use marketing, advertising or cross-site tracking cookies. No third-party marketing trackers (Meta Pixel, LinkedIn Insight, etc.) run on this site.</p>
       </section>
       <section class="legal__section fade-in">
-        <h2>Managing cookies</h2>
-        <p>You can accept or decline non-essential cookies via the banner at the bottom of the page. You can also delete cookies from your browser at any time via your browser settings.</p>
+        <h2>Managing your consent</h2>
+        <p>You can accept or decline analytics cookies via the banner at the bottom of the page. You can change your mind at any time — <a href="#" onclick="resetCookieChoice(); return false;">reset your cookie choice</a> to show the banner again. You can also delete cookies from your browser at any time via your browser settings.</p>
       </section>
       <section class="legal__section fade-in">
         <h2>Changes to this policy</h2>
@@ -149,14 +155,6 @@
   </div>
 </footer>
 
-<div class="cookie-banner hidden" id="cookie-banner">
-  <p class="cookie-banner__text">We use cookies to improve your experience. <a href="cookie-policy.html">Read our cookie policy</a></p>
-  <div class="cookie-banner__actions">
-    <button class="btn btn--on-navy btn--sm" onclick="acceptCookies()">Accept</button>
-    <button class="btn btn--on-navy-outline btn--sm" onclick="declineCookies()">Decline</button>
-  </div>
-</div>
-
 <script src="js/lang.js"></script>
 <script src="js/forms.js"></script>
 <script>
@@ -169,17 +167,6 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.fade-in').forEach(el => {
   if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
 });
-function acceptCookies() {
-  localStorage.setItem('publix_cookie_consent', 'accepted');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-function declineCookies() {
-  localStorage.setItem('publix_cookie_consent', 'declined');
-  document.getElementById('cookie-banner').classList.add('hidden');
-}
-if (!localStorage.getItem('publix_cookie_consent')) {
-  document.getElementById('cookie-banner').classList.remove('hidden');
-}
 </script>
 </body>
 </html>
