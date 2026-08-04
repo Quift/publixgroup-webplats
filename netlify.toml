@@ -30,3 +30,23 @@
   to = "/de/"
   status = 302
   conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/legal/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 301
+
+[[redirects]]
+  from = "/legal/privacy-policy/"
+  to = "/privacy-policy.html"
+  status = 301
+
+[[redirects]]
+  from = "/legal/cookie-policy"
+  to = "/cookie-policy.html"
+  status = 301
+
+[[redirects]]
+  from = "/legal/cookie-policy/"
+  to = "/cookie-policy.html"
+  status = 301
