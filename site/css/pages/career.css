@@ -37,9 +37,10 @@
   max-width: 720px; margin: 0 auto; box-shadow: var(--shadow-xl); position: relative; overflow: hidden; }
 .tt-card__pattern { position: absolute; right: -40px; bottom: -20px; height: 80%; opacity: 0.15; pointer-events: none; }
 .tt-card__inner { position: relative; z-index: 1; }
-.tt-card__icon { width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.08);
+.tt-card__icon { width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.12);
   display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;
-  font-size: 30px; color: var(--azure-400); }
+  font-size: 32px; color: #fff; line-height: 1; }
+.tt-card__icon i { display: block; }
 .tt-card h3 { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-h2);
   color: #fff; margin: 0 0 12px; letter-spacing: var(--ls-snug); }
 .tt-card p { font-size: var(--fs-body-lg); color: var(--navy-200); margin: 0 0 32px; line-height: var(--lh-body); }
