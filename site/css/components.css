@@ -3,6 +3,24 @@
    Nav, footer, buttons, team grid, cards â€” used across multiple pages
    ========================================================================= */
 
+/* German compound words need hyphenation/break-word to avoid overflow
+   in narrow containers (team cards, KPI labels, card titles). Scoped to
+   [lang="de"] so other languages keep default wrapping. */
+html[lang="de"] .team__name,
+html[lang="de"] .team__role,
+html[lang="de"] .pf-card__name,
+html[lang="de"] .pf-card__desc,
+html[lang="de"] .pf-card__founder-role,
+html[lang="de"] .news-card__title,
+html[lang="de"] .news-card__excerpt,
+html[lang="de"] .founder-quote__cite-role,
+html[lang="de"] .contact-card__role,
+html[lang="de"] .stats-bar__label {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* ============================ BUTTONS ============================ */
 .btn {
   display: inline-flex; align-items: center; gap: 8px;
