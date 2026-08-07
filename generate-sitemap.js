@@ -12,6 +12,8 @@ function walk(dir, files = []) {
       if (entry.name === "Design-system" || entry.name === "docs") continue;
       walk(full, files);
     } else if (entry.name.endsWith(".html")) {
+      const head = fs.readFileSync(full, "utf8").slice(0, 2000);
+      if (/http-equiv=["']refresh["']/i.test(head)) continue;
       files.push(full);
     }
   }
