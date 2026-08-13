@@ -669,7 +669,7 @@ const COMPANIES = [
     desc:"Eine führende Softwareplattform für den schwedischen Bereich der persönlichen Pflege – Personalplanung, Berichterstattung, Kommunikation und Gehaltsabrechnung in einem sicheren System." },
   { id:"digiplant", name:"digiPlant", cat:"Verbände / NGOs", tone:"info",
     logo:"../Design-system/assets/portfolio/digiplant.png",
-    person:"Alexander Törnqvist", photo:"/img/team-alexander-tornqvist.jpg", role:"Mitgründer & CEO", loc:"Örebro, Schweden", url:"digiplant.se",
+    person:"Alexander Törnqvist", photo:"/img/team-alexander-tornqvist.jpg", role:"Mitgründer & CEO", loc:"Örebro, Schweden", href:"https://www.digiplant.se/sv/", url:"digiplant.se",
     desc:"SBS Manager – ein komplettes Antragsmanagementsystem für Fördermittel und Sponsoring von Stiftungen, Fonds und Fördermittelgebern." },
   { id:"aspicore", name:"Aspicore", cat:"Verbände / NGOs", tone:"info",
     logo:"../Design-system/assets/portfolio/aspicore.png",
@@ -681,7 +681,7 @@ const COMPANIES = [
     desc:"Sotender – eine benutzerfreundliche mobile App, die im Gesundheitswesen Tätige mit offenen Schichten verbindet, mit messbaren Auswirkungen für Anbieter und Personal." },
   { id:"embrace", name:"Embrace Safety", cat:"Kommunen", tone:"warning",
     logo:"../Design-system/assets/portfolio/embrace.png",
-    person:"Johan Rydberg", photo:"../img/team-johan-rydberg.jpg", role:"CEO & Vertriebsleiter", loc:"Örebro, Schweden", url:"embrace-safety.se",
+    person:"Johan Rydberg", photo:"../img/team-johan-rydberg.jpg", role:"CEO & Vertriebsleiter", loc:"Örebro, Schweden", href:"https://www.embrace-safety.se/", url:"embrace-safety.se",
     desc:"EMBRACE – eine leistungsstarke, benutzerfreundliche Plattform für Kommunen und Polizeibehörden in der täglichen Kriminalprävention und Sicherheitsarbeit." },
 ];
 let coIdx = 0;
@@ -704,7 +704,7 @@ function renderCo() {
             <div class="co-person__role">${c.role} · ${c.loc}</div>
           </div>
         </div>
-        <a class="btn btn--secondary btn--sm" href="https://${c.url}" target="_blank">${c.url} <i class="ph ph-arrow-up-right"></i></a>
+        <a class="btn btn--secondary btn--sm" href="${c.href || `https://${c.url}`}" target="_blank">${c.url} <i class="ph ph-arrow-up-right"></i></a>
       </div>
     </div>`;
   document.getElementById('co-dots').innerHTML = COMPANIES.map((co, i) =>
