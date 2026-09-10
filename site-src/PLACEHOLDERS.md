@@ -2,8 +2,8 @@
 
 | Fil | Vad som behövs | Efterfrågat av | Status |
 |-----|----------------|----------------|--------|
-| `site/Design-system/assets/portfolio/bleau.png` | Bleau A/S logga i hög upplösning (vektor/SVG eller stor PNG) | Alexander → Robert & Peter 2026-09-04; PE påminde 2026-09-09 | **Ej levererad** — tillfällig ordbild |
-| `site/img/team-robert-filtenborg.jpg` | Porträtt på Robert G. Filtenborg (VD Bleau) | Samma | **Ej levererad** — neutral silhuett |
+| `site/Design-system/assets/portfolio/bleau.png` | Bleau A/S logga i hög upplösning (vektor/SVG eller PNG ≥800px bred, transparent) | Alexander → Robert & Peter 2026-09-04; PE påminde 2026-09-09; Marcus erbjöd 2026-09-10 att be om den | **Ej levererad** — tillfällig ordbild. Loggan i Marcus mail är signaturbild på 75×71 px, oanvändbar. |
+| ~~`site/img/team-robert-filtenborg.jpg`~~ | Porträtt på Robert G. Filtenborg (VD Bleau) | — | **KLART 2026-09-10** — riktigt porträtt via Marcus (original 4284×5712, beskuret till 800×800) |
 
 Platshållarna är medvetet neutrala men syns på `/companies` och i Bleau-artikeln.
 Byt filerna (samma filnamn, samma proportioner: logga 797×313, porträtt 800×569) och kör

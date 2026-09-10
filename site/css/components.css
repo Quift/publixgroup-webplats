@@ -161,8 +161,11 @@ html[lang="de"] .stats-bar__label {
 
 /* ============================ FOOTER ============================ */
 .footer { background: var(--surface-navy-deep); color: var(--navy-200); }
+/* Fyra kolumner: varumärke + tre länkkolumner (den sista är nyhetsbrevet).
+   Låg tidigare som inline-style i varje mall, vilket slog media queryn nedan —
+   sidfoten kollapsade därför aldrig på mobil och sprängde sidbredden. */
 .footer__inner {
-  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px;
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
   padding: 64px 0 44px;
 }
 .footer__brand img { height: 30px; margin-bottom: 18px; }
