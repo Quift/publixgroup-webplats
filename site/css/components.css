@@ -64,11 +64,13 @@ html[lang="de"] .stats-bar__label {
 }
 .nav__inner {
   max-width: var(--container-max); margin: 0 auto; padding: 14px 32px;
-  display: flex; align-items: center; gap: 28px;
+  display: flex; align-items: center; gap: 24px;
 }
 .nav__logo img { height: 30px; display: block; }
+/* 7 länkar + CTA + språkväljare är trångt: de längsta språken (de, fi) behöver
+   ~1200–1330px. Därför snålare gap här och hamburgare redan under 1200px. */
 .nav__links {
-  display: flex; align-items: center; gap: 26px; margin-left: auto;
+  display: flex; align-items: center; gap: 20px; margin-left: auto;
 }
 .nav__links a {
   font-size: var(--fs-body-sm); font-weight: var(--fw-medium);
@@ -188,7 +190,11 @@ html[lang="de"] .stats-bar__label {
 }
 
 /* ============================ RESPONSIVE â€” shared ============================ */
-@media (max-width: 920px) {
+/* Brytpunkten är 1200px, inte 920: inline-menyn slutar passa långt före 920px.
+   Uppmätt minsta bredd för nav-raden per språk — en ~1157, sv ~1132, da/no ~1170,
+   fi ~1206, de ~1329. Med 920px trängdes länkar, CTA och språkväljare ihop på
+   hela intervallet 920–1200px. */
+@media (max-width: 1200px) {
   /* Mobilmeny: länkarna fälls ut som panel under den fixerade headern.
      Tidigare doldes .nav__links helt utan ersättning, vilket lämnade mobilen
      helt utan navigation (gällde sedan initial commit). */
@@ -213,6 +219,12 @@ html[lang="de"] .stats-bar__label {
   .nav__links a:last-child { border-bottom: none; }
   .nav__links a.active { background: var(--surface-200); color: var(--navy-800); }
   .nav__actions .btn { display: none; }
+}
+
+/* Sidfot och team-grid hör till sidlayouten, inte navet — de ska fortsatt brytas
+   vid 920px. (Låg tidigare i samma block som navet; när nav-brytpunkten höjdes
+   till 1200px hade de annars kollapsat redan på desktop.) */
+@media (max-width: 920px) {
   .footer__inner { grid-template-columns: 1fr; }
   .team__grid,
   .team__grid--mgmt,
