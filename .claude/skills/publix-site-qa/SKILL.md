@@ -578,6 +578,8 @@ Med anledning + owner-action.
 9. **Anglosaxisk citatinterpunktion i översättningarna** — översatta pressreleaser ärvde engelskans `"citat," säger X` med raka citattecken och kommat *inuti*. Varje språk har sin egen standard: sv/fi `”…”`, no `«…»`, da `»…«`, de `„…“`, och kommat hör *utanför* slutcitattecknet. Nästlat: sv/fi/no `’…’`, da `›…‹`, de `‚…'`. EN behåller `"…"`. Se A4 för check.
 10. **Sitemap `lastmod` från fel källa** — har varit både hårdkodat lanseringsdatum *och* mtime på den byggda HTML-filen. Den senare är lika fel: `build.js` skriver om alla filer vid varje körning, så alla sidor får dagens datum vid varje bygge. `lastmod` måste härledas ur sidans **källor** (`site-src/content/<lang>/<sida>.json` + mallen). Regressionstest: kör `node build.js && node generate-sitemap.js` två gånger — `sitemap.xml` ska vara oförändrad.
 
+11. **Netlify skriver om länkar i produktion — lokal test räcker inte.** Efterbehandlingen gör relativa länkar rot-absoluta och tar bort `.html`: `../cookie-policy.html` blir `/cookie-policy`, `why-publix.html` blir `/why-publix`. JS som matchar på `href` måste därför tåla båda formerna (`a[href*="cookie-policy"]`, inte `a[href$="cookie-policy.html"]`). Konsekvens: **verifiera alltid länkberoende JS mot live-URL:en efter deploy, inte bara mot `python3 -m http.server`** — de beter sig olika. `/news/cookie-policy.html` 404:ar live även när den relativa länken ser rätt ut lokalt.
+
 Om du hittar en NY buggmönstertyp — lägg till här och till check-katalogen ovan.
 
 ---

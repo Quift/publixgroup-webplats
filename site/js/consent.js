@@ -50,7 +50,11 @@
     // Återanvänd sidfotens egen länk: bygget räknar ut rätt djup per sida, och
     // nyhetsartiklar ligger en nivå djupare (../cookie-policy.html) än övriga
     // sidor. Att hårdkoda 'cookie-policy.html' gav 404 på alla artikelsidor.
-    var a = document.querySelector('a[href$="cookie-policy.html"]');
+    // OBS: Netlify efterbehandlar HTML i produktion och skriver om relativa
+    // länkar till rot-absoluta utan filändelse (../cookie-policy.html ->
+    // /cookie-policy). Selektorn måste därför matcha båda formerna, annars
+    // faller den tillbaka på en relativ sökväg som 404:ar på artikelsidorna.
+    var a = document.querySelector('a[href*="cookie-policy"]');
     return a ? a.getAttribute('href') : 'cookie-policy.html';
   }
 
