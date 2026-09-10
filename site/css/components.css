@@ -23,6 +23,10 @@ html[lang="de"] .stats-bar__label {
 
 /* ============================ BUTTONS ============================ */
 .btn {
+  /* Långa etiketter — tyskans sammansättningar är värst — ska radbrytas i
+     knappen i stället för att tvinga ut sidbredden på mobil. Utan max-width
+     växte hero-CTA:n till 362px i en 326px bred spalt och gav horisontell scroll. */
+  max-width: 100%;
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--font-text); font-weight: var(--fw-semibold);
   font-size: 15px; border: 1px solid transparent;

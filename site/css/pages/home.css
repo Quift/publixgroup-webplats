@@ -135,7 +135,12 @@
 
 /* ============================ RESPONSIVE ============================ */
 @media (max-width: 920px) {
-  .hero__grid, .usp__grid, .co-card, .lead-magnet__grid { grid-template-columns: 1fr; }
+  /* minmax(0,1fr) i stället för 1fr: annars sätts spalten av innehållets
+     min-content och kan bli bredare än viewporten. */
+  .hero__grid, .usp__grid, .co-card, .lead-magnet__grid { grid-template-columns: minmax(0, 1fr); }
+  .hero__copy { min-width: 0; }
+  /* Rubrik + pilknappar ryms inte på en rad när rubriken är lång (sv/de). */
+  .companies__head { flex-wrap: wrap; }
   .usp__grid--reverse .usp__visual { order: 0; }
   .hero { padding-top: 100px; }
   .hero__title { font-size: var(--fs-display-lg); }

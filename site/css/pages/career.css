@@ -65,12 +65,15 @@
 /* ============================ RESPONSIVE ============================ */
 @media (max-width: 920px) {
   .why-join__grid { grid-template-columns: 1fr; }
-  .portfolio-careers__grid { grid-template-columns: repeat(3, 1fr); }
+  .portfolio-careers__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .career-hero { padding-top: 120px; }
   .career-hero__title { font-size: var(--fs-display-lg); }
 }
 @media (max-width: 560px) {
   .career-hero__title { font-size: var(--fs-h1); }
-  .portfolio-careers__grid { grid-template-columns: repeat(2, 1fr); }
+  .portfolio-careers__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* tyska sammansättningar ("Personaldisposition im Gesundheitswesen")
+     spränger annars kortet */
+  .pc-card { overflow-wrap: break-word; hyphens: auto; }
   .tt-card { padding: 48px 28px; }
 }
