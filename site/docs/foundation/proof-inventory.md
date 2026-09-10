@@ -53,6 +53,8 @@ status: bootstrapped — utöka vid nya claims
 | PI-035 | Bleau grundat 2008 i Aarhus, MBO från Dynamicweb Software | Bleaus egen pressrelease 2026-09-02 | secondary | Witness |
 | PI-036 | 22 danska kommuner, 35 allmännyttiga bostadsorganisationer, 250 verksamheter inom kritisk infrastruktur använder Bleaus plattformar | **Robert Filtenborg (VD Bleau) e-post 2026-09-09** — ersätter tidigare 29-siffra från SMS/screening | primary | Measure |
 | PI-046 | 300+ danska offentliga kunder (KPI-ruta) | summering av PI-036 (22+35+250=307), korroboreras av bleau.dk "+300 offentlige kunder" | primary | Measure |
+| PI-047 | Bleau-affären slutfördes 31 augusti 2026 | Alexander Hübel e-post 2026-09-09 "Nyhet för hemsidan" | primary | Witness |
+| PI-048 | Robert Filtenborg och Peter Terkildsen är grundare; kvarstår som VD respektive CTO | samma e-post | primary | Witness |
 | PI-037 | NIS2 omfattar danska kommuner sedan juli 2025; EAA tillämpas sedan juni 2025 | dansk lag, EU-direktiv | primary | Acquire |
 | PI-038 | Robert G. Filtenborg kvarstår som VD, Peter Terkildsen som CTO; båda återinvesterar | Bleau-pressrelease + IM 2026-09 | primary | Witness |
 | PI-039 | Tidvis: grundat 2012, ~25 % av svenska privata assistansmarknaden, VD Mattias Lind | Oaklins deal page 110880; tidvis.se | primary | Measure, Witness |
@@ -80,6 +82,8 @@ status: bootstrapped — utöka vid nya claims
 | PI-A03 | ~~Bleau-kundsiffrorna (22/29)~~ — **löst 2026-09-09**: Robert bekräftade 22/35/250 per e-post. Se PI-036. | — |
 | PI-A07 | Anställda "~60" är fembolagssiffran och gäller inte efter Bleau. **Ingen ny siffra finns** — Bleau publicerar inget antal. Får INTE uppskattas; hämta från Erik Runsten. | Påhittad siffra på publik site |
 | PI-A08 | Omsättning "SEK 90M+" är också fembolagssiffran — behöver Alexander/Erik efter Bleau | Underskattar gruppen utåt |
+| PI-A09 | "a market leader in CMS" om Bleau — Alexanders egen formulering (e-post 2026-09-09). Egen screening gav GoPublic ~30 % mot Bleaus ~10 % av danska kommunala CMS-segmentet, så påståendet är inte belagt i vår röst. Publicerat på Alexanders begäran. | Dansk journalist eller konkurrent kan ifrågasätta det |
+| PI-A10 | "keeps its team" — Alexander la tillbaka teamlöftet som tidigare togs bort med hänvisning till koncernens fyraårsplan (konvertering av leverans-/supportroller) | Löfte om personal som planen inte bär |
 | PI-A04 | Johan Rydbergs deal-citat finns bara på publixgroup.io — ingen oberoende publicering | Behöver Rydbergs skriftliga godkännande |
 | PI-A05 | Embrace "flera hundra organisationer" (siten) vs 76 kommuner (nov 2024) — olika enheter, inte motstridiga men ska samordnas | Inkonsekvent räkning utåt |
 | PI-A06 | Hübels tillträdesdatum ej verifierat (Breakit bakom betalvägg) — artikeln daterad utan exakt datum | Fel datum i arkivet |
