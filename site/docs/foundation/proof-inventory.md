@@ -56,7 +56,7 @@ status: bootstrapped — utöka vid nya claims
 | PI-047 | Bleau-affären slutfördes 31 augusti 2026 | Alexander Hübel e-post 2026-09-09 "Nyhet för hemsidan" | primary | Witness |
 | PI-048 | Robert Filtenborg och Peter Terkildsen är grundare; kvarstår som VD respektive CTO | samma e-post | primary | Witness |
 | PI-037 | NIS2 omfattar danska kommuner sedan juli 2025; EAA tillämpas sedan juni 2025 | dansk lag, EU-direktiv | primary | Acquire |
-| PI-038 | Robert G. Filtenborg kvarstår som VD, Peter Terkildsen som CTO; båda återinvesterar | Bleau-pressrelease + IM 2026-09 | primary | Witness |
+| PI-038 | Robert G. Filtenborg kvarstår som VD, Peter Terkildsen som CTO. (Att båda återinvesterar är sant men **får inte publiceras** — Alexander 2026-09-10: "Viktigt att ta bort stycket på hemsidan om att grundarna återinvesterar". Gäller hela siten.) | Bleau-pressrelease + IM 2026-09 | primary | Witness |
 | PI-039 | Tidvis: grundat 2012, ~25 % av svenska privata assistansmarknaden, VD Mattias Lind | Oaklins deal page 110880; tidvis.se | primary | Measure, Witness |
 | PI-040 | digiPlant: grundat 2000 i Örebro, SBS Manager, VD Alexander Törnqvist, AAA 10 år | digiplant.se; allabolag (org 556603-5597) | primary | Witness |
 | PI-041 | Aspicore: Apuraha4, 140 kunder, >100 MEUR bidrag/år, VD Harri Tanner | aspicore.com | primary | Measure |
