@@ -77,6 +77,15 @@ html[lang="de"] .stats-bar__label {
 .nav__links a:hover  { color: var(--navy-800); }
 .nav__links a.active { color: var(--navy-800); font-weight: var(--fw-semibold); }
 .nav__actions { display: flex; align-items: center; gap: 16px; }
+/* Hamburgerknapp — endast mobil (se responsive-blocket längre ned) */
+.nav__burger {
+  display: none; background: none; border: none; cursor: pointer;
+  margin-left: auto; padding: 6px 8px; border-radius: var(--radius-sm);
+  color: var(--navy-800); font-size: 24px; line-height: 1;
+  transition: background var(--dur-fast);
+}
+.nav__burger:hover { background: var(--surface-200); }
+.nav__burger i { display: block; }
 .nav__lang {
   font-size: var(--fs-body-sm); font-weight: var(--fw-semibold);
   color: var(--text-muted); transition: color var(--dur-fast);
@@ -180,7 +189,29 @@ html[lang="de"] .stats-bar__label {
 
 /* ============================ RESPONSIVE â€” shared ============================ */
 @media (max-width: 920px) {
-  .nav__links { display: none; }
+  /* Mobilmeny: länkarna fälls ut som panel under den fixerade headern.
+     Tidigare doldes .nav__links helt utan ersättning, vilket lämnade mobilen
+     helt utan navigation (gällde sedan initial commit). */
+  .nav__burger { display: block; }
+  .nav__links {
+    display: none;
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    margin-left: 0; padding: 6px 0 12px;
+    background: #fff;
+    border-bottom: 1px solid var(--border-subtle);
+    box-shadow: var(--shadow-md);
+    /* headern är ~58px (14px padding + 30px logo); procent här skulle lösas
+       mot headerns auto-höjd och bli verkningslös */
+    max-height: calc(100vh - 58px); overflow-y: auto;
+  }
+  .nav--open .nav__links { display: flex; }
+  .nav__links a {
+    padding: 13px 32px; font-size: var(--fs-body);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .nav__links a:last-child { border-bottom: none; }
+  .nav__links a.active { background: var(--surface-200); color: var(--navy-800); }
   .nav__actions .btn { display: none; }
   .footer__inner { grid-template-columns: 1fr; }
   .team__grid,

@@ -29,7 +29,8 @@
 <header class="nav" id="nav">
   <div class="nav__inner">
     <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
-    <nav class="nav__links">
+    <button class="nav__burger" type="button" aria-label="{{nav.menu}}" aria-expanded="false" aria-controls="nav-links"><i class="ph ph-list"></i></button>
+<nav class="nav__links" id="nav-links">
       <a href="index.html">{{nav.home}}</a>
       <a href="why-publix.html">{{nav.why}}</a>
       <a href="about.html">{{nav.about}}</a>
@@ -96,5 +97,6 @@
   </div>
 </footer>
 
+<script src="{{R}}js/lang.js" defer></script>
 </body>
 </html>
