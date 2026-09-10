@@ -51,7 +51,7 @@ status: bootstrapped — utöka vid nya claims
 | PI-033 | 6 founder-led companies in group (från Bleau-förvärvet) | Bleau-pressrelease 2026-09 | primary | Witness |
 | PI-034 | Verksamhet i Sverige, Finland och Danmark | portfölj PI-010–PI-015 | primary | Locate |
 | PI-035 | Bleau grundat 2008 i Aarhus, MBO från Dynamicweb Software | Bleaus egen pressrelease 2026-09-02 | secondary | Witness |
-| PI-036 | 22 danska kommuner, 35 allmännyttiga bostadsorganisationer, 250 verksamheter inom kritisk infrastruktur använder Bleaus plattformar | **Robert Filtenborg (VD Bleau) e-post 2026-09-09** — ersätter tidigare 29-siffra från SMS/screening | primary | Measure |
+| PI-036 | 22 av Danmarks 98 kommuner, 35 allmännyttiga bostadsorganisationer, 250 verksamheter inom kritisk infrastruktur använder Bleaus plattformar | **Robert Filtenborg (VD Bleau) e-post 2026-09-09** — ersätter tidigare 29-siffra från SMS/screening | primary | Measure |
 | PI-046 | 300+ danska offentliga kunder (KPI-ruta) | summering av PI-036 (22+35+250=307), korroboreras av bleau.dk "+300 offentlige kunder" | primary | Measure |
 | PI-047 | Bleau-affären slutfördes 31 augusti 2026 | Alexander Hübel e-post 2026-09-09 "Nyhet för hemsidan" | primary | Witness |
 | PI-048 | Robert Filtenborg och Peter Terkildsen är grundare; kvarstår som VD respektive CTO | samma e-post | primary | Witness |
@@ -82,8 +82,8 @@ status: bootstrapped — utöka vid nya claims
 | PI-A03 | ~~Bleau-kundsiffrorna (22/29)~~ — **löst 2026-09-09**: Robert bekräftade 22/35/250 per e-post. Se PI-036. | — |
 | PI-A07 | Anställda "~60" är fembolagssiffran och gäller inte efter Bleau. **Ingen ny siffra finns** — Bleau publicerar inget antal. Får INTE uppskattas; hämta från Erik Runsten. | Påhittad siffra på publik site |
 | PI-A08 | Omsättning "SEK 90M+" är också fembolagssiffran — behöver Alexander/Erik efter Bleau | Underskattar gruppen utåt |
-| PI-A09 | "a market leader in CMS" om Bleau — Alexanders egen formulering (e-post 2026-09-09). Egen screening gav GoPublic ~30 % mot Bleaus ~10 % av danska kommunala CMS-segmentet, så påståendet är inte belagt i vår röst. Publicerat på Alexanders begäran. | Dansk journalist eller konkurrent kan ifrågasätta det |
-| PI-A10 | "keeps its team" — Alexander la tillbaka teamlöftet som tidigare togs bort med hänvisning till koncernens fyraårsplan (konvertering av leverans-/supportroller) | Löfte om personal som planen inte bär |
+| PI-A09 | ~~"a market leader in CMS" om Bleau~~ — **löst 2026-09-10**: Alexanders andra revidering tog bort påståendet. Ingen marknadsledarclaim ligger kvar på siten. | — |
+| PI-A10 | "same team" — Alexander behöll teamlöftet även i andra revideringen ("Bleau stays Bleau: same name, same team, same product plan"). Krockar med koncernens fyraårsplan om konvertering av leverans-/supportroller. Publicerat på hans begäran. | Löfte om personal som planen inte bär |
 | PI-A04 | Johan Rydbergs deal-citat finns bara på publixgroup.io — ingen oberoende publicering | Behöver Rydbergs skriftliga godkännande |
 | PI-A05 | Embrace "flera hundra organisationer" (siten) vs 76 kommuner (nov 2024) — olika enheter, inte motstridiga men ska samordnas | Inkonsekvent räkning utåt |
 | PI-A06 | Hübels tillträdesdatum ej verifierat (Breakit bakom betalvägg) — artikeln daterad utan exakt datum | Fel datum i arkivet |

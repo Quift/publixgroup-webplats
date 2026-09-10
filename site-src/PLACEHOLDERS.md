@@ -1,9 +1,17 @@
-# Platshållare — måste bytas före publicering
+# Platshållare
 
-| Fil | Vad som behövs | Efterfrågat av | Status |
-|-----|----------------|----------------|--------|
-| `site/Design-system/assets/portfolio/bleau.png` | Bleau A/S logga i hög upplösning (vektor/SVG eller PNG ≥800px bred, transparent) | Alexander → Robert & Peter 2026-09-04; PE påminde 2026-09-09; Marcus erbjöd 2026-09-10 att be om den | **Ej levererad** — tillfällig ordbild. Loggan i Marcus mail är signaturbild på 75×71 px, oanvändbar. |
-| ~~`site/img/team-robert-filtenborg.jpg`~~ | Porträtt på Robert G. Filtenborg (VD Bleau) | — | **KLART 2026-09-10** — riktigt porträtt via Marcus (original 4284×5712, beskuret till 800×800) |
+**Inga öppna platshållare kvar** (2026-09-10). Historik nedan.
+
+| Fil | Vad som behövdes | Status |
+|-----|------------------|--------|
+| ~~`site/Design-system/assets/portfolio/bleau.png`~~ | Bleau A/S logga i hög upplösning | **KLART 2026-09-10** — riktig logga från Mikkel Kolbe Lorenzen (Bleau), original 1344×255 PNG med alpha, skalad till 800×152. Vit variant sparad som `bleau-white.png` för mörka ytor. |
+| ~~`site/img/team-robert-filtenborg.jpg`~~ | Porträtt på Robert G. Filtenborg (VD Bleau) | **KLART 2026-09-10** — via Marcus, original 4284×5712, beskuret till 800×800 |
+
+Porträtt på Peter Terkildsen (CTO) saknas fortfarande — Bleau har ingen bild av god kvalitet
+och han är på semester (Mikkel 2026-09-10). Han nämns i artikeltexten men har inget kort på
+siten, så det blockerar inget.
+
+PE fotograferar hos PubliX **1 oktober 2026** med systemkamera.
 
 Platshållarna är medvetet neutrala men syns på `/companies` och i Bleau-artikeln.
 Byt filerna (samma filnamn, samma proportioner: logga 797×313, porträtt 800×569) och kör

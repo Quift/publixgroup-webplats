@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "PubliX Group förvärvar Bleau A/S och etablerar sig i Danmark",
-    "description": "Bleau, Aarhusbolaget bakom moliri, blir det sjätte bolaget i PubliX Group och koncernens första i Danmark. Bolaget behåller namn, ledning och team."
+    "title": "PubliX Group etablerar sig i Danmark och välkomnar Bleau A/S",
+    "description": "Bleau, det danska bolaget bakom moliri, blir sjätte bolaget i PubliX Group och koncernens första i Danmark. Samma namn, samma team, samma produktplan."
   },
   "date": {
     "display": "10 september 2026",
@@ -12,9 +12,9 @@
     "class": "acquisition",
     "label": "Förvärv"
   },
-  "title": "PubliX Group förvärvar Bleau A/S och etablerar sig i Danmark",
-  "lead": "Bleau, Aarhusbolaget bakom SaaS-plattformen moliri — marknadsledande inom CMS för säker, riktad och regelenlig kommunikation i offentlig sektor — blir det sjätte bolaget i PubliX Group och koncernens första i Danmark.",
-  "body_html": "      <p>PubliX Group har förvärvat Bleau A/S, det danska mjukvarubolaget bakom moliri, som används av danska kommuner, och NemBolig, som används av allmännyttiga bostadsorganisationer. Affären slutfördes den 31 augusti 2026, och Bleau blir därmed koncernens sjätte bolag och dess första i Danmark, vid sidan av tre bolag i Sverige och två i Finland.</p>\n      <p>Grundarna Robert Filtenborg och Peter Terkildsen kvarstår som vd respektive CTO för Bleau. Bleau behåller sitt namn, sin ledning, sitt team och sitt grundläggande kundfokus.</p>\n      <p>”Danmark har stått på vår lista ända sedan vi lade fast förvärvsstrategin, och Bleau är det bolag jag verkligen ville ha där”, säger Alexander Hübel, vd för PubliX Group. ”Robert och Peter har byggt en verksamhet som kommunerna anförtror sin viktigaste kommunikation. Det är det vi köper, och något vi definitivt tänker bevara — och låta växa.”</p>\n      <p>”Genom att välja PubliX Group har vi sett till att Bleau förblir Bleau”, säger Robert Filtenborg, vd för Bleau A/S. ”Vår strategi och våra utvecklingsplaner för moliri är oförändrade. Skillnaden är att vi nu har större kraft att växa, nationellt och internationellt.”</p>\n      <p>Bleau får systerbolag med etablerade kundrelationer inom svensk och finsk offentlig sektor, och koncernens centrala team arbetar med varje bolag kring offentlig upphandling, IT-säkerhet och regelefterlevnad, tillväxt och AI.</p>",
+  "title": "PubliX Group etablerar sig i Danmark och välkomnar Bleau A/S",
+  "lead": "Bleau är det danska bolaget bakom moliri — plattformen som kommuner använder för att publicera information som medborgarna faktiskt kan använda.",
+  "body_html": "      <p>En kommuns webbplats är där människor förnyar ett tillstånd, hittar en skolplats eller läser vad de ska göra när vattnet är avstängt. Varje sida måste vara riktig och gå att läsa för alla, även för den som använder skärmläsare, och texten kommer från hela organisationen, skriven av människor vars jobb är omsorg, planering eller sophämtning. moliri kontrollerar sidan medan den skrivs, innan den publiceras.</p>\n      <p>22 av Danmarks 98 kommuner publicerar sin medborgarinformation genom moliri, och 35 allmännyttiga bostadsorganisationer använder NemBolig-versionen för att nå sina boende. Även energi- och vattenbolag och kollektivtrafikoperatörer använder den. Bleau har byggt för de här kundgrupperna sedan 2008.</p>\n      <p>Bleau är vårt sjätte bolag och vårt första i Danmark, vid sidan av tre i Sverige och två i Finland. Bleau förblir Bleau: samma namn, samma team, samma produktplan, och kunderna behåller de avtal de har. Robert Filtenborg fortsätter som vd och Peter Terkildsen som CTO. PubliX tillför kapital att växa med, och koncernstöd inom internationell tillväxt, offentlig upphandling, säkerhet och regelefterlevnad, prissättning och AI.</p>\n      <p>”Danmark har stått på vår lista ända sedan vi lade fast förvärvsstrategin, och Bleau är det bolag jag verkligen ville ha där”, säger Alexander Hübel, vd för PubliX Group. ”Robert och Peter har byggt en verksamhet som kommunerna anförtror sin viktigaste kommunikation. Det är det vi köper, och något vi definitivt tänker bevara — och låta växa.”</p>\n      <p>”Genom att välja PubliX Group har vi sett till att Bleau förblir Bleau”, säger Robert Filtenborg, vd för Bleau A/S. ”Vår strategi och våra utvecklingsplaner för moliri är oförändrade. Skillnaden är att vi nu har större kraft att växa, nationellt och internationellt.”</p>",
   "head_meta": [
     {
       "line": "<meta property=\"og:type\" content=\"article\">"
