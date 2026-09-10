@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Contact — PubliX Group",
+    "description": "Get in touch with PubliX Group. Reach Alexander Hübel, CEO, for confidential conversations about your SaaS company. Stockholm office: Kungsgatan 37.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "hero": {
+    "eyebrow": "Have something on your mind?",
+    "title": "Let's talk",
+    "sub": "Whether you're a founder exploring your options or just curious about what we do — every conversation is confidential."
+  },
+  "direct": {
+    "heading": "Reach out directly",
+    "role": "CEO, PubliX Group",
+    "general": "General inquiries",
+    "office": "Office",
+    "call": "Call Alexander directly"
+  },
+  "form": {
+    "title": "...or send a message",
+    "success_msg": "&lt;div style=&#39;text-align:center; padding:32px 0;&#39;&gt;&lt;i class=&#39;ph ph-check-circle&#39; style=&#39;font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;&#39;&gt;&lt;/i&gt;&lt;h3 style=&#39;font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;&#39;&gt;Thank you!&lt;/h3&gt;&lt;p style=&#39;color:var(--text-muted); font-size:var(--fs-body-sm);&#39;&gt;Your message has been sent. Alexander will get back to you within 2 business days.&lt;/p&gt;&lt;/div&gt;",
+    "name": "Name",
+    "name_ph": "Your full name",
+    "email": "Email",
+    "email_ph": "you@company.se",
+    "company": "Company",
+    "company_ph": "Your Company AB",
+    "message": "Message",
+    "message_ph": "Tell us about your company...",
+    "submit": "Send message",
+    "legal": "Your message goes directly to Alexander. All conversations are confidential.",
+    "micro": "We respond within 2 business days"
+  },
+  "cta": {
+    "title": "Let's talk about the future of public services",
+    "sub": "Whether you're building digital solutions for the public sector or just curious about how we work — we'd love to hear from you.",
+    "btn": "Discover your growth potential",
+    "micro": "Or call Alexander directly:"
+  },
+  "footer": {
+    "blurb": "We partner with founder-led SaaS companies that digitise public services across Northern Europe.",
+    "org": "Org. 559485-5487 · Backed by <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigate",
+    "assessment": "Growth assessment",
+    "city": "Stockholm",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy",
+    "updated": "Stay updated",
+    "updated_sub": "Get the latest from PubliX — acquisitions, insights and founder stories.",
+    "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Subscribed!&lt;/span&gt;",
+    "newsletter_ph": "your@email.se",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

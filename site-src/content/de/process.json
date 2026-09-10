@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Weiterleitung…"
+  },
+  "redirect": {
+    "pre": "Weiterleitung zu ",
+    "link": "Warum PubliX"
+  }
+}

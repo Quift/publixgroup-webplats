@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Integritetspolicy — PubliX Group",
+    "description": "Så hanterar PubliX Group dina personuppgifter: vad vi samlar in, varför, hur länge vi behåller det och dina GDPR-rättigheter.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hoppa till innehåll",
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Bolag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential"
+  },
+  "hero": {
+    "title": "Integritetspolicy",
+    "updated": "Senast uppdaterad: 4 augusti 2026",
+    "intro": "PubliX Group AB (”vi”, ”oss”, ”vår”) respekterar din integritet. Denna policy förklarar vilka personuppgifter vi samlar in via publixgroup.io, varför vi samlar in dem, hur länge vi behåller dem och vilka rättigheter du har enligt EU:s allmänna dataskyddsförordning (GDPR)."
+  },
+  "controller": {
+    "h": "Personuppgiftsansvarig",
+    "p": "<strong>PubliX Group AB</strong><br>Org.nr 559485-5487<br>Kungsgatan 37, 8tr<br>111 56 Stockholm, Sverige<br>E-post: <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>"
+  },
+  "collect": {
+    "h": "Vilka uppgifter vi samlar in",
+    "h3_form": "Kontaktformulär",
+    "p_form": "När du skickar kontaktformuläret samlar vi in: namn, e-post, företag, meddelande. Lämnas direkt av dig.",
+    "h3_news": "Nyhetsbrev",
+    "p_news": "När du prenumererar samlar vi in: e-postadress. Lämnas direkt av dig.",
+    "h3_analytics": "Analys — endast med samtycke",
+    "p_analytics": "Vi använder <strong>Google Analytics 4</strong> för aggregerad besöksstatistik (sidvisningar, hänvisande sajter, land, enhetstyp). GA4 använder cookies (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>) som sätts endast efter att du samtyckt via vår cookie-banner. Om du avböjer sätts inga analys-cookies och ingen analysdata samlas in. GA4 loggar eller lagrar inte fullständiga IP-adresser; Google använder IP-adressen enbart kortvarigt för att härleda grov geolokalisering och kastar den sedan.",
+    "h3_logs": "Serverloggar",
+    "p_logs": "Vår hostingleverantör Netlify registrerar standardmässiga HTTP-åtkomstloggar (IP-adress, tidsstämpel, begärd URL, user agent) för säkerhet och missbruksförebyggande. Bevaras enligt Netlifys datapolicy."
+  },
+  "why": {
+    "h": "Varför vi samlar in det (rättslig grund)",
+    "li1": "<strong>Kontaktförfrågningar</strong> — Berättigat intresse (att besvara din förfrågan). Artikel 6.1(f) GDPR.",
+    "li2": "<strong>Nyhetsbrevsprenumeration</strong> — Samtycke (din uttryckliga anmälan). Artikel 6.1(a) GDPR. Du kan när som helst dra tillbaka samtycket genom att avprenumerera.",
+    "li3": "<strong>Serverloggar</strong> — Berättigat intresse (sajtsäkerhet). Artikel 6.1(f) GDPR."
+  },
+  "retain": {
+    "h": "Hur länge vi behåller det",
+    "li1": "Kontaktförfrågningar: upp till 24 månader från senaste interaktion",
+    "li2": "Nyhetsbrevsprenumerationer: tills du avprenumererar",
+    "li3": "Serverloggar: enligt Netlifys retention (vanligtvis 30 dagar)",
+    "li4": "Analys: endast om du samtycker. GA4-cookies löper ut efter 2 år; aggregerad data lagras enligt Google Analytics standardvärden."
+  },
+  "processors": {
+    "h": "Personuppgiftsbiträden",
+    "p": "Vi använder följande biträden, alla bundna av GDPR-personuppgiftsbiträdesavtal:",
+    "li1": "<strong>Netlify, Inc.</strong> — webbhosting och formulärhantering (USA-baserad; EU-US Data Privacy Framework)",
+    "li2": "<strong>Google Ireland Limited</strong> — analys (Irland, EU). Underbiträde: <strong>Google LLC</strong> (USA, enligt EU-US Data Privacy Framework). Endast när du samtycker via vår cookie-banner.",
+    "p2": "Vi <strong>säljer inte</strong> dina uppgifter eller delar dem med annonsörer eller marknadsföringsplattformar."
+  },
+  "rights": {
+    "h": "Dina rättigheter enligt GDPR",
+    "p": "Du har rätt att:",
+    "li1": "Få tillgång till de personuppgifter vi har om dig",
+    "li2": "Rätta felaktiga uppgifter",
+    "li3": "Radera dina uppgifter (”rätten att bli bortglömd”)",
+    "li4": "Begränsa eller invända mot behandling baserad på berättigat intresse",
+    "li5": "Få dina uppgifter i ett portabelt format",
+    "li6": "Dra tillbaka samtycke när som helst (för samtyckesbaserad behandling)",
+    "li7": "Lämna klagomål till din tillsynsmyndighet",
+    "p2": "För att utöva någon av dessa rättigheter, mejla <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>. Vi svarar inom 30 dagar.",
+    "p3": "Svensk tillsynsmyndighet: <a href=\"https://www.imy.se/\" target=\"_blank\" rel=\"noopener\">Integritetsskyddsmyndigheten (IMY)</a>."
+  },
+  "changes": {
+    "h": "Ändringar av denna policy",
+    "p": "Vi kan uppdatera denna policy från tid till annan. Datumet ”senast uppdaterad” högst upp återspeglar den senaste ändringen."
+  },
+  "footer": {
+    "blurb": "Vi samarbetar med grundarledda SaaS-bolag som digitaliserar offentliga tjänster i norra Europa.",
+    "org": "Org. 559485-5487 · Backad av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigera",
+    "assessment": "Tillväxtutvärdering",
+    "privacy": "Integritetspolicy",
+    "cookie": "Cookiepolicy",
+    "updated": "Håll dig uppdaterad",
+    "updated_sub": "Få det senaste från PubliX Group.",
+    "newsletter_success": "Tack! Du är prenumerant.",
+    "newsletter_ph": "din@epost.se",
+    "newsletter_aria": "E-postadress",
+    "subscribe": "Prenumerera",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, vd"
+  }
+}

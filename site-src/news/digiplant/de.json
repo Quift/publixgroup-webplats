@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group kooperiert mit digiPlant",
+    "description": "Ein Marktführer bei Bewerbungsmanagementsystemen für Stiftungen, der die Position von PubliX im Bereich Fördermittelmanagement stärkt."
+  },
+  "date": {
+    "display": "25. August 2025",
+    "published_iso": "2025-08-25",
+    "modified_iso": "2025-08-25"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Akquisition"
+  },
+  "title": "PubliX Group kooperiert mit digiPlant",
+  "lead": "Ein Marktführer bei Bewerbungsmanagementsystemen für Stiftungen, der die Position von PubliX im Bereich Fördermittelmanagement stärkt.",
+  "body_html": "      <p>STOCKHOLM, 25. August 2025 — Die PubliX Group ist eine Partnerschaft mit digiPlant eingegangen, einem Marktführer für Antragsmanagementsysteme für Stiftungen. digiPlant, gegründet 2000 in Örebro, entwickelt SBS Manager, eine Plattform, die den gesamten Fallablauf fördermittelvergebender Organisationen abbildet — vom Antragseingang und der Kommunikation mit Antragstellern über Prüfung, Entscheidung und Budgetierung bis zur Auszahlung.</p>\n      <p>Der gesellschaftliche Nutzen ist konkret: Anträge werden für Antragsteller einfacher und zugänglicher, Bearbeitungsprozesse verkürzen sich drastisch, mehr Fördermittel werden ausgezahlt und betrügerisches Verhalten wird reduziert. Die Adolf Lindgrens Stiftelse, einer der Kunden von digiPlant, vervierfachte nach dem Wechsel zu SBS Manager die Zahl ihrer Anträge.</p>\n      <p>digiPlant wird von CEO Alexander Törnqvist geführt und hält seit zehn Jahren in Folge ein AAA-Bonitätsrating von Dun &amp; Bradstreet.</p>\n      <p>digiPlant ist die zweite Partnerschaft der PubliX Group nach der Übernahme von Tidvis früher im selben Monat und wird unter eigener Marke mit eigenem Team weitergeführt.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "News",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/digiplant.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Über digiPlant",
+        "text": "digiPlant ist ein schwedisches Softwareunternehmen, gegründet 2000 in Örebro. Seine Plattform SBS Manager bildet den vollständigen Antrags- und Fallbearbeitungsprozess für Stiftungen, Förderer und öffentliche Organisationen ab."
+      }
+    ],
+    "cta": "Alle Unternehmen ansehen"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie"
+  }
+}

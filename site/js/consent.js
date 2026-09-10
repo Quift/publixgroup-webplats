@@ -47,8 +47,11 @@
   }
 
   function policyHref() {
-    // All pages that reference cookie-policy.html sit at the same depth as it.
-    return 'cookie-policy.html';
+    // Återanvänd sidfotens egen länk: bygget räknar ut rätt djup per sida, och
+    // nyhetsartiklar ligger en nivå djupare (../cookie-policy.html) än övriga
+    // sidor. Att hårdkoda 'cookie-policy.html' gav 404 på alla artikelsidor.
+    var a = document.querySelector('a[href$="cookie-policy.html"]');
+    return a ? a.getAttribute('href') : 'cookie-policy.html';
   }
 
   function loadGA() {
@@ -62,6 +65,25 @@
     window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('js', new Date());
     window.gtag('config', GA_ID);
+  }
+
+  // Återkallat samtycke måste faktiskt stoppa mätningen, inte bara dölja bannern.
+  // gtag-skriptet går inte att "avladda", men GA respekterar denna flagga direkt,
+  // och cookies som redan satts måste raderas aktivt (_ga ligger kvar i ~2 år).
+  function disableGA() {
+    window['ga-disable-' + GA_ID] = true;
+    var host = location.hostname;
+    var domains = ['', host, '.' + host];
+    var parts = host.split('.');
+    if (parts.length > 2) domains.push('.' + parts.slice(-2).join('.'));
+    document.cookie.split(';').forEach(function (c) {
+      var name = c.split('=')[0].trim();
+      if (!/^(_ga|_gid|_gat)/.test(name)) return;
+      domains.forEach(function (d) {
+        document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' +
+          (d ? '; domain=' + d : '');
+      });
+    });
   }
 
   function removeExistingBanner() {
@@ -97,12 +119,14 @@
   window.acceptCookies = function () {
     try { localStorage.setItem(STORAGE_KEY, 'accepted'); } catch (e) {}
     hideBanner();
+    window['ga-disable-' + GA_ID] = false;
     loadGA();
   };
 
   window.declineCookies = function () {
     try { localStorage.setItem(STORAGE_KEY, 'declined'); } catch (e) {}
     hideBanner();
+    disableGA();
   };
 
   window.resetCookieChoice = function () {
@@ -118,6 +142,8 @@
       loadGA();
     } else if (choice === 'declined') {
       removeExistingBanner();
+      // städa bort eventuella _ga-cookies från ett tidigare samtycke
+      disableGA();
     } else {
       renderBanner();
     }

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{meta.site_verification}}<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{meta.url}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://publixgroup.io/">
+<link rel="alternate" hreflang="sv" href="https://publixgroup.io/sv/">
+<link rel="alternate" hreflang="da" href="https://publixgroup.io/da/">
+<link rel="alternate" hreflang="no" href="https://publixgroup.io/no/">
+<link rel="alternate" hreflang="fi" href="https://publixgroup.io/fi/">
+<link rel="alternate" hreflang="de" href="https://publixgroup.io/de/">
+<link rel="alternate" hreflang="x-default" href="https://publixgroup.io/">
+<link rel="canonical" href="{{meta.url}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/home.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PubliX Group",
+  "legalName": "PubliX Group AB",
+  "url": "{{meta.url}}",
+  "logo": "https://publixgroup.io/Design-system/assets/logo/publix-logo.svg",{{meta.jsonld_description}}
+  "founder": {
+    "@type": "Person",
+    "name": "Alexander Hübel"
+  },
+  "email": "info@publixgroup.io",
+  "telephone": "+46-76-859-29-23",
+  "sameAs": [
+    "https://www.linkedin.com/company/publixgroup/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kungsgatan 37, 8tr",
+    "postalCode": "111 56",
+    "addressLocality": "Stockholm",
+    "addressCountry": "SE"
+  },
+  "identifier": "559485-5487",
+  "areaServed": [
+    "SE",
+    "DK",
+    "NO",
+    "FI",
+    "DE"
+  ]
+}</script>
+<script src="{{R}}js/consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html" class="active">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="{{review_href}}">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.close}}
+  </div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="hero" id="top">
+  <div class="container hero__grid">
+    <div class="hero__copy fade-in">
+      <div class="hero__eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+      <h1 class="hero__title">{{hero.title}}</h1>
+      <p class="hero__sub">{{hero.sub}}</p>
+      <div class="hero__actions">
+        <div class="cta-group">
+          <a class="btn btn--accent btn--lg" href="{{review_href}}">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+          <span class="micro-cta">{{hero.micro}}</span>
+        </div>
+        <a class="btn btn--ghost btn--lg" href="why-publix.html">{{hero.why_btn}}</a>
+      </div>
+      <div class="hero__proof">
+        <div class="hero__proof-logos">
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/tidvis.jpg" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/digiplant.png" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/sotender.png" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/aspicore.png" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/embrace.png" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/bleau.png" alt="" loading="lazy" decoding="async"></div>
+        </div>
+        <span>{{hero.proof}}</span>
+      </div>
+    </div>
+
+    <div class="hero__visual fade-in fade-in-d1">
+      <img class="hero__image" src="{{R}}img/hero-team.webp" alt="{{hero.img_alt}}" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- ======================== STATS BAR ======================== -->
+<section class="stats-bar fade-in">
+  <div class="stats-bar__inner">
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n1}}</div>
+      <div class="stats-bar__label">{{stats.l1}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n2}}</div>
+      <div class="stats-bar__label">{{stats.l2}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n3}}</div>
+      <div class="stats-bar__label">{{stats.l3}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n4}}</div>
+      <div class="stats-bar__label">{{stats.l4}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n5}}</div>
+      <div class="stats-bar__label">{{stats.l5}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n6}}</div>
+      <div class="stats-bar__label">{{stats.l6}}</div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== USP 1: CROSS-SELLING ======================== -->
+<section class="usp usp--alt" id="why">
+  <div class="container">
+    <div class="usp__grid fade-in">
+      <div class="usp__body">
+        <span class="eyebrow eyebrow--question">{{usp1.eyebrow}}</span>
+        <h2 class="section-title">{{usp1.title}}</h2>
+        <p>{{usp1.p1}}</p>
+        <p>{{usp1.p2}}</p>
+      </div>
+      <div class="usp__visual">
+        <div class="usp__cards">
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-clients.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp1.card1_title}}</h3>
+            <p>{{usp1.card1_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-marketing.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp1.card2_title}}</h3>
+            <p>{{usp1.card2_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-crosssell.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp1.card3_title}}</h3>
+            <p>{{usp1.card3_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-intros.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp1.card4_title}}</h3>
+            <p>{{usp1.card4_text}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== USP 2: PROCUREMENT ======================== -->
+<section class="usp">
+  <div class="container">
+    <div class="usp__grid usp__grid--reverse fade-in">
+      <div class="usp__body">
+        <span class="eyebrow eyebrow--question">{{usp2.eyebrow}}</span>
+        <h2 class="section-title">{{usp2.title}}</h2>
+        <p>{{usp2.p1}}</p>
+        <p>{{usp2.p2}}</p>
+        <p>{{usp2.p3}}</p>
+      </div>
+      <div class="usp__visual">
+        <div class="usp__visual-panel">
+          <ul class="usp__checklist">
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp2.li1}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp2.li2}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp2.li3}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp2.li4}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp2.li5}}</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== USP 3: DECENTRALISED ======================== -->
+<section class="usp usp--alt">
+  <div class="container">
+    <div class="usp__grid fade-in">
+      <div class="usp__body">
+        <span class="eyebrow eyebrow--question">{{usp3.eyebrow}}</span>
+        <h2 class="section-title">{{usp3.title}}</h2>
+        <p>{{usp3.p1}}</p>
+        <p>{{usp3.p2}}</p>
+        <p>{{usp3.p3}}</p>
+      </div>
+      <div class="usp__visual">
+        <div class="usp__visual-panel">
+          <ul class="usp__checklist">
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp3.li1}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp3.li2}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp3.li3}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp3.li4}}</span></li>
+          </ul>
+          <div class="usp__quote">
+            <p>{{usp3.quote}}</p>
+            <cite>{{usp3.cite}}</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== USP 4: AI / TECH ======================== -->
+<section class="usp">
+  <div class="container">
+    <div class="usp__grid usp__grid--reverse fade-in">
+      <div class="usp__body">
+        <span class="eyebrow eyebrow--question">{{usp4.eyebrow}}</span>
+        <h2 class="section-title">{{usp4.title}}</h2>
+        <p>{{usp4.p1}}</p>
+        <p>{{usp4.p2}}</p>
+        <p>{{usp4.p3}}</p>
+      </div>
+      <div class="usp__visual">
+        <div class="usp__cards">
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-ai.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp4.card1_title}}</h3>
+            <p>{{usp4.card1_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-automation.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp4.card2_title}}</h3>
+            <p>{{usp4.card2_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-techstack.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp4.card3_title}}</h3>
+            <p>{{usp4.card3_text}}</p>
+          </div>
+          <div class="usp__card">
+            <img src="{{R}}img/illustrations/usp-growth.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <h3>{{usp4.card4_title}}</h3>
+            <p>{{usp4.card4_text}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== USP 5: INTERNATIONAL ======================== -->
+<section class="usp usp--alt">
+  <div class="container">
+    <div class="usp__grid fade-in">
+      <div class="usp__body">
+        <span class="eyebrow eyebrow--question">{{usp5.eyebrow}}</span>
+        <h2 class="section-title">{{usp5.title}}</h2>
+        <p>{{usp5.p1}}</p>
+        <p>{{usp5.p2}}</p>
+        <p>{{usp5.p3}}</p>
+      </div>
+      <div class="usp__visual">
+        <div class="usp__visual-panel">
+          <ul class="usp__checklist">
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp5.li1}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp5.li2}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp5.li3}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp5.li4}}</span></li>
+            <li><span class="check"><i class="ph ph-check"></i></span> <span>{{usp5.li5}}</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== COMPANIES ======================== -->
+<section class="companies" id="companies">
+  <div class="container">
+    <div class="companies__head fade-in">
+      <div>
+        <span class="eyebrow">{{companies.eyebrow}}</span>
+        <h2 class="section-title">{{companies.title}}</h2>
+      </div>
+      <div class="companies__nav">
+        <button onclick="goCo(-1)" aria-label="Previous"><i class="ph ph-caret-left"></i></button>
+        <button onclick="goCo(1)" aria-label="Next"><i class="ph ph-caret-right"></i></button>
+      </div>
+    </div>
+    <div class="co-card" id="co-card"></div>
+    <div class="co-dots" id="co-dots"></div>
+  </div>
+</section>
+
+<!-- ======================== TEAM ======================== -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="team__head fade-in">
+      <span class="eyebrow">{{team.eyebrow}}</span>
+      <h2 class="section-title">{{team.title}}</h2>
+      <p class="section-sub">{{team.sub}}</p>
+    </div>
+    <div class="team__grid team__grid--mgmt fade-in">
+      <div class="team__member" data-bio="{{team.bio_hubel}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-alexander-hubel.jpg" alt="Alexander Hübel" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Alexander Hübel</h3>
+        <p class="team__role">{{team.role_ceo}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/alexander-h%C3%BCbel-17176b22/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_astrom}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-marcus-astrom.webp" alt="Marcus Åström" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Marcus Åström</h3>
+        <p class="team__role">{{team.role_ma}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/marcusiastrom/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_runsten}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-erik-runsten.webp" alt="Erik Runsten" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Erik Runsten</h3>
+        <p class="team__role">{{team.role_finance}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/erik-runsten-a1719528/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_zeits}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-patrick-zeits.jpg" alt="Patrick Zeits" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Patrick Zeits</h3>
+        <p class="team__role">{{team.role_cto}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/patrick-zeits-2b80442/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Board -->
+    <div class="team__divider fade-in">
+      <span class="eyebrow" style="margin-bottom: 0;">{{team.board_heading}}</span>
+    </div>
+    <div class="team__grid team__grid--board fade-in">
+      <div class="team__member" data-bio="{{team.bio_sallner}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-patrik-sallner.webp" alt="Patrik Sallner" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Patrik Sallner</h3>
+        <p class="team__role">{{team.role_chairman}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/patriksallner/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_wrede}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-viktor-wrede.jpg" alt="Viktor Wrede" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Viktor Wrede</h3>
+        <p class="team__role">{{team.role_board_external}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/viktorwrede/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_barklof}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-anders-barklof.webp" alt="Anders Barklöf" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Anders Barklöf</h3>
+        <p class="team__role">{{team.role_board_aspira}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/anders-barkl%C3%B6f-9ba96b44/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_holm}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-anton-holm.webp" alt="Anton Holm" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Anton Holm</h3>
+        <p class="team__role">{{team.role_board_aspira}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/antonholm/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_salmi_board}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Janne Salmi</h3>
+        <p class="team__role">{{team.role_board_entrepreneur}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/janne-salmi-42535810/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_tornqvist_board}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Alexander Törnqvist</h3>
+        <p class="team__role">{{team.role_board_entrepreneur}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/alexandertornqvist/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Company Leaders -->
+    <div class="team__divider fade-in">
+      <span class="eyebrow" style="margin-bottom: 0;">{{team.leaders_heading}}</span>
+    </div>
+    <div class="team__grid team__grid--founders fade-in">
+      <div class="team__member" data-bio="{{team.bio_hjort}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-adam-hjort.jpg" alt="Adam Hjort" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Adam Hjort</h3>
+        <p class="team__role">{{team.role_ceo_tidvis}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/adam-hjort/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_tornqvist_leader}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Alexander Törnqvist</h3>
+        <p class="team__role">{{team.role_digiplant}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/alexandertornqvist/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_tanner}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Harri Tanner</h3>
+        <p class="team__role">{{team.role_aspicore}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/harri-tanner/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_salmi_leader}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Janne Salmi</h3>
+        <p class="team__role">{{team.role_koivu}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/janne-salmi-42535810/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+      <div class="team__member" data-bio="{{team.bio_rydberg}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{R}}img/team-johan-rydberg.jpg" alt="Johan Rydberg" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">Johan Rydberg</h3>
+        <p class="team__role">{{team.role_embrace}}</p>
+        <a class="team__link" href="https://www.linkedin.com/in/johan-rydberg-a12565184/" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== LEAD MAGNET / FORM ======================== -->
+<section class="lead-magnet" id="review">
+  <img class="lead-magnet__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+  <div class="container lead-magnet__inner">
+    <div class="lead-magnet__grid">
+      <div class="fade-in">
+        <span class="eyebrow" style="color: var(--azure-300);">{{lead.eyebrow}}</span>
+        <h2 class="lead-magnet__title">{{lead.title}}</h2>
+        <p class="lead-magnet__sub">{{lead.sub}}</p>
+        <ol class="lead-magnet__steps">
+          <li class="lead-magnet__step">
+            <span class="lead-magnet__step-num">1</span>
+            <div>
+              <h4>{{lead.s1_title}}</h4>
+              <p>{{lead.s1_text}}</p>
+            </div>
+          </li>
+          <li class="lead-magnet__step">
+            <span class="lead-magnet__step-num">2</span>
+            <div>
+              <h4>{{lead.s2_title}}</h4>
+              <p>{{lead.s2_text}}</p>
+            </div>
+          </li>
+          <li class="lead-magnet__step">
+            <span class="lead-magnet__step-num">3</span>
+            <div>
+              <h4>{{lead.s3_title}}</h4>
+              <p>{{lead.s3_text}}</p>
+            </div>
+          </li>
+          <li class="lead-magnet__step">
+            <span class="lead-magnet__step-num">4</span>
+            <div>
+              <h4>{{lead.s4_title}}</h4>
+              <p>{{lead.s4_text}}</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="fade-in fade-in-d1">
+        <div class="form-card">
+          <h3 class="form-card__title">{{lead.form_title}}</h3>
+          <p class="form-card__sub">{{lead.form_sub}}</p>
+          <form data-netlify="true" name="application" data-success-action="alert" data-success-msg="{{lead.success_msg}}">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-name">{{lead.name_label}}</label>
+                <input type="text" id="f-name" name="f-name" placeholder="{{lead.name_ph}}" required>
+              </div>
+              <div class="form-field">
+                <label for="f-role">{{lead.role_label}}</label>
+                <input type="text" id="f-role" name="f-role" placeholder="{{lead.role_ph}}">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-company">{{lead.company_label}}</label>
+                <input type="text" id="f-company" name="f-company" placeholder="{{lead.company_ph}}" required>
+              </div>
+              <div class="form-field">
+                <label for="email">{{lead.email_label}}</label>
+                <input type="email" id="email" name="email" placeholder="{{lead.email_ph}}" required>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="f-vertical">{{lead.vertical_label}}</label>
+              <input type="text" id="f-vertical" name="f-vertical" placeholder="{{lead.vertical_ph}}">
+            </div>
+            <button class="btn btn--accent btn--lg" type="submit">{{lead.submit}} <i class="ph ph-arrow-right"></i></button>
+            <p class="form-card__legal">{{lead.legal}}</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== TESTIMONIALS ======================== -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="testimonials__head fade-in">
+      <span class="eyebrow eyebrow--question">{{testi.eyebrow}}</span>
+      <h2 class="section-title">{{testi.title}}</h2>
+    </div>
+    <div class="testimonials__grid fade-in">
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testi.t1_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo"><img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async"></div>
+          <div>
+            <p class="testimonial__name">Alexander Törnqvist</p>
+            <p class="testimonial__role">{{testi.t1_role}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testi.t2_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo"><img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" loading="lazy" decoding="async"></div>
+          <div>
+            <p class="testimonial__name">Harri Tanner</p>
+            <p class="testimonial__role">{{testi.t2_role}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testi.t3_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo"><img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async"></div>
+          <div>
+            <p class="testimonial__name">Janne Salmi</p>
+            <p class="testimonial__role">{{testi.t3_role}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <div class="cta-group">
+        <a class="btn btn--on-navy btn--lg" href="{{review_href}}">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+        <span class="micro-cta" style="color: var(--navy-300);">{{cta.micro}}</span>
+      </div>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.email_btn}}</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.stockholm}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+const COMPANIES = [
+  { id:"tidvis", name:"Tidvis", cat:"{{co.tidvis_cat}}", tone:"brand",
+    logo:"{{R}}Design-system/assets/portfolio/tidvis.jpg",
+    person:"Adam Hjort", photo:"{{R}}img/team-adam-hjort.jpg", role:"{{co.tidvis_role}}", loc:"{{co.tidvis_loc}}", url:"tidvis.se",
+    desc:"{{co.tidvis_desc}}" },
+  { id:"digiplant", name:"digiPlant", cat:"{{co.assoc_cat}}", tone:"info",
+    logo:"{{R}}Design-system/assets/portfolio/digiplant.png",
+    person:"Alexander Törnqvist", photo:"/img/team-alexander-tornqvist.jpg", role:"{{co.role_cofounder}}", loc:"{{co.orebro_loc}}", href:"https://www.digiplant.se/sv/", url:"digiplant.se",
+    desc:"{{co.digiplant_desc}}" },
+  { id:"aspicore", name:"Aspicore", cat:"{{co.assoc_cat}}", tone:"info",
+    logo:"{{R}}Design-system/assets/portfolio/aspicore.png",
+    person:"Harri Tanner", photo:"{{R}}img/team-harri-tanner.jpg", role:"{{co.aspicore_role}}", loc:"{{co.aspicore_loc}}", url:"aspicore.com",
+    desc:"{{co.aspicore_desc}}" },
+  { id:"koivu", name:"Koivu Solutions", cat:"{{co.koivu_cat}}", tone:"success",
+    logo:"{{R}}Design-system/assets/portfolio/sotender.png",
+    person:"Janne Salmi", photo:"/img/team-janne-salmi.png", role:"{{co.role_cofounder}}", loc:"{{co.koivu_loc}}", url:"sotender.io",
+    desc:"{{co.koivu_desc}}" },
+  { id:"embrace", name:"Embrace Safety", cat:"{{co.embrace_cat}}", tone:"warning",
+    logo:"{{R}}Design-system/assets/portfolio/embrace.png",
+    person:"Johan Rydberg", photo:"{{R}}img/team-johan-rydberg.jpg", role:"{{co.embrace_role}}", loc:"{{co.orebro_loc}}", href:"https://www.embrace-safety.se/", url:"embrace-safety.se",
+    desc:"{{co.embrace_desc}}" },
+  { id:"bleau", name:"Bleau", cat:"{{co.bleau_cat}}", tone:"info",
+    logo:"{{R}}Design-system/assets/portfolio/bleau.png",
+    person:"Robert G. Filtenborg", photo:"{{R}}img/team-robert-filtenborg.jpg", role:"{{co.bleau_role}}", loc:"{{co.bleau_loc}}", href:"https://www.bleau.dk/", url:"bleau.dk",
+    desc:"{{co.bleau_desc}}" },
+];
+let coIdx = 0;
+function initials(n) { return n.split(' ').map(w => w[0]).join(''); }
+function renderCo() {
+  const c = COMPANIES[coIdx];
+  document.getElementById('co-card').innerHTML = `
+    <div class="co-card__media">
+      <div class="co-logo"><img src="${c.logo}" alt="${c.name}" loading="lazy" decoding="async"></div>
+      <span class="co-badge co-badge--${c.tone}">${c.cat}</span>
+    </div>
+    <div class="co-card__body">
+      <h3 class="co-card__name">${c.name}</h3>
+      <p class="co-card__desc">${c.desc}</p>
+      <div class="co-card__foot">
+        <div class="co-person">
+          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" alt="${c.person}" loading="lazy" decoding="async">` : initials(c.person)}</div>
+          <div>
+            <div class="co-person__name">${c.person}</div>
+            <div class="co-person__role">${c.role} · ${c.loc}</div>
+          </div>
+        </div>
+        <a class="btn btn--secondary btn--sm" href="${c.href || `https://${c.url}`}" target="_blank">${c.url} <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div>`;
+  document.getElementById('co-dots').innerHTML = COMPANIES.map((co, i) =>
+    `<button class="co-dot${i === coIdx ? ' co-dot--active' : ''}" onclick="setCo(${i})">${co.name}</button>`
+  ).join('');
+}
+function goCo(d) { coIdx = (coIdx + d + COMPANIES.length) % COMPANIES.length; renderCo(); }
+function setCo(i) { coIdx = i; renderCo(); }
+
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+renderCo();
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+});
+
+// In-place bio overlay on team photos
+document.querySelectorAll('.team__member[data-bio]').forEach(member => {
+  const photo = member.querySelector('.team__photo');
+  if (!photo || !member.dataset.bio) return;
+  const overlay = document.createElement('div');
+  overlay.className = 'team__bio-overlay';
+  overlay.innerHTML = '<p>' + member.dataset.bio + '</p>';
+  photo.appendChild(overlay);
+
+  member.addEventListener('click', (e) => {
+    if (e.target.closest('.team__link')) return;
+    const wasActive = member.classList.contains('is-active');
+    document.querySelectorAll('.team__member.is-active').forEach(m => m.classList.remove('is-active'));
+    if (!wasActive) member.classList.add('is-active');
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.team__member')) {
+    document.querySelectorAll('.team__member.is-active').forEach(m => m.classList.remove('is-active'));
+  }
+});
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+<script>
+</script>
+</body>
+</html>

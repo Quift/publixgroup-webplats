@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Cookiepolicy — PubliX Group",
+    "description": "Så använder PubliX Group cookies på publixgroup.io: funktionella cookies plus Google Analytics 4 med opt-in.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hoppa till innehåll",
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Bolag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential"
+  },
+  "hero": {
+    "title": "Cookiepolicy",
+    "updated": "Senast uppdaterad: 4 augusti 2026",
+    "intro": "Denna sida beskriver de cookies som publixgroup.io använder. Vi håller vår cookieanvändning minimal och funktionell."
+  },
+  "what": {
+    "h": "Vad är en cookie?",
+    "p": "En cookie är en liten textfil som lagras på din enhet av en webbplats du besöker. Cookies används i stor utsträckning för att få webbplatser att fungera, eller fungera mer effektivt, samt för att förse webbplatsägare med information."
+  },
+  "use": {
+    "h": "Cookies vi använder",
+    "h3_functional": "Nödvändiga / funktionella",
+    "li_nflang": "<strong>nf_lang</strong> — Kommer ihåg det språk du valt via språkväxlaren. Sätts endast när du aktivt byter språk. Livstid: session.",
+    "li_netlify": "<strong>Netlify sessionscookies</strong> — Sätts av vår formulärleverantör (Netlify) när du skickar kontaktformuläret eller prenumererar på nyhetsbrevet, för spam-skydd (Akismet).",
+    "h3_analytics": "Analys — endast med samtycke",
+    "p_ga4": "Vi använder <strong>Google Analytics 4 (GA4)</strong> för att förstå hur besökare använder publixgroup.io. GA4 sätter cookies som lagrar en pseudonym identifierare i upp till 2 år:",
+    "li_ga": "<strong>_ga</strong> — Google Analytics klient-ID. Livstid: 2 år.",
+    "li_ga2": "<strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 sessionsstatus. Livstid: 2 år.",
+    "p_consent": "<strong>Dessa cookies laddas endast efter att du klickat ”Acceptera” i vår cookie-banner.</strong> Om du avböjer (eller ignorerar bannern) sätts inga analys-cookies och ingen analysdata samlas in. GA4 loggar eller lagrar inte fullständiga IP-adresser; Google använder IP-adressen enbart kortvarigt för att härleda grov geolokalisering och kastar den sedan.",
+    "p_google": "Google Analytics tillhandahålls av Google Ireland Limited. Data kan behandlas av Google LLC (USA) enligt <a href=\"https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en\" target=\"_blank\" rel=\"noopener\">EU-US Data Privacy Framework</a>. Se <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles integritetspolicy</a>.",
+    "h3_marketing": "Marknadsföring / spårning",
+    "p_marketing": "Vi använder <strong>inga</strong> cookies för marknadsföring, annonsering eller korssidespårning. Inga tredjeparts marknadsföringsspårare (Meta Pixel, LinkedIn Insight, etc.) körs på denna webbplats."
+  },
+  "consent": {
+    "h": "Hantera ditt samtycke",
+    "p": "Du kan acceptera eller avvisa analys-cookies via bannern längst ner på sidan. Du kan ändra dig när som helst — <a href=\"#\" onclick=\"resetCookieChoice(); return false;\">återställ ditt cookie-val</a> för att visa bannern igen. Du kan också radera cookies från din webbläsare när som helst via webbläsarens inställningar."
+  },
+  "changes": {
+    "h": "Ändringar av denna policy",
+    "p": "Vi kan uppdatera denna policy från tid till annan. Datumet ”senast uppdaterad” högst upp återspeglar den senaste ändringen."
+  },
+  "contact_s": {
+    "h": "Kontakt",
+    "p": "Vid frågor om vår cookieanvändning, mejla <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>."
+  },
+  "footer": {
+    "blurb": "Vi samarbetar med grundarledda SaaS-bolag som digitaliserar offentliga tjänster i norra Europa.",
+    "org": "Org. 559485-5487 · Backad av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigera",
+    "assessment": "Tillväxtutvärdering",
+    "privacy": "Integritetspolicy",
+    "cookie": "Cookiepolicy",
+    "updated": "Håll dig uppdaterad",
+    "updated_sub": "Få det senaste från PubliX Group.",
+    "newsletter_success": "Tack! Du är prenumerant.",
+    "newsletter_ph": "din@epost.se",
+    "newsletter_aria": "E-postadress",
+    "subscribe": "Prenumerera",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, vd"
+  }
+}

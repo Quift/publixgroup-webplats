@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Våra bolag — PubliX Group Portfölj",
+    "description": "De sex grundarledda SaaS-bolagen i PubliX Groups portfölj som bygger affärskritisk mjukvara för nordiska offentliga tjänster.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hoppa till innehåll",
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Bolag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential",
+    "cta_indent": "      ",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "cls": "companies-hero__",
+    "eyebrow": "Våra bolag",
+    "title": "Grundarledda, uppdragsdrivna",
+    "sub": "Varje bolag i PubliX portfölj byggdes av grundare som bryr sig djupt om offentliga tjänster. De valde att ansluta sig till oss – och stannade för att fortsätta bygga."
+  },
+  "portfolio": {
+    "grid_tail": "\n"
+  },
+  "companies": [
+    {
+      "comment": "Tidvis (featured / wide card)",
+      "classes": "pf-card pf-card--featured fade-in",
+      "logo": "tidvis.jpg",
+      "logo_alt": "Tidvis",
+      "badge_class": "brand",
+      "badge": "Socialomsorg",
+      "name": "Tidvis",
+      "desc": "Tidvis tillhandahåller ett integrerat verksamhetssystem för den sociala omsorgssektorn — schemaläggning, tidrapportering, lön och dokumentation i en och samma plattform för assistansanordnare och LSS-verksamheter. Verktygen är utformade av människor som förstår omsorgsarbetets vardag.",
+      "avatar": "{{R}}img/team-adam-hjort.jpg",
+      "founder": "Adam Hjort",
+      "role": "vd",
+      "location": "Stockholm, Sweden",
+      "site_url": "https://tidvis.se",
+      "site_label": "tidvis.se"
+    },
+    {
+      "comment": "digiPlant",
+      "classes": "pf-card fade-in fade-in-d1",
+      "logo": "digiplant.png",
+      "logo_alt": "digiPlant",
+      "badge_class": "info",
+      "badge": "Bidragshantering",
+      "name": "digiPlant",
+      "desc": "digiPlant utvecklar SBS Manager, en plattform för ansökningshantering åt stiftelser, sponsorer och offentliga organisationer — från mottagande av ansökningar till granskning, beslut och utbetalning. Enklare ansökningar, kortare handläggningstider och fler utbetalda bidrag.",
+      "avatar": "/img/team-alexander-tornqvist.jpg",
+      "founder": "Alexander Törnqvist",
+      "role": "Medgrundare &amp; vd",
+      "location": "Örebro, Sweden",
+      "site_url": "https://www.digiplant.se/sv/",
+      "site_label": "digiplant.se"
+    },
+    {
+      "comment": "Aspicore",
+      "classes": "pf-card fade-in fade-in-d2",
+      "logo": "aspicore.png",
+      "logo_alt": "Aspicore",
+      "badge_class": "info",
+      "badge": "Stiftelsehantering",
+      "name": "Aspicore",
+      "desc": "Aspicore bygger digitala plattformar för stiftelse- och bidragshantering, och hjälper allmännyttiga organisationer att hantera ansökningar, administrera bidrag och säkerställa transparent styrning.",
+      "avatar": "{{R}}img/team-harri-tanner.jpg",
+      "founder": "Harri Tanner",
+      "role": "vd",
+      "location": "Helsinki, Finland",
+      "site_url": "https://aspicore.com",
+      "site_label": "aspicore.com"
+    },
+    {
+      "comment": "Koivu Solutions (Sotender)",
+      "classes": "pf-card fade-in fade-in-d3",
+      "logo": "sotender.png",
+      "logo_alt": "Sotender",
+      "badge_class": "success",
+      "badge": "Vårdbemanning",
+      "name": "Koivu Solutions <span style=\"font-weight: 400; color: var(--text-muted); font-size: var(--fs-body-sm);\">(Sotender)</span>",
+      "desc": "Koivu Solutions utvecklar Sotender, en mobilanpassad plattform som kopplar samman vårdpersonal med lediga pass och minskar beroendet av bemanningsföretag. Österbottens välfärdsområde har rapporterat årliga besparingar på mer än 7 miljoner euro.",
+      "avatar": "/img/team-janne-salmi.png",
+      "founder": "Janne Salmi",
+      "role": "Medgrundare &amp; vd",
+      "location": "Helsinki, Finland",
+      "site_url": "https://sotender.fi",
+      "site_label": "sotender.fi"
+    },
+    {
+      "comment": "Embrace Safety",
+      "classes": "pf-card fade-in fade-in-d4",
+      "logo": "embrace.png",
+      "logo_alt": "Embrace Safety",
+      "badge_class": "warning",
+      "badge": "Brottsförebyggande",
+      "name": "Embrace Safety",
+      "desc": "Embrace Safety utvecklar EMBRACE, en plattform för kunskapsbaserad brottsprevention och trygghetsfrämjande arbete. Kommuner, polismyndigheter och organisationer använder den för att kartlägga lägesbilder, analysera orsaker och följa upp förebyggande åtgärder.",
+      "avatar": "{{R}}img/team-johan-rydberg.jpg",
+      "founder": "Johan Rydberg",
+      "role": "vd &amp; Säljchef",
+      "location": "Örebro, Sweden",
+      "site_url": "https://www.embrace-safety.se/",
+      "site_label": "embracesafety.se"
+    },
+    {
+      "comment": "Bleau (Denmark)",
+      "classes": "pf-card pf-card--featured fade-in fade-in-d4",
+      "logo": "bleau.png",
+      "logo_alt": "Bleau A/S",
+      "badge_class": "info",
+      "badge": "Offentlig kommunikation",
+      "name": "Bleau",
+      "desc": "Bleau utvecklar moliri, en plattform för säker och tillgänglig digital kommunikation i offentlig sektor med regelefterlevnad i grunden, samt NemBolig för danska allmännyttiga bostadsorganisationer. Innehållet kontrolleras för tillgänglighet, säkerhet och regelefterlevnad i publiceringsögonblicket.",
+      "avatar": "{{R}}img/team-robert-filtenborg.jpg",
+      "founder": "Robert G. Filtenborg",
+      "role": "vd",
+      "location": "Aarhus, Danmark",
+      "site_url": "https://www.bleau.dk",
+      "site_label": "bleau.dk"
+    }
+  ],
+  "quote": {
+    "text": "”Redan när vi blev kontaktade kände vi ett stort förtroende för köparen. De behandlade oss med respekt, ställde kloka och rimliga frågor och lyssnade verkligen på våra svar. Vi kände också att PubliX erbjöd en struktur – en grupp av bolag som alla bidrar med samhällsnytta.”",
+    "cite_role": "vd, Embrace Safety"
+  },
+  "timeline": {
+    "eyebrow": "Efter förvärvet",
+    "title": "Vad händer när du har anslutit",
+    "sub": "Att ansluta till PubliX är utformat för att vara smidigt. Så här ser det första året ut för ett typiskt portföljbolag.",
+    "t1_title": "Dag ett: Inget förändras",
+    "t1_desc": "Ditt team, ditt kontor, dina kunder. Vi är inte här för att omorganisera.",
+    "t2_title": "Månad 1–3: Grunderna",
+    "t2_desc": "Vi arbetar tillsammans med ekonomi, prissättning, regelefterlevnad och säkerhet.",
+    "t3_title": "Månad 3–12: Tillväxt",
+    "t3_desc": "Korsförsäljning till gemensamma kunder, öppna nya länder, lägga till angränsande arbetsflöden.",
+    "t4_title": "År 1+: Plattformsvärde",
+    "t4_desc": "Ta del av gruppens gemensamma tillväxt. Din framgång ger ränta på ränta.",
+    "fika_alt": "Team fika at a PubliX portfolio company"
+  },
+  "cta": {
+    "title": "Funderar du på ditt nästa kapitel?",
+    "sub": "Oavsett om du utforskar dina alternativ, är nyfiken på var ditt bolag står eller bara vill prata med någon som förstår din marknad – välkomnar vi samtalet.",
+    "btn": "Upptäck din tillväxtpotential",
+    "email": "Eller mejla Alexander direkt"
+  },
+  "footer": {
+    "blurb": "Vi samarbetar med grundarledda SaaS-bolag som digitaliserar offentliga tjänster i norra Europa.",
+    "org": "Org. 559485-5487 · Backas upp av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigera",
+    "assessment": "Tillväxtutvärdering",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Integritetspolicy",
+    "cookie": "Cookiepolicy",
+    "updated": "Håll dig uppdaterad",
+    "updated_sub": "Få de senaste nyheterna från PubliX Group.",
+    "newsletter_success": "Tack! Du prenumererar nu.",
+    "newsletter_ph": "din@epost.se",
+    "newsletter_aria": "E-postadress",
+    "subscribe": "Prenumerera",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, vd"
+  }
+}

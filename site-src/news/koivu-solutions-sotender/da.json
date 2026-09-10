@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group indgår partnerskab med Koivu Solutions (Sotender)",
+    "description": "En moderne SaaS-løsning til at forbinde sundhedspersonale med ledige vagter, hvilket øger rækkevidden og reducerer omkostningerne for sundhedsudbydere."
+  },
+  "date": {
+    "display": "16. december 2025",
+    "published_iso": "2025-12-16",
+    "modified_iso": "2025-12-16"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Opkøb"
+  },
+  "title": "PubliX Group indgår partnerskab med Koivu Solutions (Sotender)",
+  "lead": "En moderne SaaS-løsning til at forbinde sundhedspersonale med ledige vagter, hvilket øger rækkevidden og reducerer omkostningerne for sundhedsudbydere.",
+  "body_html": "      <p>HELSINKI, 16. december 2025 — PubliX Group har opkøbt 100 procent af aktierne i Koivu Solutions Oy, den finske virksomhed bag Sotender, en mobile-first platform, der forbinder sundhedspersonale med ledige vagter og mindsker afhængigheden af vikarbureauer. På tidspunktet for offentliggørelsen havde Sotender mere end 27.000 brugere i Finland, og den første svenske implementering var i gang.</p>\n      <p>Resultaterne er offentligt kendte: velfærdsområdet Österbotten har rapporteret årlige besparelser på mere end 7 millioner euro, og 96,7 procent af de ledige vagter bookes gennem Sotender.</p>\n      <p>»Dette partnerskab styrker Koivu uden at ændre på, hvem vi er. Vores team, vores mission og vores kunderelationer forbliver de samme«, sagde Janne Salmi, CEO og medstifter af Koivu Solutions.</p>\n      <p>»Koivu er indbegrebet af den type specialiserede, missionsdrevne SaaS-virksomheder, vi ønsker i PubliX Group«, sagde Marcus Åström, fungerende CEO og Head of M&amp;A i PubliX Group.</p>\n      <p>Koivu Solutions, grundlagt i 2017, fortsætter som en selvstændig virksomhed i gruppen — samme team, samme brand. De nuværende ejere fortsætter i operationelle roller og geninvesterer en betydelig del af provenuet for at blive aktionærer i PubliX.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Spring til indhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om",
+    "team": "Team",
+    "companies": "Virksomheder",
+    "news": "Nyheder",
+    "contact": "Kontakt",
+    "cta": "Opdag dit vækstpotentiale"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/sotender.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Koivu Solutions",
+        "text": "Koivu Solutions er en finsk SaaS-virksomhed grundlagt i 2017. Platformen Sotender forbinder sundhedspersonale med ledige vagter og mindsker afhængigheden af vikarbureauer i de finske velfærdsområder."
+      }
+    ],
+    "cta": "Se alle virksomheder"
+  },
+  "footer": {
+    "privacy": "Privatlivspolitik",
+    "cookie": "Cookiepolitik"
+  }
+}

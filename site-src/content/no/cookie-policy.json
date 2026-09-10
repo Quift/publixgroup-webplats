@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Informasjonskapselpolicy — PubliX Group",
+    "description": "Slik bruker PubliX Group informasjonskapsler på publixgroup.io: funksjonelle kapsler pluss Google Analytics 4 med opt-in.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hopp til innhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "hero": {
+    "title": "Informasjonskapselpolicy",
+    "updated": "Sist oppdatert: 4. august 2026",
+    "intro": "Denne siden beskriver informasjonskapslene som publixgroup.io bruker. Vi holder bruken minimal og funksjonell."
+  },
+  "what": {
+    "h": "Hva er en informasjonskapsel?",
+    "p": "En informasjonskapsel er en liten tekstfil som lagres på enheten din av et nettsted du besøker. De brukes for å få nettsteder til å fungere eller fungere mer effektivt, og for å gi eiere informasjon."
+  },
+  "use": {
+    "h": "Kapsler vi bruker",
+    "h3_functional": "Strengt nødvendige / funksjonelle",
+    "li_nflang": "<strong>nf_lang</strong> — Husker språket du har valgt via språkvelgeren. Settes kun når du aktivt bytter språk. Levetid: økt.",
+    "li_netlify": "<strong>Netlify øktkapsler</strong> — Settes av vår skjemaleverandør (Netlify) når du sender kontaktskjemaet eller abonnerer på nyhetsbrevet, for spam-forebygging (Akismet).",
+    "h3_analytics": "Analyse — kun med samtykke",
+    "p_ga4": "Vi bruker <strong>Google Analytics 4 (GA4)</strong> for å forstå hvordan besøkende bruker publixgroup.io. GA4 setter informasjonskapsler som lagrer en pseudonym identifikator i opptil 2 år:",
+    "li_ga": "<strong>_ga</strong> — Google Analytics klient-ID. Levetid: 2 år.",
+    "li_ga2": "<strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 øktstatus. Levetid: 2 år.",
+    "p_consent": "<strong>Disse kapslene lastes kun etter at du har klikket «Godta» i vårt cookie-banner.</strong> Hvis du avslår (eller ignorerer banneret) settes ingen analyse-kapsler og ingen analysedata samles inn. GA4 logger eller lagrer ikke fulle IP-adresser; Google bruker IP-adressen kun kortvarig for å utlede grov geolokalisering og forkaster den deretter.",
+    "p_google": "Google Analytics leveres av Google Ireland Limited. Data kan behandles av Google LLC (USA) under <a href=\"https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en\" target=\"_blank\" rel=\"noopener\">EU-US Data Privacy Framework</a>. Se <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles personvernerklæring</a>.",
+    "h3_marketing": "Markedsføring / sporing",
+    "p_marketing": "Vi bruker <strong>ingen</strong> kapsler for markedsføring, annonsering eller sporing på tvers av nettsteder. Ingen tredjeparts markedsføringssporing (Meta Pixel, LinkedIn Insight osv.) kjører på dette nettstedet."
+  },
+  "consent": {
+    "h": "Håndter ditt samtykke",
+    "p": "Du kan godta eller avslå analyse-kapsler via banneret nederst på siden. Du kan endre mening når som helst — <a href=\"#\" onclick=\"resetCookieChoice(); return false;\">tilbakestill ditt cookie-valg</a> for å vise banneret igjen. Du kan også slette kapsler fra nettleseren når som helst via nettleserinnstillingene."
+  },
+  "changes": {
+    "h": "Endringer i denne policyen",
+    "p": "Vi kan oppdatere denne policyen fra tid til annen. Datoen «sist oppdatert» øverst gjenspeiler siste endring."
+  },
+  "contact_s": {
+    "h": "Kontakt",
+    "p": "For spørsmål om vår bruk av kapsler, send e-post til <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>."
+  },
+  "footer": {
+    "blurb": "Vi samarbeider med gründerledede SaaS-selskaper som digitaliserer offentlige tjenester i Nord-Europa.",
+    "org": "Org. 559485-5487 · Støttet av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Naviger",
+    "assessment": "Vekstvurdering",
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy",
+    "updated": "Hold deg oppdatert",
+    "updated_sub": "Få det siste fra PubliX Group.",
+    "newsletter_success": "Takk! Du er abonnent.",
+    "newsletter_ph": "din@epost.no",
+    "newsletter_aria": "E-postadresse",
+    "subscribe": "Abonner",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, administrerende direktør"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Personvernerklæring — PubliX Group",
+    "description": "Slik håndterer PubliX Group personopplysningene dine: hva vi samler inn, hvorfor, hvor lenge vi oppbevarer dem, og dine GDPR-rettigheter.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hopp til innhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "hero": {
+    "title": "Personvernerklæring",
+    "updated": "Sist oppdatert: 4. august 2026",
+    "intro": "PubliX Group AB («vi», «vår», «oss») respekterer personvernet ditt. Denne erklæringen forklarer hvilke personopplysninger vi samler inn gjennom publixgroup.io, hvorfor vi samler dem inn, hvor lenge vi oppbevarer dem, og hvilke rettigheter du har under EUs personvernforordning (GDPR)."
+  },
+  "controller": {
+    "h": "Behandlingsansvarlig",
+    "p": "<strong>PubliX Group AB</strong><br>Org.nr. 559485-5487<br>Kungsgatan 37, 8tr<br>111 56 Stockholm, Sverige<br>E-post: <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>"
+  },
+  "collect": {
+    "h": "Hvilke data vi samler inn",
+    "h3_form": "Kontaktskjema",
+    "p_form": "Når du sender kontaktskjemaet, samler vi inn: navn, e-post, selskap, melding. Oppgitt direkte av deg.",
+    "h3_news": "Nyhetsbrev",
+    "p_news": "Når du abonnerer, samler vi inn: e-postadresse. Oppgitt direkte av deg.",
+    "h3_analytics": "Analyse — kun med samtykke",
+    "p_analytics": "Vi bruker <strong>Google Analytics 4</strong> for aggregert brukerstatistikk (sidevisninger, henvisende nettsteder, land, enhetstype). GA4 bruker informasjonskapsler (<code>_ga</code>, <code>_ga_F39X0LXQTH</code>) som kun settes etter at du har samtykket via vårt cookie-banner. Hvis du avslår, settes ingen analyse-kapsler og ingen analysedata samles inn. GA4 logger eller lagrer ikke fulle IP-adresser; Google bruker IP-adressen kun kortvarig for å utlede grov geolokalisering og forkaster den deretter.",
+    "h3_logs": "Serverlogger",
+    "p_logs": "Vår vertsleverandør Netlify registrerer standard HTTP-tilgangslogger (IP-adresse, tidsstempel, forespurt URL, user agent) av sikkerhets- og misbruksforebyggingshensyn. Oppbevares iht. Netlifys datapolicy."
+  },
+  "why": {
+    "h": "Hvorfor vi samler det (rettslig grunnlag)",
+    "li1": "<strong>Kontakthenvendelser</strong> — Berettiget interesse (besvare henvendelsen din). Artikkel 6(1)(f) GDPR.",
+    "li2": "<strong>Nyhetsbrevabonnement</strong> — Samtykke (din uttrykkelige registrering). Artikkel 6(1)(a) GDPR. Du kan trekke samtykket når som helst ved å avslutte abonnementet.",
+    "li3": "<strong>Serverlogger</strong> — Berettiget interesse (nettstedssikkerhet). Artikkel 6(1)(f) GDPR."
+  },
+  "retain": {
+    "h": "Hvor lenge vi oppbevarer det",
+    "li1": "Kontakthenvendelser: opptil 24 måneder fra siste interaksjon",
+    "li2": "Nyhetsbrevabonnement: til du avslutter",
+    "li3": "Serverlogger: iht. Netlifys retensjon (vanligvis 30 dager)",
+    "li4": "Analyse: kun hvis du samtykker. GA4-kapsler utløper etter 2 år; aggregerte data lagres iht. Google Analytics' standardverdier."
+  },
+  "processors": {
+    "h": "Databehandlere",
+    "p": "Vi bruker følgende databehandlere, alle bundet av GDPR-databehandleravtaler:",
+    "li1": "<strong>Netlify, Inc.</strong> — nettstedshosting og skjemabehandling (USA; EU-US Data Privacy Framework)",
+    "li2": "<strong>Google Ireland Limited</strong> — analyse (Irland, EU). Underdatabehandler: <strong>Google LLC</strong> (USA, under EU-US Data Privacy Framework). Kun når du samtykker via vårt cookie-banner.",
+    "p2": "Vi <strong>selger ikke</strong> dataene dine eller deler dem med annonsører eller markedsføringsplattformer."
+  },
+  "rights": {
+    "h": "Dine rettigheter under GDPR",
+    "p": "Du har rett til å:",
+    "li1": "Få innsyn i personopplysningene vi har om deg",
+    "li2": "Rette uriktige opplysninger",
+    "li3": "Slette dataene dine («retten til å bli glemt»)",
+    "li4": "Begrense eller motsette deg behandling basert på berettiget interesse",
+    "li5": "Motta dataene i portabelt format",
+    "li6": "Trekke samtykke når som helst (for samtykkebasert behandling)",
+    "li7": "Klage til tilsynsmyndighet",
+    "p2": "For å utøve disse rettighetene, send e-post til <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>. Vi svarer innen 30 dager.",
+    "p3": "Norsk tilsynsmyndighet: <a href=\"https://www.datatilsynet.no/\" target=\"_blank\" rel=\"noopener\">Datatilsynet</a>."
+  },
+  "changes": {
+    "h": "Endringer i denne erklæringen",
+    "p": "Vi kan oppdatere denne erklæringen fra tid til annen. Datoen «sist oppdatert» øverst gjenspeiler siste endring."
+  },
+  "footer": {
+    "blurb": "Vi samarbeider med gründerledede SaaS-selskaper som digitaliserer offentlige tjenester i Nord-Europa.",
+    "org": "Org. 559485-5487 · Støttet av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Naviger",
+    "assessment": "Vekstvurdering",
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy",
+    "updated": "Hold deg oppdatert",
+    "updated_sub": "Få det siste fra PubliX Group.",
+    "newsletter_success": "Takk! Du er abonnent.",
+    "newsletter_ph": "din@epost.no",
+    "newsletter_aria": "E-postadresse",
+    "subscribe": "Abonner",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, administrerende direktør"
+  }
+}

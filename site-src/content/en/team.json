@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "title": "Our Team — PubliX Group",
+    "description": "Meet the team behind PubliX Group — the operators, founders and board members building the growth platform for SaaS companies in public services.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta_indent": "      ",
+    "cta": "Discover your growth potential",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "Our team",
+    "title": "The people behind PubliX",
+    "sub": "PubliX is built by operators who have founded, scaled and run software companies. When you talk to us, you talk to someone who understands your world."
+  },
+  "team": {
+    "eyebrow": "PubliX Group",
+    "title": "Management team",
+    "board_eyebrow": "Board of Directors",
+    "founders_eyebrow": "Company leaders",
+    "mgmt": [
+      {
+        "name": "Alexander Hübel",
+        "role": "Group CEO",
+        "photo": "/img/team-alexander-hubel.jpg",
+        "alt": "Alexander Hübel",
+        "li": "https://www.linkedin.com/in/alexander-h%C3%BCbel-17176b22/",
+        "bio": "Alexander has spent over 15 years building and scaling software companies. Before joining PubliX Group, he held leadership roles across SaaS, digital transformation, and M&amp;A. He leads the group's strategy, acquisitions, and founder relationships."
+      },
+      {
+        "name": "Marcus Åström",
+        "role": "Head of M&amp;A",
+        "photo": "{{R}}img/team-marcus-astrom.webp",
+        "alt": "Marcus Åström",
+        "li": "https://www.linkedin.com/in/marcusiastrom/",
+        "bio": "Marcus brings deep experience in M&amp;A and corporate finance, with a focus on technology companies. He leads the deal process from first conversation to close, ensuring every transaction is structured fairly and transparently."
+      },
+      {
+        "name": "Erik Runsten",
+        "role": "VP Finance &amp; Operations",
+        "photo": "{{R}}img/team-erik-runsten.webp",
+        "alt": "Erik Runsten",
+        "li": "https://www.linkedin.com/in/erik-runsten-a1719528/",
+        "bio": "Erik oversees the group's financial operations and reporting. With a background in finance and operations across technology companies, he ensures our portfolio companies have the financial infrastructure to scale."
+      },
+      {
+        "name": "Patrick Zeits",
+        "role": "CTO",
+        "photo": "/img/team-patrick-zeits.jpg",
+        "alt": "Patrick Zeits",
+        "li": "https://www.linkedin.com/in/patrick-zeits-2b80442/",
+        "bio": "Patrick leads the technical strategy across the group, including AI capabilities, shared infrastructure, and software architecture. He works hands-on with every portfolio company's development team."
+      }
+    ],
+    "board": [
+      {
+        "name": "Patrik Sallner",
+        "role": "Chairman of the Board",
+        "photo": "{{R}}img/team-patrik-sallner.webp",
+        "alt": "Patrik Sallner",
+        "li": "https://www.linkedin.com/in/patriksallner/",
+        "bio": "Patrik is an experienced technology executive and board professional. As Chairman of the Board, he provides strategic guidance and governance oversight to the group."
+      },
+      {
+        "name": "Viktor Wrede",
+        "role": "Board member, External",
+        "photo": "/img/team-viktor-wrede.jpg",
+        "alt": "Viktor Wrede",
+        "li": "https://www.linkedin.com/in/viktorwrede/",
+        "bio": "Viktor brings investment and technology expertise to the board as an independent external director. He contributes to PubliX's strategic direction and portfolio company development."
+      },
+      {
+        "name": "Anders Barklöf",
+        "role": "Board member, Aspira Partners",
+        "photo": "/img/team-anders-barklof.webp",
+        "alt": "Anders Barklöf",
+        "li": "https://www.linkedin.com/in/anders-barkl%C3%B6f-9ba96b44/",
+        "bio": "Anders represents Aspira Partners on the PubliX Group board. He brings deep experience in building and scaling Nordic technology companies."
+      },
+      {
+        "name": "Anton Holm",
+        "role": "Board member, Aspira Partners",
+        "photo": "/img/team-anton-holm.webp",
+        "alt": "Anton Holm",
+        "li": "https://www.linkedin.com/in/antonholm/",
+        "bio": "Anton represents Aspira Partners on the PubliX Group board. He contributes investment expertise and supports the group's acquisition and growth strategy."
+      },
+      {
+        "name": "Janne Salmi",
+        "role": "Board member, Entrepreneur",
+        "photo": "/img/team-janne-salmi.png",
+        "alt": "Janne Salmi",
+        "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
+        "bio": "Janne co-founded Koivu Solutions and serves on the PubliX Group board as an entrepreneur representative. He brings firsthand experience in scaling Finnish healthcare technology into new Nordic markets."
+      },
+      {
+        "name": "Alexander Törnqvist",
+        "role": "Board member, Entrepreneur",
+        "photo": "/img/team-alexander-tornqvist.jpg",
+        "alt": "Alexander Törnqvist",
+        "li": "https://www.linkedin.com/in/alexandertornqvist/",
+        "bio": "Alexander co-founded digiPlant and serves on the PubliX Group board as an entrepreneur representative. He brings hands-on SaaS founder experience and deep knowledge of grant management technology."
+      }
+    ],
+    "founders": [
+      {
+        "name": "Adam Hjort",
+        "role": "CEO, Tidvis",
+        "photo": "{{R}}img/team-adam-hjort.jpg",
+        "alt": "Adam Hjort",
+        "li": "https://www.linkedin.com/in/adam-hjort/",
+        "bio": "Adam leads Tidvis, whose platform runs the daily operations of Swedish personal assistance and LSS providers. His understanding of care workers' everyday reality drives the platform's design and development."
+      },
+      {
+        "name": "Alexander Törnqvist",
+        "role": "Co-Founder &amp; CEO, digiPlant",
+        "photo": "/img/team-alexander-tornqvist.jpg",
+        "alt": "Alexander Törnqvist",
+        "li": "https://www.linkedin.com/in/alexandertornqvist/",
+        "bio": "Alexander co-founded digiPlant to modernise how foundations and grant providers handle applications. Since joining PubliX, his team has continued to build out SBS Manager."
+      },
+      {
+        "name": "Harri Tanner",
+        "role": "CEO, Aspicore",
+        "photo": "{{R}}img/team-harri-tanner.jpg",
+        "alt": "Harri Tanner",
+        "li": "https://www.linkedin.com/in/harri-tanner/",
+        "bio": "Harri leads Aspicore, whose Apuraha4 platform manages the full grant lifecycle for Finnish foundations, universities and public authorities — built on two decades of work with grant systems."
+      },
+      {
+        "name": "Janne Salmi",
+        "role": "Co-Founder &amp; CEO, Koivu Solutions",
+        "photo": "/img/team-janne-salmi.png",
+        "alt": "Janne Salmi",
+        "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
+        "bio": "Janne co-founded Koivu Solutions and built Sotender, the platform that connects Finnish healthcare workers with open shifts and reduces reliance on staffing agencies."
+      },
+      {
+        "name": "Johan Rydberg",
+        "role": "CEO, Embrace Safety",
+        "photo": "{{R}}img/team-johan-rydberg.jpg",
+        "alt": "Johan Rydberg",
+        "li": "https://www.linkedin.com/in/johan-rydberg-a12565184/",
+        "bio": "Johan leads Embrace Safety, helping municipalities and police authorities run knowledge-based crime prevention and safety promotion work."
+      },
+      {
+        "name": "Robert G. Filtenborg",
+        "role": "CEO, Bleau",
+        "photo": "{{R}}img/team-robert-filtenborg.jpg",
+        "alt": "Robert G. Filtenborg",
+        "li": "https://www.linkedin.com/company/bleau-a-s",
+        "bio": "Robert leads Bleau, whose platforms moliri and NemBolig carry public-sector and social housing communication in Denmark. He reinvested alongside PubliX and continues to run the company."
+      }
+    ]
+  },
+  "tt": {
+    "eyebrow": "Open positions",
+    "title": "Join us",
+    "card_title": "View all open positions",
+    "card_text": "We're always looking for talented people who want to build software that matters.",
+    "btn": "Browse jobs on Teamtailor"
+  },
+  "pc": {
+    "eyebrow": "Careers at our companies",
+    "title": "Or join one of our portfolio companies",
+    "sub": "Each company runs its own hiring. Reach out directly to learn about opportunities.",
+    "visit": "Visit website",
+    "cards": [
+      {
+        "logo": "tidvis.jpg",
+        "alt": "Tidvis",
+        "name": "Tidvis",
+        "desc": "Social care software",
+        "href": "https://tidvis.se"
+      },
+      {
+        "logo": "digiplant.png",
+        "alt": "digiPlant",
+        "name": "digiPlant",
+        "desc": "Grant management",
+        "href": "https://www.digiplant.se/sv/"
+      },
+      {
+        "logo": "aspicore.png",
+        "alt": "Aspicore",
+        "name": "Aspicore",
+        "desc": "Foundation management",
+        "href": "https://aspicore.com"
+      },
+      {
+        "logo": "sotender.png",
+        "alt": "Sotender",
+        "name": "Koivu Solutions",
+        "desc": "Healthcare staffing",
+        "href": "https://sotender.fi"
+      },
+      {
+        "logo": "embrace.png",
+        "alt": "Embrace Safety",
+        "name": "Embrace Safety",
+        "desc": "Crime prevention",
+        "href": "https://www.embrace-safety.se/"
+      },
+      {
+        "logo": "bleau.png",
+        "alt": "Bleau A/S",
+        "name": "Bleau",
+        "desc": "Public communication",
+        "href": "https://www.bleau.dk"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Thinking about your next chapter?",
+    "sub": "Whether you're exploring your options, curious about where your company stands, or just want to talk to someone who understands your market — we'd welcome the conversation.",
+    "btn": "Discover your growth potential",
+    "btn2": "Or email Alexander directly"
+  },
+  "footer": {
+    "blurb": "We partner with founder-led SaaS companies that digitise public services across Northern Europe.",
+    "org": "Org. 559485-5487 · Backed by <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigate",
+    "assessment": "Growth assessment",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy",
+    "updated": "Stay updated",
+    "updated_sub": "Get the latest from PubliX Group.",
+    "newsletter_success": "Thanks! You&#39;re subscribed.",
+    "newsletter_ph": "your@email.com",
+    "newsletter_aria": "Email address",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Cookie policy — PubliX Group",
+    "description": "How PubliX Group uses cookies on publixgroup.io: functional cookies plus opt-in Google Analytics 4.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "hero": {
+    "title": "Cookie policy",
+    "updated": "Last updated: 4 August 2026",
+    "intro": "This page describes the cookies used by publixgroup.io. We keep our use of cookies minimal and functional."
+  },
+  "what": {
+    "h": "What is a cookie?",
+    "p": "A cookie is a small text file stored on your device by a website you visit. Cookies are widely used to make websites work, or work more efficiently, and to provide information to site owners."
+  },
+  "use": {
+    "h": "Cookies we use",
+    "h3_functional": "Strictly necessary / functional",
+    "li_nflang": "<strong>nf_lang</strong> — Remembers the language you have chosen via the language switcher. Set only when you actively switch language. Lifetime: session.",
+    "li_netlify": "<strong>Netlify session cookies</strong> — Set by our forms provider (Netlify) when you submit the contact form or subscribe to the newsletter, for spam prevention (Akismet).",
+    "h3_analytics": "Analytics — opt-in only",
+    "p_ga4": "We use <strong>Google Analytics 4 (GA4)</strong> to understand how visitors use publixgroup.io. GA4 sets cookies that store a pseudonymous identifier for up to 2 years:",
+    "li_ga": "<strong>_ga</strong> — Google Analytics client identifier. Lifetime: 2 years.",
+    "li_ga2": "<strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 session state. Lifetime: 2 years.",
+    "p_consent": "<strong>These cookies load only after you click \"Accept\" in our cookie banner.</strong> If you decline (or ignore the banner), no analytics cookies are set and no analytics data is collected. GA4 does not log or store full IP addresses; Google uses the IP only transiently to derive coarse geolocation and then discards it.",
+    "p_google": "Google Analytics is provided by Google Ireland Limited. Data may be processed by Google LLC (United States) under the <a href=\"https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en\" target=\"_blank\" rel=\"noopener\">EU-US Data Privacy Framework</a>. See <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's privacy policy</a>.",
+    "h3_marketing": "Marketing / tracking",
+    "p_marketing": "We do <strong>not</strong> use marketing, advertising or cross-site tracking cookies. No third-party marketing trackers (Meta Pixel, LinkedIn Insight, etc.) run on this site."
+  },
+  "consent": {
+    "h": "Managing your consent",
+    "p": "You can accept or decline analytics cookies via the banner at the bottom of the page. You can change your mind at any time — <a href=\"#\" onclick=\"resetCookieChoice(); return false;\">reset your cookie choice</a> to show the banner again. You can also delete cookies from your browser at any time via your browser settings."
+  },
+  "changes": {
+    "h": "Changes to this policy",
+    "p": "We may update this policy from time to time. The \"last updated\" date at the top will reflect the most recent change."
+  },
+  "contact_s": {
+    "h": "Contact",
+    "p": "For questions about our use of cookies, email <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>."
+  },
+  "footer": {
+    "blurb": "We partner with founder-led SaaS companies that digitise public services across Northern Europe.",
+    "org": "Org. 559485-5487 · Backed by <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigate",
+    "assessment": "Growth assessment",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy",
+    "updated": "Stay updated",
+    "updated_sub": "Get the latest from PubliX Group.",
+    "newsletter_success": "Thanks! You&#39;re subscribed.",
+    "newsletter_ph": "your@email.com",
+    "newsletter_aria": "Email address",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

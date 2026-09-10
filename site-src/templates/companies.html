@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/companies.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script src="{{R}}js/consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html" class="active">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.dropdown_close}}
+  </div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="companies-hero" id="top">
+  <div class="container fade-in">
+    <div class="{{hero.cls}}eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+    <h1 class="{{hero.cls}}title">{{hero.title}}</h1>
+    <p class="{{hero.cls}}sub">{{hero.sub}}</p>
+  </div>
+</section>
+
+<!-- ======================== PORTFOLIO GRID ======================== -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+
+    <div class="portfolio__grid">
+{{#each companies}}
+      <!-- ---- {{.comment}} ---- -->
+      <div class="{{.classes}}">
+        <div class="pf-card__header">
+          <div class="pf-card__logo"><img src="{{R}}Design-system/assets/portfolio/{{.logo}}" alt="{{.logo_alt}}" loading="lazy" decoding="async"></div>
+          <span class="pf-card__badge pf-card__badge--{{.badge_class}}">{{.badge}}</span>
+        </div>
+        <div class="pf-card__body">
+          <h3 class="pf-card__name">{{.name}}</h3>
+          <p class="pf-card__desc">{{.desc}}</p>
+          <div class="pf-card__foot">
+            <div class="pf-card__founder">
+              <div class="pf-card__avatar"><img src="{{.avatar}}" alt="{{.founder}}" loading="lazy" decoding="async"></div>
+              <div>
+                <div class="pf-card__founder-name">{{.founder}}</div>
+                <div class="pf-card__founder-role">{{.role}}</div>
+              </div>
+            </div>
+            <div class="pf-card__meta">
+              <span class="pf-card__location"><i class="ph ph-map-pin"></i> {{.location}}</span>
+              <a class="btn btn--secondary btn--sm" href="{{.site_url}}" target="_blank">{{.site_label}} <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+{{/each}}{{portfolio.grid_tail}}    </div>
+  </div>
+</section>
+
+<!-- ======================== FOUNDER QUOTE ======================== -->
+<section class="founder-quote">
+  <img class="founder-quote__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+  <div class="container founder-quote__inner fade-in">
+    <div class="founder-quote__icon"><i class="ph ph-quotes"></i></div>
+    <blockquote class="founder-quote__text">{{quote.text}}</blockquote>
+    <div class="founder-quote__attribution">
+      <div class="founder-quote__photo"><div class="pf-card__avatar" style="width:56px;height:56px;"><img src="{{R}}img/team-johan-rydberg.jpg" alt="Johan Rydberg" loading="lazy" decoding="async"></div></div>
+      <div style="text-align: left;">
+        <p class="founder-quote__cite-name">Johan Rydberg</p>
+        <p class="founder-quote__cite-role">{{quote.cite_role}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== TIMELINE: WHAT JOINING LOOKS LIKE ======================== -->
+<section class="timeline-section" id="joining">
+  <div class="container">
+    <div class="timeline-section__head fade-in">
+      <span class="eyebrow">{{timeline.eyebrow}}</span>
+      <h2 class="section-title">{{timeline.title}}</h2>
+      <p class="section-sub">{{timeline.sub}}</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;">
+    <div class="timeline">
+      <div class="timeline__item fade-in">
+        <div class="timeline__num">1</div>
+        <h3 class="timeline__title">{{timeline.t1_title}}</h3>
+        <p class="timeline__desc">{{timeline.t1_desc}}</p>
+      </div>
+      <div class="timeline__item fade-in fade-in-d1">
+        <div class="timeline__num">2</div>
+        <h3 class="timeline__title">{{timeline.t2_title}}</h3>
+        <p class="timeline__desc">{{timeline.t2_desc}}</p>
+      </div>
+      <div class="timeline__item fade-in fade-in-d2">
+        <div class="timeline__num">3</div>
+        <h3 class="timeline__title">{{timeline.t3_title}}</h3>
+        <p class="timeline__desc">{{timeline.t3_desc}}</p>
+      </div>
+      <div class="timeline__item fade-in fade-in-d3">
+        <div class="timeline__num">4</div>
+        <h3 class="timeline__title">{{timeline.t4_title}}</h3>
+        <p class="timeline__desc">{{timeline.t4_desc}}</p>
+      </div>
+    </div>
+    <div class="fade-in fade-in-d2">
+      <img src="{{R}}img/companies-fika.webp" alt="{{timeline.fika_alt}}" style="width:100%; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); object-fit: cover;" loading="lazy" decoding="async">
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.email}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.city}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+// Initial check for elements already in viewport
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+});
+
+
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+</body>
+</html>

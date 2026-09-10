@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta name="robots" content="noindex, follow">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.og_description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/home.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+<body>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- ======================== 404 HERO ======================== -->
+<section class="hero" style="min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 20px 60px;">
+  <div class="container" style="max-width: 680px;">
+    <span class="badge" style="margin-bottom: 20px; font-weight: 700; letter-spacing: 0.05em;">{{hero.badge}}</span>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.1; margin-bottom: 20px; color: var(--navy-900);">
+      {{hero.title}}
+    </h1>
+    <p style="font-size: 1.25rem; color: var(--navy-600); margin-bottom: 36px; line-height: 1.6;">
+      {{hero.text}}
+    </p>
+    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+      <a class="btn btn--accent" href="index.html">
+        <i class="ph ph-house"></i> {{hero.btn_home}}
+      </a>
+      <a class="btn btn--secondary" href="companies.html">
+        {{hero.btn_companies}} <i class="ph ph-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group" class="footer__logo">
+      <p class="footer__tagline">{{footer.tagline}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>Stockholm</h4>
+      <span>Kungsgatan 37, 8tr</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+</body>
+</html>

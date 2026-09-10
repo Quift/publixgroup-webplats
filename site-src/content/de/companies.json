@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Unsere Unternehmen — PubliX Group Portfolio",
+    "description": "Die sechs gründergeführten SaaS-Unternehmen im PubliX Group-Portfolio bauen missionskritische Software für nordische öffentliche Dienstleistungen.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial",
+    "cta_indent": "      ",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "cls": "companies-hero__",
+    "eyebrow": "Unsere Unternehmen",
+    "title": "Gründergeführt, zielgerichtet",
+    "sub": "Jedes Unternehmen im PubliX-Portfolio wurde von Gründern aufgebaut, denen öffentliche Dienstleistungen sehr am Herzen liegen. Sie haben sich entschieden, sich uns anzuschließen – und sind geblieben, um weiter aufzubauen."
+  },
+  "portfolio": {
+    "grid_tail": "\n"
+  },
+  "companies": [
+    {
+      "comment": "Tidvis (featured / wide card)",
+      "classes": "pf-card pf-card--featured fade-in",
+      "logo": "tidvis.jpg",
+      "logo_alt": "Tidvis",
+      "badge_class": "brand",
+      "badge": "Sozialfürsorge",
+      "name": "Tidvis",
+      "desc": "Tidvis bietet ein integriertes Geschäftssystem für den Sozialsektor — Dienstplanung, Zeiterfassung, Lohnabrechnung und Dokumentation in einer einzigen Plattform für Anbieter persönlicher Assistenz und Einrichtungen nach dem schwedischen LSS-Gesetz. Die Werkzeuge werden von Menschen entwickelt, die den Alltag der Pflegearbeit verstehen.",
+      "avatar": "{{R}}img/team-adam-hjort.jpg",
+      "founder": "Adam Hjort",
+      "role": "CEO",
+      "location": "Stockholm, Schweden",
+      "site_url": "https://tidvis.se",
+      "site_label": "tidvis.se"
+    },
+    {
+      "comment": "digiPlant",
+      "classes": "pf-card fade-in fade-in-d1",
+      "logo": "digiplant.png",
+      "logo_alt": "digiPlant",
+      "badge_class": "info",
+      "badge": "Fördermittelverwaltung",
+      "name": "digiPlant",
+      "desc": "digiPlant entwickelt SBS Manager, eine Plattform für die Antragsverwaltung für Stiftungen, Sponsoren und öffentliche Organisationen — vom Eingang der Anträge über Prüfung und Entscheidung bis zur Auszahlung. Einfachere Anträge, kürzere Bearbeitungszeiten und mehr ausgezahlte Fördermittel.",
+      "avatar": "/img/team-alexander-tornqvist.jpg",
+      "founder": "Alexander Törnqvist",
+      "role": "Mitgründer &amp; CEO",
+      "location": "Örebro, Schweden",
+      "site_url": "https://www.digiplant.se/sv/",
+      "site_label": "digiplant.se"
+    },
+    {
+      "comment": "Aspicore",
+      "classes": "pf-card fade-in fade-in-d2",
+      "logo": "aspicore.png",
+      "logo_alt": "Aspicore",
+      "badge_class": "info",
+      "badge": "Stiftungsmanagement",
+      "name": "Aspicore",
+      "desc": "Aspicore baut digitale Plattformen für das Stiftungs- und Fördermittelmanagement und hilft gemeinnützigen Organisationen, Anträge zu bearbeiten, Fördermittel zu verwalten und eine transparente Governance sicherzustellen.",
+      "avatar": "{{R}}img/team-harri-tanner.jpg",
+      "founder": "Harri Tanner",
+      "role": "CEO",
+      "location": "Helsinki, Finnland",
+      "site_url": "https://aspicore.com",
+      "site_label": "aspicore.com"
+    },
+    {
+      "comment": "Koivu Solutions (Sotender)",
+      "classes": "pf-card fade-in fade-in-d3",
+      "logo": "sotender.png",
+      "logo_alt": "Sotender",
+      "badge_class": "success",
+      "badge": "Personaldisposition im Gesundheitswesen",
+      "name": "Koivu Solutions <span style=\"font-weight: 400; color: var(--text-muted); font-size: var(--fs-body-sm);\">(Sotender)</span>",
+      "desc": "Koivu Solutions entwickelt Sotender, eine Mobile-First-Plattform, die Gesundheits- und Pflegefachkräfte mit offenen Schichten zusammenbringt und die Abhängigkeit von Personalvermittlungsagenturen verringert. Die Wohlfahrtsregion Österbotten hat jährliche Einsparungen von mehr als 7 Millionen Euro gemeldet.",
+      "avatar": "/img/team-janne-salmi.png",
+      "founder": "Janne Salmi",
+      "role": "Mitgründer &amp; CEO",
+      "location": "Helsinki, Finnland",
+      "site_url": "https://sotender.fi",
+      "site_label": "sotender.fi"
+    },
+    {
+      "comment": "Embrace Safety",
+      "classes": "pf-card fade-in fade-in-d4",
+      "logo": "embrace.png",
+      "logo_alt": "Embrace Safety",
+      "badge_class": "warning",
+      "badge": "Kriminalprävention",
+      "name": "Embrace Safety",
+      "desc": "Embrace Safety entwickelt EMBRACE, eine Plattform für wissensbasierte Kriminalprävention und Sicherheitsförderung. Kommunen, Polizeibehörden und Organisationen nutzen sie, um Lagebilder zu erfassen, Ursachen zu analysieren und präventive Maßnahmen nachzuverfolgen.",
+      "avatar": "{{R}}img/team-johan-rydberg.jpg",
+      "founder": "Johan Rydberg",
+      "role": "CEO &amp; Vertriebsleiter",
+      "location": "Örebro, Schweden",
+      "site_url": "https://www.embrace-safety.se/",
+      "site_label": "embracesafety.se"
+    },
+    {
+      "comment": "Bleau (Denmark)",
+      "classes": "pf-card pf-card--featured fade-in fade-in-d4",
+      "logo": "bleau.png",
+      "logo_alt": "Bleau A/S",
+      "badge_class": "info",
+      "badge": "Öffentliche Kommunikation",
+      "name": "Bleau",
+      "desc": "Bleau entwickelt moliri, eine Compliance-getriebene Plattform für sichere und barrierefreie digitale Kommunikation im öffentlichen Sektor, sowie NemBolig für dänische gemeinnützige Wohnungsbauorganisationen. Inhalte werden im Moment der Veröffentlichung auf Barrierefreiheit, Sicherheit und Regelkonformität geprüft.",
+      "avatar": "{{R}}img/team-robert-filtenborg.jpg",
+      "founder": "Robert G. Filtenborg",
+      "role": "CEO",
+      "location": "Aarhus, Dänemark",
+      "site_url": "https://www.bleau.dk",
+      "site_label": "bleau.dk"
+    }
+  ],
+  "quote": {
+    "text": "„Schon beim ersten Kontakt spürten wir großes Vertrauen in den Käufer. Sie behandelten uns mit Respekt, stellten kluge und vernünftige Fragen und hörten unseren Antworten wirklich zu. Wir hatten auch das Gefühl, dass PubliX eine Struktur bot – eine Gruppe von Unternehmen, die alle einen gesellschaftlichen Mehrwert schaffen.“",
+    "cite_role": "CEO, Embrace Safety"
+  },
+  "timeline": {
+    "eyebrow": "Nach der Akquisition",
+    "title": "Was passiert, nachdem Sie beigetreten sind",
+    "sub": "Der Beitritt zu PubliX ist nahtlos konzipiert. So sieht das erste Jahr für ein typisches Portfoliounternehmen aus.",
+    "t1_title": "Tag eins: Nichts ändert sich",
+    "t1_desc": "Ihr Team, Ihr Büro, Ihre Kunden. Wir sind nicht hier, um umzuorganisieren.",
+    "t2_title": "Monate 1–3: Fundamente",
+    "t2_desc": "Wir arbeiten gemeinsam an Wirtschaftlichkeit, Preisgestaltung, Compliance und Sicherheit.",
+    "t3_title": "Monate 3–12: Wachstum",
+    "t3_desc": "Cross-Selling an gemeinsame Kunden, Erschließung neuer Länder, Hinzufügen angrenzender Arbeitsabläufe.",
+    "t4_title": "Jahr 1+: Plattformwert",
+    "t4_desc": "Teilhabe am kollektiven Wachstum der Gruppe. Ihr Erfolg potenziert sich.",
+    "fika_alt": "Team fika at a PubliX portfolio company"
+  },
+  "cta": {
+    "title": "Denken Sie über Ihr nächstes Kapitel nach?",
+    "sub": "Ob Sie Ihre Optionen ausloten, wissen möchten, wo Ihr Unternehmen steht, oder einfach nur mit jemandem sprechen möchten, der Ihren Markt versteht — wir freuen uns auf das Gespräch.",
+    "btn": "Entdecken Sie Ihr Wachstumspotenzial",
+    "email": "Oder schreiben Sie Alexander direkt eine E-Mail"
+  },
+  "footer": {
+    "blurb": "Wir arbeiten partnerschaftlich mit gründergeführten SaaS-Unternehmen zusammen, die öffentliche Dienstleistungen in ganz Nordeuropa digitalisieren.",
+    "org": "Org. 559485-5487 · Unterstützt durch <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigation",
+    "assessment": "Wachstumsbewertung",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie",
+    "updated": "Bleiben Sie informiert",
+    "updated_sub": "Erhalten Sie das Neueste von der PubliX Group.",
+    "newsletter_success": "Danke! Sie haben sich angemeldet.",
+    "newsletter_ph": "ihre@email.de",
+    "newsletter_aria": "E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

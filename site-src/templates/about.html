@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/about.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script src="{{R}}js/consent.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PubliX Group",
+  "url": "https://publixgroup.io",
+  "logo": "https://publixgroup.io/Design-system/assets/logo/publix-logo.svg",
+  "description": "{{meta.ld_description}}",
+  "sameAs": [
+    "https://www.linkedin.com/company/publixgroup/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PubliX Group",
+  "url": "https://publixgroup.io"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html" class="active">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.dropdown_close}}
+  </div>
+</header>
+
+<!-- ======================== ABOUT HERO ======================== -->
+<section class="about-hero" id="top">
+  <div class="container fade-in">
+    <div class="about-hero__eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+    <h1 class="about-hero__title">{{hero.title}}</h1>
+    <p class="about-hero__sub">{{hero.sub}}</p>
+  </div>
+</section>
+
+<!-- ======================== OUR THESIS ======================== -->
+<section class="thesis" id="thesis">
+  <div class="container">
+    <div class="thesis__grid fade-in">
+      <div class="thesis__body">
+        <span class="eyebrow">{{thesis.eyebrow}}</span>
+        <h2 class="section-title">{{thesis.title}}</h2>
+        <p>{{thesis.p1}}</p>
+        <p>{{thesis.p2}}</p>
+      </div>
+      <div class="thesis__visual">
+        <img class="thesis__photo" src="{{R}}img/about-collab.webp" alt="{{thesis.photo_alt}}" style="width:100%; border-radius: var(--radius-xl); box-shadow: var(--shadow-md);" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="thesis__stats-row fade-in">
+      <div class="thesis__stat">
+        <img src="{{R}}img/illustrations/about-municipalities.webp" alt="" class="thesis__stat-illus" loading="lazy" decoding="async">
+        <h3>{{thesis.s1_title}}</h3>
+        <p>{{thesis.s1_desc}}</p>
+      </div>
+      <div class="thesis__stat">
+        <img src="{{R}}img/illustrations/about-team.webp" alt="" class="thesis__stat-illus" loading="lazy" decoding="async">
+        <h3>{{thesis.s2_title}}</h3>
+        <p>{{thesis.s2_desc}}</p>
+      </div>
+      <div class="thesis__stat">
+        <img src="{{R}}img/illustrations/about-partnership.png" alt="" class="thesis__stat-illus" loading="lazy" decoding="async">
+        <h3>{{thesis.s3_title}}</h3>
+        <p>{{thesis.s3_desc}}</p>
+      </div>
+      <div class="thesis__stat">
+        <img src="{{R}}img/illustrations/about-revenue.png" alt="" class="thesis__stat-illus" loading="lazy" decoding="async">
+        <h3>{{thesis.s4_title}}</h3>
+        <p>{{thesis.s4_desc}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== HOW WE WORK ======================== -->
+<section class="tracks" id="how-we-work">
+  <div class="container">
+    <div class="tracks__head fade-in">
+      <span class="eyebrow">{{tracks.eyebrow}}</span>
+      <h2 class="section-title">{{tracks.title}}</h2>
+      <p class="section-sub">{{tracks.sub}}</p>
+    </div>
+    <div class="tracks__grid">
+      <div class="track-card fade-in">
+        <img src="{{R}}img/illustrations/track-operations.webp" alt="{{tracks.c1_alt}}" style="width: 100%; max-height: 140px; object-fit: contain; border-radius: var(--radius-md); margin-bottom: 16px;" loading="lazy" decoding="async">
+        <h3 class="track-card__title">{{tracks.c1_title}}</h3>
+        <p class="track-card__sub">{{tracks.c1_sub}}</p>
+        <ul class="track-checklist">
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c1_i1}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c1_i2}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c1_i3}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c1_i4}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c1_i5}}</span></li>
+        </ul>
+      </div>
+      <div class="track-card fade-in fade-in-d1">
+        <img src="{{R}}img/illustrations/track-growth.webp" alt="{{tracks.c2_alt}}" style="width: 100%; max-height: 140px; object-fit: contain; border-radius: var(--radius-md); margin-bottom: 16px;" loading="lazy" decoding="async">
+        <h3 class="track-card__title">{{tracks.c2_title}}</h3>
+        <p class="track-card__sub">{{tracks.c2_sub}}</p>
+        <ul class="track-checklist">
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c2_i1}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c2_i2}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c2_i3}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c2_i4}}</span></li>
+          <li><span class="check"><i class="ph ph-check"></i></span> <span>{{tracks.c2_i5}}</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tracks__callout fade-in">
+      <img src="{{R}}img/illustrations/about-reinvest.png" alt="" style="width: 48px; height: 48px; object-fit: contain; flex-shrink: 0;" loading="lazy" decoding="async">
+      <div>
+        <p>{{tracks.callout}}</p>
+        <cite>{{tracks.callout_cite}}</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== AI & OPERATIONS ======================== -->
+<section class="ai-ops" id="ai" style="padding: var(--section-y) 0; background: var(--navy-50);">
+  <div class="container">
+    <div class="fade-in" style="text-align: center; margin-bottom: 56px;">
+      <span class="eyebrow">{{ai.eyebrow}}</span>
+      <h2 class="section-title">{{ai.title}}</h2>
+      <p class="section-sub" style="max-width: 62ch; margin-left: auto; margin-right: auto;">{{ai.sub}}</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;" class="fade-in">
+      <div style="background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 36px; box-shadow: var(--shadow-sm); text-align: center; transition: transform var(--dur-base), box-shadow var(--dur-base);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <img src="{{R}}img/illustrations/pillar-ai.webp" alt="" style="width: 100%; max-height: 120px; object-fit: contain; margin-bottom: 20px;" loading="lazy" decoding="async">
+        <h3 style="font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-h4); color: var(--text-strong); margin: 0 0 8px;">{{ai.c1_title}}</h3>
+        <p style="font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-muted); margin: 0;">{{ai.c1_desc}}</p>
+      </div>
+      <div style="background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 36px; box-shadow: var(--shadow-sm); text-align: center; transition: transform var(--dur-base), box-shadow var(--dur-base);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <img src="{{R}}img/illustrations/usp-automation.png" alt="" style="width: 100%; max-height: 120px; object-fit: contain; margin-bottom: 20px;" loading="lazy" decoding="async">
+        <h3 style="font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-h4); color: var(--text-strong); margin: 0 0 8px;">{{ai.c2_title}}</h3>
+        <p style="font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-muted); margin: 0;">{{ai.c2_desc}}</p>
+      </div>
+      <div style="background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 36px; box-shadow: var(--shadow-sm); text-align: center; transition: transform var(--dur-base), box-shadow var(--dur-base);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <img src="{{R}}img/illustrations/usp-ai.webp" alt="" style="width: 100%; max-height: 120px; object-fit: contain; margin-bottom: 20px;" loading="lazy" decoding="async">
+        <h3 style="font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-h4); color: var(--text-strong); margin: 0 0 8px;">{{ai.c3_title}}</h3>
+        <p style="font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-muted); margin: 0;">{{ai.c3_desc}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ai.section_tail}}
+<!-- ======================== CEO QUOTE ======================== -->
+<section class="founder-quote">
+  <img class="founder-quote__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+  <div class="container founder-quote__inner fade-in">
+    <div class="founder-quote__icon"><i class="ph ph-quotes"></i></div>
+    <blockquote class="founder-quote__text">{{quote.text}}</blockquote>
+    <div class="founder-quote__attribution">
+      <div class="founder-quote__photo"><img src="/img/team-alexander-hubel.jpg" alt="Alexander Hübel" loading="lazy" decoding="async"></div>
+      <div style="text-align: left;">
+        <p class="founder-quote__cite-name">Alexander Hübel</p>
+        <p class="founder-quote__cite-role">{{quote.cite_role}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.email}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.city}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+// Initial check for elements already in viewport
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+});
+
+
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+</body>
+</html>

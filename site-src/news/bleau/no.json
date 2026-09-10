@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group kjøper Bleau A/S og går inn i det danske markedet",
+    "description": "Bleau, Aarhus-selskapet bak moliri, blir det sjette selskapet i PubliX Group og gruppens første i Danmark. Selskapet beholder navnet og ledelsen."
+  },
+  "date": {
+    "display": "15. september 2026",
+    "published_iso": "2026-09-15",
+    "modified_iso": "2026-09-15"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Oppkjøp"
+  },
+  "title": "PubliX Group kjøper Bleau A/S og går inn i det danske markedet",
+  "lead": "Bleau, Aarhus-selskapet bak moliri, blir det sjette selskapet i PubliX Group og gruppens første i Danmark. Selskapet beholder navnet og ledelsen.",
+  "body_html": "      <p>STOCKHOLM, 15. september 2026 — PubliX Group har kjøpt Bleau A/S, det danske programvareselskapet bak moliri, en plattform for sikker og tilgjengelig digital kommunikasjon i offentlig sektor. Bleau er gruppens sjette selskap og det første i Danmark, ved siden av tre selskaper i Sverige og to i Finland.</p>\n      <p>Bleau ble grunnlagt i Aarhus i 2008 gjennom en management buy-out fra Dynamicweb Software, og utviklet seg fra webbyrå til programvarehus gjennom finanskrisen. Plattformene brukes av danske kommuner og av allmennyttige boligorganisasjoner: moliri for kommunikasjon i offentlig sektor, NemBolig for boligsektoren. Rundt 22 danske kommuner, 35 allmennyttige boligorganisasjoner og 250 organisasjoner innen kritisk infrastruktur bruker Bleaus plattformer. Begge er bygget på samme idé — at innhold kontrolleres for tilgjengelighet, sikkerhet og etterlevelse i publiseringsøyeblikket i stedet for å revideres lenge etterpå.</p>\n      <p>Kravene Bleau bygger for, strammes stadig til. Danske kommuner kom inn under virkeområdet for NIS2-implementeringen i juli 2025, og EUs tilgjengelighetsdirektiv (European Accessibility Act) har vært gjeldende siden juni 2025.</p>\n      <p>«Danmark har stått på listen vår siden vi la oppkjøpsstrategien, og Bleau er selskapet jeg ønsket meg der», sier Alexander Hübel, administrerende direktør i PubliX Group. «Robert og Peter har bygget en virksomhet som kommunene betror den delen av kommunikasjonen sin som må være riktig, og de har gjort det med et lite utviklerteam og en nærhet til kundene som ikke kan kjøpes inn i etterkant. Det er det vi kjøper, og det er derfor vi har tenkt å la det være i fred.»</p>\n      <p>Robert Filtenborg fortsetter som administrerende direktør i Bleau og Peter Terkildsen fortsetter som teknologidirektør, og begge reinvesterer sammen med PubliX. Kundene beholder de samme avtalene og den samme produktplanen, og PubliX slår ikke sammen selskapene sine.</p>\n      <p>Gruppens sentrale team arbeider med hvert selskap innen offentlige anskaffelser, IT-sikkerhet og etterlevelse, prising og AI. Bleau får også søsterselskaper med etablerte relasjoner i nabomarkedene: Embrace Safety arbeider med mer enn 75 svenske kommuner, Koivu Solutions med finske helse- og omsorgsorganisasjoner, og Aspicore med finske stiftelser og universiteter. Der moliri passer inn i disse markedene, har Bleau en vei inn som selskapet ikke hadde på egen hånd, og PubliX vil holde et tempo Bleaus kunder kan ta unna.</p>\n      <p>«Bleaus eget slagord, ’Powered by AI – Trusted by People’, ligger nær min egen tenkemåte: automatiser rutinearbeidet, og hold et menneske ansvarlig for det som når innbyggeren», sier Alexander Hübel om det første felles arbeidsområdet. «Vi setter gruppens ressurser bak dette arbeidet fra start, og det går begge veier. Det Bleau har lært om å validere innhold før det publiseres, hører hjemme også i de andre selskapene.»</p>\n      <p>«Ved å velge PubliX Group har vi sørget for at Bleau forblir Bleau», sier Robert Filtenborg, administrerende direktør i Bleau A/S. «Våre medarbeidere fortsetter arbeidet de gjør med kundenes digitale løsninger, og vår strategi og våre utviklingsplaner for moliri er uendret. Forskjellen er at vi nå har større styrke til å utvikle utviklingsmiljøet vårt og nå enda lenger med moliri, nasjonalt og internasjonalt. Selv om vi er tidlig i prosessen, ser vi allerede på initiativer mellom selskapene i PubliX Group som kan fremme våre interesser, både i Danmark og i de andre landene der gruppen opererer.»</p>\n      <p>PubliX Group fortsetter å se etter gründerledede programvareselskaper i Norden og Nord-Europa som driver regulerte arbeidsflyter i offentlig sektor.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Hopp til innhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/bleau.png",
+    "logo_alt": "Bleau A/S logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Bleau A/S",
+        "text": "Bleau A/S er et dansk programvareselskap grunnlagt i Aarhus i 2008. Bleau utvikler moliri, en etterlevelsesdrevet SaaS-plattform for digital kommunikasjon i offentlig sektor, og NemBolig, en plattform for danske allmennyttige boligorganisasjoner."
+      }
+    ],
+    "cta": "Se alle selskaper"
+  },
+  "footer": {
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy"
+  }
+}

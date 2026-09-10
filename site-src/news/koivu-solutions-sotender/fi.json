@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group tekee yhteistyötä Koivu Solutionsin (Sotender) kanssa",
+    "description": "Moderni SaaS-ratkaisu, joka yhdistää terveydenhuollon työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrauksesta."
+  },
+  "date": {
+    "display": "16. joulukuuta 2025",
+    "published_iso": "2025-12-16",
+    "modified_iso": "2025-12-16"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Yrityskauppa"
+  },
+  "title": "PubliX Group tekee yhteistyötä Koivu Solutionsin (Sotender) kanssa",
+  "lead": "Moderni SaaS-ratkaisu, joka yhdistää terveydenhuollon työntekijät avoimiin työvuoroihin, lisäten tavoittavuutta ja vähentäen terveydenhuollon tarjoajien kustannuksia.",
+  "body_html": "      <p>HELSINKI, 16. joulukuuta 2025 — PubliX Group on ostanut 100 prosenttia Koivu Solutions Oy:n osakkeista. Suomalainen yhtiö on Sotenderin takana — mobiilipainotteisen alustan, joka yhdistää sote-alan työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrausyrityksistä. Julkistuksen ajankohtana Sotenderilla oli Suomessa yli 27 000 käyttäjää, ja ensimmäinen käyttöönotto Ruotsissa oli käynnissä.</p>\n      <p>Tulokset ovat julkisia: Pohjanmaan hyvinvointialue on kertonut yli 7 miljoonan euron vuosittaisista säästöistä, ja 96,7 prosenttia avoimista työvuoroista täytetään Sotenderin kautta.</p>\n      <p>”Yhteistyö PubliX:in kanssa vahvistaa Koivua muuttamatta sitä, keitä olemme. Tiimimme, missiomme ja asiakassuhteemme säilyvät ennallaan”, sanoo Koivu Solutionsin toimitusjohtaja ja toinen perustaja Janne Salmi.</p>\n      <p>”Koivu edustaa juuri sellaista erikoistunutta ja tarkoituslähtöistä SaaS-yritystä, jonka haluamme PubliX-konserniin”, sanoo Marcus Åström, PubliX Groupin väliaikainen toimitusjohtaja ja yritysjärjestelyistä vastaava johtaja.</p>\n      <p>Vuonna 2017 perustettu Koivu Solutions jatkaa itsenäisenä yhtiönä konsernin sisällä — sama tiimi, sama brändi. Nykyiset omistajat jatkavat operatiivisissa rooleissa ja sijoittavat merkittävän osan kauppahinnasta uudelleen tullen näin PubliXin osakkeenomistajiksi.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Ota yhteyttä",
+    "cta": "Löydä kasvupotentiaalisi"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/sotender.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Tietoa Koivu Solutionsista",
+        "text": "Koivu Solutions on vuonna 2017 perustettu suomalainen SaaS-yritys. Sen Sotender-alusta yhdistää sote-alan työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrausyrityksistä Suomen hyvinvointialueilla."
+      }
+    ],
+    "cta": "Katso kaikki yritykset"
+  },
+  "footer": {
+    "privacy": "Tietosuojakäytäntö",
+    "cookie": "Evästekäytäntö"
+  }
+}

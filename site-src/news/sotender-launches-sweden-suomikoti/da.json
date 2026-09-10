@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Sotender lanceres i Sverige — Suomikoti er første kunde",
+    "description": "Finsk SaaS-platform Sotender kommer til det svenske marked. Suomikoti, et finsktalende plejehjem i Enskede med 53 pladser, bliver første svenske kunde.",
+    "og_description": "Finsk SaaS-platform Sotender kommer til det svenske marked. Suomikoti i Enskede bliver første svenske kunde."
+  },
+  "jsonld": {
+    "headline": "Sotender lanceres i Sverige — Suomikoti er første kunde"
+  },
+  "date": {
+    "display": "4. maj 2026",
+    "published_iso": "2026-05-04"
+  },
+  "badge": {
+    "class": "milestone",
+    "label": "Milepæl"
+  },
+  "title": "Finsk vikarplatform Sotender lanceres i Sverige — Suomikoti er første kunde",
+  "lead": "Det finske SaaS-selskab Koivu Solutions bringer nu sin platform for vikarhåndtering, Sotender, til det svenske marked. Første kunde er Suomikoti, et finsktalende pleje- og omsorgshjem i Enskede, Stockholm, med 53 pladser inden for ældrepleje og demensomsorg.",
+  "body_html": "      <p>Sotender er udviklet til at reducere tidsforbrug og usikkerhed ved vikarhåndtering og forbedre organisationens evne til at håndtere uplanlagt fravær. Platformen erstatter telefonopkald og sms med få klik i et fælles vikarsystem.</p>\n\n      <h2>Tydelig effekt i hverdagen</h2>\n      <p>På Suomikoti foregik bemandingen tidligere primært via telefonopkald og sms — en arbejdsmåde, der ofte førte til forsinkelser og høj arbejdsbelastning i akutte situationer.</p>\n      <p>»Tidligere var det stressende at finde vikarer. Behov opstår hurtigt, og det var svært at nå de rigtige personer. Nu er det nok med et klik for at publicere en vagt«, siger personaleassistent Anu Tuomenharju.</p>\n      <p>»Jeg lagde flere vagter i Sotender og kunne derefter fokusere på andet arbejde. Da jeg kiggede igen senere, var næsten alle vagter allerede besat. Vi slipper for at ringe rundt«, siger hun.</p>\n      <p>Størstedelen af medarbejderne på Suomikoti anvender i dag systemet, og feedbacken har været overvejende positiv efter en indledende introduktionsfase.</p>\n\n      <h2>Betydelige tids- og omkostningsbesparelser</h2>\n      <p>Sotender er allerede etableret i Finland med over 40.000 brugere og omkring 20 kundeorganisationer, herunder 11 velfærdsområder, ifølge Anna Aubert, salgs- og marketingansvarlig hos Koivu Solutions. Østerbottens velfærdsområde har offentligt oplyst, at de sparer over 7 millioner euro årligt med løsningen.</p>\n      <p>Platformen henvender sig til virksomheder, hvor fravær er en del af hverdagen, såsom ældrepleje, hospitaler, hjemmepleje og børnehaver.</p>\n      <p>»Hos vores finske velfærdsområder ser vi, at tiden brugt på vikarhåndtering kan halveres eller mere, samtidig med at afhængigheden af vikarbureauer mindskes«, siger chefarkitekt Teemu Santala.</p>\n\n      <h2>Fortsat ekspansion i Sverige</h2>\n      <p>Lanceringen i Sverige markerer næste skridt i selskabets internationale ekspansion. Koivu Solutions søger nu flere kunder på det svenske marked.</p>\n      <p>»Vi vil give ledere inden for pleje og omsorg et værktøj, der frigør tid og sænker omkostningerne. Interessen fra Sverige er stor, og vi er i dialog med flere aktører«, siger Eero Puikkonen, Sverige-ansvarlig hos Koivu Solutions.</p>",
+  "head_meta": [
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.og_description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"article:published_time\" content=\"{{date.published_iso}}\">"
+    },
+    {
+      "line": "<meta property=\"article:author\" content=\"PubliX Group\">"
+    },
+    {
+      "line": "<meta property=\"article:section\" content=\"News\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [],
+  "head_scripts": [
+    {
+      "html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{jsonld.headline}}\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"author\": {\"@type\": \"Organization\", \"name\": \"PubliX Group\"},\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"}\n  },\n  \"mainEntityOfPage\": \"{{PAGE_URL}}\",\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"inLanguage\": \"{{LANG}}\"\n}\n</script>"
+    },
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    }
+  ],
+  "nav": {
+    "skip": "Spring til indhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om os",
+    "team": "Team",
+    "companies": "Virksomheder",
+    "news": "Nyheder",
+    "contact": "Kontakt",
+    "cta": "Opdag dit vækstpotentiale"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/sotender.png",
+    "logo_alt": "Sotender",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Koivu Solutions",
+        "text": "Koivu Solutions er et finsk SaaS-selskab, der udvikler digitale løsninger til effektiv vikarhåndtering inden for pleje, omsorg og uddannelse. Selskabets platform Sotender anvendes i dag af over 40.000 medarbejdere hos ca. 20 kundeorganisationer i Finland, herunder 11 velfærdsområder. Koivu Solutions er en del af PubliX Group AB."
+      },
+      {
+        "style": " style=\"margin-top:20px;\"",
+        "title": "Om Suomikoti",
+        "text": "Suomikoti er et finsktalende pleje- og omsorgshjem i Enskede, Stockholm, som tilbyder boliger til ældre med somatiske diagnoser og demenssygdom. Etableret i 1995 og drevet af en almennyttig forening uden fortjenesteinteresse. Hjemmet har 53 lejligheder og en høj andel uddannet personale med særlig kompetence inden for demensomsorg."
+      },
+      {
+        "style": " style=\"margin-top:20px;\"",
+        "title": "Kontakt",
+        "text": "Eero Puikkonen<br>Sverige-ansvarlig, Koivu Solutions Oy (Sotender)<br><a href=\"mailto:eero.puikkonen@koivusolutions.com\">eero.puikkonen@koivusolutions.com</a><br><a href=\"https://www.sotender.io\" target=\"_blank\" rel=\"noopener\">www.sotender.io</a>"
+      }
+    ],
+    "cta": "Se alle virksomheder"
+  },
+  "footer": {
+    "privacy": "Privatlivspolitik",
+    "cookie": "Cookiepolitik"
+  }
+}

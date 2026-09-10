@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group kooperiert mit Embrace Safety",
+    "description": "Eine leistungsstarke SaaS-Plattform, die wissensbasierte Kriminalprävention und Sicherheitsförderung für Kommunen und lokale Behörden ermöglicht."
+  },
+  "date": {
+    "display": "5. März 2026",
+    "published_iso": "2026-03-05",
+    "modified_iso": "2026-03-05"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Akquisition"
+  },
+  "title": "PubliX Group kooperiert mit Embrace Safety",
+  "lead": "Eine leistungsstarke SaaS-Plattform, die wissensbasierte Kriminalprävention und Sicherheitsförderung für Kommunen und lokale Behörden ermöglicht.",
+  "body_html": "      <p>STOCKHOLM, 5. März 2026 — Die PubliX Group geht eine Partnerschaft mit Embrace Safety ein, dessen Plattform EMBRACE wissensbasierte Kriminalprävention und Sicherheitsförderung für Kommunen und lokale Behörden ermöglicht. Embrace Safety wurde 2018 in Örebro von Henrik Andershed, Professor für Kriminologie an der Universität Örebro, gegründet und wird von CEO Johan Rydberg geführt.</p>\n      <p>EMBRACE verbindet Analysesoftware mit fortlaufendem Wissenstransfer: Kommunen, Polizeibehörden und Organisationen nutzen die Plattform, um Lagebilder zu Kriminalität und Unsicherheit zu erstellen und zu teilen, Ursachen zu analysieren sowie präventive Maßnahmen zu dokumentieren und nachzuverfolgen. Mehrere hundert Organisationen nutzen die Plattform heute.</p>\n      <p>Die Nachfrage wird durch die Gesetzgebung getrieben: Seit 2023 tragen schwedische Kommunen nach dem schwedischen Gesetz lag (2023:196) eine gesetzliche Verantwortung für die Kriminalprävention, einschließlich der Erstellung wiederkehrender Lagebilder — genau jener Arbeitsablauf, den EMBRACE unterstützt.</p>\n      <p>„Bereits bei unserem ersten Kontakt hatten wir ein großes Vertrauen in den Käufer. Sie haben uns mit Respekt behandelt, kluge und vernünftige Fragen gestellt und unseren Antworten wirklich zugehört. Wir hatten außerdem das Gefühl, dass PubliX eine Struktur bietet — eine Gruppe von Unternehmen, die alle einen gesellschaftlichen Nutzen stiften“, sagte Johan Rydberg, CEO von Embrace Safety.</p>\n      <p>Embrace Safety wird unter eigener Marke und mit eigenem Team weitergeführt und gewinnt Schwesterunternehmen mit etablierten Beziehungen auf den öffentlichen Märkten in ganz Nordeuropa.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "News",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/embrace.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Über Embrace Safety",
+        "text": "Embrace Safety ist ein schwedisches SaaS-Unternehmen, das 2018 in Örebro gegründet wurde. Seine Plattform EMBRACE unterstützt wissensbasierte Kriminalprävention und Sicherheitsförderung für Kommunen, Polizeibehörden und Organisationen."
+      }
+    ],
+    "cta": "Alle Unternehmen ansehen"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie"
+  }
+}

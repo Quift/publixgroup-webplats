@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "404 — Sidan hittades inte — PubliX Group",
+    "description": "Sidan du letar efter finns inte eller har flyttats. Gå tillbaka till PubliX Groups startsida.",
+    "og_description": "Sidan du letar efter finns inte eller har flyttats."
+  },
+  "nav": {
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Bolag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential"
+  },
+  "hero": {
+    "badge": "404-FEL",
+    "title": "Sidan hittades inte",
+    "text": "Sidan du letar efter kan ha flyttats, tagits bort eller vara tillfälligt otillgänglig.",
+    "btn_home": "Tillbaka till startsidan",
+    "btn_companies": "Utforska bolagen"
+  },
+  "footer": {
+    "tagline": "Tillväxtplattformen för SaaS-grundare inom nordiska offentliga tjänster.",
+    "org": "Org. 559485-5487 · Backad av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigera",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, vd"
+  }
+}

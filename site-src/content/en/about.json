@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "About PubliX Group — Operators building for the public good",
+    "description": "How PubliX Group works with founder-led SaaS companies serving the Nordic public sector — thesis, value model, and the team.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform",
+    "ld_description": "PubliX Group is the growth platform for SaaS founders in public services."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta_indent": "      ",
+    "cta": "Discover your growth potential",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "About PubliX Group",
+    "title": "Operators building for the public&nbsp;good",
+    "sub": "PubliX Group unites founder-led SaaS companies that digitise public services across Northern Europe. We're operators — not financial engineers. Every decision we make starts with one question: does this help our companies build better products?"
+  },
+  "thesis": {
+    "eyebrow": "Our thesis",
+    "title": "Public-sector software is its own discipline",
+    "p1": "Public sector means procurement rules, framework agreements, long sales cycles and regulated buyers. It requires patience, domain expertise and a deep understanding of how the public sector actually buys technology. <strong>PubliX concentrates in this one vertical</strong> — and intends to be the best in the Nordics. When a founder joins PubliX, they get a parent company that truly understands their market.",
+    "p2": "We grow through <strong>shared customers and cross-selling</strong>. Our companies sell to the same and adjacent customers — municipalities, regions, foundations, public agencies. Cross-selling and collaboration between portfolio companies grows revenue organically. Every company keeps its own brand, its identity and its autonomy.",
+    "photo_alt": "Team collaboration at a PubliX company",
+    "s1_title": "One vertical",
+    "s1_desc": "100% focus on public-sector SaaS across the Nordics",
+    "s2_title": "Shared customers",
+    "s2_desc": "Municipalities, regions &amp; foundations that buy from multiple companies",
+    "s3_title": "Independent brands",
+    "s3_desc": "Every company keeps its own brand, identity &amp; decision-making authority",
+    "s4_title": "Growth-driven",
+    "s4_desc": "We grow revenue through cross-sell across the group"
+  },
+  "tracks": {
+    "eyebrow": "How we create value",
+    "title": "Two tracks. One goal: make your company stronger.",
+    "sub": "Every company we work with benefits from two parallel value creation tracks — one focused on strengthening your foundation, the other on accelerating growth.",
+    "c1_alt": "Foundations",
+    "c1_title": "Foundations",
+    "c1_sub": "Strengthen the operational core so you can scale with confidence.",
+    "c1_i1": "Clean economics — clear reporting, margins and unit economics",
+    "c1_i2": "Sensible pricing — value-based models that capture what you're worth",
+    "c1_i3": "Commercial discipline — pipeline management and sales processes",
+    "c1_i4": "Security &amp; compliance uplift — ISO 27001, GDPR, public-sector standards",
+    "c1_i5": "AI &amp; engineering capability — embedded tech expertise, not consultants",
+    "c2_alt": "Growth",
+    "c2_title": "Growth",
+    "c2_sub": "Expand your market reach through the power of the platform.",
+    "c2_i1": "Sell more to shared customers — cross-sell across the portfolio",
+    "c2_i2": "Open new Nordic countries for proven products",
+    "c2_i3": "Add adjacent workflows for the same buyer persona",
+    "c2_i4": "Joint marketing &amp; events to shared decision-makers",
+    "c2_i5": "Warm introductions through trusted existing relationships",
+    "callout": "\"Founders typically reinvest part of their proceeds into the group, sharing in the value of the whole platform rather than just selling and leaving.\"",
+    "callout_cite": "— This is by design. When founders stay invested, incentives stay aligned."
+  },
+  "ai": {
+    "eyebrow": "How we work with AI",
+    "title": "AI is how we create value:<br>Every product, every workflow, every job role",
+    "sub": "We don't just talk about AI — we embed it across every company in the group. From new product capabilities to automating internal operations, AI is central to how PubliX creates value.",
+    "c1_title": "Product AI",
+    "c1_desc": "We help our companies build AI-powered features into their products — from intelligent automation to predictive analytics for public-sector workflows.",
+    "c2_title": "Operational AI",
+    "c2_desc": "We automate lead generation, lead nurture, customer support, software development and financial and administrative workflows across the group — so our companies can focus on building great products instead of admin.",
+    "c3_title": "AI upskilling",
+    "c3_desc": "We train every team across the group to use AI tools effectively — turning capability into results. Our companies reach their goals faster than they thought possible.",
+    "section_tail": "\n"
+  },
+  "quote": {
+    "text": "\"We do everything we can together with the companies — while letting them stay independent. Collaboration is one of the most important things we do: where founders once had ten colleagues, they now have a hundred, and that collaboration continues long after they get home.\"",
+    "cite_role": "Group CEO, PubliX Group"
+  },
+  "cta": {
+    "title": "Thinking about your next chapter?",
+    "sub": "Whether you're exploring your options, curious about where your company stands, or just want to talk to someone who understands your market — we'd welcome the conversation.",
+    "btn": "Discover your growth potential",
+    "email": "Or email Alexander directly"
+  },
+  "footer": {
+    "blurb": "We partner with founder-led SaaS companies that digitise public services across Northern Europe.",
+    "org": "Org. 559485-5487 · Backed by <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigate",
+    "assessment": "Growth assessment",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy",
+    "updated": "Stay updated",
+    "updated_sub": "Get the latest from PubliX Group.",
+    "newsletter_success": "Thanks! You&#39;re subscribed.",
+    "newsletter_ph": "your@email.com",
+    "newsletter_aria": "Email address",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

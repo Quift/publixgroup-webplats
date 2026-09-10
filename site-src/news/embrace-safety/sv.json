@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group ingår partnerskap med Embrace Safety",
+    "description": "En kraftfull SaaS-plattform som möjliggör kunskapsbaserad brottsprevention och trygghetsfrämjande för kommuner och lokala myndigheter."
+  },
+  "date": {
+    "display": "5 mars 2026",
+    "published_iso": "2026-03-05",
+    "modified_iso": "2026-03-05"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Förvärv"
+  },
+  "title": "PubliX Group ingår partnerskap med Embrace Safety",
+  "lead": "En kraftfull SaaS-plattform som möjliggör kunskapsbaserad brottsprevention och trygghetsfrämjande för kommuner och lokala myndigheter.",
+  "body_html": "      <p>STOCKHOLM den 5 mars 2026 — PubliX Group ingår partnerskap med Embrace Safety, vars plattform EMBRACE möjliggör kunskapsbaserad brottsprevention och trygghetsfrämjande arbete för kommuner och lokala myndigheter. Embrace Safety grundades i Örebro 2018 av Henrik Andershed, professor i kriminologi vid Örebro universitet, och leds av vd Johan Rydberg.</p>\n      <p>EMBRACE kombinerar analysmjukvara med löpande kunskapsstöd: kommuner, polismyndigheter och organisationer använder plattformen för att kartlägga och dela lägesbilder över brott och otrygghet, analysera orsaker samt dokumentera och följa upp förebyggande åtgärder. Flera hundra organisationer använder plattformen i dag.</p>\n      <p>Efterfrågan drivs av lagstiftning: sedan 2023 har svenska kommuner ett lagstadgat ansvar för det brottsförebyggande arbetet enligt lag (2023:196), bland annat att ta fram återkommande lägesbilder — exakt det arbetsflöde som EMBRACE stödjer.</p>\n      <p>”Redan vid vår första kontakt kände vi ett starkt förtroende för köparen. De behandlade oss med respekt, ställde kloka och rimliga frågor och lyssnade verkligen på våra svar. Vi kände också att PubliX erbjöd en struktur — en grupp av bolag som alla bidrar med samhällsnytta”, säger Johan Rydberg, vd för Embrace Safety.</p>\n      <p>Embrace Safety fortsätter under eget varumärke med sitt eget team, och får systerbolag med etablerade relationer på offentliga marknader runt om i Norden.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Hoppa till innehåll",
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Företag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/embrace.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Embrace Safety",
+        "text": "Embrace Safety är ett svenskt SaaS-bolag grundat i Örebro 2018. Plattformen EMBRACE stödjer kunskapsbaserad brottsprevention och trygghetsfrämjande arbete för kommuner, polismyndigheter och organisationer."
+      }
+    ],
+    "cta": "Se alla företag"
+  },
+  "footer": {
+    "privacy": "Integritetspolicy",
+    "cookie": "Cookiepolicy"
+  }
+}

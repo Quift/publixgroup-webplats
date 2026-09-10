@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/news.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script src="{{R}}js/consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html" class="active">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.dropdown_close}}
+  </div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="news-hero" id="top">
+  <div class="container fade-in">
+    <div class="news-hero__eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+    <h1 class="news-hero__title">{{hero.title}}</h1>
+    <p class="news-hero__sub">{{hero.sub}}</p>
+  </div>
+</section>
+
+<!-- ======================== NEWS GRID ======================== -->
+<section class="news-section">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="news-filters fade-in">
+      <button class="news-filter news-filter--active" data-filter="all">{{grid.filter_all}}</button>
+      <button class="news-filter" data-filter="acquisition">{{grid.filter_acquisition}}</button>
+      <button class="news-filter" data-filter="appointment">{{grid.filter_appointment}}</button>
+      <button class="news-filter" data-filter="milestone">{{grid.filter_milestone}}</button>
+    </div>
+
+    <div class="news-grid">
+{{#each cards}}
+      <!-- ---- {{.comment}} ---- -->
+      <article class="{{.classes}}" data-category="{{.category}}">
+        <div class="news-card__header">
+          <img class="news-card__logo" src="{{R}}{{.logo}}" alt="{{.logo_alt}}" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card__body">
+          <div class="news-card__meta">
+            <span class="news-card__date">{{.date}}</span>
+            <span class="news-card__badge news-card__badge--{{.category}}">{{.badge}}</span>
+          </div>
+          <h2 class="news-card__title">{{.title}}</h2>
+          <p class="news-card__excerpt">{{.excerpt}}</p>
+          <a class="news-card__link" href="news/{{.slug}}.html">{{grid.read_more}} <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </article>
+{{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.email_btn}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.city}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+// Scroll effects
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+
+// Filter logic
+document.querySelectorAll('.news-filter').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const filter = btn.dataset.filter;
+
+    // Update active state
+    document.querySelectorAll('.news-filter').forEach(b => b.classList.remove('news-filter--active'));
+    btn.classList.add('news-filter--active');
+
+    // Show/hide cards
+    document.querySelectorAll('.news-card').forEach(card => {
+      if (filter === 'all' || card.dataset.category === filter) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+<script>
+</script>
+</body>
+</html>
+{{tail}}

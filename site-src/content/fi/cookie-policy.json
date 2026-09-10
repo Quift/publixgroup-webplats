@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Evästekäytäntö — PubliX Group",
+    "description": "Näin PubliX Group käyttää evästeitä publixgroup.io-sivustolla: toiminnalliset evästeet sekä opt-in Google Analytics 4.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Yhteystiedot",
+    "cta": "Löydä kasvupotentiaalisi"
+  },
+  "hero": {
+    "title": "Evästekäytäntö",
+    "updated": "Viimeksi päivitetty: 4. elokuuta 2026",
+    "intro": "Tämä sivu kuvaa publixgroup.io-sivuston käyttämät evästeet. Pidämme evästeiden käytön minimaalisena ja toiminnallisena."
+  },
+  "what": {
+    "h": "Mikä eväste on?",
+    "p": "Eväste on pieni tekstitiedosto, jonka verkkosivusto tallentaa laitteellesi. Evästeitä käytetään laajalti, jotta verkkosivustot toimivat tai toimivat tehokkaammin, sekä sivuston omistajille tarkoitetun tiedon välittämiseen."
+  },
+  "use": {
+    "h": "Käyttämämme evästeet",
+    "h3_functional": "Ehdottomasti tarpeelliset / toiminnalliset",
+    "li_nflang": "<strong>nf_lang</strong> — Muistaa kielivalinnan, jonka olet tehnyt kielenvaihtimen kautta. Asetetaan vain, kun aktiivisesti vaihdat kieltä. Kesto: istunto.",
+    "li_netlify": "<strong>Netlify-istuntoevästeet</strong> — Lomakepalvelumme (Netlify) asettaa lähettäessäsi yhteydenottolomakkeen tai tilatessasi uutiskirjeen roskapostisuojaukseen (Akismet).",
+    "h3_analytics": "Analytiikka — vain suostumuksella",
+    "p_ga4": "Käytämme <strong>Google Analytics 4:ää (GA4)</strong> ymmärtääksemme, kuinka kävijät käyttävät publixgroup.io-sivustoa. GA4 asettaa evästeet, jotka tallentavat pseudonyymin tunnisteen enintään 2 vuoden ajaksi:",
+    "li_ga": "<strong>_ga</strong> — Google Analytics -asiakastunniste. Kesto: 2 vuotta.",
+    "li_ga2": "<strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 -istunnon tila. Kesto: 2 vuotta.",
+    "p_consent": "<strong>Nämä evästeet ladataan vasta, kun olet napsauttanut ”Hyväksy” cookie-bannerissamme.</strong> Jos kieltäydyt (tai ohitat bannerin), analytiikkaevästeitä ei aseteta eikä analytiikkatietoja kerätä. GA4 ei kirjaa tai tallenna täydellisiä IP-osoitteita; Google käyttää IP-osoitetta vain hetkellisesti karkean sijaintitiedon johtamiseen ja hylkää sen sen jälkeen.",
+    "p_google": "Google Analyticsin tarjoaa Google Ireland Limited. Tietoja voi käsitellä Google LLC (Yhdysvallat) <a href=\"https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en\" target=\"_blank\" rel=\"noopener\">EU-US Data Privacy Frameworkin</a> alla. Katso <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö</a>.",
+    "h3_marketing": "Markkinointi / seuranta",
+    "p_marketing": "<strong>Emme</strong> käytä markkinointi-, mainos- tai sivustojen väliseen seurantaan liittyviä evästeitä. Sivustolla ei ole kolmannen osapuolen markkinointiseurantaa (Meta Pixel, LinkedIn Insight jne.)."
+  },
+  "consent": {
+    "h": "Suostumuksesi hallinta",
+    "p": "Voit hyväksyä tai hylätä analytiikkaevästeet sivun alalaidassa olevan bannerin kautta. Voit muuttaa mieltäsi milloin tahansa — <a href=\"#\" onclick=\"resetCookieChoice(); return false;\">nollaa evästevalintasi</a> näyttääksesi bannerin uudelleen. Voit myös poistaa evästeet selaimestasi milloin tahansa selaimen asetuksista."
+  },
+  "changes": {
+    "h": "Muutokset tähän käytäntöön",
+    "p": "Voimme päivittää tätä käytäntöä ajoittain. Yläreunan ”viimeksi päivitetty” -päivämäärä kertoo viimeisimmän muutoksen."
+  },
+  "contact_s": {
+    "h": "Yhteystiedot",
+    "p": "Kysymyksissä evästeiden käytöstä lähetä sähköpostia osoitteeseen <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>."
+  },
+  "footer": {
+    "blurb": "Teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa, jotka digitalisoivat julkisia palveluita Pohjois-Euroopassa.",
+    "org": "Org. 559485-5487 · Tukena <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigointi",
+    "assessment": "Kasvun arviointi",
+    "privacy": "Tietosuojakäytäntö",
+    "cookie": "Evästekäytäntö",
+    "updated": "Pysy ajan tasalla",
+    "updated_sub": "Saa uusimmat uutiset PubliX Groupilta.",
+    "newsletter_success": "Kiitos! Olet nyt tilaaja.",
+    "newsletter_ph": "sinun@sahkoposti.fi",
+    "newsletter_aria": "Sähköpostiosoite",
+    "subscribe": "Tilaa",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, Toimitusjohtaja"
+  }
+}

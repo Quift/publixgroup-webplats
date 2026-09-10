@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Omdirigerer…"
+  },
+  "redirect": {
+    "pre": "Omdirigerer til ",
+    "link": "Hvorfor PubliX"
+  }
+}

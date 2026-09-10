@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "404 — Seite nicht gefunden — PubliX Group",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite der PubliX Group.",
+    "og_description": "Die gesuchte Seite existiert nicht oder wurde verschoben."
+  },
+  "nav": {
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "hero": {
+    "badge": "404-FEHLER",
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite wurde möglicherweise verschoben oder entfernt oder ist vorübergehend nicht verfügbar.",
+    "btn_home": "Zurück zur Startseite",
+    "btn_companies": "Unternehmen entdecken"
+  },
+  "footer": {
+    "tagline": "Die Wachstumsplattform für SaaS-Gründer im nordischen öffentlichen Sektor.",
+    "org": "Org. 559485-5487 · Unterstützt von <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigation",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

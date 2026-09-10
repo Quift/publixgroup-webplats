@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Yritykset — PubliX Group",
+    "description": "PubliX Groupin kuusi perustajavetoista SaaS-yritystä, jotka rakentavat kriittistä ohjelmistoa Pohjoismaiden julkiselle sektorille.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Yhteystiedot",
+    "cta": "Löydä kasvupotentiaalisi",
+    "cta_indent": "      ",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "cls": "companies-hero__",
+    "eyebrow": "Salkkumme",
+    "title": "Yritykset alustan takana",
+    "sub": "Yhdistämme kategoriajohtajia ohjelmistoyrityksiä, jotka palvelevat Pohjoismaiden julkista sektoria. Jokainen yritys tuo mukanaan ainutlaatuista toimialaosaamista hyötyen samalla koko ryhmän skaalasta, resursseista ja verkostosta."
+  },
+  "portfolio": {
+    "grid_tail": "\n"
+  },
+  "companies": [
+    {
+      "comment": "Tidvis (featured / wide card)",
+      "classes": "pf-card pf-card--featured fade-in",
+      "logo": "tidvis.jpg",
+      "logo_alt": "Tidvis",
+      "badge_class": "brand",
+      "badge": "Sosiaalihuolto",
+      "name": "Tidvis",
+      "desc": "Tidvis tarjoaa integroidun toiminnanohjausjärjestelmän sosiaalihuollon alalle — työvuorosuunnittelu, työajanseuranta, palkanlaskenta ja dokumentointi yhdellä alustalla henkilökohtaisen avun tuottajille ja LSS-toimijoille. Työkalut ovat suunnitelleet ihmiset, jotka ymmärtävät hoivatyön arkea.",
+      "avatar": "{{R}}img/team-adam-hjort.jpg",
+      "founder": "Adam Hjort",
+      "role": "Toimitusjohtaja",
+      "location": "Stockholm, Ruotsi",
+      "site_url": "https://tidvis.se",
+      "site_label": "tidvis.se"
+    },
+    {
+      "comment": "digiPlant",
+      "classes": "pf-card fade-in fade-in-d1",
+      "logo": "digiplant.png",
+      "logo_alt": "digiPlant",
+      "badge_class": "info",
+      "badge": "Apurahojen hallinta",
+      "name": "digiPlant",
+      "desc": "digiPlant kehittää SBS Manager -alustaa, jolla säätiöt, rahoittajat ja julkiset organisaatiot hallinnoivat hakemuksia — vastaanotosta arviointiin, päätökseen ja maksatukseen. Hakeminen helpottuu, käsittelyajat lyhenevät ja apurahoja maksetaan enemmän.",
+      "avatar": "/img/team-alexander-tornqvist.jpg",
+      "founder": "Alexander Törnqvist",
+      "role": "Perustajaosakas ja toimitusjohtaja",
+      "location": "Örebro, Ruotsi",
+      "site_url": "https://www.digiplant.se/sv/",
+      "site_label": "digiplant.se"
+    },
+    {
+      "comment": "Aspicore",
+      "classes": "pf-card fade-in fade-in-d2",
+      "logo": "aspicore.png",
+      "logo_alt": "Aspicore",
+      "badge_class": "info",
+      "badge": "Säätiöiden hallinta",
+      "name": "Aspicore",
+      "desc": "Aspicore rakentaa digitaalisia alustoja säätiöiden ja apurahojen hallintaan, auttaen yleishyödyllisiä organisaatioita käsittelemään hakemuksia, hallinnoimaan apurahoja ja varmistamaan läpinäkyvän hallinnon.",
+      "avatar": "{{R}}img/team-harri-tanner.jpg",
+      "founder": "Harri Tanner",
+      "role": "Toimitusjohtaja",
+      "location": "Helsinki, Suomi",
+      "site_url": "https://aspicore.com",
+      "site_label": "aspicore.com"
+    },
+    {
+      "comment": "Koivu Solutions (Sotender)",
+      "classes": "pf-card fade-in fade-in-d3",
+      "logo": "sotender.png",
+      "logo_alt": "Sotender",
+      "badge_class": "success",
+      "badge": "Hoitoalan sijaisjärjestelyt",
+      "name": "Koivu Solutions <span style=\"font-weight: 400; color: var(--text-muted); font-size: var(--fs-body-sm);\">(Sotender)</span>",
+      "desc": "Koivu Solutions kehittää Sotenderia, mobiilipainotteista alustaa, joka yhdistää sote-alan työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrausyrityksistä. Pohjanmaan hyvinvointialue on kertonut yli 7 miljoonan euron vuosittaisista säästöistä.",
+      "avatar": "/img/team-janne-salmi.png",
+      "founder": "Janne Salmi",
+      "role": "Perustajaosakas ja toimitusjohtaja",
+      "location": "Helsinki, Suomi",
+      "site_url": "https://sotender.fi",
+      "site_label": "sotender.fi"
+    },
+    {
+      "comment": "Embrace Safety",
+      "classes": "pf-card fade-in fade-in-d4",
+      "logo": "embrace.png",
+      "logo_alt": "Embrace Safety",
+      "badge_class": "warning",
+      "badge": "Rikoksentorjunta",
+      "name": "Embrace Safety",
+      "desc": "Embrace Safety kehittää EMBRACE-alustaa tietoon perustuvaan rikosten ehkäisyyn ja turvallisuuden edistämiseen. Kunnat, poliisiviranomaiset ja organisaatiot kartoittavat sen avulla tilannekuvia, analysoivat syitä ja seuraavat ennaltaehkäisevien toimenpiteiden toteutumista.",
+      "avatar": "{{R}}img/team-johan-rydberg.jpg",
+      "founder": "Johan Rydberg",
+      "role": "Toimitusjohtaja ja myyntijohtaja",
+      "location": "Örebro, Ruotsi",
+      "site_url": "https://www.embrace-safety.se/",
+      "site_label": "embracesafety.se"
+    },
+    {
+      "comment": "Bleau (Denmark)",
+      "classes": "pf-card pf-card--featured fade-in fade-in-d4",
+      "logo": "bleau.png",
+      "logo_alt": "Bleau A/S",
+      "badge_class": "info",
+      "badge": "Julkisen sektorin viestintä",
+      "name": "Bleau",
+      "desc": "Bleau kehittää moliria, vaatimustenmukaisuuteen perustuvaa alustaa turvalliseen ja saavutettavaan digitaaliseen viestintään julkisella sektorilla, sekä NemBoligia tanskalaisille yleishyödyllisille asuntoyhteisöille. Sisältö tarkistetaan saavutettavuuden, turvallisuuden ja vaatimustenmukaisuuden osalta julkaisuhetkellä.",
+      "avatar": "{{R}}img/team-robert-filtenborg.jpg",
+      "founder": "Robert G. Filtenborg",
+      "role": "Toimitusjohtaja",
+      "location": "Aarhus, Tanska",
+      "site_url": "https://www.bleau.dk",
+      "site_label": "bleau.dk"
+    }
+  ],
+  "quote": {
+    "text": "”Jo ensimmäisestä yhteydenotosta lähtien tunsimme suurta luottamusta ostajaa kohtaan. He kohtelivat meitä kunnioittavasti, esittivät viisaita ja järkeviä kysymyksiä ja kuuntelivat aidosti vastauksiamme. Tunsimme myös, että PubliX tarjosi rakenteen – ryhmän yrityksiä, jotka kaikki tuottavat yhteiskunnallista arvoa.”",
+    "cite_role": "toimitusjohtaja, Embrace Safety"
+  },
+  "timeline": {
+    "eyebrow": "Yrityskaupan jälkeen",
+    "title": "Mitä tapahtuu liittymisen jälkeen",
+    "sub": "PubliXiin liittyminen on suunniteltu saumattomaksi. Tältä näyttää tyypillisen salkkuyhtiön ensimmäinen vuosi.",
+    "t1_title": "Ensimmäinen päivä: Mikään ei muutu",
+    "t1_desc": "Sinun tiimisi, sinun toimistosi, sinun asiakkaasi. Emme ole täällä organisoimassa asioita uusiksi.",
+    "t2_title": "Kuukaudet 1–3: Perusta",
+    "t2_desc": "Työskentelemme yhdessä talouden, hinnoittelun, vaatimustenmukaisuuden ja turvallisuuden parissa.",
+    "t3_title": "Kuukaudet 3–12: Kasvu",
+    "t3_desc": "Ristiinmyynti yhteisille asiakkaille, laajentuminen uusiin maihin, uusien työnkulkujen lisääminen.",
+    "t4_title": "Vuosi 1+: Alustan arvo",
+    "t4_desc": "Osallistu ryhmän yhteiseen kasvuun. Menestyksesi moninkertaistuu.",
+    "fika_alt": "Team fika at a PubliX portfolio company"
+  },
+  "cta": {
+    "title": "Mietitkö seuraavaa lukua?",
+    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "btn": "Löydä kasvupotentiaalisi",
+    "email": "Tai lähetä sähköpostia suoraan Alexanderille"
+  },
+  "footer": {
+    "blurb": "Teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa, jotka digitalisoivat julkisia palveluja Pohjois-Euroopassa.",
+    "org": "Y-tunnus 559485-5487 · Taustalla <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigointi",
+    "assessment": "Kasvuarviointi",
+    "city": "Tukholma",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Tietosuojakäytäntö",
+    "cookie": "Evästekäytäntö",
+    "updated": "Pysy ajan tasalla",
+    "updated_sub": "Saa viimeisimmät uutiset PubliX Groupilta.",
+    "newsletter_success": "Kiitos tilauksesta!",
+    "newsletter_ph": "sinun@sahkoposti.fi",
+    "newsletter_aria": "Sähköpostiosoite",
+    "subscribe": "Tilaa",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

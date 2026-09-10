@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Über die PubliX Group — Betreiber fürs Gemeinwohl",
+    "description": "Wie die PubliX Group mit gründergeführten SaaS-Unternehmen für den nordischen öffentlichen Sektor arbeitet — These, Wertschöpfung und das Team.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform",
+    "ld_description": "PubliX Group is the growth platform for SaaS founders in public services."
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "cta_indent": "      ",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "Über die PubliX Group",
+    "title": "Betreiber, die für das öffentliche Wohl bauen",
+    "sub": "Die PubliX Group vereint gründergeführte SaaS-Unternehmen, die öffentliche Dienstleistungen in ganz Nordeuropa digitalisieren. Wir sind Betreiber — keine Finanzingenieure. Jede Entscheidung, die wir treffen, beginnt mit einer Frage: Hilft dies unseren Unternehmen, bessere Produkte zu entwickeln?"
+  },
+  "thesis": {
+    "eyebrow": "Unsere These",
+    "title": "Software für den öffentlichen Sektor ist eine eigene Disziplin",
+    "p1": "Öffentlicher Sektor bedeutet Beschaffungsregeln, Rahmenverträge, lange Verkaufszyklen und regulierte Käufer. Es erfordert Geduld, Fachkompetenz und ein tiefes Verständnis dafür, wie der öffentliche Sektor Technologie tatsächlich einkauft. <strong>PubliX konzentriert sich auf diesen einen Bereich</strong> — und beabsichtigt, der Beste in den nordischen Ländern zu sein. Wenn sich ein Gründer PubliX anschließt, erhält er eine Muttergesellschaft, die seinen Markt wirklich versteht.",
+    "p2": "Wir wachsen durch <strong>gemeinsame Kunden und Cross-Selling</strong>. Unsere Unternehmen verkaufen an die gleichen und angrenzenden Kunden — Kommunen, Regionen, Stiftungen, öffentliche Behörden. Cross-Selling und die Zusammenarbeit zwischen den Portfoliounternehmen steigern den Umsatz organisch. Jedes Unternehmen behält seine eigene Marke, seine Identität und seine Autonomie.",
+    "photo_alt": "Teamzusammenarbeit in einem PubliX-Unternehmen",
+    "s1_title": "Ein Bereich",
+    "s1_desc": "100 % Fokus auf SaaS für den öffentlichen Sektor in den nordischen Ländern",
+    "s2_title": "Gemeinsame Kunden",
+    "s2_desc": "Kommunen, Regionen und Stiftungen, die bei mehreren Unternehmen einkaufen",
+    "s3_title": "Eigene Marken",
+    "s3_desc": "Jedes Unternehmen behält seine eigene Marke, seine Identität und seine Entscheidungsbefugnis",
+    "s4_title": "Wachstumsorientiert",
+    "s4_desc": "Wir steigern den Umsatz durch Cross-Selling in der gesamten Gruppe"
+  },
+  "tracks": {
+    "eyebrow": "Wie wir Werte schaffen",
+    "title": "Zwei Wege. Ein Ziel: Ihr Unternehmen stärker zu machen.",
+    "sub": "Jedes Unternehmen, mit dem wir zusammenarbeiten, profitiert von zwei parallelen Wertschöpfungswegen — einer konzentriert sich auf die Stärkung Ihres Fundaments, der andere auf die Beschleunigung des Wachstums.",
+    "c1_alt": "Fundamente",
+    "c1_title": "Fundamente",
+    "c1_sub": "Stärken Sie den operativen Kern, damit Sie mit Zuversicht skalieren können.",
+    "c1_i1": "Saubere Wirtschaftlichkeit — klare Berichterstattung, Margen und Unit Economics",
+    "c1_i2": "Sinnvolle Preisgestaltung — wertbasierte Modelle, die erfassen, was Sie wert sind",
+    "c1_i3": "Kommerzielle Disziplin — Pipeline-Management und Vertriebsprozesse",
+    "c1_i4": "Verbesserung von Sicherheit und Compliance — ISO 27001, DSGVO, Standards des öffentlichen Sektors",
+    "c1_i5": "KI- und Engineering-Fähigkeiten — eingebettete Tech-Expertise, keine Berater",
+    "c2_alt": "Wachstum",
+    "c2_title": "Wachstum",
+    "c2_sub": "Erweitern Sie Ihre Marktreichweite durch die Kraft der Plattform.",
+    "c2_i1": "Mehr an gemeinsame Kunden verkaufen — Cross-Selling über das gesamte Portfolio hinweg",
+    "c2_i2": "Erschließung neuer nordischer Länder für bewährte Produkte",
+    "c2_i3": "Hinzufügen angrenzender Arbeitsabläufe für dieselbe Käufer-Persona",
+    "c2_i4": "Gemeinsames Marketing und Veranstaltungen für gemeinsame Entscheidungsträger",
+    "c2_i5": "Warme Einführungen durch vertrauensvolle bestehende Beziehungen",
+    "callout": "„Gründer reinvestieren in der Regel einen Teil ihres Erlöses in die Gruppe und partizipieren so am Wert der gesamten Plattform, anstatt einfach zu verkaufen und zu gehen.“",
+    "callout_cite": "— Das ist Absicht. Wenn Gründer investiert bleiben, bleiben auch die Anreize aufeinander abgestimmt."
+  },
+  "ai": {
+    "eyebrow": "Wie wir mit KI arbeiten",
+    "title": "Mit KI schaffen wir Werte:<br>Jedes Produkt, jeder Arbeitsablauf, jede Rolle",
+    "sub": "Wir reden nicht nur über KI — wir betten sie in jedes Unternehmen der Gruppe ein. Von neuen Produktfunktionen bis hin zur Automatisierung interner Abläufe steht KI im Mittelpunkt der Wertschöpfung von PubliX.",
+    "c1_title": "Produkt-KI",
+    "c1_desc": "Wir helfen unseren Unternehmen, KI-gestützte Funktionen in ihre Produkte zu integrieren — von intelligenter Automatisierung bis hin zu prädiktiven Analysen für Arbeitsabläufe im öffentlichen Sektor.",
+    "c2_title": "Operative KI",
+    "c2_desc": "Wir automatisieren die Lead-Generierung, Lead-Pflege, Kundenbetreuung, Softwareentwicklung sowie finanzielle und administrative Arbeitsabläufe in der gesamten Gruppe — damit sich unsere Unternehmen auf die Entwicklung großartiger Produkte statt auf die Verwaltung konzentrieren können.",
+    "c3_title": "KI-Weiterbildung",
+    "c3_desc": "Wir schulen jedes Team in der gesamten Gruppe darin, KI-Tools effektiv einzusetzen — und wandeln so Fähigkeiten in Ergebnisse um. Unsere Unternehmen erreichen ihre Ziele schneller, als sie für möglich gehalten hätten.",
+    "section_tail": "\n"
+  },
+  "quote": {
+    "text": "„Wir tun alles, was wir können, gemeinsam mit den Unternehmen – und lassen sie zugleich eigenständig bleiben. Zusammenarbeit ist eines der wichtigsten Dinge, die wir tun: Wo man früher zehn Kollegen hatte, hat man jetzt hundert, und diese Zusammenarbeit geht noch lange weiter, nachdem man wieder zu Hause ist.“",
+    "cite_role": "Konzernchef, PubliX Group"
+  },
+  "cta": {
+    "title": "Denken Sie über Ihr nächstes Kapitel nach?",
+    "sub": "Ob Sie Ihre Optionen ausloten, wissen möchten, wo Ihr Unternehmen steht, oder einfach nur mit jemandem sprechen möchten, der Ihren Markt versteht — wir freuen uns auf das Gespräch.",
+    "btn": "Entdecken Sie Ihr Wachstumspotenzial",
+    "email": "Oder schreiben Sie Alexander direkt eine E-Mail"
+  },
+  "footer": {
+    "blurb": "Wir arbeiten partnerschaftlich mit gründergeführten SaaS-Unternehmen zusammen, die öffentliche Dienstleistungen in ganz Nordeuropa digitalisieren.",
+    "org": "Org. 559485-5487 · Unterstützt durch <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigation",
+    "assessment": "Wachstumsbewertung",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie",
+    "updated": "Bleiben Sie informiert",
+    "updated_sub": "Erhalten Sie das Neueste von der PubliX Group.",
+    "newsletter_success": "Danke! Sie haben sich angemeldet.",
+    "newsletter_ph": "ihre@email.de",
+    "newsletter_aria": "E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

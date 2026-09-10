@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Kontakt — PubliX Group",
+    "description": "Ta kontakt med PubliX Group. Nå CEO Alexander Hübel for en fortrolig samtale om ditt SaaS-selskap. Kontor: Kungsgatan 37, Stockholm.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Hopp til innhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "hero": {
+    "eyebrow": "Har du noe på hjertet?",
+    "title": "La oss ta en prat",
+    "sub": "Enten du er en gründer som utforsker alternativene dine eller bare er nysgjerrig på hva vi gjør – enhver samtale er konfidensiell."
+  },
+  "direct": {
+    "heading": "Ta direkte kontakt",
+    "role": "Administrerende direktør, PubliX Group",
+    "general": "Generelle henvendelser",
+    "office": "Kontor",
+    "call": "Ring Alexander direkte"
+  },
+  "form": {
+    "title": "...eller send en melding",
+    "success_msg": "&lt;div style=&#39;text-align:center; padding:32px 0;&#39;&gt;&lt;i class=&#39;ph ph-check-circle&#39; style=&#39;font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;&#39;&gt;&lt;/i&gt;&lt;h3 style=&#39;font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;&#39;&gt;Takk!&lt;/h3&gt;&lt;p style=&#39;color:var(--text-muted); font-size:var(--fs-body-sm);&#39;&gt;Din melding er sendt. Alexander vil svare deg innen 2 virkedager.&lt;/p&gt;&lt;/div&gt;",
+    "name": "Navn",
+    "name_ph": "Ditt fulle navn",
+    "email": "E-post",
+    "email_ph": "du@selskap.no",
+    "company": "Selskap",
+    "company_ph": "Ditt Selskap AS",
+    "message": "Melding",
+    "message_ph": "Fortell oss om selskapet ditt...",
+    "submit": "Send melding",
+    "legal": "Din melding går direkte til Alexander. Alle samtaler er konfidensielle.",
+    "micro": "Vi svarer innen 2 virkedager"
+  },
+  "cta": {
+    "title": "La oss snakke om fremtiden for offentlige tjenester",
+    "sub": "Enten du bygger digitale løsninger for offentlig sektor eller bare er nysgjerrig på hvordan vi jobber – vi vil gjerne høre fra deg.",
+    "btn": "Oppdag ditt vekstpotensial",
+    "micro": "Eller ring Alexander direkte:"
+  },
+  "footer": {
+    "blurb": "Vi inngår partnerskap med gründerledede SaaS-selskaper som digitaliserer offentlige tjenester i Nord-Europa.",
+    "org": "Org. 559485-5487 · Støttet av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigering",
+    "assessment": "Vekstvurdering",
+    "city": "Stockholm",
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy",
+    "updated": "Hold deg oppdatert",
+    "updated_sub": "Få siste nytt fra PubliX – oppkjøp, innsikt og gründerhistorier.",
+    "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Abonnert!&lt;/span&gt;",
+    "newsletter_ph": "din@epost.no",
+    "subscribe": "Abonner",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, administrerende direktør"
+  }
+}

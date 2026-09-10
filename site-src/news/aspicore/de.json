@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group betritt Finnland durch Partnerschaft mit Aspicore",
+    "description": "Ein Full-Service-Softwareanbieter im Bereich Fördermittelmanagement, der die Expansion der PubliX Group in den finnischen Markt markiert."
+  },
+  "date": {
+    "display": "2. September 2025",
+    "published_iso": "2025-09-02",
+    "modified_iso": "2025-09-02"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Akquisition"
+  },
+  "title": "PubliX Group betritt Finnland durch Partnerschaft mit Aspicore",
+  "lead": "Ein Full-Service-Softwareanbieter im Bereich Fördermittelmanagement, der die Expansion der PubliX Group in den finnischen Markt markiert.",
+  "body_html": "      <p>STOCKHOLM, 2. September 2025 — Die PubliX Group betritt Finnland durch eine Partnerschaft mit Aspicore, einem Full-Service-Softwareanbieter im Bereich Fördermittelmanagement. Aspicores Cloud-Plattform Apuraha4 unterstützt Stiftungen, Organisationen, Verbände, Universitäten und Behörden über den gesamten Lebenszyklus von Fördermitteln — vom Antrag bis zur Auszahlung.</p>\n      <p>Aspicore, geführt von CEO Harri Tanner, baut auf zwei Jahrzehnten Arbeit mit Fördermittelsystemen auf. Apuraha4 wird von 140 Kundenorganisationen genutzt, die zusammen jährlich Fördermittel von mehr als 100 Millionen Euro verwalten.</p>\n      <p>Die Partnerschaft markiert den ersten Schritt der PubliX Group außerhalb Schwedens. Zusammen mit digiPlant bildet Aspicore die Grundlage eines führenden gesamtnordischen Herausforderers im Bereich der Fördermittelmanagement-Software.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "News",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/aspicore.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Über Aspicore",
+        "text": "Aspicore ist ein finnischer Full-Service-Softwareanbieter im Bereich Fördermittelmanagement. Seine Plattform Apuraha4 wird von 140 Kundenorganisationen genutzt, die jährlich Fördermittel von mehr als 100 Millionen Euro verwalten."
+      }
+    ],
+    "cta": "Alle Unternehmen ansehen"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie"
+  }
+}

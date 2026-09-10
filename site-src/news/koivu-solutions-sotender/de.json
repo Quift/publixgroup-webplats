@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group kooperiert mit Koivu Solutions (Sotender)",
+    "description": "Eine moderne SaaS-Lösung zur Vermittlung von Pflegekräften an offene Schichten, die die Reichweite erhöht und Kosten für Gesundheitsdienstleister senkt."
+  },
+  "date": {
+    "display": "16. Dezember 2025",
+    "published_iso": "2025-12-16",
+    "modified_iso": "2025-12-16"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Akquisition"
+  },
+  "title": "PubliX Group kooperiert mit Koivu Solutions (Sotender)",
+  "lead": "Eine moderne SaaS-Lösung zur Vermittlung von Pflegekräften an offene Schichten, die die Reichweite erhöht und Kosten für Gesundheitsdienstleister senkt.",
+  "body_html": "      <p>HELSINKI, 16. Dezember 2025 — Die PubliX Group hat 100 Prozent der Anteile an Koivu Solutions Oy erworben, dem finnischen Unternehmen hinter Sotender, einer Mobile-First-Plattform, die Gesundheits- und Pflegefachkräfte mit offenen Schichten zusammenbringt und die Abhängigkeit von Personalvermittlungsagenturen verringert. Zum Zeitpunkt der Ankündigung hatte Sotender mehr als 27.000 Nutzer in Finnland, die erste Implementierung in Schweden war bereits angelaufen.</p>\n      <p>Die Ergebnisse sind öffentlich: Die Wohlfahrtsregion Österbotten hat jährliche Einsparungen von mehr als 7 Millionen Euro gemeldet, wobei 96,7 Prozent der offenen Schichten über Sotender besetzt wurden.</p>\n      <p>„Diese Partnerschaft stärkt Koivu, ohne zu verändern, wer wir sind. Unser Team, unsere Mission und unsere Kundenbeziehungen bleiben dieselben“, sagte Janne Salmi, CEO und Mitgründer von Koivu Solutions.</p>\n      <p>„Koivu verkörpert genau die Art von spezialisiertem, missionsgetriebenem SaaS-Unternehmen, die wir in der PubliX Group haben wollen“, sagte Marcus Åström, Interim-CEO und Head of M&amp;A der PubliX Group.</p>\n      <p>Koivu Solutions, gegründet 2017, wird als eigenständiges Unternehmen innerhalb der Gruppe weitergeführt — gleiches Team, gleiche Marke. Die bisherigen Eigentümer bleiben in operativen Rollen tätig und reinvestieren einen wesentlichen Teil des Erlöses, um Anteilseigner von PubliX zu werden.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "News",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/sotender.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Über Koivu Solutions",
+        "text": "Koivu Solutions ist ein finnisches SaaS-Unternehmen, gegründet 2017. Seine Plattform Sotender bringt Gesundheits- und Pflegefachkräfte mit offenen Schichten zusammen und verringert die Abhängigkeit von Personalvermittlungsagenturen in den finnischen Wohlfahrtsregionen."
+      }
+    ],
+    "cta": "Alle Unternehmen ansehen"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie"
+  }
+}

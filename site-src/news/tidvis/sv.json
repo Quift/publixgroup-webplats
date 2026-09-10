@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group välkomnar Tidvis",
+    "description": "Stärker digitala omsorgslösningar i Norden — Tidvis utvecklar plattformar för socialtjänsten som hjälper kommuner att hantera handläggning och regelefterlevnad."
+  },
+  "date": {
+    "display": "25 augusti 2025",
+    "published_iso": "2025-08-25",
+    "modified_iso": "2025-08-25"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Förvärv"
+  },
+  "title": "PubliX Group välkomnar Tidvis",
+  "lead": "Stärker digitala omsorgslösningar i Norden — Tidvis utvecklar plattformar för socialtjänsten som hjälper kommuner att hantera handläggning och regelefterlevnad.",
+  "body_html": "      <p>STOCKHOLM den 25 augusti 2025 — PubliX Group har förvärvat Tidvis, koncernens första portföljbolag. Tidvis, grundat 2012, tillhandahåller ett integrerat verksamhetssystem för den svenska sociala omsorgssektorn, med assistansanordnare och verksamheter inom LSS som kunder.</p>\n      <p>Plattformen samlar en omsorgsgivares dagliga drift i ett system — schemaläggning, tidrapportering, lön, dokumentation, CRM, kvalitetsledning och rekrytering — och har en marknadsledande position med omkring 25 procent av Sveriges privata marknad för personlig assistans.</p>\n      <p>”Att bli en del av Aspira Partners och dess PubliX Group markerar ett spännande nytt kapitel för Tidvis. Med sitt fokus på SaaS-lösningar för offentliga tjänster ger PubliX en stark grund för att accelerera vår tillväxt och fortsätta leverera tjänster av hög kvalitet. Jag är övertygad om att det här partnerskapet kommer att skapa nya möjligheter och fördelar för både vårt team och våra kunder”, säger Mattias Lind, grundare och vd för Tidvis.</p>\n      <p>Tidvis fortsätter under eget varumärke och med sitt eget team. PubliX Group arbetar som en accelerator snarare än ett holdingbolag: varje bolag behåller sin identitet och får samtidigt koncernstöd inom områden som offentlig upphandling, regelefterlevnad och AI.</p>\n      <p>Oaklins Sweden var exklusiv finansiell rådgivare åt Tidvis ägare i transaktionen.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Hoppa till innehåll",
+    "home": "Hem",
+    "why": "Varför PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Företag",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Upptäck din tillväxtpotential"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/tidvis.jpg",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Tidvis",
+        "text": "Tidvis är ett svenskt SaaS-bolag grundat 2012. Plattformen samlar schemaläggning, tidrapportering, lön och dokumentation för assistansanordnare och LSS-verksamheter, och har omkring 25 procent av Sveriges privata marknad för personlig assistans."
+      }
+    ],
+    "cta": "Se alla företag"
+  },
+  "footer": {
+    "privacy": "Integritetspolicy",
+    "cookie": "Cookiepolicy"
+  }
+}

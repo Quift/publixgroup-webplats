@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Cookie-Richtlinie — PubliX Group",
+    "description": "Wie die PubliX Group Cookies auf publixgroup.io verwendet: funktionale Cookies sowie Google Analytics 4 mit Opt-in.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial"
+  },
+  "hero": {
+    "title": "Cookie-Richtlinie",
+    "updated": "Zuletzt aktualisiert: 4. August 2026",
+    "intro": "Diese Seite beschreibt die Cookies, die publixgroup.io verwendet. Wir halten unsere Cookie-Nutzung minimal und funktional."
+  },
+  "what": {
+    "h": "Was ist ein Cookie?",
+    "p": "Ein Cookie ist eine kleine Textdatei, die von einer Website, die Sie besuchen, auf Ihrem Gerät gespeichert wird. Cookies werden häufig verwendet, damit Websites funktionieren oder effizienter funktionieren und um Website-Betreibern Informationen bereitzustellen."
+  },
+  "use": {
+    "h": "Von uns verwendete Cookies",
+    "h3_functional": "Unbedingt erforderlich / funktional",
+    "li_nflang": "<strong>nf_lang</strong> — Speichert die Sprache, die Sie über den Sprachumschalter gewählt haben. Wird nur gesetzt, wenn Sie aktiv die Sprache wechseln. Lebensdauer: Sitzung.",
+    "li_netlify": "<strong>Netlify-Sitzungscookies</strong> — Werden von unserem Formularanbieter (Netlify) gesetzt, wenn Sie das Kontaktformular absenden oder den Newsletter abonnieren, zur Spam-Prävention (Akismet).",
+    "h3_analytics": "Analyse — nur mit Einwilligung",
+    "p_ga4": "Wir verwenden <strong>Google Analytics 4 (GA4)</strong>, um zu verstehen, wie Besucher publixgroup.io nutzen. GA4 setzt Cookies, die eine pseudonyme Kennung für bis zu 2 Jahre speichern:",
+    "li_ga": "<strong>_ga</strong> — Google Analytics Client-Kennung. Lebensdauer: 2 Jahre.",
+    "li_ga2": "<strong>_ga_F39X0LXQTH</strong> — Google Analytics 4 Sitzungsstatus. Lebensdauer: 2 Jahre.",
+    "p_consent": "<strong>Diese Cookies werden erst geladen, nachdem Sie in unserem Cookie-Banner auf „Akzeptieren“ geklickt haben.</strong> Wenn Sie ablehnen (oder das Banner ignorieren), werden keine Analyse-Cookies gesetzt und keine Analysedaten erhoben. GA4 protokolliert oder speichert keine vollständigen IP-Adressen; Google verwendet die IP nur kurzzeitig, um eine grobe Geolokalisierung abzuleiten, und verwirft sie anschließend.",
+    "p_google": "Google Analytics wird von Google Ireland Limited bereitgestellt. Daten können von Google LLC (USA) im Rahmen des <a href=\"https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-privacy-framework_en\" target=\"_blank\" rel=\"noopener\">EU-US Data Privacy Framework</a> verarbeitet werden. Siehe <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles Datenschutzerklärung</a>.",
+    "h3_marketing": "Marketing / Tracking",
+    "p_marketing": "Wir verwenden <strong>keine</strong> Marketing-, Werbe- oder seitenübergreifenden Tracking-Cookies. Auf dieser Website laufen keine Marketing-Tracker von Drittanbietern (Meta Pixel, LinkedIn Insight usw.)."
+  },
+  "consent": {
+    "h": "Ihre Einwilligung verwalten",
+    "p": "Sie können Analyse-Cookies über das Banner am unteren Seitenrand akzeptieren oder ablehnen. Sie können jederzeit Ihre Meinung ändern — <a href=\"#\" onclick=\"resetCookieChoice(); return false;\">Ihre Cookie-Wahl zurücksetzen</a>, um das Banner erneut anzuzeigen. Sie können Cookies auch jederzeit über die Einstellungen Ihres Browsers löschen."
+  },
+  "changes": {
+    "h": "Änderungen dieser Richtlinie",
+    "p": "Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Das Datum „zuletzt aktualisiert“ oben spiegelt die jüngste Änderung wider."
+  },
+  "contact_s": {
+    "h": "Kontakt",
+    "p": "Bei Fragen zu unserer Cookie-Nutzung schreiben Sie an <a href=\"mailto:info@publixgroup.io\">info@publixgroup.io</a>."
+  },
+  "footer": {
+    "blurb": "Wir arbeiten mit gründergeführten SaaS-Unternehmen zusammen, die öffentliche Dienstleistungen in Nordeuropa digitalisieren.",
+    "org": "Org. 559485-5487 · Unterstützt von <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigation",
+    "assessment": "Wachstumsanalyse",
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie",
+    "updated": "Bleiben Sie informiert",
+    "updated_sub": "Erhalten Sie die neuesten Informationen von PubliX Group.",
+    "newsletter_success": "Danke! Sie sind angemeldet.",
+    "newsletter_ph": "ihre@email.de",
+    "newsletter_aria": "E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

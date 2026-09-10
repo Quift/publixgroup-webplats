@@ -4,6 +4,23 @@ Statisk flerspråkig webbplats (EN + SV/DA/NO/FI/DE) för [publixgroup.io](https
 
 Deploy: push till `main` → Netlify.
 
+## ⚠️ HTML-filerna i `site/` är GENERERADE
+
+Sedan 2026-09-09 byggs alla HTML-sidor från `site-src/` (mallar + innehålls-JSON per språk).
+**Redigera aldrig HTML direkt i `site/`** — ändringarna skrivs över vid nästa bygge.
+
+```bash
+node build.js          # bygg alla språkvarianter → site/
+node build.js --check  # verifiera att site/ matchar källan
+```
+
+- Copyändring → redigera `site-src/content/{lang}/{sida}.json` (alla 6 språk) → `node build.js`
+- Ny pressrelease → ny mapp `site-src/news/{slug}/` med `{en,sv,da,no,fi,de}.json` + kort i
+  `site-src/content/{lang}/news.json` → bygg → `node generate-sitemap.js`
+- Strukturändring → redigera `site-src/templates/{sida}.html` (slår igenom i alla språk)
+
+Format och regler: [`site-src/SPEC.md`](site-src/SPEC.md).
+
 ## Redigera siten med AI-agenter
 
 **Skill:** [`.claude/skills/publix-site-edit/SKILL.md`](.claude/skills/publix-site-edit/SKILL.md)
@@ -29,7 +46,9 @@ Skillen implementerar löpande underhåll (copy, SEO, nyhetsartiklar, favicon, 6
 
 | Mapp | Innehåll |
 |------|----------|
-| `site/` | Produktions-HTML (EN i root, övriga språk i undermappar) |
+| `site-src/` | **Källan**: mallar + innehålls-JSON per språk + `SPEC.md` |
+| `build.js` | Genererar alla språkvarianter från `site-src/` → `site/` |
+| `site/` | Produktions-HTML — GENERERAD, redigeras aldrig direkt (EN i root, övriga språk i undermappar) |
 | `site/Design-system/` | Brand, tokens, komponenter |
 | `site/docs/` | Strategi, foundation, SEO-register |
 | `.claude/skills/` | Agent-skill för redigering (Claude Code / Cursor) |

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+{{#each head_meta}}{{.line}}
+{{/each}}{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+{{#each head_after_canonical}}{{.line}}
+{{/each}}<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/news-article.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+{{#each head_scripts}}{{.html}}
+{{/each}}</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="../index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="../index.html">{{nav.home}}</a>
+      <a href="../why-publix.html">{{nav.why}}</a>
+      <a href="../about.html">{{nav.about}}</a>
+      <a href="../team.html">{{nav.team}}</a>
+      <a href="../companies.html">{{nav.companies}}</a>
+      <a href="../news.html" class="active">{{nav.news}}</a>
+      <a href="../contact.html">{{nav.contact}}</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--accent btn--sm" href="../index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+      </div>
+      </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="article-hero" id="top">
+  <img class="article-hero__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+  <div class="container article-hero__inner fade-in">
+    <div class="article-hero__meta">
+      <span class="article-hero__date">{{date.display}}</span>
+      <span class="news-card__badge news-card__badge--{{badge.class}}">{{badge.label}}</span>
+    </div>
+    <h1 class="article-hero__title">{{title}}</h1>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="article-content">
+  <div class="container article-content__grid">
+    <div class="article-body fade-in">
+      <p class="lead">{{lead}}</p>
+{{body_html}}
+    </div>
+    <div class="article-sidebar fade-in fade-in-d1">
+      <img src="{{R}}{{sidebar.logo}}" alt="{{sidebar.logo_alt}}" class="article-sidebar__logo"{{sidebar.logo_attrs}}>
+{{#each sidebar.blocks}}      <h3 class="article-sidebar__title"{{.style}}>{{.title}}</h3>
+      <p class="article-sidebar__text">{{.text}}</p>
+{{/each}}      <a href="../companies.html" class="btn btn--navy">{{sidebar.cta}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__base">
+    <span>© 2026 PubliX Group AB</span>
+    <span><a href="../privacy-policy.html">{{footer.privacy}}</a> · <a href="../cookie-policy.html">{{footer.cookie}}</a></span>
+  </div>
+</footer>
+
+<script src="{{R}}js/lang.js"></script>
+<script>
+function revealFadeIns(immediate) {
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (immediate || el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  revealFadeIns();
+}, { passive: true });
+revealFadeIns(true);
+</script>
+<script src="{{R}}js/forms.js"></script>
+<script>
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Aktuelles — PubliX Group",
+    "description": "Aktuelles der PubliX Group — Akquisitionen, Partnerschaften und Meilensteine beim Aufbau der führenden nordischen Public-Sector-SaaS-Plattform.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "why": "Warum PubliX",
+    "about": "Über uns",
+    "team": "Team",
+    "companies": "Unternehmen",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "cta": "Entdecken Sie Ihr Wachstumspotenzial",
+    "cta_indent": "      ",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "Aktuelles",
+    "title": "Was gibt es Neues bei PubliX",
+    "sub": "Verfolgen Sie unseren Weg als Partner gründergeführter SaaS-Unternehmen in ganz Skandinavien – Akquisition für Akquisition."
+  },
+  "grid": {
+    "filter_all": "Alle",
+    "filter_acquisition": "Akquisitionen",
+    "filter_appointment": "Ernennungen",
+    "filter_milestone": "Meilensteine",
+    "read_more": "Mehr lesen"
+  },
+  "cards": [
+    {
+      "comment": "FEATURED: Bleau acquisition",
+      "classes": "news-card news-card--featured fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/bleau.png",
+      "logo_alt": "Bleau A/S",
+      "date": "15. September 2026",
+      "badge": "Akquisition",
+      "title": "PubliX Group übernimmt Bleau A/S und tritt in den dänischen Markt ein",
+      "excerpt": "Bleau, das Unternehmen aus Aarhus hinter moliri, wird das sechste Unternehmen der PubliX Group und ihr erstes in Dänemark. Es behält seinen Namen und seine Geschäftsführung.",
+      "slug": "bleau"
+    },
+    {
+      "comment": "CEO appointment",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "appointment",
+      "logo": "Design-system/assets/logo/publix-logo.svg",
+      "logo_alt": "PubliX Group",
+      "date": "14. April 2026",
+      "badge": "Ernennung",
+      "title": "PubliX Group ernennt Alexander Hübel zum CEO",
+      "excerpt": "Alexander Hübel wurde zum Group CEO der PubliX Group ernannt und bringt umfangreiche Erfahrung in der Skalierung von Technologieunternehmen und dem Aufbau von Plattformen auf dem nordischen Markt mit.",
+      "slug": "publix-group-appoints-alexander-hubel-as-ceo"
+    },
+    {
+      "comment": "Sotender startet in Schweden",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "milestone",
+      "logo": "Design-system/assets/portfolio/sotender.png",
+      "logo_alt": "Sotender",
+      "date": "4. Mai 2026",
+      "badge": "Meilenstein",
+      "title": "Sotender startet in Schweden — Suomikoti ist erster Kunde",
+      "excerpt": "Die finnische SaaS-Plattform Sotender kommt auf den schwedischen Markt. Suomikoti, ein finnischsprachiges Pflegewohnheim in Enskede mit 53 Plätzen, wird erster schwedischer Kunde.",
+      "slug": "sotender-launches-sweden-suomikoti"
+    },
+    {
+      "comment": "Embrace Safety",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/embrace.png",
+      "logo_alt": "Embrace Safety",
+      "date": "5. März 2026",
+      "badge": "Akquisition",
+      "title": "PubliX Group geht Partnerschaft mit Embrace Safety ein",
+      "excerpt": "Eine leistungsstarke SaaS-Plattform, die Kommunen und lokalen Behörden wissensbasierte Kriminalprävention und Sicherheitsförderung ermöglicht.",
+      "slug": "embrace-safety"
+    },
+    {
+      "comment": "Koivu Solutions",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/sotender.png",
+      "logo_alt": "Koivu Solutions / Sotender",
+      "date": "16. Dezember 2025",
+      "badge": "Akquisition",
+      "title": "PubliX Group geht Partnerschaft mit Koivu Solutions (Sotender) ein",
+      "excerpt": "Eine moderne SaaS-Lösung zur Vermittlung von offenen Schichten an Pflegekräfte, die die Reichweite erhöht und die Kosten für Gesundheitsdienstleister senkt.",
+      "slug": "koivu-solutions-sotender"
+    },
+    {
+      "comment": "Aspicore",
+      "classes": "news-card fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/aspicore.png",
+      "logo_alt": "Aspicore",
+      "date": "2. September 2025",
+      "badge": "Akquisition",
+      "title": "PubliX Group betritt Finnland durch Partnerschaft mit Aspicore",
+      "excerpt": "Ein Full-Service-Softwareanbieter im Bereich Fördermittelmanagement, der die Expansion der PubliX Group in den finnischen Markt markiert.",
+      "slug": "aspicore"
+    },
+    {
+      "comment": "digiPlant",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/digiplant.png",
+      "logo_alt": "digiPlant",
+      "date": "25. August 2025",
+      "badge": "Akquisition",
+      "title": "PubliX Group geht Partnerschaft mit digiPlant ein",
+      "excerpt": "Ein Marktführer im Bereich von Bewerbungsmanagementsystemen für Stiftungen, der die Position von PubliX im Bereich Fördermittelmanagement stärkt.",
+      "slug": "digiplant"
+    },
+    {
+      "comment": "Tidvis",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/tidvis.jpg",
+      "logo_alt": "Tidvis",
+      "date": "25. August 2025",
+      "badge": "Akquisition",
+      "title": "PubliX Group begrüßt Tidvis",
+      "excerpt": "Stärkung digitaler Pflegelösungen in Skandinavien — Tidvis entwickelt Plattformen für Sozialdienste, die Kommunen bei der Fallbearbeitung und Compliance unterstützen.",
+      "slug": "tidvis"
+    }
+  ],
+  "cta": {
+    "title": "Denken Sie über Ihr nächstes Kapitel nach?",
+    "sub": "Ob Sie Ihre Optionen ausloten, wissen möchten, wo Ihr Unternehmen steht, oder einfach nur mit jemandem sprechen möchten, der Ihren Markt versteht — wir freuen uns auf das Gespräch.",
+    "btn": "Entdecken Sie Ihr Wachstumspotenzial",
+    "email_btn": "Oder schreiben Sie Alexander direkt eine E-Mail"
+  },
+  "footer": {
+    "blurb": "Wir arbeiten partnerschaftlich mit gründergeführten SaaS-Unternehmen zusammen, die öffentliche Dienstleistungen in ganz Nordeuropa digitalisieren.",
+    "org": "Org. 559485-5487 · Unterstützt durch <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigation",
+    "assessment": "Wachstumsbewertung",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Datenschutzerklärung",
+    "cookie": "Cookie-Richtlinie",
+    "updated": "Bleiben Sie informiert",
+    "updated_sub": "Erhalten Sie das Neueste von der PubliX Group.",
+    "newsletter_success": "Danke! Sie haben sich angemeldet.",
+    "newsletter_ph": "ihre@email.de",
+    "newsletter_aria": "E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  },
+  "tail": "\n"
+}

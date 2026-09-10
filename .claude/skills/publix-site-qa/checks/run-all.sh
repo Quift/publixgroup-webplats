@@ -223,7 +223,7 @@ echo '```'
 
 subhead "E4 — Nyhets-datePublished synk över språk (ska vara identiska)"
 echo '```'
-for article in aspicore digiplant embrace-safety koivu-solutions-sotender publix-group-appoints-alexander-hubel-as-ceo sotender-launches-sweden-suomikoti tidvis; do
+for article in aspicore bleau digiplant embrace-safety koivu-solutions-sotender publix-group-appoints-alexander-hubel-as-ceo sotender-launches-sweden-suomikoti tidvis; do
   vals=$(for d in site/news site/sv/news site/da/news site/no/news site/fi/news site/de/news; do
     grep -o '"datePublished": "[^"]*"' "$d/$article.html" 2>/dev/null | head -1
   done | sort -u | wc -l)

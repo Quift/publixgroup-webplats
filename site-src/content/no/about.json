@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Om PubliX Group — Operatører som bygger for allmennhetens beste",
+    "description": "Slik jobber PubliX Group med gründerledede SaaS-selskaper for offentlig sektor i Norden — tese, verdiskaping og teamet.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform",
+    "ld_description": "PubliX Group is the growth platform for SaaS founders in public services."
+  },
+  "nav": {
+    "skip": "Hopp til innhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta_indent": "      ",
+    "cta": "Oppdag ditt vekstpotensial",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "Om PubliX Group",
+    "title": "Operatører som bygger for allmennhetens&nbsp;beste",
+    "sub": "PubliX Group forener gründerledede SaaS-selskaper som digitaliserer offentlige tjenester i Nord-Europa. Vi er operatører – ikke finansielle ingeniører. Hver beslutning vi tar, starter med ett spørsmål: Hjelper dette selskapene våre med å bygge bedre produkter?"
+  },
+  "thesis": {
+    "eyebrow": "Vår tese",
+    "title": "Programvare for offentlig sektor er en egen disiplin",
+    "p1": "Offentlig sektor innebærer anskaffelsesregler, rammeavtaler, lange salgssykluser og regulerte kjøpere. Det krever tålmodighet, domenekompetanse og en dyp forståelse av hvordan offentlig sektor faktisk kjøper teknologi. <strong>PubliX konsentrerer seg om denne ene vertikalen</strong> – og har som mål å bli best i Norden. Når en gründer slutter seg til PubliX, får de et morselskap som virkelig forstår markedet deres.",
+    "p2": "Vi vokser gjennom <strong>delte kunder og kryssalg</strong>. Selskapene våre selger til de samme og tilstøtende kunder – kommuner, fylker, stiftelser, offentlige etater. Kryssalg og samarbeid mellom porteføljeselskapene øker omsetningen organisk. Hvert selskap beholder sin egen merkevare, sin identitet og sin autonomi.",
+    "photo_alt": "Team samarbeid hos et PubliX-selskap",
+    "s1_title": "Én vertikal",
+    "s1_desc": "100 % fokus på SaaS for offentlig sektor i Norden",
+    "s2_title": "Delte kunder",
+    "s2_desc": "Kommuner, fylker &amp; stiftelser som kjøper fra flere selskaper",
+    "s3_title": "Egne merkevarer",
+    "s3_desc": "Hvert selskap beholder sin egen merkevare, sin identitet &amp; sin beslutningsmyndighet",
+    "s4_title": "Vekstdrevet",
+    "s4_desc": "Vi øker omsetningen gjennom kryssalg på tvers av gruppen"
+  },
+  "tracks": {
+    "eyebrow": "Hvordan vi skaper verdi",
+    "title": "To spor. Ett mål: Gjøre selskapet ditt sterkere.",
+    "sub": "Hvert selskap vi jobber med, drar nytte av to parallelle verdiskapingsspor – ett fokusert på å styrke fundamentet ditt, det andre på å akselerere vekst.",
+    "c1_alt": "Fundament",
+    "c1_title": "Fundament",
+    "c1_sub": "Styrke den operasjonelle kjernen slik at du kan skalere med selvtillit.",
+    "c1_i1": "Rydde økonomi – tydelig rapportering, marginer og enhetsøkonomi",
+    "c1_i2": "Fornuftig prising – verdibaserte modeller som gjenspeiler det du er verdt",
+    "c1_i3": "Kommersiell disiplin – håndtering av salgspipeline og salgsprosesser",
+    "c1_i4": "Sikkerhet &amp; samsvarsløft – ISO 27001, GDPR, standarder for offentlig sektor",
+    "c1_i5": "AI &amp; teknisk kapasitet – integrert teknisk ekspertise, ikke konsulenter",
+    "c2_alt": "Vekst",
+    "c2_title": "Vekst",
+    "c2_sub": "Utvid din markedsrekkevidde gjennom plattformens kraft.",
+    "c2_i1": "Selg mer til delte kunder – kryssalg på tvers av porteføljen",
+    "c2_i2": "Åpne nye nordiske land for velprøvde produkter",
+    "c2_i3": "Legg til tilstøtende arbeidsflyter for samme kjøperpersona",
+    "c2_i4": "Felles markedsføring &amp; arrangementer for delte beslutningstakere",
+    "c2_i5": "Varme introduksjoner gjennom etablerte, betrodde relasjoner",
+    "callout": "«Gründere reinvesterer typisk deler av utbyttet sitt i gruppen, og tar del i verdien av hele plattformen i stedet for bare å selge og forlate selskapet.»",
+    "callout_cite": "— Dette er bevisst. Når gründere forblir investert, forblir insentivene samordnet."
+  },
+  "ai": {
+    "eyebrow": "Hvordan vi jobber med AI",
+    "title": "AI er hvordan vi skaper verdi:<br>Hvert produkt, hver arbeidsflyt, hver stillingsrolle",
+    "sub": "Vi snakker ikke bare om AI – vi integrerer det i alle selskaper i gruppen. Fra nye funksjoner i produktene til automatisering av interne operasjoner; AI er sentralt for hvordan PubliX skaper verdi.",
+    "c1_title": "Produkt-AI",
+    "c1_desc": "Vi hjelper våre selskaper med å bygge AI-drevne funksjoner inn i produktene sine – fra intelligent automatisering til prediktiv analyse for arbeidsflyter i offentlig sektor.",
+    "c2_title": "Operasjonell AI",
+    "c2_desc": "Vi automatiserer leadgenerering, oppfølging av leads, kundestøtte, programvareutvikling samt økonomiske og administrative arbeidsflyter på tvers av gruppen – slik at våre selskaper kan fokusere på å bygge fantastiske produkter i stedet for administrasjon.",
+    "c3_title": "AI-kompetanseheving",
+    "c3_desc": "Vi lærer opp alle team på tvers av gruppen til å bruke AI-verktøy effektivt – og omdanner evner til resultater. Våre selskaper når målene sine raskere enn de trodde var mulig.",
+    "section_tail": "\n"
+  },
+  "quote": {
+    "text": "«Vi gjør alt vi kan sammen med selskapene – samtidig som vi lar dem forbli selvstendige. Samarbeid er en av de viktigste tingene vi gjør: der man før hadde ti kolleger, har man nå hundre, og det samarbeidet fortsetter lenge etter at man har kommet hjem.»",
+    "cite_role": "Konsernsjef, PubliX Group"
+  },
+  "cta": {
+    "title": "Tenker du på ditt neste kapittel?",
+    "sub": "Enten du utforsker mulighetene dine, er nysgjerrig på hvor selskapet ditt står, eller bare ønsker å snakke med noen som forstår markedet ditt – ser vi frem til en samtale.",
+    "btn": "Oppdag ditt vekstpotensial",
+    "email": "Eller send e-post til Alexander direkte"
+  },
+  "footer": {
+    "blurb": "Vi inngår partnerskap med gründerledede SaaS-selskaper som digitaliserer offentlige tjenester i Nord-Europa.",
+    "org": "Org. 559485-5487 · Støttet av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigering",
+    "assessment": "Vekstvurdering",
+    "city": "Stockholm",
+    "address1": "Kungsgatan 37, 8. etasje",
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy",
+    "updated": "Hold deg oppdatert",
+    "updated_sub": "Få siste nytt fra PubliX Group.",
+    "newsletter_success": "Takk! Du er nå abonnent.",
+    "newsletter_ph": "din@epost.no",
+    "newsletter_aria": "E-postadresse",
+    "subscribe": "Abonner",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, administrerende direktør"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group welcomes Tidvis",
+    "description": "Strengthening digital care solutions in the Nordics — Tidvis develops platforms for social services, helping municipalities manage case work and compliance."
+  },
+  "date": {
+    "display": "August 25, 2025",
+    "published_iso": "2025-08-25",
+    "modified_iso": "2025-08-25"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Acquisition"
+  },
+  "title": "PubliX Group welcomes Tidvis",
+  "lead": "Strengthening digital care solutions in the Nordics — Tidvis develops platforms for social services, helping municipalities manage case work and compliance.",
+  "body_html": "      <p>STOCKHOLM, 25 August 2025 — PubliX Group has acquired Tidvis, its first portfolio company. Tidvis, founded in 2012, provides an integrated business system for the Swedish social care sector, serving personal assistance providers and organisations working under LSS.</p>\n      <p>The platform gathers the daily operations of a care provider in one system — scheduling, time reporting, payroll, documentation, CRM, quality management and recruitment — and holds a market-leading position of around 25 per cent of Sweden's private personal assistance market.</p>\n      <p>\"Joining Aspira Partners and its PubliX Group marks an exciting new chapter for Tidvis. With its focus on public services SaaS solutions, PubliX will provide a strong foundation for accelerating our growth and continuing to deliver high-quality services. I am confident that this partnership will create new opportunities and benefits for both our team and our customers,\" said Mattias Lind, founder and CEO of Tidvis.</p>\n      <p>Tidvis continues under its own brand and with its own team. PubliX Group works as an accelerator rather than a holding company: each company keeps its identity while gaining group support in areas such as public procurement, compliance and AI.</p>\n      <p>Oaklins Sweden acted as sole financial advisor to Tidvis' owners in the transaction.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/tidvis.jpg",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "About Tidvis",
+        "text": "Tidvis is a Swedish SaaS company founded in 2012. Its platform integrates scheduling, time reporting, payroll and documentation for personal assistance and LSS providers, and holds around 25 per cent of Sweden's private personal assistance market."
+      }
+    ],
+    "cta": "View all companies"
+  },
+  "footer": {
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "404 — Siden ble ikke funnet — PubliX Group",
+    "description": "Siden du leter etter, finnes ikke eller er flyttet. Gå tilbake til PubliX Groups forside.",
+    "og_description": "Siden du leter etter, finnes ikke eller er flyttet."
+  },
+  "nav": {
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "hero": {
+    "badge": "404-FEIL",
+    "title": "Siden ble ikke funnet",
+    "text": "Siden du leter etter, kan være flyttet, fjernet eller midlertidig utilgjengelig.",
+    "btn_home": "Tilbake til forsiden",
+    "btn_companies": "Utforsk selskapene"
+  },
+  "footer": {
+    "tagline": "Vekstplattformen for SaaS-gründere innen nordiske offentlige tjenester.",
+    "org": "Org. 559485-5487 · Støttet av <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Naviger",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, administrerende direktør"
+  }
+}

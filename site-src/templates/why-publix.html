@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+<link rel="stylesheet" href="{{R}}css/pages/process.css">
+<style>
+@media (max-width: 920px) {
+  .why-hero .container { grid-template-columns: 1fr !important; }
+  .why-hero__title, .why-hero__sub { text-align: center !important; max-width: none !important; }
+  .why-hero__actions { justify-content: center !important; }
+}
+</style>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script src="{{R}}js/consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html" class="active">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.close}}
+  </div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="why-hero" id="top">
+  <div class="container" style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center;">
+    <div class="fade-in">
+      <div class="why-hero__eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+      <h1 class="why-hero__title" style="max-width: none; text-align: left;">{{hero.title}}</h1>
+      <p class="why-hero__sub" style="text-align: left;">{{hero.sub}}</p>
+      <div class="cta-group">
+        <div class="why-hero__actions">
+          <a class="btn btn--accent btn--lg" href="index.html#review">{{hero.btn}} <i class="ph ph-arrow-right"></i></a>
+          <a class="btn btn--ghost btn--lg" href="#process">{{hero.btn_process}}</a>
+        </div>
+        <a class="micro-cta" href="#process">{{hero.micro}} <i class="ph ph-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="fade-in fade-in-d1" style="display: flex; align-items: center; justify-content: center;">
+      <img src="{{R}}img/illustrations/why-hero.webp" alt="{{hero.img_alt}}" style="width: 100%; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); object-fit: cover; max-height: 480px;" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- ======================== STATS BAR ======================== -->
+<section class="stats-bar">
+  <div class="stats-bar__inner">
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n1}}</div>
+      <div class="stats-bar__label">{{stats.l1}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n2}}</div>
+      <div class="stats-bar__label">{{stats.l2}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n3}}</div>
+      <div class="stats-bar__label">{{stats.l3}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n4}}</div>
+      <div class="stats-bar__label">{{stats.l4}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n5}}</div>
+      <div class="stats-bar__label">{{stats.l5}}</div>
+    </div>
+    <div class="stats-bar__item">
+      <div class="stats-bar__number">{{stats.n6}}</div>
+      <div class="stats-bar__label">{{stats.l6}}</div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== NARRATIVE ======================== -->
+<section class="narrative narrative--alt">
+  <div class="container">
+    <div class="narrative__inner fade-in">
+      <span class="eyebrow eyebrow--question">{{narrative.eyebrow}}</span>
+      <h2 class="section-title">{{narrative.title}}</h2>
+      <p>{{narrative.p1}}</p>
+      <p>{{narrative.p2}}</p>
+      <p>{{narrative.p3}}</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== THREE PILLARS ======================== -->
+<section class="pillars">
+  <div class="container">
+    <div class="pillars__head fade-in">
+      <span class="eyebrow eyebrow--question">{{pillars.eyebrow}}</span>
+      <h2 class="section-title">{{pillars.title}}</h2>
+    </div>
+    <div class="pillars__grid fade-in fade-in-d1">
+      <div class="pillar">
+        <img src="{{R}}img/illustrations/pillar-home.webp" alt="{{pillars.p1_alt}}" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 16px; max-height: 160px; object-fit: contain;" loading="lazy" decoding="async">
+        <h3 class="pillar__title">{{pillars.p1_title}}</h3>
+        <p class="pillar__text">{{pillars.p1_text}}</p>
+      </div>
+      <div class="pillar">
+        <img src="{{R}}img/illustrations/pillar-ai.webp" alt="{{pillars.p2_alt}}" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 16px; max-height: 160px; object-fit: contain;" loading="lazy" decoding="async">
+        <h3 class="pillar__title">{{pillars.p2_title}}</h3>
+        <p class="pillar__text">{{pillars.p2_text}}</p>
+      </div>
+      <div class="pillar">
+        <img src="{{R}}img/illustrations/pillar-customers.webp" alt="{{pillars.p3_alt}}" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 16px; max-height: 160px; object-fit: contain;" loading="lazy" decoding="async">
+        <h3 class="pillar__title">{{pillars.p3_title}}</h3>
+        <p class="pillar__text">{{pillars.p3_text}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== RESULTS ======================== -->
+<section class="results results--alt">
+  <div class="container">
+    <div class="results__head fade-in">
+      <span class="eyebrow eyebrow--question">{{results.eyebrow}}</span>
+      <h2 class="section-title">{{results.title}}</h2>
+    </div>
+    <div class="results__grid fade-in fade-in-d1">
+      <div class="metric-card">
+        <div class="metric-card__company">{{results.m1_company}}</div>
+        <div class="metric-card__number">{{results.m1_number}}</div>
+        <p class="metric-card__desc">{{results.m1_desc}}</p>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__company">{{results.m2_company}}</div>
+        <div class="metric-card__number">{{results.m2_number}}</div>
+        <p class="metric-card__desc">{{results.m2_desc}}</p>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__company">{{results.m3_company}}</div>
+        <div class="metric-card__number">{{results.m3_number}}</div>
+        <p class="metric-card__desc">{{results.m3_desc}}</p>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__company">{{results.m4_company}}</div>
+        <div class="metric-card__number">{{results.m4_number}}</div>
+        <p class="metric-card__desc">{{results.m4_desc}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== TESTIMONIALS ======================== -->
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonials__head fade-in">
+      <span class="eyebrow eyebrow--question">{{testimonials.eyebrow}}</span>
+      <h2 class="section-title">{{testimonials.title}}</h2>
+    </div>
+    <div class="testimonials__grid fade-in fade-in-d1">
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testimonials.t1_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo">
+            <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async">
+          </div>
+          <div>
+            <p class="testimonial__name">Alexander Törnqvist</p>
+            <p class="testimonial__role">{{testimonials.t1_role}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testimonials.t2_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo">
+            <img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" loading="lazy" decoding="async">
+          </div>
+          <div>
+            <p class="testimonial__name">Harri Tanner</p>
+            <p class="testimonial__role">{{testimonials.t2_role}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial__quote">{{testimonials.t3_quote}}</p>
+        <div class="testimonial__author">
+          <div class="testimonial__photo">
+            <img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async">
+          </div>
+          <div>
+            <p class="testimonial__name">Janne Salmi</p>
+            <p class="testimonial__role">{{testimonials.t3_role}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== OUR PROCESS ======================== -->
+<section class="timeline-section" id="process" style="padding: var(--section-y) 0;">
+  <div class="container">
+    <div class="fade-in" style="text-align: center; margin-bottom: 48px;">
+      <span class="eyebrow eyebrow--question">{{process.eyebrow}}</span>
+      <h2 class="section-title">{{process.title}}</h2>
+      <p class="section-sub" style="max-width: 62ch; margin-left: auto; margin-right: auto;">{{process.sub}}</p>
+    </div>
+    <div class="timeline">
+
+      <!-- Step 01 -->
+      <div class="timeline__item fade-in">
+        <div class="timeline__marker">
+          <img src="{{R}}img/illustrations/step-01.webp" alt="{{process.s1_alt}}" class="timeline__illus" loading="lazy" decoding="async">
+        </div>
+        <div class="timeline__content">
+          <h3>{{process.s1_title}}</h3>
+          <div class="timeline__duration"><i class="ph ph-clock"></i> {{process.s1_duration}}</div>
+          <p>{{process.s1_body}}</p>
+          <div style="display: flex; align-items: center; gap: 16px; margin-top: 16px; padding: 12px 16px; background: var(--navy-50); border-radius: var(--radius-md); border: 1px solid var(--border-subtle); flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img src="/img/team-alexander-hubel.jpg" alt="Alexander Hübel" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" loading="lazy" decoding="async">
+              <div style="font-size: var(--fs-body-sm); color: var(--text-muted);"><strong style="color: var(--text-strong);">Alexander Hübel</strong>, {{process.s1_alex_role}}</div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img src="{{R}}img/team-marcus-astrom.webp" alt="Marcus Åström" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" loading="lazy" decoding="async">
+              <div style="font-size: var(--fs-body-sm); color: var(--text-muted);"><strong style="color: var(--text-strong);">Marcus Åström</strong>, {{process.s1_marcus_role}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 02 -->
+      <div class="timeline__item fade-in fade-in-d1">
+        <div class="timeline__marker">
+          <img src="{{R}}img/illustrations/step-02.png" alt="{{process.s2_alt}}" class="timeline__illus" loading="lazy" decoding="async">
+        </div>
+        <div class="timeline__content">
+          <h3>{{process.s2_title}}</h3>
+          <div class="timeline__duration"><i class="ph ph-clock"></i> {{process.s2_duration}}</div>
+          <p>{{process.s2_body}}</p>
+        </div>
+      </div>
+
+      <!-- Step 03 -->
+      <div class="timeline__item fade-in fade-in-d2">
+        <div class="timeline__marker">
+          <img src="{{R}}img/illustrations/about-revenue.png" alt="{{process.s3_alt}}" class="timeline__illus" loading="lazy" decoding="async">
+        </div>
+        <div class="timeline__content">
+          <h3>{{process.s3_title}}</h3>
+          <div class="timeline__duration"><i class="ph ph-clock"></i> {{process.s3_duration}}</div>
+          <p>{{process.s3_body}}</p>
+        </div>
+      </div>
+
+      <!-- Step 04 -->
+      <div class="timeline__item fade-in fade-in-d3">
+        <div class="timeline__marker">
+          <img src="{{R}}img/illustrations/step-04.png" alt="{{process.s4_alt}}" class="timeline__illus" loading="lazy" decoding="async">
+        </div>
+        <div class="timeline__content">
+          <h3>{{process.s4_title}}</h3>
+          <div class="timeline__duration"><i class="ph ph-clock"></i> {{process.s4_duration}}</div>
+          <p>{{process.s4_body}}</p>
+        </div>
+      </div>
+
+      <!-- Step 05 -->
+      <div class="timeline__item fade-in fade-in-d4">
+        <div class="timeline__marker">
+          <img src="{{R}}img/illustrations/step-05.png" alt="{{process.s5_alt}}" class="timeline__illus" loading="lazy" decoding="async">
+        </div>
+        <div class="timeline__content">
+          <h3>{{process.s5_title}}</h3>
+          <div class="timeline__duration"><i class="ph ph-flag-checkered"></i> {{process.s5_duration}}</div>
+          <p>{{process.s5_body}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== FAQ ======================== -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="faq-section__head fade-in">
+      <span class="eyebrow">{{faq.eyebrow}}</span>
+      <h2 class="section-title">{{faq.title}}</h2>
+    </div>
+
+    <div class="faq fade-in">
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>{{faq.q1}}</span>
+          <span class="faq__icon"><i class="ph ph-plus"></i></span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            <p>{{faq.a1}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>{{faq.q2}}</span>
+          <span class="faq__icon"><i class="ph ph-plus"></i></span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            <p>{{faq.a2}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>{{faq.q3}}</span>
+          <span class="faq__icon"><i class="ph ph-plus"></i></span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            <p>{{faq.a3}}</p>
+          </div>
+        </div>
+      </div>
+
+{{faq.gap}}      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>{{faq.q4}}</span>
+          <span class="faq__icon"><i class="ph ph-plus"></i></span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            <p>{{faq.a4}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== CTO QUOTE ======================== -->
+<section class="founder-quote">
+  <img class="founder-quote__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+  <div class="container founder-quote__inner fade-in">
+    <div class="founder-quote__icon"><i class="ph ph-quotes"></i></div>
+    <blockquote class="founder-quote__text">{{quote.text}}</blockquote>
+    <div class="founder-quote__attribution">
+      <div class="founder-quote__photo"><img src="/img/team-patrick-zeits.jpg" alt="Patrick Zeits" loading="lazy" decoding="async"></div>
+      <div style="text-align: left;">
+        <p class="founder-quote__cite-name">Patrick Zeits</p>
+        <p class="founder-quote__cite-role">{{quote.role}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.btn_email}}</a>
+    </div>
+    <span class="micro-cta" style="color: var(--navy-300); justify-content: center; margin-top: 16px; cursor: default;">{{cta.micro}}</span>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.office_city}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 {{footer.updated_margin}};">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+// Nav scroll handler
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+// Initial fade-in check
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+});
+
+// FAQ accordion
+document.querySelectorAll('.faq__question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq__item');
+    const isActive = item.classList.contains('active');
+    document.querySelectorAll('.faq__item').forEach(i => i.classList.remove('active'));
+    document.querySelectorAll('.faq__question').forEach(q => q.setAttribute('aria-expanded', 'false'));
+    if (!isActive) {
+      item.classList.add('active');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  });
+});
+
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+</body>
+</html>

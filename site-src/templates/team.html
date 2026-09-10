@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{PAGE_URL}}">
+<meta property="og:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_image_alt}}">
+<meta name="twitter:image" content="https://publixgroup.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{HREFLANG_BLOCK}}
+<link rel="canonical" href="{{PAGE_URL}}">
+<link rel="stylesheet" href="{{R}}Design-system/styles.css">
+<link rel="stylesheet" href="{{R}}Design-system/assets/icons/phosphor/phosphor.css">
+<link rel="stylesheet" href="{{R}}css/base.css">
+<link rel="stylesheet" href="{{R}}css/components.css">
+<link rel="stylesheet" href="{{R}}css/pages/career.css">
+<link rel="stylesheet" href="{{R}}css/pages/about.css">
+<link rel="stylesheet" href="{{R}}css/pages/why-publix.css">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script src="{{R}}js/consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#top">{{nav.skip}}</a>
+
+<!-- ======================== NAV ======================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><img src="{{R}}Design-system/assets/logo/publix-logo.svg" alt="PubliX Group"></a>
+    <nav class="nav__links">
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html" class="active">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+    </nav>
+        <div class="nav__actions">
+{{nav.cta_indent}}<a class="btn btn--accent btn--sm" href="index.html#review">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
+    <div class="lang-dropdown">
+        <button class="lang-dropdown__btn" aria-haspopup="true" aria-expanded="false">
+          {{LANG_BTN}} <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="lang-dropdown__menu">
+{{LANG_MENU}}
+        </div>
+{{nav.dropdown_close}}
+  </div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="career-hero" id="top">
+  <div class="container fade-in">
+    <div class="career-hero__eyebrow"><span class="dot"></span> {{hero.eyebrow}}</div>
+    <h1 class="career-hero__title">{{hero.title}}</h1>
+    <p class="career-hero__sub">{{hero.sub}}</p>
+  </div>
+</section>
+
+<!-- ======================== PUBLIX GROUP TEAM ======================== -->
+<section class="team" id="management">
+  <div class="container">
+    <div class="team__head fade-in">
+      <span class="eyebrow">{{team.eyebrow}}</span>
+      <h2 class="section-title">{{team.title}}</h2>
+    </div>
+    <div class="team__grid team__grid--mgmt fade-in">
+{{#each team.mgmt}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">{{.name}}</h3>
+        <p class="team__role">{{.role}}</p>
+        <a class="team__link" href="{{.li}}" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+{{/each}}    </div>
+
+    <!-- Board -->
+    <div class="team__divider fade-in">
+      <span class="eyebrow" style="margin-bottom: 0;">{{team.board_eyebrow}}</span>
+    </div>
+    <div class="team__grid team__grid--board fade-in">
+{{#each team.board}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">{{.name}}</h3>
+        <p class="team__role">{{.role}}</p>
+        <a class="team__link" href="{{.li}}" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+{{/each}}    </div>
+
+    <!-- Company Leaders -->
+    <div class="team__divider fade-in">
+      <span class="eyebrow" style="margin-bottom: 0;">{{team.founders_eyebrow}}</span>
+    </div>
+    <div class="team__grid team__grid--founders fade-in">
+{{#each team.founders}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
+        <div class="team__photo">
+          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+        </div>
+        <h3 class="team__name">{{.name}}</h3>
+        <p class="team__role">{{.role}}</p>
+        <a class="team__link" href="{{.li}}" target="_blank">LinkedIn <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+{{/each}}    </div>
+  </div>
+</section>
+
+<!-- ======================== TEAMTAILOR CTA ======================== -->
+<section class="tt-cta" id="positions">
+  <div class="container">
+    <div class="tt-cta__head fade-in">
+      <span class="eyebrow">{{tt.eyebrow}}</span>
+      <h2 class="section-title">{{tt.title}}</h2>
+    </div>
+    <div class="tt-card fade-in">
+      <img class="tt-card__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" loading="lazy" decoding="async">
+      <div class="tt-card__inner">
+        <div class="tt-card__icon"><i class="ph ph-briefcase"></i></div>
+        <h3>{{tt.card_title}}</h3>
+        <p>{{tt.card_text}}</p>
+        <a class="btn btn--on-navy btn--lg" href="https://publix.teamtailor.com/" target="_blank">{{tt.btn}} <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== PORTFOLIO CAREERS ======================== -->
+<section class="portfolio-careers" id="portfolio">
+  <div class="container">
+    <div class="portfolio-careers__head fade-in">
+      <span class="eyebrow">{{pc.eyebrow}}</span>
+      <h2 class="section-title">{{pc.title}}</h2>
+      <p class="section-sub">{{pc.sub}}</p>
+    </div>
+    <div class="portfolio-careers__grid fade-in">
+{{#each pc.cards}}      <div class="pc-card">
+        <div class="pc-card__logo"><img src="{{R}}Design-system/assets/portfolio/{{.logo}}" alt="{{.alt}}" loading="lazy" decoding="async"></div>
+        <h4>{{.name}}</h4>
+        <p>{{.desc}}</p>
+        <a href="{{.href}}" target="_blank">{{pc.visit}} <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+{{/each}}    </div>
+  </div>
+</section>
+
+<!-- ======================== BOTTOM CTA ======================== -->
+<section class="cta-bottom">
+  <img class="cta-bottom__pattern" src="{{R}}Design-system/assets/patterns/dot-skyline.svg" alt="" style="opacity:0.25;" loading="lazy" decoding="async">
+  <div class="container cta-bottom__inner">
+    <h2 class="cta-bottom__title">{{cta.title}}</h2>
+    <p class="cta-bottom__sub">{{cta.sub}}</p>
+    <div class="cta-bottom__actions">
+      <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
+      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.btn2}}</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================== FOOTER ======================== -->
+<footer class="footer">
+  <div class="container footer__inner" style="grid-template-columns: 2fr 1fr 1fr 1fr;">
+    <div class="footer__brand">
+      <img src="{{R}}Design-system/assets/logo/publix-logo-white.svg" alt="PubliX Group" loading="lazy" decoding="async">
+      <p>{{footer.blurb}}</p>
+      <span class="footer__org">{{footer.org}}</span>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.navigate}}</h4>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="why-publix.html">{{nav.why}}</a>
+      <a href="about.html">{{nav.about}}</a>
+      <a href="team.html">{{nav.team}}</a>
+      <a href="companies.html">{{nav.companies}}</a>
+      <a href="news.html">{{nav.news}}</a>
+      <a href="contact.html">{{nav.contact}}</a>
+      <a href="index.html#review">{{footer.assessment}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.city}}</h4>
+      <span>{{footer.address1}}</span>
+      <span>111 56 Stockholm</span>
+      <a href="mailto:info@publixgroup.io">info@publixgroup.io</a>
+      <a href="privacy-policy.html">{{footer.privacy}}</a>
+      <a href="cookie-policy.html">{{footer.cookie}}</a>
+    </div>
+    <div class="footer__col">
+      <h4>{{footer.updated}}</h4>
+      <p style="font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0 0 12px;">{{footer.updated_sub}}</p>
+      <form class="newsletter" data-netlify="true" name="newsletter" data-success-action="alert" data-success-msg="{{footer.newsletter_success}}">
+        <input name="email" class="newsletter__input" type="email" placeholder="{{footer.newsletter_ph}}" required aria-label="{{footer.newsletter_aria}}">
+        <button class="newsletter__btn" type="submit">{{footer.subscribe}}</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__base">
+    <span>{{footer.copyright}}</span>
+    <span>{{footer.ceo_line}}</span>
+  </div>
+</footer>
+
+<!-- ======================== JAVASCRIPT ======================== -->
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 16);
+  document.querySelectorAll('.fade-in').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+  });
+}, { passive: true });
+
+document.querySelectorAll('.fade-in').forEach(el => {
+  if (el.getBoundingClientRect().top < window.innerHeight * 1.15) el.classList.add('visible');
+});
+
+// In-place bio overlay on team photos
+document.querySelectorAll('.team__member[data-bio]').forEach(member => {
+  // Inject overlay element into the photo
+  const photo = member.querySelector('.team__photo');
+  if (!photo || !member.dataset.bio) return;
+  const overlay = document.createElement('div');
+  overlay.className = 'team__bio-overlay';
+  overlay.innerHTML = '<p>' + member.dataset.bio + '</p>';
+  photo.appendChild(overlay);
+
+  // Toggle on click
+  member.addEventListener('click', (e) => {
+    if (e.target.closest('.team__link')) return;
+    const wasActive = member.classList.contains('is-active');
+    // Close any other open overlays
+    document.querySelectorAll('.team__member.is-active').forEach(m => m.classList.remove('is-active'));
+    if (!wasActive) member.classList.add('is-active');
+  });
+});
+
+// Close on click outside
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.team__member')) {
+    document.querySelectorAll('.team__member.is-active').forEach(m => m.classList.remove('is-active'));
+  }
+});
+
+</script>
+<script src="{{R}}js/lang.js"></script>
+<script src="{{R}}js/forms.js"></script>
+</body>
+</html>

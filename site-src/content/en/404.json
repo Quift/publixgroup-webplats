@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "404 — Page Not Found — PubliX Group",
+    "description": "The page you are looking for does not exist or has been moved. Return to PubliX Group home page.",
+    "og_description": "The page you are looking for does not exist or has been moved."
+  },
+  "nav": {
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "hero": {
+    "badge": "404 ERROR",
+    "title": "Page not found",
+    "text": "The page you are looking for might have been moved, removed, or is temporarily unavailable.",
+    "btn_home": "Return to Home",
+    "btn_companies": "Explore Companies"
+  },
+  "footer": {
+    "tagline": "The growth platform for SaaS founders in Nordic public services.",
+    "org": "Org. 559485-5487 · Backed by <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigate",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

@@ -17,7 +17,7 @@
 /* ============================ STATS BAR ============================ */
 .stats-bar { background: var(--navy-800); padding: 0; overflow: hidden; }
 .stats-bar__inner {
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  display: grid; grid-template-columns: repeat(6, 1fr);
   max-width: var(--container-max); margin: 0 auto;
 }
 .stats-bar__item {

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group træder ind i Finland gennem partnerskab med Aspicore",
+    "description": "En fuldservice softwareudbyder inden for tilskudsadministration, hvilket markerer PubliX Groups ekspansion til det finske marked."
+  },
+  "date": {
+    "display": "2. september 2025",
+    "published_iso": "2025-09-02",
+    "modified_iso": "2025-09-02"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Opkøb"
+  },
+  "title": "PubliX Group træder ind i Finland gennem partnerskab med Aspicore",
+  "lead": "En fuldservice softwareudbyder inden for tilskudsadministration, hvilket markerer PubliX Groups ekspansion til det finske marked.",
+  "body_html": "      <p>STOCKHOLM, 2. september 2025 — PubliX Group træder ind i Finland gennem et partnerskab med Aspicore, en fuldservice-softwareleverandør inden for tilskudsadministration. Aspicores cloudplatform Apuraha4 understøtter fonde, organisationer, fagforbund, universiteter og offentlige myndigheder gennem tilskuddenes fulde livscyklus — fra ansøgning til udbetaling.</p>\n      <p>Aspicore, der ledes af CEO Harri Tanner, bygger på to årtiers arbejde med tilskudssystemer. Apuraha4 bruges af 140 kundeorganisationer, som tilsammen forvalter mere end 100 millioner euro i tilskud årligt.</p>\n      <p>Partnerskabet markerer PubliX Groups første skridt uden for Sverige. Sammen med digiPlant danner Aspicore grundlaget for en førende pan-nordisk udfordrer inden for software til tilskudsadministration.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Spring til indhold",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om",
+    "team": "Team",
+    "companies": "Virksomheder",
+    "news": "Nyheder",
+    "contact": "Kontakt",
+    "cta": "Opdag dit vækstpotentiale"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/aspicore.png",
+    "logo_alt": "Logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Aspicore",
+        "text": "Aspicore er en finsk fuldservice-softwareleverandør inden for tilskudsadministration. Platformen Apuraha4 bruges af 140 kundeorganisationer, der forvalter mere end 100 millioner euro i tilskud årligt."
+      }
+    ],
+    "cta": "Se alle virksomheder"
+  },
+  "footer": {
+    "privacy": "Privatlivspolitik",
+    "cookie": "Cookiepolitik"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Uutiset — PubliX Group",
+    "description": "Viimeisimmät uutiset PubliX Groupilta – yrityskaupat, kumppanuudet ja virstanpylväät, kun rakennamme johtavaa julkisen sektorin SaaS-alustaa Pohjoismaissa.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Yhteystiedot",
+    "cta": "Löydä kasvupotentiaalisi",
+    "cta_indent": "      ",
+    "dropdown_close": "      </div>\n      </div>"
+  },
+  "hero": {
+    "eyebrow": "Uutiset",
+    "title": "Mitä PubliXilla&nbsp;tapahtuu",
+    "sub": "Seuraa matkaamme, kun teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa ympäri Pohjoismaita — yksi yrityskauppa kerrallaan."
+  },
+  "grid": {
+    "filter_all": "Kaikki",
+    "filter_acquisition": "Yrityskaupat",
+    "filter_appointment": "Nimitykset",
+    "filter_milestone": "Merkkipaalut",
+    "read_more": "Lue lisää"
+  },
+  "cards": [
+    {
+      "comment": "FEATURED: Bleau acquisition",
+      "classes": "news-card news-card--featured fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/bleau.png",
+      "logo_alt": "Bleau A/S",
+      "date": "15. syyskuuta 2026",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group ostaa Bleau A/S:n ja laajenee Tanskan markkinoille",
+      "excerpt": "Bleau, moliri-alustan takana oleva aarhusilainen yhtiö, on PubliX Groupin kuudes yritys ja konsernin ensimmäinen Tanskassa. Yhtiö säilyttää nimensä ja johtonsa.",
+      "slug": "bleau"
+    },
+    {
+      "comment": "CEO appointment",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "appointment",
+      "logo": "Design-system/assets/logo/publix-logo.svg",
+      "logo_alt": "PubliX Group",
+      "date": "14. huhtikuuta 2026",
+      "badge": "Nimitys",
+      "title": "PubliX Group nimittää Alexander Hübelin toimitusjohtajaksi",
+      "excerpt": "Alexander Hübel on nimitetty PubliX Groupin toimitusjohtajaksi. Hän tuo mukanaan laajan kokemuksen teknologiayritysten skaalaamisesta ja alustojen rakentamisesta Pohjoismaiden markkinoilla.",
+      "slug": "publix-group-appoints-alexander-hubel-as-ceo"
+    },
+    {
+      "comment": "Sotender laajentaa Ruotsiin",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "milestone",
+      "logo": "Design-system/assets/portfolio/sotender.png",
+      "logo_alt": "Sotender",
+      "date": "4. toukokuuta 2026",
+      "badge": "Merkkipaalu",
+      "title": "Sotender laajentaa Ruotsiin — Suomikoti ensimmäinen asiakas",
+      "excerpt": "Koivu Solutionsin Sotender-alusta laajentaa Ruotsiin. Ensimmäinen asiakas on Suomikoti Tukholmassa. Sote-alan sijaishallinta jopa 60 % nopeammin.",
+      "slug": "sotender-launches-sweden-suomikoti"
+    },
+    {
+      "comment": "Embrace Safety",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/embrace.png",
+      "logo_alt": "Embrace Safety",
+      "date": "5. maaliskuuta 2026",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group kumppanoituu Embrace Safetyn kanssa",
+      "excerpt": "Tehokas SaaS-alusta, joka mahdollistaa tietoon perustuvan rikosten ehkäisyn ja turvallisuuden edistämisen kunnille ja paikallisviranomaisille.",
+      "slug": "embrace-safety"
+    },
+    {
+      "comment": "Koivu Solutions",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/sotender.png",
+      "logo_alt": "Koivu Solutions / Sotender",
+      "date": "16. joulukuuta 2025",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group kumppanoituu Koivu Solutionsin (Sotender) kanssa",
+      "excerpt": "Moderni SaaS-ratkaisu, joka yhdistää terveydenhuollon ammattilaiset avoimiin vuoroihin, lisäten tavoittavuutta ja vähentäen kustannuksia terveydenhuollon tarjoajille.",
+      "slug": "koivu-solutions-sotender"
+    },
+    {
+      "comment": "Aspicore",
+      "classes": "news-card fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/aspicore.png",
+      "logo_alt": "Aspicore",
+      "date": "2. syyskuuta 2025",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group laajenee Suomeen kumppanoitumalla Aspicoren kanssa",
+      "excerpt": "Täyden palvelun ohjelmistotoimittaja apurahojen hallinnassa, mikä merkitsee PubliX Groupin laajentumista Suomen markkinoille.",
+      "slug": "aspicore"
+    },
+    {
+      "comment": "digiPlant",
+      "classes": "news-card fade-in fade-in-d1",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/digiplant.png",
+      "logo_alt": "digiPlant",
+      "date": "25. elokuuta 2025",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group kumppanoituu digiPlantin kanssa",
+      "excerpt": "Markkinajohtaja säätiöiden hakemustenhallintajärjestelmissä, mikä vahvistaa PubliXin asemaa apurahojen hallinnan vertikaalissa.",
+      "slug": "digiplant"
+    },
+    {
+      "comment": "Tidvis",
+      "classes": "news-card fade-in fade-in-d2",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/tidvis.jpg",
+      "logo_alt": "Tidvis",
+      "date": "25. elokuuta 2025",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group toivottaa Tidvisin tervetulleeksi",
+      "excerpt": "Digitaalisten hoitoratkaisujen vahvistaminen Pohjoismaissa — Tidvis kehittää sosiaalipalvelujen alustoja, auttaen kuntia hallitsemaan asiakastyötä ja vaatimustenmukaisuutta.",
+      "slug": "tidvis"
+    }
+  ],
+  "cta": {
+    "title": "Mietitkö seuraavaa lukua?",
+    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "btn": "Löydä kasvupotentiaalisi",
+    "email_btn": "Tai lähetä sähköpostia suoraan Alexanderille"
+  },
+  "footer": {
+    "blurb": "Teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa, jotka digitalisoivat julkisia palveluja Pohjois-Euroopassa.",
+    "org": "Y-tunnus 559485-5487 · Taustalla <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigointi",
+    "assessment": "Kasvuarviointi",
+    "city": "Tukholma",
+    "address1": "Kungsgatan 37, 8tr",
+    "privacy": "Tietosuojakäytäntö",
+    "cookie": "Evästekäytäntö",
+    "updated": "Pysy ajan tasalla",
+    "updated_sub": "Saa viimeisimmät uutiset PubliX Groupilta.",
+    "newsletter_success": "Kiitos tilauksesta!",
+    "newsletter_ph": "sinun@sahkoposti.fi",
+    "newsletter_aria": "Sähköpostiosoite",
+    "subscribe": "Tilaa",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  },
+  "tail": "\n"
+}

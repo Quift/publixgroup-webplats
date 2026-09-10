@@ -25,7 +25,7 @@ oavsett storlek, dokumentera med fil-referens, och (där lämpligt) fixa direkt.
 
 Innan du börjar, klargör:
 
-1. **Full audit** (alla ~108 sidor, alla språk) eller **fokuserad** (en sida / en språkgren / ett område)?
+1. **Full audit** (alla ~115 sidor, alla språk) eller **fokuserad** (en sida / en språkgren / ett område)?
 2. **Bara rapport** eller **rapport + applicera fixes**? För fixes: hänvisa till `publix-site-edit`-skillens tier-tabell — M1 kör direkt, M2+ kräver godkännande.
 3. **Live-site checks?** Vissa checks (OG-image URL, cookie-banner, Lighthouse) kräver Netlify-deploy att köra mot.
 
@@ -37,7 +37,8 @@ Skapa tasks via TaskCreate för varje major check-kategori så användaren ser p
 
 ```bash
 # Bekräfta baseline
-find site -maxdepth 3 -name "*.html" -not -path "site/Design-system/*" | wc -l   # Förväntat: ~108 (11 sidor × 6 språk + 7 nyheter × 6)
+find site -maxdepth 3 -name "*.html" -not -path "site/Design-system/*" | wc -l   # Förväntat: 115 (11 sidor × 6 språk + 8 nyheter × 6 + 404 × 6 + _og-image)
+# Sidorna är GENERERADE från site-src/ — verifiera paritet med: node build.js --check  (ska ge "114 identiska, 0 diffar")
 ls site/ site/sv/ site/da/ site/no/ site/fi/ site/de/                             # Ska visa identiska filnamn per språk
 cat site/sitemap.xml | grep -c '<url>'                                            # Ska matcha <loc>-antal
 ```
@@ -76,6 +77,45 @@ grep -rHnE '[a-zA-Z]  +[a-zA-Z]' site/ --include="*.html" | head
 ```
 
 **Fix-tier:** L / M — sällan blocking, men bra polish.
+
+### A4. Citattecken per språk (se buggmönster 9)
+
+Varje språk har sin egen standard — EN `"…"`, sv/fi `”…”`, no `«…»`, da `»…«`, de `„…“` —
+och i alla utom EN hör kommat **utanför** slutcitattecknet: `”citat”, säger X`.
+
+```bash
+# 1. Raka citattecken i löptext utanför EN (0 träffar förväntat)
+node -e '
+const fs=require("fs"),path=require("path");
+const M={sv:"”",fi:"”",no:"»",da:"«",de:"“"};
+for(const lang of Object.keys(M)){
+  let straight=0, commaIn=0;
+  const files=[];
+  for(const s of fs.readdirSync("site-src/news")){const p="site-src/news/"+s+"/"+lang+".json";if(fs.existsSync(p))files.push(p);}
+  for(const f of fs.readdirSync("site-src/content/"+lang))files.push("site-src/content/"+lang+"/"+f);
+  for(const p of files){
+    JSON.parse(fs.readFileSync(p,"utf8"),(k,v)=>{
+      if(typeof v==="string" && !/<script|application\/ld\+json/.test(v) && !/^\s*[a-zA-Z-]+="/.test(v)){
+        const t=v.replace(/<[^>]*>/g,"");
+        straight+=(t.match(/"/g)||[]).length;
+        if(t.includes(","+M[lang]))commaIn++;
+      }
+      return v;});
+  }
+  console.log(lang+": raka citattecken="+straight+"  komma-inuti="+commaIn+(straight||commaIn?"  <-- FIXA":"  ok"));
+}'
+# 2. head_scripts/logo_attrs får ALDRIG konverteras — JSON-LD och HTML-attribut
+#    kräver raka citattecken. Verifiera efter varje citat-fix:
+node -e '
+const fs=require("fs"),path=require("path");let n=0,bad=0;
+(function w(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=path.join(d,e.name);
+ if(e.isDirectory()){if(e.name==="Design-system"||e.name==="docs")continue;w(f);}
+ else if(e.name.endsWith(".html")){for(const m of fs.readFileSync(f,"utf8").matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){
+   n++;try{JSON.parse(m[1]);}catch(err){console.log("INVALID JSON-LD: "+f);bad++;}}}}})("site");
+console.log("JSON-LD: "+n+" block, "+bad+" ogiltiga");'
+```
+
+**Fix-tier:** M2 (rör alla språkgrenar — propagera i ett pass, verifiera JSON-LD efteråt).
 
 ---
 
@@ -226,7 +266,11 @@ cat site/robots.txt   # Ska innehålla Sitemap: https://publixgroup.io/sitemap.x
 ```bash
 # Alla nyckeltal ska vara identiska över alla språk + sidor
 grep -Hn 'stats-bar__number' site/index.html site/*/index.html site/why-publix.html site/*/why-publix.html
-# Förväntat: ~100 / 10+ / 5 / SEK 90M+ (eller lokaliserad variant) / ~60
+# Förväntat (6 rutor sedan Bleau-förvärvet): ~100 / 10+ / 6 / SEK 90M+ / ~70 / 50+
+# fi avviker medvetet på valutan: "Yli 90 milj. SEK" — korrekt finska, inte en bugg.
+# Ruta 6 = danska kommuner + allmännyttiga bostadsorganisationer (22 + 29 ≈ 50+).
+# Stats-baren är grid: repeat(6, 1fr) i site/css/pages/why-publix.css — läggs en
+# sjunde ruta till måste grid-template-columns följa med, annars hamnar den i egen rad.
 ```
 
 Om värdena ändras — uppdatera **alla 12 platser** (2 sidor × 6 språk) och proof-inventory.
@@ -378,7 +422,7 @@ EOF
 ### E4. Nyhets-datum synk över språk
 Alla lokaliserade versioner av samma nyhet ska ha samma `datePublished`:
 ```bash
-for article in aspicore digiplant embrace-safety koivu-solutions-sotender publix-group-appoints-alexander-hubel-as-ceo sotender-launches-sweden-suomikoti tidvis; do
+for article in aspicore bleau digiplant embrace-safety koivu-solutions-sotender publix-group-appoints-alexander-hubel-as-ceo sotender-launches-sweden-suomikoti tidvis; do
   echo "=== $article ==="
   for lang_dir in site/news site/sv/news site/da/news site/no/news site/fi/news site/de/news; do
     grep -o '"datePublished": "[^"]*"' "$lang_dir/$article.html" 2>/dev/null
@@ -530,7 +574,9 @@ Med anledning + owner-action.
 5. **CDN-beroenden till Webflow** — team-porträtt kvar från gammal Webflow-site istället för self-hosted i `site/img/`.
 6. **Nav-label vs URL mismatch** — "Team" i nav pekar på `career.html`, förvirrande.
 7. **Roll-drift** — samma person har olika titlar på olika sidor (Founder vs Co-Founder & CEO).
-8. **SEK-formatting per språk** — vissa lokaliseringar behåller "SEK 90M+", andra "90M+ SEK", andra "Yli 90 milj. SEK". Bestäm en housestyle per språk.
+8. **SEK-formatting per språk** — vissa lokaliseringar behåller "SEK 90M+", andra "90M+ SEK", andra "Yli 90 milj. SEK". Bestäm en housestyle per språk. (Avgjort: fi behåller "Yli 90 milj. SEK", övriga "SEK 90M+".)
+9. **Anglosaxisk citatinterpunktion i översättningarna** — översatta pressreleaser ärvde engelskans `"citat," säger X` med raka citattecken och kommat *inuti*. Varje språk har sin egen standard: sv/fi `”…”`, no `«…»`, da `»…«`, de `„…“`, och kommat hör *utanför* slutcitattecknet. Nästlat: sv/fi/no `’…’`, da `›…‹`, de `‚…'`. EN behåller `"…"`. Se A4 för check.
+10. **Sitemap `lastmod` från fel källa** — har varit både hårdkodat lanseringsdatum *och* mtime på den byggda HTML-filen. Den senare är lika fel: `build.js` skriver om alla filer vid varje körning, så alla sidor får dagens datum vid varje bygge. `lastmod` måste härledas ur sidans **källor** (`site-src/content/<lang>/<sida>.json` + mallen). Regressionstest: kör `node build.js && node generate-sitemap.js` två gånger — `sitemap.xml` ska vara oförändrad.
 
 Om du hittar en NY buggmönstertyp — lägg till här och till check-katalogen ovan.
 

@@ -32,6 +32,7 @@ status: bootstrapped — utöka vid nya claims
 | PI-012 | Koivu Solutions / Sotender | Finsk vårdbemanning | case | primary |
 | PI-013 | Aspicore / Apuraha4 | Finska bidragssystem | case | primary |
 | PI-014 | Embrace Safety / EMBRACE | Kommunal brottsförebyggande | case | primary |
+| PI-015 | Bleau A/S / moliri + NemBolig | Dansk offentlig kommunikation, compliance-driven CMS | Bleau pressrelease 2026-09, IM "Project Rome" | primary |
 
 ## Metrics (endast om sourcade — annars stryk)
 
@@ -47,6 +48,20 @@ status: bootstrapped — utöka vid nya claims
 | PI-027 | Suomikoti: finskspråkigt vård-/omsorgsboende Enskede Stockholm, 53 platser, grundat 1995 | pressmeddelande Suomikoti v1.1 2026-05-04 | primary | Witness |
 | PI-028 | Sotender: tid för vikariehantering kan halveras hos FI-välfärdsområden | pressmeddelande Suomikoti v1.1 (SV), citat T. Santala | secondary | Measure |
 | PI-029 | Sotender: sijaisrekrytointiin kuluva aika voi vähentyä jopa 60 % | Suomikoti lehdistötiedote 5.5.2026 (FI), citat T. Santala | secondary | Measure |
+| PI-033 | 6 founder-led companies in group (från Bleau-förvärvet) | Bleau-pressrelease 2026-09 | primary | Witness |
+| PI-034 | Verksamhet i Sverige, Finland och Danmark | portfölj PI-010–PI-015 | primary | Locate |
+| PI-035 | Bleau grundat 2008 i Aarhus, MBO från Dynamicweb Software | Bleaus egen pressrelease 2026-09-02 | secondary | Witness |
+| PI-036 | 22 danska kommuner, 35 allmännyttiga bostadsorganisationer, 250 verksamheter inom kritisk infrastruktur använder Bleaus plattformar | **Robert Filtenborg (VD Bleau) e-post 2026-09-09** — ersätter tidigare 29-siffra från SMS/screening | primary | Measure |
+| PI-046 | 300+ danska offentliga kunder (KPI-ruta) | summering av PI-036 (22+35+250=307), korroboreras av bleau.dk "+300 offentlige kunder" | primary | Measure |
+| PI-037 | NIS2 omfattar danska kommuner sedan juli 2025; EAA tillämpas sedan juni 2025 | dansk lag, EU-direktiv | primary | Acquire |
+| PI-038 | Robert G. Filtenborg kvarstår som VD, Peter Terkildsen som CTO; båda återinvesterar | Bleau-pressrelease + IM 2026-09 | primary | Witness |
+| PI-039 | Tidvis: grundat 2012, ~25 % av svenska privata assistansmarknaden, VD Mattias Lind | Oaklins deal page 110880; tidvis.se | primary | Measure, Witness |
+| PI-040 | digiPlant: grundat 2000 i Örebro, SBS Manager, VD Alexander Törnqvist, AAA 10 år | digiplant.se; allabolag (org 556603-5597) | primary | Witness |
+| PI-041 | Aspicore: Apuraha4, 140 kunder, >100 MEUR bidrag/år, VD Harri Tanner | aspicore.com | primary | Measure |
+| PI-042 | Koivu: grundat 2017, 100 %-förvärv 2025-12-16, >27 000 användare, VD Janne Salmi | sotender.fi/.io pressrelease 2025-12-16; Aspira 2025-12-17 | primary | Witness, Measure |
+| PI-043 | Österbotten: >7 MEUR årlig besparing, 96,7 % av skift bokade via Sotender | sotender.fi-release; koivusolutions.com | secondary | Measure |
+| PI-044 | Embrace Safety: grundat 2018 i Örebro av prof. Henrik Andershed, VD Johan Rydberg, annonserat 2026-03-05 | Aspira news 2026-03-05; linkopingsciencepark.se 2024-11-29 | primary | Witness |
+| PI-045 | Alexander Hübel utsedd Group CEO ~mars 2026; företrädare Marcus Åström (tf), bakgrund Ericsson/Turbotic/DigitalTolk | Breakit 45878 (2026-03-27); digitaltolk.se | secondary | Witness |
 
 ## Erbjudande / lead magnet
 
@@ -61,7 +76,13 @@ status: bootstrapped — utöka vid nya claims
 | id | Antagande | Om fel |
 |----|-----------|--------|
 | PI-A01 | Exakt storleksspann för ICP (TBD med Alexander) | Self-selection för bred |
-| PI-A02 | Alla förvärvsdatum i news korrekta | Verifiera mot pressrelease |
+| PI-A02 | ~~Alla förvärvsdatum i news korrekta~~ — verifierat 2026-09-09: Koivu var fel (stod 2026-02-23, rätt 2025-12-16), Embrace var fel (stod 2026-04-14, rätt 2026-03-05). Båda rättade. | — |
+| PI-A03 | ~~Bleau-kundsiffrorna (22/29)~~ — **löst 2026-09-09**: Robert bekräftade 22/35/250 per e-post. Se PI-036. | — |
+| PI-A07 | Anställda "~60" är fembolagssiffran och gäller inte efter Bleau. **Ingen ny siffra finns** — Bleau publicerar inget antal. Får INTE uppskattas; hämta från Erik Runsten. | Påhittad siffra på publik site |
+| PI-A08 | Omsättning "SEK 90M+" är också fembolagssiffran — behöver Alexander/Erik efter Bleau | Underskattar gruppen utåt |
+| PI-A04 | Johan Rydbergs deal-citat finns bara på publixgroup.io — ingen oberoende publicering | Behöver Rydbergs skriftliga godkännande |
+| PI-A05 | Embrace "flera hundra organisationer" (siten) vs 76 kommuner (nov 2024) — olika enheter, inte motstridiga men ska samordnas | Inkonsekvent räkning utåt |
+| PI-A06 | Hübels tillträdesdatum ej verifierat (Breakit bakom betalvägg) — artikeln daterad utan exakt datum | Fel datum i arkivet |
 
 ## Underhåll
 

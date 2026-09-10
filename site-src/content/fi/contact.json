@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Yhteystiedot — PubliX Group",
+    "description": "Ota yhteyttä PubliX Groupiin. Tavoita toimitusjohtaja Alexander Hübel luottamuksellista keskustelua varten. Toimisto: Kungsgatan 37, Tukholma.",
+    "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
+  },
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Yhteystiedot",
+    "cta": "Löydä kasvupotentiaalisi"
+  },
+  "hero": {
+    "eyebrow": "Onko sinulla jotain mielessä?",
+    "title": "Keskustellaan",
+    "sub": "Olitpa sitten perustaja etsimässä vaihtoehtoja tai vain utelias toiminnastamme – jokainen keskustelu on luottamuksellinen."
+  },
+  "direct": {
+    "heading": "Ota yhteyttä suoraan",
+    "role": "Toimitusjohtaja, PubliX Group",
+    "general": "Yleiset tiedustelut",
+    "office": "Toimisto",
+    "call": "Soita Alexanderille suoraan"
+  },
+  "form": {
+    "title": "...tai lähetä viesti",
+    "success_msg": "&lt;div style=&#39;text-align:center; padding:32px 0;&#39;&gt;&lt;i class=&#39;ph ph-check-circle&#39; style=&#39;font-size:48px; color:var(--success-600); margin-bottom:16px; display:block;&#39;&gt;&lt;/i&gt;&lt;h3 style=&#39;font-family:var(--font-display); font-weight:600; color:var(--text-strong); margin:0 0 8px;&#39;&gt;Kiitos!&lt;/h3&gt;&lt;p style=&#39;color:var(--text-muted); font-size:var(--fs-body-sm);&#39;&gt;Viestisi on lähetetty. Alexander palaa asiaan 2 työpäivän kuluessa.&lt;/p&gt;&lt;/div&gt;",
+    "name": "Nimi",
+    "name_ph": "Koko nimesi",
+    "email": "Sähköposti",
+    "email_ph": "sinun@yritys.fi",
+    "company": "Yritys",
+    "company_ph": "Yrityksesi Oy",
+    "message": "Viesti",
+    "message_ph": "Kerro meille yrityksestäsi...",
+    "submit": "Lähetä viesti",
+    "legal": "Viestisi menee suoraan Alexanderille. Kaikki keskustelut ovat luottamuksellisia.",
+    "micro": "Vastaamme 2 työpäivän kuluessa"
+  },
+  "cta": {
+    "title": "Keskustellaan julkisten palvelujen tulevaisuudesta",
+    "sub": "Rakennetpa digitaalisia ratkaisuja julkiselle sektorille tai olet vain utelias toiminnastamme — kuulisimme sinusta mielellämme.",
+    "btn": "Löydä kasvupotentiaalisi",
+    "micro": "Tai soita suoraan Alexanderille:"
+  },
+  "footer": {
+    "blurb": "Teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa, jotka digitalisoivat julkisia palveluja Pohjois-Euroopassa.",
+    "org": "Y-tunnus 559485-5487 · Taustalla <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigointi",
+    "assessment": "Kasvuarviointi",
+    "city": "Tukholma",
+    "privacy": "Tietosuojakäytäntö",
+    "cookie": "Evästekäytäntö",
+    "updated": "Pysy ajan tasalla",
+    "updated_sub": "Saa viimeisimmät uutiset PubliXiltä – yrityskaupat, näkemykset ja perustajien tarinat.",
+    "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Tilattu!&lt;/span&gt;",
+    "newsletter_ph": "sinun@sahkoposti.fi",
+    "subscribe": "Tilaa",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, CEO"
+  }
+}

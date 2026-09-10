@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "404 — Sivua ei löytynyt — PubliX Group",
+    "description": "Etsimääsi sivua ei ole olemassa tai se on siirretty. Palaa PubliX Groupin etusivulle.",
+    "og_description": "Etsimääsi sivua ei ole olemassa tai se on siirretty."
+  },
+  "nav": {
+    "home": "Etusivu",
+    "why": "Miksi PubliX",
+    "about": "Tietoa meistä",
+    "team": "Tiimi",
+    "companies": "Yritykset",
+    "news": "Uutiset",
+    "contact": "Yhteystiedot",
+    "cta": "Löydä kasvupotentiaalisi"
+  },
+  "hero": {
+    "badge": "404-VIRHE",
+    "title": "Sivua ei löytynyt",
+    "text": "Etsimäsi sivu on ehkä siirretty tai poistettu, tai se on tilapäisesti pois käytöstä.",
+    "btn_home": "Takaisin etusivulle",
+    "btn_companies": "Tutustu yrityksiin"
+  },
+  "footer": {
+    "tagline": "Kasvualusta SaaS-perustajille pohjoismaisissa julkisissa palveluissa.",
+    "org": "Org. 559485-5487 · Tukena <a href=\"https://aspirapartners.se\" target=\"_blank\">Aspira Partners</a>",
+    "navigate": "Navigointi",
+    "copyright": "© 2026 PubliX Group AB",
+    "ceo_line": "Alexander Hübel, Toimitusjohtaja"
+  }
+}

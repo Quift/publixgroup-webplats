@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "PubliX Group appoints Alexander Hübel as CEO",
+    "description": "Alexander Hübel has been appointed Group CEO of PubliX Group, bringing experience in scaling Nordic technology platforms."
+  },
+  "date": {
+    "display": "April 14, 2026",
+    "published_iso": "2026-04-14",
+    "modified_iso": "2026-04-14"
+  },
+  "badge": {
+    "class": "appointment",
+    "label": "Appointment"
+  },
+  "title": "PubliX Group appoints Alexander Hübel as CEO",
+  "lead": "Alexander Hübel has been appointed Group CEO of PubliX Group, bringing extensive experience in scaling technology companies and building platforms in the Nordic market.",
+  "body_html": "      <p>STOCKHOLM — PubliX Group has appointed Alexander Hübel as Group CEO. He takes over from Marcus Åström, who has led the group as acting CEO since its formation and continues in his role as Head of M&amp;A.</p>\n      <p>Alexander Hübel brings roughly a decade of work with AI at scale: at Ericsson he built and led large, complex organisations; at Turbotic he played a central role in developing and scaling AI-driven products globally; and as COO of DigitalTolk he drove AI innovation and international expansion.</p>\n      <p>At the time of the appointment, PubliX Group comprised five founder-led software companies across Sweden and Finland, serving municipalities, healthcare and social care, foundations and public authorities. A central part of Hübel's mandate is to put AI to work across the portfolio — automating routine work while keeping people accountable for what reaches the citizen.</p>\n      <p>Patrik Sallner remains chairman of the board. The group, backed by Aspira Partners, continues to look for founder-led software companies in the Nordics that run regulated public-sector workflows.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/logo/publix-logo.svg",
+    "logo_alt": "Logo",
+    "logo_attrs": "",
+    "blocks": [
+      {
+        "style": "",
+        "title": "About PubliX Group",
+        "text": "We acquire and develop vertical software companies providing mission-critical solutions to the public sector in Northern Europe."
+      }
+    ],
+    "cta": "View all companies"
+  },
+  "footer": {
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy"
+  }
+}

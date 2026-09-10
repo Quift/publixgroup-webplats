@@ -9,7 +9,14 @@ description: >
 
 # PubliX Site Edit
 
-Du redigerar **produktionskoden** för https://publixgroup.io — statisk HTML i `site/`, deployad via GitHub → Netlify.
+Du redigerar **källan** för https://publixgroup.io — deployad via GitHub → Netlify.
+
+**⚠️ Sedan 2026-09-09 är HTML-filerna i `site/` GENERERADE.** Redigera aldrig `site/*.html`
+direkt — ändra i stället `site-src/` (mallar + innehålls-JSON per språk) och kör
+`node build.js`. Format och regler: `site-src/SPEC.md`. Copyändring = samma nyckel i alla
+6 språks JSON. Ny artikel = `site-src/news/<slug>/{en,sv,da,no,fi,de}.json` + kort i
+`site-src/content/{lang}/news.json` + `node generate-sitemap.js`. Tillgångar (bilder, CSS,
+js, Design-system, docs) redigeras som vanligt direkt i `site/`.
 
 **Kanonisk workflow:** `ai/workflows/site-produktion/08-maintenance.md` (Fas 8 underhåll).
 Denna skill är den operativa implementationen för PubliX.
@@ -37,7 +44,7 @@ Denna skill är den operativa implementationen för PubliX.
 | **M3** | Ny nav-sida, CTA-strategi | Stopp — eskalera PE/Alexander, partiell V5 |
 | **U1** | Pivot/repositioning | Stopp — full site-produktion V5 |
 
-**Ny nyhetsartikel (M2):** Kopiera `news/<slug>.html` → alla språk → PI-poster → `architecture.md` om ny slug.
+**Ny nyhetsartikel (M2):** Skapa `site-src/news/<slug>/{en,sv,da,no,fi,de}.json` (kopiera en befintlig artikels struktur) + kort i `site-src/content/{lang}/news.json` → `node build.js` → `node generate-sitemap.js` → PI-poster → `architecture.md` om ny slug.
 
 ---
 
