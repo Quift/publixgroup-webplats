@@ -10,11 +10,11 @@ const path = require('path');
   console.log('loading:', url);
   await page.goto(url, { waitUntil: 'networkidle0' });
   await page.screenshot({
-    path: 'site/assets/og-image.jpg',
+    path: 'site/assets/og-image-v2.jpg',
     type: 'jpeg',
     quality: 92,
     clip: { x: 0, y: 0, width: 1200, height: 630 }
   });
   await browser.close();
-  console.log('written: site/assets/og-image.jpg');
+  console.log('written: site/assets/og-image-v2.jpg');
 })();

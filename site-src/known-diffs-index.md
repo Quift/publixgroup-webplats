@@ -37,8 +37,8 @@ Alla hanterades som content-nycklar (triviala skillnader per SPEC regel 4) så a
   (`Medgründer &amp; administrerende direktør, Aspicore`, rad ~462) och i testimonial-sektionen
   (`Medgrunnlegger &amp; CEO, Aspicore`, rad ~587). Därför har testimonial-rollerna egna nycklar
   (`testi.t1_role`–`t3_role`) i stället för att dela `team.role_*`.
-- `site/fi/index.html` — stats-siffran `SEK 90M+` är lokaliserad: `Yli 90 milj. SEK`.
-  → även siffrorna är nycklar (`stats.n1`–`n5`).
+- `site/fi/index.html` — stats-siffran `SEK 120M+` är lokaliserad: `Yli 120 milj. SEK`.
+  → även siffrorna är nycklar (`stats.n1`–`n6`).
 
 ## Gemensamma egenheter (behållna i mallen, INTE per-språk)
 

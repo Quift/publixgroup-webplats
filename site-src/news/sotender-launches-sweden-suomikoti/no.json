@@ -35,7 +35,7 @@
       "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
     },
     {
-      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
     },
     {
       "line": "<meta property=\"og:image:width\" content=\"1200\">"
@@ -47,7 +47,7 @@
       "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
     },
     {
-      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
     },
     {
       "line": "<meta property=\"article:published_time\" content=\"{{date.published_iso}}\">"
@@ -65,7 +65,7 @@
   "head_after_canonical": [],
   "head_scripts": [
     {
-      "html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{jsonld.headline}}\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"author\": {\"@type\": \"Organization\", \"name\": \"PubliX Group\"},\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"}\n  },\n  \"mainEntityOfPage\": \"{{PAGE_URL}}\",\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"inLanguage\": \"{{LANG}}\"\n}\n</script>"
+      "html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{jsonld.headline}}\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"author\": {\"@type\": \"Organization\", \"name\": \"PubliX Group\"},\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"}\n  },\n  \"mainEntityOfPage\": \"{{PAGE_URL}}\",\n  \"image\": \"https://publixgroup.io/assets/og-image-v2.jpg\",\n  \"inLanguage\": \"{{LANG}}\"\n}\n</script>"
     },
     {
       "html": "<script src=\"{{R}}js/consent.js\" defer></script>"

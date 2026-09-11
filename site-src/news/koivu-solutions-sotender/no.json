@@ -34,7 +34,7 @@
   ],
   "head_after_canonical": [
     {
-      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
     },
     {
       "line": "<meta property=\"og:image:width\" content=\"1200\">"
@@ -46,7 +46,7 @@
       "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
     },
     {
-      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image.jpg\">"
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
     },
     {
       "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
@@ -57,7 +57,7 @@
       "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
     },
     {
-      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image-v2.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
     }
   ],
   "nav": {
