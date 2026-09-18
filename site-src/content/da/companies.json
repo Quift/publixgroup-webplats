@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Vores virksomheder — PubliX Group Portefølje",
-    "description": "De seks stifterledede SaaS-virksomheder i PubliX Groups portefølje, som bygger forretningskritisk software til nordiske offentlige tjenester.",
+    "description": "De seks stifterledede SaaS-virksomheder i PubliX Groups portefølje, som bygger samfundsvigtig software til nordiske offentlige tjenester.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -22,7 +22,7 @@
     "cls": "companies-hero__",
     "eyebrow": "Vores virksomheder",
     "title": "Stifterledet, formålsdrevet",
-    "sub": "Hver virksomhed i PubliX-porteføljen blev bygget af stiftere, der brænder for offentlige tjenester. De valgte at slutte sig til os — og blev for at bygge videre."
+    "sub": "Hver virksomhed i PubliX-porteføljen blev bygget af stiftere, der brænder for offentlige tjenester. De valgte at slutte sig til os og blev for at bygge videre."
   },
   "portfolio": {
     "grid_tail": "\n"
@@ -36,7 +36,7 @@
       "badge_class": "brand",
       "badge": "Social omsorg",
       "name": "Tidvis",
-      "desc": "Tidvis leverer et integreret forretningssystem til socialomsorgssektoren — vagtplanlægning, tidsregistrering, løn og dokumentation i én platform for leverandører af personlig assistance og LSS-ydelser. Deres værktøjer er designet af folk, der forstår omsorgsarbejdets daglige virkelighed.",
+      "desc": "Tidvis leverer et integreret forretningssystem til socialomsorgssektoren: vagtplanlægning, tidsregistrering, løn og dokumentation i én platform for leverandører af personlig assistance og LSS-ydelser. Deres værktøjer er designet af folk, der forstår omsorgsarbejdets daglige virkelighed.",
       "avatar": "{{R}}img/team-adam-hjort.jpg",
       "founder": "Adam Hjort",
       "role": "CEO",
@@ -52,7 +52,7 @@
       "badge_class": "info",
       "badge": "Bevillingsadministration",
       "name": "digiPlant",
-      "desc": "digiPlant udvikler SBS Manager, en ansøgningsplatform for fonde, sponsorer og offentlige organisationer — fra modtagelse af ansøgninger til vurdering, afgørelse og udbetaling. Lettere ansøgninger, kortere sagsbehandlingstider og flere udbetalte tilskud.",
+      "desc": "digiPlant udvikler SBS Manager, en ansøgningsplatform for fonde, sponsorer og offentlige organisationer, fra modtagelse af ansøgninger til vurdering, afgørelse og udbetaling. Lettere ansøgninger, kortere sagsbehandlingstider og flere udbetalte tilskud.",
       "avatar": "/img/team-alexander-tornqvist.jpg",
       "founder": "Alexander Törnqvist",
       "role": "Medstifter &amp; CEO",
@@ -145,7 +145,7 @@
   },
   "cta": {
     "title": "Tænker du på dit næste kapitel?",
-    "sub": "Uanset om du udforsker dine muligheder, er nysgerrig efter, hvor din virksomhed står, eller bare gerne vil tale med nogen, der forstår dit marked — byder vi samtalen velkommen.",
+    "sub": "Måske udforsker du dine muligheder, eller vil du bare tale med nogen, der forstår dit marked. Vi byder samtalen velkommen.",
     "btn": "Opdag dit vækstpotentiale",
     "email": "Eller send en e-mail direkte til Alexander"
   },

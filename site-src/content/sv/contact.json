@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Funderar du på något?",
     "title": "Låt oss prata",
-    "sub": "Oavsett om du är en grundare som utforskar dina alternativ eller bara är nyfiken på vad vi gör – är varje samtal konfidentiellt."
+    "sub": "Grundare som utforskar sina alternativ, och alla som är nyfikna på vad vi gör: varje samtal är konfidentiellt."
   },
   "direct": {
     "heading": "Kontakta oss direkt",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "Låt oss prata om framtiden för offentliga tjänster",
-    "sub": "Oavsett om du bygger digitala lösningar för den offentliga sektorn eller bara är nyfiken på hur vi arbetar – hör gärna av dig.",
+    "sub": "Bygger du digitala lösningar för offentlig sektor, eller är du nyfiken på hur vi arbetar? Hör gärna av dig.",
     "btn": "Upptäck din tillväxtpotential",
     "micro": "Eller ring Alexander direkt:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Integritetspolicy",
     "cookie": "Cookiepolicy",
     "updated": "Håll dig uppdaterad",
-    "updated_sub": "Få de senaste nyheterna från PubliX – förvärv, insikter och grundarberättelser.",
+    "updated_sub": "Få de senaste nyheterna från PubliX: förvärv, insikter och grundarberättelser.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Subscribed!&lt;/span&gt;",
     "newsletter_ph": "din@epost.se",
     "subscribe": "Prenumerera",

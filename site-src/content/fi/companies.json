@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Yritykset — PubliX Group",
-    "description": "PubliX Groupin kuusi perustajavetoista SaaS-yritystä, jotka rakentavat kriittistä ohjelmistoa Pohjoismaiden julkiselle sektorille.",
+    "description": "PubliX Groupin kuusi perustajavetoista SaaS-yritystä, jotka rakentavat yhteiskunnalle tärkeää ohjelmistoa Pohjoismaiden julkiselle sektorille.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -36,7 +36,7 @@
       "badge_class": "brand",
       "badge": "Sosiaalihuolto",
       "name": "Tidvis",
-      "desc": "Tidvis tarjoaa integroidun toiminnanohjausjärjestelmän sosiaalihuollon alalle — työvuorosuunnittelu, työajanseuranta, palkanlaskenta ja dokumentointi yhdellä alustalla henkilökohtaisen avun tuottajille ja LSS-toimijoille. Työkalut ovat suunnitelleet ihmiset, jotka ymmärtävät hoivatyön arkea.",
+      "desc": "Tidvis tarjoaa integroidun toiminnanohjausjärjestelmän sosiaalihuollon alalle: työvuorosuunnittelu, työajanseuranta, palkanlaskenta ja dokumentointi yhdellä alustalla henkilökohtaisen avun tuottajille ja LSS-toimijoille. Työkalut ovat suunnitelleet ihmiset, jotka ymmärtävät hoivatyön arkea.",
       "avatar": "{{R}}img/team-adam-hjort.jpg",
       "founder": "Adam Hjort",
       "role": "Toimitusjohtaja",
@@ -52,7 +52,7 @@
       "badge_class": "info",
       "badge": "Apurahojen hallinta",
       "name": "digiPlant",
-      "desc": "digiPlant kehittää SBS Manager -alustaa, jolla säätiöt, rahoittajat ja julkiset organisaatiot hallinnoivat hakemuksia — vastaanotosta arviointiin, päätökseen ja maksatukseen. Hakeminen helpottuu, käsittelyajat lyhenevät ja apurahoja maksetaan enemmän.",
+      "desc": "digiPlant kehittää SBS Manager -alustaa, jolla säätiöt, rahoittajat ja julkiset organisaatiot hallinnoivat hakemuksia vastaanotosta arviointiin, päätökseen ja maksatukseen. Hakeminen helpottuu, käsittelyajat lyhenevät ja apurahoja maksetaan enemmän.",
       "avatar": "/img/team-alexander-tornqvist.jpg",
       "founder": "Alexander Törnqvist",
       "role": "Perustajaosakas ja toimitusjohtaja",
@@ -132,7 +132,7 @@
   "timeline": {
     "eyebrow": "Yrityskaupan jälkeen",
     "title": "Mitä tapahtuu liittymisen jälkeen",
-    "sub": "PubliXiin liittyminen on suunniteltu saumattomaksi. Tältä näyttää tyypillisen salkkuyhtiön ensimmäinen vuosi.",
+    "sub": "PubliXiin liittyminen on suunniteltu helpoksi. Tältä näyttää tyypillisen salkkuyhtiön ensimmäinen vuosi.",
     "t1_title": "Ensimmäinen päivä: Mikään ei muutu",
     "t1_desc": "Sinun tiimisi, sinun toimistosi, sinun asiakkaasi. Emme ole täällä organisoimassa asioita uusiksi.",
     "t2_title": "Kuukaudet 1–3: Perusta",
@@ -145,7 +145,7 @@
   },
   "cta": {
     "title": "Mietitkö seuraavaa lukua?",
-    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "sub": "Ehkä kartoitat vaihtoehtojasi, tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi. Keskustelemme mielellämme.",
     "btn": "Löydä kasvupotentiaalisi",
     "email": "Tai lähetä sähköpostia suoraan Alexanderille"
   },

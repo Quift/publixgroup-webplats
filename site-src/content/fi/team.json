@@ -135,7 +135,7 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri johtaa Aspicorea, jonka Apuraha4-alusta hallinnoi koko apurahaprosessin suomalaisille säätiöille, yliopistoille ja julkisille viranomaisille — kahden vuosikymmenen kokemuksella apurahajärjestelmistä."
+        "bio": "Harri johtaa Aspicorea, jonka Apuraha4-alusta hallinnoi koko apurahaprosessin suomalaisille säätiöille, yliopistoille ja julkisille viranomaisille, kahden vuosikymmenen kokemuksella apurahajärjestelmistä."
       },
       {
         "name": "Janne Salmi",
@@ -222,7 +222,7 @@
   },
   "cta": {
     "title": "Mietitkö seuraavaa lukua?",
-    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "sub": "Ehkä kartoitat vaihtoehtojasi, tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi. Keskustelemme mielellämme.",
     "btn": "Löydä kasvupotentiaalisi",
     "btn2": "Tai lähetä sähköpostia suoraan Alexanderille"
   },

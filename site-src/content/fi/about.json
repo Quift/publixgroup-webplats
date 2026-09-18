@@ -22,13 +22,13 @@
   "hero": {
     "eyebrow": "Tietoa PubliX Groupista",
     "title": "Toimijat julkisen hyvän asialla",
-    "sub": "PubliX Group yhdistää perustajavetoisia SaaS-yrityksiä, jotka digitalisoivat julkisia palveluja Pohjois-Euroopassa. Olemme toimijoita – emme rahoitusinsinöörejä. Jokainen päätöksemme alkaa yhdellä kysymyksellä: auttaako tämä yrityksiämme rakentamaan parempia tuotteita?"
+    "sub": "PubliX Group yhdistää perustajavetoisia SaaS-yrityksiä, jotka digitalisoivat julkisia palveluja Pohjois-Euroopassa. Olemme toimijoita, emme rahoitusinsinöörejä. Jokainen päätöksemme alkaa yhdellä kysymyksellä: auttaako tämä yrityksiämme rakentamaan parempia tuotteita?"
   },
   "thesis": {
     "eyebrow": "Toiminta-ajatuksemme",
     "title": "Julkisen sektorin ohjelmistot ovat oma erikoisalansa",
-    "p1": "Julkinen sektori tarkoittaa hankintasääntöjä, puitesopimuksia, pitkiä myyntisyklejä ja säänneltyjä ostajia. Se vaatii kärsivällisyyttä, toimialaosaamista ja syvällistä ymmärrystä siitä, miten julkinen sektori todella ostaa teknologiaa. <strong>PubliX keskittyy tähän yhteen toimialaan</strong> – ja aikoo olla Pohjoismaiden paras. Kun perustaja liittyy PubliXiin, hän saa emoyhtiön, joka todella ymmärtää hänen markkinaansa.",
-    "p2": "Kasvamme <strong>yhteisten asiakkaiden ja ristiinmyynnin</strong> kautta. Yrityksemme myyvät samoille ja vierekkäisille asiakkaille – kunnille, hyvinvointialueille, säätiöille, julkisille virastoille. Ristiinmyynti ja yhteistyö salkkuyhtiöiden välillä kasvattavat liikevaihtoa orgaanisesti. Jokainen yritys säilyttää oman brändinsä, identiteettinsä ja autonomiansa.",
+    "p1": "Julkinen sektori tarkoittaa hankintasääntöjä, puitesopimuksia, pitkiä myyntisyklejä ja säänneltyjä ostajia. Se vaatii kärsivällisyyttä, toimialaosaamista ja syvällistä ymmärrystä siitä, miten julkinen sektori todella ostaa teknologiaa. <strong>PubliX keskittyy tähän yhteen toimialaan</strong> ja aikoo olla Pohjoismaiden paras. Kun perustaja liittyy PubliXiin, hän saa emoyhtiön, joka todella ymmärtää hänen markkinaansa.",
+    "p2": "Kasvamme <strong>yhteisten asiakkaiden ja ristiinmyynnin</strong> kautta. Yrityksemme myyvät samoille ja vierekkäisille asiakkaille: kunnille, hyvinvointialueille, säätiöille, julkisille virastoille. Ristiinmyynti ja yhteistyö salkkuyhtiöiden välillä kasvattavat liikevaihtoa orgaanisesti. Jokainen yritys säilyttää oman brändinsä, identiteettinsä ja autonomiansa.",
     "photo_alt": "Team collaboration at a PubliX company",
     "s1_title": "Yksi toimiala",
     "s1_desc": "100 % keskittyminen julkisen sektorin SaaS-palveluihin Pohjoismaissa",
@@ -42,19 +42,19 @@
   "tracks": {
     "eyebrow": "Miten luomme arvoa",
     "title": "Kaksi polkua. Yksi tavoite: tehdä yrityksestäsi vahvempi.",
-    "sub": "Jokainen yritys, jonka kanssa teemme yhteistyötä, hyötyy kahdesta rinnakkaisesta arvonluontipolusta – toinen keskittyy perustuksen vahvistamiseen, toinen kasvun nopeuttamiseen.",
+    "sub": "Jokainen yritys, jonka kanssa teemme yhteistyötä, hyötyy kahdesta rinnakkaisesta polusta: toinen vahvistaa perustusta, toinen nopeuttaa kasvua.",
     "c1_alt": "Foundations",
     "c1_title": "Perusta",
     "c1_sub": "Vahvista toiminnallista ydintä, jotta voit skaalautua luottavaisin mielin.",
-    "c1_i1": "Terve talous – selkeä raportointi, marginaalit ja yksikkötalous",
-    "c1_i2": "Järkevä hinnoittelu – arvopohjaiset mallit, jotka vastaavat arvoasi",
-    "c1_i3": "Kaupallinen kurinalaisuus – myyntiputken hallinta ja myyntiprosessit",
-    "c1_i4": "Tietoturva ja vaatimustenmukaisuus – ISO 27001, GDPR, julkisen sektorin standardit",
-    "c1_i5": "Tekoäly ja insinööriosaaminen – sisäänrakennettu teknologiaosaaminen, ei konsultteja",
+    "c1_i1": "Terve talous: selkeä raportointi, marginaalit ja yksikkötalous",
+    "c1_i2": "Järkevä hinnoittelu: arvopohjaiset mallit, jotka vastaavat arvoasi",
+    "c1_i3": "Kaupallinen kurinalaisuus: myyntiputken hallinta ja myyntiprosessit",
+    "c1_i4": "Tietoturva ja vaatimustenmukaisuus: ISO 27001, GDPR, julkisen sektorin standardit",
+    "c1_i5": "Tekoäly ja insinööriosaaminen: sisäänrakennettu teknologiaosaaminen, ei konsultteja",
     "c2_alt": "Growth",
     "c2_title": "Kasvu",
     "c2_sub": "Laajenna markkina-aluettasi alustan voimalla.",
-    "c2_i1": "Myy enemmän yhteisille asiakkaille – ristiinmyyntiä koko salkussa",
+    "c2_i1": "Myy enemmän yhteisille asiakkaille: ristiinmyyntiä koko salkussa",
     "c2_i2": "Avaa uusia Pohjoismaita toimiviksi todetuille tuotteille",
     "c2_i3": "Lisää vierekkäisiä työnkulkuja samalle ostajapersoonalle",
     "c2_i4": "Yhteinen markkinointi ja tapahtumat samoille päättäjille",
@@ -62,14 +62,14 @@
   },
   "ai": {
     "eyebrow": "Miten hyödynnämme tekoälyä",
-    "title": "Tekoäly on tapamme luoda arvoa:<br>Jokainen tuote, työnkulku ja työtehtävä",
-    "sub": "Emme vain puhu tekoälystä – sisällytämme sen jokaiseen ryhmän yritykseen. Uusista tuoteominaisuuksista sisäisten toimintojen automatisointiin tekoäly on keskeisessä asemassa PubliXin arvonluonnissa.",
+    "title": "Valjastamme tekoälyn töihin:<br>Jokainen tuote, työnkulku ja työtehtävä",
+    "sub": "Sisällytämme tekoälyn jokaiseen ryhmän yritykseen, uusista tuoteominaisuuksista sisäisten toimintojen automatisointiin.",
     "c1_title": "Tuotekohtainen tekoäly",
-    "c1_desc": "Autamme yrityksiämme rakentamaan tekoälypohjaisia ominaisuuksia tuotteisiinsa – älykkäästä automaatiosta julkisen sektorin työnkulkujen ennakoivaan analytiikkaan.",
+    "c1_desc": "Autamme yrityksiämme rakentamaan tekoälypohjaisia ominaisuuksia tuotteisiinsa, älykkäästä automaatiosta julkisen sektorin työnkulkujen ennakoivaan analytiikkaan.",
     "c2_title": "Operatiivinen tekoäly",
-    "c2_desc": "Automatisoimme liidien hankinnan, hoivaamisen, asiakastuen, ohjelmistokehityksen sekä talous- ja hallinnolliset työnkulut koko ryhmässä – jotta yrityksemme voivat keskittyä erinomaisten tuotteiden rakentamiseen hallinnon sijaan.",
+    "c2_desc": "Automatisoimme liidien hankinnan, hoivaamisen, asiakastuen, ohjelmistokehityksen sekä talous- ja hallinnolliset työnkulut koko ryhmässä, jotta yrityksemme voivat keskittyä erinomaisten tuotteiden rakentamiseen hallinnon sijaan.",
     "c3_title": "Tekoälyosaamisen kehittäminen",
-    "c3_desc": "Koulutamme jokaisen tiimin koko ryhmässä käyttämään tekoälytyökaluja tehokkaasti – muuttaen kyvyt tuloksiksi. Yrityksemme saavuttavat tavoitteensa odotettua nopeammin.",
+    "c3_desc": "Koulutamme jokaisen tiimin koko ryhmässä käyttämään tekoälytyökaluja tehokkaasti, jotta kyvyistä tulee tuloksia.",
     "section_tail": "\n"
   },
   "quote": {
@@ -78,7 +78,7 @@
   },
   "cta": {
     "title": "Mietitkö seuraavaa lukua?",
-    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "sub": "Ehkä kartoitat vaihtoehtojasi, tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi. Keskustelemme mielellämme.",
     "btn": "Löydä kasvupotentiaalisi",
     "email": "Tai lähetä sähköpostia suoraan Alexanderille"
   },

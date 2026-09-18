@@ -21,7 +21,7 @@
   "hero": {
     "eyebrow": "Sind Sie ein Gründer und fragen sich, wie es weitergeht?",
     "title": "Warum Gründer sich für <em>PubliX</em> entscheiden",
-    "sub": "Sie haben Jahre damit verbracht, etwas Bedeutendes aufzubauen. Wir finden, das verdient eine dauerhafte Heimat – und keinen Drei-Jahres-Flip.",
+    "sub": "Sie haben Jahre damit verbracht, etwas Bedeutendes aufzubauen. Wir finden, das verdient eine dauerhafte Heimat und keinen Drei-Jahres-Flip.",
     "btn": "Entdecken Sie Ihr Wachstumspotenzial",
     "btn_process": "Sehen Sie unseren Prozess",
     "micro": "Vertraulich · Unverbindlich · CEO zu Gründer",
@@ -45,18 +45,18 @@
     "eyebrow": "Bereit zu skalieren, aber es fehlen einige Teile?",
     "title": "Sie haben es aufgebaut. Wir helfen Ihnen, es weiter auszubauen.",
     "p1": "Sie haben ein großartiges Unternehmen aufgebaut. Sie kennen Ihren Markt, Ihre Kunden und Ihre Organisation besser als jeder andere.",
-    "p2": "Was sich ändert, ist das, was um Sie herum ist. Die Barrieren, die Sie zurückgehalten haben – ein lokaler Markt, technische Schulden, fehlende KI-Fähigkeiten, alles selbst machen zu müssen – diese beginnen zu verschwinden. PubliX gibt Ihnen die <strong>Ressourcen, das Netzwerk und die Community</strong>, um den nächsten Schritt zu gehen.",
-    "p3": "Wir sind kein Fonds mit einer tickenden Uhr. Wir sind ein <strong>dauerhafter Eigentümer</strong> – unterstützt durch Aspira Partners, die unsere langfristige Überzeugung teilen. Ihr nächstes Kapitel beginnt hier, und es gibt kein künstliches Enddatum."
+    "p2": "Was sich ändert, ist das, was um Sie herum ist. Die Barrieren, die Sie zurückgehalten haben, beginnen zu verschwinden: ein kleiner Heimatmarkt, technische Schulden, fehlende KI-Fähigkeiten, alles selbst machen zu müssen. PubliX gibt Ihnen die <strong>Ressourcen, das Netzwerk und die Community</strong>, um den nächsten Schritt zu gehen.",
+    "p3": "PubliX ist ein <strong>dauerhafter Eigentümer</strong>, unterstützt durch Aspira Partners, die unsere langfristige Überzeugung teilen. Ihr nächstes Kapitel beginnt hier, und es gibt kein künstliches Enddatum."
   },
   "pillars": {
     "eyebrow": "Was bedeutet der Beitritt zu PubliX eigentlich?",
     "title": "Eine dauerhafte Heimat, echte KI und gemeinsame Kunden",
     "p1_alt": "Permanent home",
     "p1_title": "Eine dauerhafte Heimat",
-    "p1_text": "Keine erzwungenen Exits, keine künstlichen Zeitpläne. PubliX ist ein dauerhafter Eigentümer – unterstützt durch Aspira Partners, die unsere langfristige Überzeugung teilen. Ihr Unternehmen wächst in seinem eigenen Tempo.",
+    "p1_text": "Keine erzwungenen Exits, keine künstlichen Zeitpläne. PubliX ist ein dauerhafter Eigentümer, unterstützt durch Aspira Partners, die unsere langfristige Überzeugung teilen. Ihr Unternehmen wächst in seinem eigenen Tempo.",
     "p2_alt": "AI capability",
     "p2_title": "KI-gesteuertes Wachstum",
-    "p2_text": "Jedes Unternehmen erhält innerhalb von 90 Tagen eine maßgeschneiderte KI-Roadmap. Von Produktfunktionen bis zur Prozessautomatisierung – wir integrieren Fähigkeiten, die Ihr Unternehmen alleine nicht aufbauen könnte.",
+    "p2_text": "Jedes Unternehmen erhält innerhalb von 90 Tagen eine maßgeschneiderte KI-Roadmap. Produktfunktionen, Prozessautomatisierung, Werkzeuge: wir integrieren Fähigkeiten, die Ihr Unternehmen alleine nicht aufbauen könnte.",
     "p3_alt": "Shared customers",
     "p3_title": "DNA des öffentlichen Sektors",
     "p3_text": "Wir arbeiten nur in einem Bereich. Das bedeutet gemeinsame Beschaffungsexpertise, gemeinsame Kunden und Kollegen, die Rahmenverträge verstehen, nicht nur ARR."
@@ -66,16 +66,16 @@
     "title": "Ergebnisse, keine Versprechen",
     "m1_company": "Aspicore",
     "m1_number": "18%",
-    "m1_desc": "ARR-Verbesserung — KI-gestütztes Fördermittel-Matching führte innerhalb von 6 Monaten zu einem messbaren Umsatzwachstum",
+    "m1_desc": "ARR-Verbesserung: KI-gestütztes Fördermittel-Matching führte innerhalb von 6 Monaten zu einem messbaren Umsatzwachstum",
     "m2_company": "Tidvis",
     "m2_number": "SEK 1.5M",
-    "m2_desc": "Jährliche Einsparungen — Operative Automatisierung setzte Ressourcen frei, um direkt in das Produkt zu reinvestieren",
+    "m2_desc": "Jährliche Einsparungen: Operative Automatisierung setzte Ressourcen frei, um direkt in das Produkt zu reinvestieren",
     "m3_company": "Koivu",
     "m3_number": "&lt;12 Wochen",
-    "m3_desc": "Von der ersten Anforderung bis zum unterzeichneten Kunden aus dem öffentlichen Sektor — die schnellste Produkteinführung in der Geschichte von PubliX",
+    "m3_desc": "Von der ersten Anforderung bis zum unterzeichneten Kunden aus dem öffentlichen Sektor: die schnellste Produkteinführung in der Geschichte von PubliX",
     "m4_company": "Alle Portfoliounternehmen",
     "m4_number": "~30%",
-    "m4_desc": "Entwicklerkapazität freigesetzt — KI-gestützte Tools in jedem Unternehmen im Einsatz"
+    "m4_desc": "Entwicklerkapazität freigesetzt: KI-gestützte Tools in jedem Unternehmen im Einsatz"
   },
   "testimonials": {
     "eyebrow": "Was sagen Gründer, die sich angeschlossen haben?",
@@ -88,7 +88,7 @@
     "t3_role": "Mitgründer &amp; CEO, Koivu Solutions"
   },
   "process": {
-    "eyebrow": "Wie sieht die Reise aus?",
+    "eyebrow": "Wie sieht der Prozess aus?",
     "title": "Vom ersten Anruf bis zum ersten Tag in 3–5 Monaten",
     "sub": "Keine Überraschungen, keine versteckten Absichten. Hier ist genau, was passiert, Schritt für Schritt.",
     "s1_alt": "First conversation",
@@ -100,15 +100,15 @@
     "s2_alt": "Getting to know each other",
     "s2_title": "2. Kennenlernen",
     "s2_duration": "2–4 Wochen",
-    "s2_body": "Wir unterzeichnen eine gegenseitige Vertraulichkeitsvereinbarung (NDA) und beginnen, Ihr Unternehmen genauer kennenzulernen – Finanzen, Kunden, Produkt, Team. Sie erfahren mehr über uns. Dies ist eine beidseitige Bewertung, und wir nehmen sie ernst.",
-    "s3_alt": "Value creation plan",
-    "s3_title": "3. Wertschöpfungsplan &amp; indikatives Angebot",
+    "s2_body": "Wir unterzeichnen eine gegenseitige Vertraulichkeitsvereinbarung (NDA) und beginnen, Ihr Unternehmen genauer kennenzulernen: Finanzen, Kunden, Produkt, Team. Sie erfahren mehr über uns. Dies ist eine beidseitige Bewertung, und wir nehmen sie ernst.",
+    "s3_alt": "Wachstumsplan",
+    "s3_title": "3. Wachstumsplan &amp; indikatives Angebot",
     "s3_duration": "~2 Wochen",
-    "s3_body": "Wir präsentieren einen maßgeschneiderten Wertschöpfungsplan – wie Ihr Unternehmen durch neue Märkte, gemeinsame Kunden, KI-Fähigkeiten und reduzierte technische Schulden als Teil von PubliX skalieren könnte. Daneben erhalten Sie ein indikatives Angebot mit transparenter Bewertungsmethodik. Keine komplexen Strukturen.",
+    "s3_body": "Wir präsentieren einen maßgeschneiderten Wachstumsplan: wie Ihr Unternehmen durch neue Märkte, gemeinsame Kunden, KI-Fähigkeiten und reduzierte technische Schulden als Teil von PubliX skalieren könnte. Daneben erhalten Sie ein indikatives Angebot mit transparenter Bewertungsmethodik. Keine komplexen Strukturen.",
     "s4_alt": "Due diligence",
     "s4_title": "4. Due Diligence",
     "s4_duration": "4–8 Wochen",
-    "s4_body": "Ein strukturierter Prozess, bei dem wir die Details gemeinsam überprüfen. Wir setzen erfahrene Berater ein und sorgen dafür, dass der Prozess Ihre Zeit respektiert. Die meisten Gründer sagen, dass sie hier gemerkt haben, dass wir anders sind – wir betrachten DD als Zusammenarbeit, nicht als Verhör.",
+    "s4_body": "Ein strukturierter Prozess, bei dem wir die Details gemeinsam überprüfen. Wir setzen erfahrene Berater ein und sorgen dafür, dass der Prozess Ihre Zeit respektiert. Die meisten Gründer sagen, dass sie hier gemerkt haben, dass wir anders sind: Wir betrachten die Due Diligence als Zusammenarbeit, nicht als Verhör.",
     "s5_alt": "Welcome to PubliX",
     "s5_title": "5. Willkommen bei PubliX",
     "s5_duration": "Tag eins",
@@ -118,14 +118,14 @@
     "eyebrow": "Haben Sie noch Fragen?",
     "title": "Wir glauben an volle Transparenz",
     "q1": "Behält mein Unternehmen seine eigene Marke?",
-    "a1": "Ja. Ihre Marke und Ihre Identität sind Teil dessen, was Ihr Unternehmen wertvoll macht – wir fusionieren keine Marken und lassen Sie nicht in einem gesichtslosen Konzern aufgehen. Sie behalten Ihren Namen, Ihre Identität und Ihren Platz am Markt.",
+    "a1": "Ja. Ihre Marke und Ihre Identität sind Teil dessen, was Ihr Unternehmen wertvoll macht. Wir fusionieren keine Marken und lassen Sie nicht in einem gesichtslosen Konzern aufgehen. Sie behalten Ihren Namen, Ihre Identität und Ihren Platz am Markt.",
     "q2": "Werden Sie mein Produkt ändern?",
-    "a2": "Nein. Produktentscheidungen bleiben bei Ihnen und Ihrem Team. Wir bieten KI-Fähigkeiten, technische Unterstützung und strategischen Input – aber die Roadmap gehört Ihnen. Wir sind Betreiber, keine Produktmanager.",
+    "a2": "Nein. Produktentscheidungen bleiben bei Ihnen und Ihrem Team. Wir bieten KI-Fähigkeiten, technische Unterstützung und strategischen Input, aber die Roadmap gehört Ihnen. Wir sind Betreiber, keine Produktmanager.",
     "q3": "Wie lange dauert der gesamte Prozess?",
     "a3": "Typischerweise 3–5 Monate vom ersten Gespräch bis zum Abschluss. Wir überstürzen nichts, zögern die Dinge aber auch nicht hinaus. Der Zeitplan hängt weitgehend von der Komplexität der Due Diligence und Ihrer eigenen Bereitschaft ab.",
     "gap": "",
     "q4": "Wie bewerten Sie mein Unternehmen?",
-    "a4": "Wir verwenden eine transparente, marktbasierte Methodik, die wiederkehrende Umsätze, den Wachstumskurs, die Marktposition, die Kundenqualität und die Teamstärke berücksichtigt. Sie sehen das vollständige Modell – keine Blackboxen. Wir präsentieren unsere Bewertung persönlich, damit Sie jede Annahme hinterfragen können."
+    "a4": "Wir verwenden eine transparente, marktbasierte Methodik, die wiederkehrende Umsätze, den Wachstumskurs, die Marktposition, die Kundenqualität und die Teamstärke berücksichtigt. Sie sehen das vollständige Modell, ohne Blackboxen. Wir präsentieren unsere Bewertung persönlich, damit Sie jede Annahme hinterfragen können."
   },
   "quote": {
     "text": "„Man kann die technische Realität eines gebauten und gepflegten Systems nicht von dem Team trennen, das es gebaut hat – sie müssen als Einheit betrachtet werden. Deshalb respektieren wir bei PubliX das Team und die Kultur, die es geschaffen und gepflegt hat.“",
@@ -133,7 +133,7 @@
   },
   "cta": {
     "title": "Bereit für ein vertrauliches Gespräch?",
-    "sub": "Eine Wachstumsbewertung ist eine ernsthafte, personalisierte Analyse – kein Verkaufsgespräch. Sie gehört Ihnen, unabhängig davon, ob wir zusammenarbeiten oder nicht.",
+    "sub": "Eine Wachstumsbewertung ist eine ernsthafte, personalisierte Analyse, kein Verkaufsgespräch. Sie gehört Ihnen, unabhängig davon, ob wir zusammenarbeiten oder nicht.",
     "btn": "Entdecken Sie Ihr Wachstumspotenzial",
     "btn_email": "Oder schreiben Sie Alexander direkt eine E-Mail",
     "micro": "Jede Anfrage wird persönlich von unserem CEO geprüft"

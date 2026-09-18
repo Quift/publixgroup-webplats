@@ -14,7 +14,7 @@
   },
   "title": "PubliX Group appoints Alexander Hübel as CEO",
   "lead": "Alexander Hübel has been appointed Group CEO of PubliX Group, bringing extensive experience in scaling technology companies and building platforms in the Nordic market.",
-  "body_html": "      <p>STOCKHOLM — PubliX Group has appointed Alexander Hübel as Group CEO. He takes over from Marcus Åström, who has led the group as acting CEO since its formation and continues in his role as Head of M&amp;A.</p>\n      <p>Alexander Hübel brings roughly a decade of work with AI at scale: at Ericsson he built and led large, complex organisations; at Turbotic he played a central role in developing and scaling AI-driven products globally; and as COO of DigitalTolk he drove AI innovation and international expansion.</p>\n      <p>At the time of the appointment, PubliX Group comprised five founder-led software companies across Sweden and Finland, serving municipalities, healthcare and social care, foundations and public authorities. A central part of Hübel's mandate is to put AI to work across the portfolio — automating routine work while keeping people accountable for what reaches the citizen.</p>\n      <p>Patrik Sallner remains chairman of the board. The group, backed by Aspira Partners, continues to look for founder-led software companies in the Nordics that run regulated public-sector workflows.</p>",
+  "body_html": "      <p>STOCKHOLM — PubliX Group has appointed Alexander Hübel as Group CEO. He takes over from Marcus Åström, who has led the group as acting CEO since its formation and continues in his role as Head of M&amp;A.</p>\n      <p>Alexander Hübel brings roughly a decade of work with AI at scale: at Ericsson he built and led large, complex organisations; at Turbotic he played a central role in developing and scaling AI-driven products globally; and as COO of DigitalTolk he drove AI innovation and international expansion.</p>\n      <p>At the time of the appointment, PubliX Group comprised five founder-led software companies across Sweden and Finland, serving municipalities, healthcare and social care, foundations and public authorities. A central part of Hübel's mandate is to put AI to work across the portfolio, automating routine work while keeping people accountable for what reaches the citizen.</p>\n      <p>Patrik Sallner remains chairman of the board. The group, backed by Aspira Partners, continues to look for founder-led software companies in the Nordics that run regulated public-sector workflows.</p>",
   "head_meta": [
     {
       "line": "<meta property=\"og:type\" content=\"article\">"
@@ -80,7 +80,7 @@
       {
         "style": "",
         "title": "About PubliX Group",
-        "text": "We acquire and develop vertical software companies providing mission-critical solutions to the public sector in Northern Europe."
+        "text": "We acquire and develop vertical software companies providing essential solutions to the public sector in Northern Europe."
       }
     ],
     "cta": "View all companies"

@@ -22,7 +22,7 @@
     "cls": "companies-hero__",
     "eyebrow": "Unsere Unternehmen",
     "title": "Gründergeführt, zielgerichtet",
-    "sub": "Jedes Unternehmen im PubliX-Portfolio wurde von Gründern aufgebaut, denen öffentliche Dienstleistungen sehr am Herzen liegen. Sie haben sich entschieden, sich uns anzuschließen – und sind geblieben, um weiter aufzubauen."
+    "sub": "Jedes Unternehmen im PubliX-Portfolio wurde von Gründern aufgebaut, denen öffentliche Dienstleistungen sehr am Herzen liegen. Sie haben sich entschieden, sich uns anzuschließen, und sind geblieben, um weiter aufzubauen."
   },
   "portfolio": {
     "grid_tail": "\n"
@@ -36,7 +36,7 @@
       "badge_class": "brand",
       "badge": "Sozialfürsorge",
       "name": "Tidvis",
-      "desc": "Tidvis bietet ein integriertes Geschäftssystem für den Sozialsektor — Dienstplanung, Zeiterfassung, Lohnabrechnung und Dokumentation in einer einzigen Plattform für Anbieter persönlicher Assistenz und Einrichtungen nach dem schwedischen LSS-Gesetz. Die Werkzeuge werden von Menschen entwickelt, die den Alltag der Pflegearbeit verstehen.",
+      "desc": "Tidvis bietet ein integriertes Geschäftssystem für den Sozialsektor: Dienstplanung, Zeiterfassung, Lohnabrechnung und Dokumentation in einer einzigen Plattform für Anbieter persönlicher Assistenz und Einrichtungen nach dem schwedischen LSS-Gesetz. Die Werkzeuge werden von Menschen entwickelt, die den Alltag der Pflegearbeit verstehen.",
       "avatar": "{{R}}img/team-adam-hjort.jpg",
       "founder": "Adam Hjort",
       "role": "CEO",
@@ -52,7 +52,7 @@
       "badge_class": "info",
       "badge": "Fördermittelverwaltung",
       "name": "digiPlant",
-      "desc": "digiPlant entwickelt SBS Manager, eine Plattform für die Antragsverwaltung für Stiftungen, Sponsoren und öffentliche Organisationen — vom Eingang der Anträge über Prüfung und Entscheidung bis zur Auszahlung. Einfachere Anträge, kürzere Bearbeitungszeiten und mehr ausgezahlte Fördermittel.",
+      "desc": "digiPlant entwickelt SBS Manager, eine Plattform für die Antragsverwaltung für Stiftungen, Sponsoren und öffentliche Organisationen, vom Eingang der Anträge über Prüfung und Entscheidung bis zur Auszahlung. Einfachere Anträge, kürzere Bearbeitungszeiten und mehr ausgezahlte Fördermittel.",
       "avatar": "/img/team-alexander-tornqvist.jpg",
       "founder": "Alexander Törnqvist",
       "role": "Mitgründer &amp; CEO",
@@ -132,7 +132,7 @@
   "timeline": {
     "eyebrow": "Nach der Akquisition",
     "title": "Was passiert, nachdem Sie beigetreten sind",
-    "sub": "Der Beitritt zu PubliX ist nahtlos konzipiert. So sieht das erste Jahr für ein typisches Portfoliounternehmen aus.",
+    "sub": "Der Beitritt zu PubliX ist unkompliziert. So sieht das erste Jahr für ein typisches Portfoliounternehmen aus.",
     "t1_title": "Tag eins: Nichts ändert sich",
     "t1_desc": "Ihr Team, Ihr Büro, Ihre Kunden. Wir sind nicht hier, um umzuorganisieren.",
     "t2_title": "Monate 1–3: Fundamente",
@@ -145,7 +145,7 @@
   },
   "cta": {
     "title": "Denken Sie über Ihr nächstes Kapitel nach?",
-    "sub": "Ob Sie Ihre Optionen ausloten, wissen möchten, wo Ihr Unternehmen steht, oder einfach nur mit jemandem sprechen möchten, der Ihren Markt versteht — wir freuen uns auf das Gespräch.",
+    "sub": "Vielleicht loten Sie Ihre Möglichkeiten aus, oder Sie möchten einfach mit jemandem sprechen, der Ihren Markt versteht. Wir freuen uns auf das Gespräch.",
     "btn": "Entdecken Sie Ihr Wachstumspotenzial",
     "email": "Oder schreiben Sie Alexander direkt eine E-Mail"
   },

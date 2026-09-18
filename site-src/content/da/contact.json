@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Har du noget på hjerte?",
     "title": "Lad os tage en snak",
-    "sub": "Uanset om du er en stifter, der udforsker dine muligheder, eller bare er nysgerrig på, hvad vi laver — enhver samtale er fortrolig."
+    "sub": "Stiftere, der udforsker deres muligheder, og alle, der er nysgerrige på, hvad vi laver: enhver samtale er fortrolig."
   },
   "direct": {
     "heading": "Kontakt os direkte",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "Lad os tale om fremtiden for offentlige tjenester",
-    "sub": "Uanset om du bygger digitale løsninger til den offentlige sektor eller bare er nysgerrig på, hvordan vi arbejder — vil vi meget gerne høre fra dig.",
+    "sub": "Bygger du digitale løsninger til den offentlige sektor, eller er du nysgerrig på, hvordan vi arbejder? Så vil vi meget gerne høre fra dig.",
     "btn": "Opdag dit vækstpotentiale",
     "micro": "Eller ring til Alexander direkte:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Privatlivspolitik",
     "cookie": "Cookiepolitik",
     "updated": "Hold dig opdateret",
-    "updated_sub": "Få det seneste fra PubliX — opkøb, indsigt og stifterhistorier.",
+    "updated_sub": "Få det seneste fra PubliX: opkøb, indsigt og stifterhistorier.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Tilmeldt!&lt;/span&gt;",
     "newsletter_ph": "dig@email.dk",
     "subscribe": "Tilmeld",

@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Haben Sie etwas auf dem Herzen?",
     "title": "Lassen Sie uns reden",
-    "sub": "Ob Sie als Gründer Ihre Möglichkeiten ausloten möchten oder einfach nur neugierig auf unsere Arbeit sind – jedes Gespräch wird vertraulich behandelt."
+    "sub": "Ob Sie als Gründer Ihre Möglichkeiten ausloten, und alle, die neugierig auf unsere Arbeit sind: Jedes Gespräch wird vertraulich behandelt."
   },
   "direct": {
     "heading": "Direkt kontaktieren",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "Lassen Sie uns über die Zukunft öffentlicher Dienstleistungen sprechen",
-    "sub": "Ob Sie digitale Lösungen für den öffentlichen Sektor entwickeln oder einfach nur neugierig auf unsere Arbeitsweise sind – wir würden uns freuen, von Ihnen zu hören.",
+    "sub": "Ob Sie digitale Lösungen für den öffentlichen Sektor entwickeln oder sind Sie neugierig auf unsere Arbeitsweise? Wir würden uns freuen, von Ihnen zu hören.",
     "btn": "Entdecken Sie Ihr Wachstumspotenzial",
     "micro": "Oder rufen Sie Alexander direkt an:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Datenschutzerklärung",
     "cookie": "Cookie-Richtlinie",
     "updated": "Bleiben Sie informiert",
-    "updated_sub": "Erhalten Sie das Neueste von PubliX – Akquisitionen, Einblicke und Gründergeschichten.",
+    "updated_sub": "Erhalten Sie das Neueste von PubliX: Akquisitionen, Einblicke und Gründergeschichten.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Abonniert!&lt;/span&gt;",
     "newsletter_ph": "ihre@email.de",
     "subscribe": "Abonnieren",

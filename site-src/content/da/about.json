@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Om PubliX Group — Byggere for det offentlige",
-    "description": "Sådan arbejder PubliX Group med stifterledede SaaS-virksomheder for den nordiske offentlige sektor — tese, værdiskabelse og teamet.",
+    "description": "Sådan arbejder PubliX Group med stifterledede SaaS-virksomheder for den nordiske offentlige sektor: tese, værdimodel og teamet.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform",
     "ld_description": "PubliX Group is the growth platform for SaaS founders in public services."
   },
@@ -22,13 +22,13 @@
   "hero": {
     "eyebrow": "Om PubliX Group",
     "title": "Operatører, der bygger til gavn for offentligheden",
-    "sub": "PubliX Group forener stifterledede SaaS-virksomheder, der digitaliserer offentlige tjenester i Nordeuropa. Vi er operatører — ikke finansielle ingeniører. Enhver beslutning, vi træffer, starter med ét spørgsmål: Hjælper dette vores virksomheder med at bygge bedre produkter?"
+    "sub": "PubliX Group forener stifterledede SaaS-virksomheder, der digitaliserer offentlige tjenester i Nordeuropa. Vi er operatører, ikke finansielle ingeniører. Enhver beslutning, vi træffer, starter med ét spørgsmål: Hjælper dette vores virksomheder med at bygge bedre produkter?"
   },
   "thesis": {
     "eyebrow": "Vores tese",
     "title": "Software til den offentlige sektor er sin egen disciplin",
-    "p1": "Den offentlige sektor betyder udbudsregler, rammeaftaler, lange salgscyklusser og regulerede købere. Det kræver tålmodighed, domæneekspertise og en dyb forståelse af, hvordan den offentlige sektor rent faktisk køber teknologi. <strong>PubliX koncentrerer sig om denne ene vertikal</strong> — og har til hensigt at være bedst i Norden. Når en stifter slutter sig til PubliX, får de et moderselskab, der virkelig forstår deres marked.",
-    "p2": "Vi vokser gennem <strong>delte kunder og krydssalg</strong>. Vores virksomheder sælger til de samme og tilstødende kunder — kommuner, regioner, fonde, offentlige styrelser. Krydssalg og samarbejde mellem porteføljevirksomheder øger omsætningen organisk. Hver virksomhed beholder sit eget brand, sin identitet og sin autonomi.",
+    "p1": "Den offentlige sektor betyder udbudsregler, rammeaftaler, lange salgscyklusser og regulerede købere. Det kræver tålmodighed, domæneekspertise og en dyb forståelse af, hvordan den offentlige sektor rent faktisk køber teknologi. <strong>PubliX koncentrerer sig om denne ene vertikal</strong> og har til hensigt at være bedst i Norden. Når en stifter slutter sig til PubliX, får de et moderselskab, der virkelig forstår deres marked.",
+    "p2": "Vi vokser gennem <strong>delte kunder og krydssalg</strong>. Vores virksomheder sælger til de samme og tilstødende kunder: kommuner, regioner, fonde, offentlige styrelser. Krydssalg og samarbejde mellem porteføljevirksomheder øger omsætningen organisk. Hver virksomhed beholder sit eget brand, sin identitet og sin autonomi.",
     "photo_alt": "Teamsamarbejde i en PubliX-virksomhed",
     "s1_title": "Én vertikal",
     "s1_desc": "100 % fokus på SaaS til den offentlige sektor i Norden",
@@ -42,19 +42,19 @@
   "tracks": {
     "eyebrow": "Sådan skaber vi værdi",
     "title": "To spor. Ét mål: at gøre din virksomhed stærkere.",
-    "sub": "Hver virksomhed, vi arbejder med, drager fordel af to parallelle værdiskabelsesspor — det ene fokuserer på at styrke dit fundament, det andet på at accelerere væksten.",
+    "sub": "Hver virksomhed, vi arbejder med, drager fordel af to parallelle spor: det ene styrker dit fundament, det andet accelererer væksten.",
     "c1_alt": "Fundamenter",
     "c1_title": "Fundamenter",
     "c1_sub": "Styrk den operationelle kerne, så du kan skalere med selvtillid.",
-    "c1_i1": "Ren økonomi — klar rapportering, marginer og enhedsøkonomi",
-    "c1_i2": "Fornuftig prissætning — værdibaserede modeller, der fanger, hvad du er værd",
-    "c1_i3": "Kommerciel disciplin — pipeline-styring og salgsprocesser",
-    "c1_i4": "Løft af sikkerhed &amp; compliance — ISO 27001, GDPR, standarder for den offentlige sektor",
-    "c1_i5": "AI &amp; ingeniørkapacitet — indlejret teknisk ekspertise, ikke konsulenter",
+    "c1_i1": "Ren økonomi: klar rapportering, marginer og enhedsøkonomi",
+    "c1_i2": "Fornuftig prissætning: værdibaserede modeller, der fanger, hvad du er værd",
+    "c1_i3": "Kommerciel disciplin: pipeline-styring og salgsprocesser",
+    "c1_i4": "Løft af sikkerhed &amp; compliance: ISO 27001, GDPR, standarder for den offentlige sektor",
+    "c1_i5": "AI &amp; ingeniørkapacitet: indlejret teknisk ekspertise, ikke konsulenter",
     "c2_alt": "Vækst",
     "c2_title": "Vækst",
     "c2_sub": "Udvid din markedsrækkevidde gennem platformens kraft.",
-    "c2_i1": "Sælg mere til delte kunder — krydssalg på tværs af porteføljen",
+    "c2_i1": "Sælg mere til delte kunder: krydssalg på tværs af porteføljen",
     "c2_i2": "Åbn nye nordiske lande for gennemprøvede produkter",
     "c2_i3": "Tilføj tilstødende arbejdsgange for den samme køberpersona",
     "c2_i4": "Fælles markedsføring &amp; events over for fælles beslutningstagere",
@@ -63,13 +63,13 @@
   "ai": {
     "eyebrow": "Sådan arbejder vi med AI",
     "title": "AI er måden, vi skaber værdi på:<br>Hvert produkt, hver arbejdsgang, hver jobrolle",
-    "sub": "Vi taler ikke bare om AI — vi indlejrer det på tværs af hver virksomhed i gruppen. Fra nye produktfunktioner til automatisering af interne operationer er AI centralt for, hvordan PubliX skaber værdi.",
+    "sub": "Vi indlejrer AI på tværs af hver virksomhed i gruppen. Fra nye produktfunktioner til automatisering af interne operationer er AI centralt for, hvordan PubliX skaber værdi.",
     "c1_title": "Produkt AI",
-    "c1_desc": "Vi hjælper vores virksomheder med at indbygge AI-drevne funktioner i deres produkter — fra intelligent automatisering til forudsigende analyser for offentlige arbejdsgange.",
+    "c1_desc": "Vi hjælper vores virksomheder med at indbygge AI-drevne funktioner i deres produkter, fra intelligent automatisering til forudsigende analyser for offentlige arbejdsgange.",
     "c2_title": "Operationel AI",
-    "c2_desc": "Vi automatiserer leadgenerering, leadpleje, kundesupport, softwareudvikling og finansielle samt administrative arbejdsgange på tværs af gruppen — så vores virksomheder kan fokusere på at bygge fantastiske produkter i stedet for administration.",
+    "c2_desc": "Vi automatiserer leadgenerering, leadpleje, kundesupport, softwareudvikling og finansielle samt administrative arbejdsgange på tværs af gruppen, så vores virksomheder kan fokusere på at bygge fantastiske produkter i stedet for administration.",
     "c3_title": "AI opkvalificering",
-    "c3_desc": "Vi træner alle teams på tværs af gruppen i at bruge AI-værktøjer effektivt — og forvandler kapacitet til resultater. Vores virksomheder når deres mål hurtigere, end de troede var muligt.",
+    "c3_desc": "Vi træner alle teams på tværs af gruppen i at bruge AI-værktøjer effektivt, så kapacitet bliver til resultater. Vores virksomheder når deres mål hurtigere, end de troede var muligt.",
     "section_tail": "\n"
   },
   "quote": {
@@ -78,7 +78,7 @@
   },
   "cta": {
     "title": "Tænker du på dit næste kapitel?",
-    "sub": "Uanset om du udforsker dine muligheder, er nysgerrig efter, hvor din virksomhed står, eller bare gerne vil tale med nogen, der forstår dit marked — byder vi samtalen velkommen.",
+    "sub": "Måske udforsker du dine muligheder, eller vil du bare tale med nogen, der forstår dit marked. Vi byder samtalen velkommen.",
     "btn": "Opdag dit vækstpotentiale",
     "email": "Eller send en e-mail direkte til Alexander"
   },

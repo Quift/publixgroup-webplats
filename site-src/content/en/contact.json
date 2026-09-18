@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Have something on your mind?",
     "title": "Let's talk",
-    "sub": "Whether you're a founder exploring your options or just curious about what we do — every conversation is confidential."
+    "sub": "Founders exploring their options, and anyone curious about what we do: every conversation is confidential."
   },
   "direct": {
     "heading": "Reach out directly",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "Let's talk about the future of public services",
-    "sub": "Whether you're building digital solutions for the public sector or just curious about how we work — we'd love to hear from you.",
+    "sub": "If you build digital solutions for the public sector, or you're curious about how we work, we'd love to hear from you.",
     "btn": "Discover your growth potential",
     "micro": "Or call Alexander directly:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Privacy policy",
     "cookie": "Cookie policy",
     "updated": "Stay updated",
-    "updated_sub": "Get the latest from PubliX — acquisitions, insights and founder stories.",
+    "updated_sub": "Get the latest from PubliX: acquisitions, insights and founder stories.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Subscribed!&lt;/span&gt;",
     "newsletter_ph": "your@email.se",
     "subscribe": "Subscribe",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Nyheter — PubliX Group",
-    "description": "De senaste nyheterna från PubliX Group – förvärv, partnerskap och milstolpar när vi bygger den ledande SaaS-plattformen för offentlig sektor i Norden.",
+    "description": "De senaste nyheterna från PubliX Group: förvärv, partnerskap och milstolpar när vi bygger den ledande SaaS-plattformen för offentlig sektor i Norden.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -21,7 +21,7 @@
   "hero": {
     "eyebrow": "Nyheter",
     "title": "Vad händer på&nbsp;PubliX",
-    "sub": "Följ vår resa när vi samarbetar med grundarledda SaaS-bolag i Norden – ett förvärv i taget."
+    "sub": "Förvärv, partnerskap och milstolpar från PubliX Group och bolagen i portföljen."
   },
   "grid": {
     "filter_all": "Alla",
@@ -63,7 +63,7 @@
       "logo_alt": "Sotender",
       "date": "4 maj 2026",
       "badge": "Milstolpe",
-      "title": "Sotender lanseras i Sverige — Suomikoti första kund",
+      "title": "Sotender lanseras i Sverige: Suomikoti första kund",
       "excerpt": "Finska vikarieplattformen Sotender lanseras i Sverige. Suomikoti, ett finskspråkigt vård- och omsorgsboende i Enskede med 53 platser, blir första svenska kund.",
       "slug": "sotender-launches-sweden-suomikoti"
     },
@@ -124,13 +124,13 @@
       "date": "25 augusti 2025",
       "badge": "Förvärv",
       "title": "PubliX Group välkomnar Tidvis",
-      "excerpt": "Stärker digitala omsorgslösningar i Norden – Tidvis utvecklar plattformar för socialtjänsten och hjälper kommuner att hantera ärenden och regelefterlevnad.",
+      "excerpt": "Stärker digitala omsorgslösningar i Norden: Tidvis utvecklar plattformar för socialtjänsten och hjälper kommuner att hantera ärenden och regelefterlevnad.",
       "slug": "tidvis"
     }
   ],
   "cta": {
     "title": "Funderar du på ditt nästa kapitel?",
-    "sub": "Oavsett om du utforskar dina alternativ, är nyfiken på var ditt bolag står eller bara vill prata med någon som förstår din marknad – välkomnar vi samtalet.",
+    "sub": "Kanske utforskar du dina alternativ, eller vill du bara prata med någon som förstår din marknad. Vi välkomnar samtalet.",
     "btn": "Upptäck din tillväxtpotential",
     "email_btn": "Eller mejla Alexander direkt"
   },

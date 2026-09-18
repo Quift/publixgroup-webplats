@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Uutiset — PubliX Group",
-    "description": "Viimeisimmät uutiset PubliX Groupilta – yrityskaupat, kumppanuudet ja virstanpylväät, kun rakennamme johtavaa julkisen sektorin SaaS-alustaa Pohjoismaissa.",
+    "description": "Viimeisimmät uutiset PubliX Groupilta: yrityskaupat, kumppanuudet ja virstanpylväät, kun rakennamme johtavaa julkisen sektorin SaaS-alustaa Pohjoismaissa.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -21,7 +21,7 @@
   "hero": {
     "eyebrow": "Uutiset",
     "title": "Mitä PubliXilla&nbsp;tapahtuu",
-    "sub": "Seuraa matkaamme, kun teemme yhteistyötä perustajavetoisten SaaS-yritysten kanssa ympäri Pohjoismaita — yksi yrityskauppa kerrallaan."
+    "sub": "Yrityskauppoja, kumppanuuksia ja virstanpylväitä PubliX Groupilta ja salkun yrityksiltä."
   },
   "grid": {
     "filter_all": "Kaikki",
@@ -63,7 +63,7 @@
       "logo_alt": "Sotender",
       "date": "4. toukokuuta 2026",
       "badge": "Merkkipaalu",
-      "title": "Sotender laajentaa Ruotsiin — Suomikoti ensimmäinen asiakas",
+      "title": "Sotender laajentaa Ruotsiin: Suomikoti ensimmäinen asiakas",
       "excerpt": "Koivu Solutionsin Sotender-alusta laajentaa Ruotsiin. Ensimmäinen asiakas on Suomikoti Tukholmassa. Sote-alan sijaishallinta jopa 60 % nopeammin.",
       "slug": "sotender-launches-sweden-suomikoti"
     },
@@ -124,13 +124,13 @@
       "date": "25. elokuuta 2025",
       "badge": "Yrityskauppa",
       "title": "PubliX Group toivottaa Tidvisin tervetulleeksi",
-      "excerpt": "Digitaalisten hoitoratkaisujen vahvistaminen Pohjoismaissa — Tidvis kehittää sosiaalipalvelujen alustoja, auttaen kuntia hallitsemaan asiakastyötä ja vaatimustenmukaisuutta.",
+      "excerpt": "Digitaalisten hoitoratkaisujen vahvistaminen Pohjoismaissa: Tidvis kehittää sosiaalipalvelujen alustoja, auttaen kuntia hallitsemaan asiakastyötä ja vaatimustenmukaisuutta.",
       "slug": "tidvis"
     }
   ],
   "cta": {
     "title": "Mietitkö seuraavaa lukua?",
-    "sub": "Etsitpä sitten vaihtoehtoja, olet utelias yrityksesi tilanteesta tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi – keskustelemme mielellämme.",
+    "sub": "Ehkä kartoitat vaihtoehtojasi, tai haluat vain puhua jonkun kanssa, joka ymmärtää markkinaasi. Keskustelemme mielellämme.",
     "btn": "Löydä kasvupotentiaalisi",
     "email_btn": "Tai lähetä sähköpostia suoraan Alexanderille"
   },

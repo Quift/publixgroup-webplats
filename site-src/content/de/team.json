@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Unser Team — PubliX Group",
-    "description": "Das Team hinter der PubliX Group — Betreiber, Gründer und Vorstand, die die Wachstumsplattform für SaaS im öffentlichen Sektor aufbauen.",
+    "description": "Das Team hinter der PubliX Group: Betreiber, Gründer und Vorstand, die die Wachstumsplattform für SaaS im öffentlichen Sektor aufbauen.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -135,7 +135,7 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri leitet Aspicore, dessen Plattform Apuraha4 den gesamten Lebenszyklus von Fördermitteln für finnische Stiftungen, Universitäten und Behörden verwaltet – aufgebaut auf zwei Jahrzehnten Arbeit mit Fördermittelsystemen."
+        "bio": "Harri leitet Aspicore, dessen Plattform Apuraha4 den gesamten Lebenszyklus von Fördermitteln für finnische Stiftungen, Universitäten und Behörden verwaltet, aufgebaut auf zwei Jahrzehnten Arbeit mit Fördermittelsystemen."
       },
       {
         "name": "Janne Salmi",
@@ -222,7 +222,7 @@
   },
   "cta": {
     "title": "Denken Sie über Ihr nächstes Kapitel nach?",
-    "sub": "Ob Sie Ihre Optionen ausloten, wissen möchten, wo Ihr Unternehmen steht, oder einfach nur mit jemandem sprechen möchten, der Ihren Markt versteht — wir freuen uns auf das Gespräch.",
+    "sub": "Vielleicht loten Sie Ihre Möglichkeiten aus, oder Sie möchten einfach mit jemandem sprechen, der Ihren Markt versteht. Wir freuen uns auf das Gespräch.",
     "btn": "Entdecken Sie Ihr Wachstumspotenzial",
     "btn2": "Oder schreiben Sie Alexander direkt eine E-Mail"
   },

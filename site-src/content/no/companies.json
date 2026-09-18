@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Våre Selskaper — PubliX Group Portefølje",
-    "description": "De seks gründerledede SaaS-selskapene i PubliX Groups portefølje som bygger virksomhetskritisk programvare for nordiske offentlige tjenester.",
+    "description": "De seks gründerledede SaaS-selskapene i PubliX Groups portefølje som bygger samfunnsviktig programvare for nordiske offentlige tjenester.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -22,7 +22,7 @@
     "cls": "companies-hero__",
     "eyebrow": "Våre selskaper",
     "title": "Gründerledet, oppdrags&#8209;drevet",
-    "sub": "Hvert selskap i PubliX-porteføljen ble bygget av gründere med et sterkt engasjement for offentlige tjenester. De valgte å slutte seg til oss – og ble værende for å bygge videre."
+    "sub": "Hvert selskap i PubliX-porteføljen ble bygget av gründere med et sterkt engasjement for offentlige tjenester. De valgte å slutte seg til oss og ble værende for å bygge videre."
   },
   "portfolio": {
     "grid_tail": "\n"
@@ -36,7 +36,7 @@
       "badge_class": "brand",
       "badge": "Sosialomsorg",
       "name": "Tidvis",
-      "desc": "Tidvis leverer et integrert forretningssystem for sosialomsorgssektoren — bemanningsplanlegging, tidsregistrering, lønn og dokumentasjon i én plattform for leverandører av personlig assistanse og LSS-tjenester. Verktøyene er designet av folk som forstår hverdagen i omsorgsarbeidet.",
+      "desc": "Tidvis leverer et integrert forretningssystem for sosialomsorgssektoren: bemanningsplanlegging, tidsregistrering, lønn og dokumentasjon i én plattform for leverandører av personlig assistanse og LSS-tjenester. Verktøyene er designet av folk som forstår hverdagen i omsorgsarbeidet.",
       "avatar": "{{R}}img/team-adam-hjort.jpg",
       "founder": "Adam Hjort",
       "role": "Administrerende direktør",
@@ -52,7 +52,7 @@
       "badge_class": "info",
       "badge": "Tilskuddsforvaltning",
       "name": "digiPlant",
-      "desc": "digiPlant utvikler SBS Manager, en søknadshåndteringsplattform for stiftelser, sponsorer og offentlige organisasjoner — fra mottak av søknader til vurdering, vedtak og utbetaling. Enklere søknader, kortere behandlingstid og flere utbetalte tilskudd.",
+      "desc": "digiPlant utvikler SBS Manager, en søknadshåndteringsplattform for stiftelser, sponsorer og offentlige organisasjoner, fra mottak av søknader til vurdering, vedtak og utbetaling. Enklere søknader, kortere behandlingstid og flere utbetalte tilskudd.",
       "avatar": "/img/team-alexander-tornqvist.jpg",
       "founder": "Alexander Törnqvist",
       "role": "Medgründer &amp; administrerende direktør",
@@ -132,7 +132,7 @@
   "timeline": {
     "eyebrow": "Etter oppkjøpet",
     "title": "Hva som skjer etter at du slutter deg til",
-    "sub": "Å slutte seg til PubliX er designet for å være sømløst. Slik ser det første året ut for et typisk porteføljeselskap.",
+    "sub": "Å slutte seg til PubliX skal være enkelt. Slik ser det første året ut for et typisk porteføljeselskap.",
     "t1_title": "Første dag: Ingenting endres",
     "t1_desc": "Ditt team, ditt kontor, dine kunder. Vi er ikke her for å omorganisere.",
     "t2_title": "Måned 1–3: Fundament",
@@ -145,7 +145,7 @@
   },
   "cta": {
     "title": "Tenker du på ditt neste kapittel?",
-    "sub": "Enten du utforsker mulighetene dine, er nysgjerrig på hvor selskapet ditt står, eller bare ønsker å snakke med noen som forstår markedet ditt – ser vi frem til en samtale.",
+    "sub": "Kanskje utforsker du mulighetene dine, eller vil du bare snakke med noen som forstår markedet ditt. Vi ser frem til en samtale.",
     "btn": "Oppdag ditt vekstpotensial",
     "email": "Eller send e-post til Alexander direkte"
   },

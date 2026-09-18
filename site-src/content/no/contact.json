@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Har du noe på hjertet?",
     "title": "La oss ta en prat",
-    "sub": "Enten du er en gründer som utforsker alternativene dine eller bare er nysgjerrig på hva vi gjør – enhver samtale er konfidensiell."
+    "sub": "Gründere som utforsker alternativene sine, og alle som er nysgjerrige på hva vi gjør: enhver samtale er konfidensiell."
   },
   "direct": {
     "heading": "Ta direkte kontakt",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "La oss snakke om fremtiden for offentlige tjenester",
-    "sub": "Enten du bygger digitale løsninger for offentlig sektor eller bare er nysgjerrig på hvordan vi jobber – vi vil gjerne høre fra deg.",
+    "sub": "Bygger du digitale løsninger for offentlig sektor, eller er du nysgjerrig på hvordan vi jobber? Vi vil gjerne høre fra deg.",
     "btn": "Oppdag ditt vekstpotensial",
     "micro": "Eller ring Alexander direkte:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Personvernerklæring",
     "cookie": "Informasjonskapselpolicy",
     "updated": "Hold deg oppdatert",
-    "updated_sub": "Få siste nytt fra PubliX – oppkjøp, innsikt og gründerhistorier.",
+    "updated_sub": "Få siste nytt fra PubliX: oppkjøp, innsikt og gründerhistorier.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Abonnert!&lt;/span&gt;",
     "newsletter_ph": "din@epost.no",
     "subscribe": "Abonner",

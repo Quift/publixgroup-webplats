@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "News — PubliX Group",
-    "description": "The latest news from PubliX Group — acquisitions, partnerships and milestones as we build the leading public-sector SaaS platform in the Nordics.",
+    "description": "The latest news from PubliX Group: acquisitions, partnerships and milestones as we build the leading public-sector SaaS platform in the Nordics.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -21,7 +21,7 @@
   "hero": {
     "eyebrow": "News",
     "title": "What's happening at&nbsp;PubliX",
-    "sub": "Follow our journey as we partner with founder-led SaaS companies across the Nordics — one acquisition at a time."
+    "sub": "Acquisitions, partnerships and milestones from PubliX Group and the companies in the portfolio."
   },
   "grid": {
     "filter_all": "All",
@@ -63,7 +63,7 @@
       "logo_alt": "Sotender",
       "date": "May 4, 2026",
       "badge": "Milestone",
-      "title": "Sotender launches in Sweden — Suomikoti is first customer",
+      "title": "Sotender launches in Sweden: Suomikoti is first customer",
       "excerpt": "Finnish SaaS platform Sotender enters the Swedish market. Suomikoti, a Finnish-speaking care home in Enskede with 53 places, becomes the first Swedish customer.",
       "slug": "sotender-launches-sweden-suomikoti"
     },
@@ -124,13 +124,13 @@
       "date": "August 25, 2025",
       "badge": "Acquisition",
       "title": "PubliX Group welcomes Tidvis",
-      "excerpt": "Strengthening digital care solutions in the Nordics — Tidvis develops platforms for social services, helping municipalities manage case work and compliance.",
+      "excerpt": "Strengthening digital care solutions in the Nordics: Tidvis develops platforms for social services, helping municipalities manage case work and compliance.",
       "slug": "tidvis"
     }
   ],
   "cta": {
     "title": "Thinking about your next chapter?",
-    "sub": "Whether you're exploring your options, curious about where your company stands, or just want to talk to someone who understands your market — we'd welcome the conversation.",
+    "sub": "Maybe you're exploring your options, or just want to talk to someone who understands your market. We'd welcome the conversation.",
     "btn": "Discover your growth potential",
     "email_btn": "Or email Alexander directly"
   },

@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "Onko sinulla jotain mielessä?",
     "title": "Keskustellaan",
-    "sub": "Olitpa sitten perustaja etsimässä vaihtoehtoja tai vain utelias toiminnastamme – jokainen keskustelu on luottamuksellinen."
+    "sub": "Vaihtoehtojaan kartoittavat perustajat ja kaikki toiminnastamme kiinnostuneet: jokainen keskustelu on luottamuksellinen."
   },
   "direct": {
     "heading": "Ota yhteyttä suoraan",
@@ -45,7 +45,7 @@
   },
   "cta": {
     "title": "Keskustellaan julkisten palvelujen tulevaisuudesta",
-    "sub": "Rakennetpa digitaalisia ratkaisuja julkiselle sektorille tai olet vain utelias toiminnastamme — kuulisimme sinusta mielellämme.",
+    "sub": "Rakennatko digitaalisia ratkaisuja julkiselle sektorille, tai oletko utelias toiminnastamme? Kuulisimme sinusta mielellämme.",
     "btn": "Löydä kasvupotentiaalisi",
     "micro": "Tai soita suoraan Alexanderille:"
   },
@@ -58,7 +58,7 @@
     "privacy": "Tietosuojakäytäntö",
     "cookie": "Evästekäytäntö",
     "updated": "Pysy ajan tasalla",
-    "updated_sub": "Saa viimeisimmät uutiset PubliXiltä – yrityskaupat, näkemykset ja perustajien tarinat.",
+    "updated_sub": "Saa viimeisimmät uutiset PubliXiltä: yrityskaupat, näkemykset ja perustajien tarinat.",
     "newsletter_success": "&lt;span style=&#39;color:var(--azure-400);&#39;&gt;✓ Tilattu!&lt;/span&gt;",
     "newsletter_ph": "sinun@sahkoposti.fi",
     "subscribe": "Tilaa",

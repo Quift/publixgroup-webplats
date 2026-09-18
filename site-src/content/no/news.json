@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Nyheter — PubliX Group",
-    "description": "Siste nytt fra PubliX Group – oppkjøp, partnerskap og milepæler mens vi bygger den ledende SaaS-plattformen for offentlig sektor i Norden.",
+    "description": "Siste nytt fra PubliX Group: oppkjøp, partnerskap og milepæler mens vi bygger den ledende SaaS-plattformen for offentlig sektor i Norden.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -21,7 +21,7 @@
   "hero": {
     "eyebrow": "Nyheter",
     "title": "Hva skjer hos&nbsp;PubliX",
-    "sub": "Følg reisen vår mens vi inngår partnerskap med gründerledede SaaS-selskaper i Norden – ett oppkjøp av gangen."
+    "sub": "Oppkjøp, partnerskap og milepæler fra PubliX Group og selskapene i porteføljen."
   },
   "grid": {
     "filter_all": "Alle",
@@ -63,7 +63,7 @@
       "logo_alt": "Sotender",
       "date": "4. mai 2026",
       "badge": "Milepæl",
-      "title": "Sotender lanseres i Sverige — Suomikoti er første kunde",
+      "title": "Sotender lanseres i Sverige: Suomikoti er første kunde",
       "excerpt": "Finsk SaaS-plattform Sotender kommer til det svenske markedet. Suomikoti, et finsktalende omsorgstilbud i Enskede med 53 plasser, blir første svenske kunde.",
       "slug": "sotender-launches-sweden-suomikoti"
     },
@@ -124,13 +124,13 @@
       "date": "25. august 2025",
       "badge": "Oppkjøp",
       "title": "PubliX Group ønsker Tidvis velkommen",
-      "excerpt": "Styrker digitale omsorgsløsninger i Norden – Tidvis utvikler plattformer for sosiale tjenester som hjelper kommuner med saksbehandling og etterlevelse.",
+      "excerpt": "Styrker digitale omsorgsløsninger i Norden: Tidvis utvikler plattformer for sosiale tjenester som hjelper kommuner med saksbehandling og etterlevelse.",
       "slug": "tidvis"
     }
   ],
   "cta": {
     "title": "Tenker du på ditt neste kapittel?",
-    "sub": "Enten du utforsker mulighetene dine, er nysgjerrig på hvor selskapet ditt står, eller bare ønsker å snakke med noen som forstår markedet ditt – ser vi frem til en samtale.",
+    "sub": "Kanskje utforsker du mulighetene dine, eller vil du bare snakke med noen som forstår markedet ditt. Vi ser frem til en samtale.",
     "btn": "Oppdag ditt vekstpotensial",
     "email_btn": "Eller send e-post til Alexander direkte"
   },
