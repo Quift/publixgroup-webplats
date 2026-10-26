@@ -234,5 +234,11 @@
     "bleau_loc": "Aarhus, Tanska",
     "bleau_desc": "moliri: vaatimustenmukaisuuteen perustuva digitaalinen viestintä julkiselle sektorille, jossa sisältö tarkistetaan saavutettavuuden ja turvallisuuden osalta ennen julkaisua.",
     "aspicore_role": "Toimitusjohtaja"
+  },
+  "video": {
+    "kicker": "Katso vastaus",
+    "kicker_all": "Toimitusjohtajamme omin sanoin",
+    "full": "Katso koko haastattelu",
+    "who_all": "Kuusi toimitusjohtajaa PubliX Groupista"
   }
 }

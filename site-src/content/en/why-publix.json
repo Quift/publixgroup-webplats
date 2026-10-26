@@ -156,5 +156,21 @@
     "subscribe": "Subscribe",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, CEO"
+  },
+  "video": {
+    "kicker": "Watch the answer",
+    "kicker_ceo": "From our Group CEO",
+    "kicker_all": "Our CEOs in their own words",
+    "full": "Watch the full interview",
+    "who_all": "Six CEOs in the PubliX Group",
+    "role_alexander": "Group CEO, PubliX Group",
+    "role_embrace": "CEO, Embrace Safety",
+    "role_aspicore": "CEO, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Planning your succession?",
+    "title": "A new owner who backs the next generation",
+    "p1": "For many founders, the next step is a change of ownership: a founder retiring, a family deciding what happens to the company. It is a big decision, for you and for the people who built the company with you.",
+    "p2": "With PubliX, the company stays and gets broader shoulders. We support the next leader in day-to-day operations and in the strategic questions, and we bring in competence that a company your size rarely can hire on its own."
   }
 }

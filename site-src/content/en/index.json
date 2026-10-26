@@ -234,5 +234,11 @@
     "bleau_loc": "Aarhus, Denmark",
     "bleau_desc": "moliri: compliance-driven digital communication for the public sector, where content is checked for accessibility and security before it is published.",
     "aspicore_role": "CEO"
+  },
+  "video": {
+    "kicker": "Watch the answer",
+    "kicker_all": "Our CEOs in their own words",
+    "full": "Watch the full interview",
+    "who_all": "Six CEOs in the PubliX Group"
   }
 }

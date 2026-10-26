@@ -156,5 +156,21 @@
     "subscribe": "Tilaa",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, CEO"
+  },
+  "video": {
+    "kicker": "Katso vastaus",
+    "kicker_ceo": "Konsernijohtajaltamme",
+    "kicker_all": "Toimitusjohtajamme omin sanoin",
+    "full": "Katso koko haastattelu",
+    "who_all": "Kuusi toimitusjohtajaa PubliX Groupista",
+    "role_alexander": "Konsernijohtaja, PubliX Group",
+    "role_embrace": "Toimitusjohtaja, Embrace Safety",
+    "role_aspicore": "Toimitusjohtaja, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Suunnitteletko sukupolvenvaihdosta?",
+    "title": "Uusi omistaja, joka tukee seuraavaa sukupolvea",
+    "p1": "Monelle perustajalle seuraava askel on omistajanvaihdos: perustaja jää eläkkeelle tai perhe päättää yrityksen tulevaisuudesta. Se on iso päätös sinulle ja niille, jotka ovat rakentaneet yrityksen kanssasi.",
+    "p2": "PubliX-konsernissa yritys säilyy ja saa leveämmät hartiat. Tuemme seuraavaa johtajaa niin päivittäisessä toiminnassa kuin strategisissa kysymyksissä, ja tuomme osaamista, jota teidän kokoisenne yritys harvoin pystyy palkkaamaan itse."
   }
 }

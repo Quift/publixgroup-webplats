@@ -308,3 +308,46 @@ html[lang="de"] .stats-bar__label {
 .founder-quote__cite-name { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-body);
   color: #fff; margin: 0 0 2px; }
 .founder-quote__cite-role { font-size: var(--fs-body-sm); color: var(--navy-300); margin: 0; }
+
+/* ============================ VIDEO ANSWER ============================ */
+/* Founder film folded in under a question header — used on home and why-publix.
+   <details> folds without JS; js/video.js adds subtitle tracks, play/pause on
+   toggle and the switch to the full interview. preload="none": nothing loads before a click. */
+.video-answer { margin-top: 28px; border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);
+  background: var(--surface-card); box-shadow: var(--shadow-xs); overflow: hidden;
+  transition: box-shadow var(--dur-base); text-align: left; }
+.video-answer:hover, .video-answer[open] { box-shadow: var(--shadow-sm); }
+.video-answer--center { max-width: 720px; margin-left: auto; margin-right: auto; }
+.video-answer__toggle { display: flex; align-items: center; gap: 16px; padding: 12px 20px 12px 12px;
+  cursor: pointer; list-style: none; }
+.video-answer__toggle::-webkit-details-marker { display: none; }
+.video-answer__thumb { position: relative; flex-shrink: 0; width: 112px; aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md); overflow: hidden; background: var(--navy-800); }
+.video-answer__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.video-answer__thumb i { position: absolute; inset: 0; margin: auto; width: 36px; height: 36px; border-radius: 50%;
+  background: rgba(14,34,64,0.72); color: #fff; font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background var(--dur-base), transform var(--dur-base) var(--ease-standard); }
+.video-answer__toggle:hover .video-answer__thumb i { background: var(--azure-600); transform: scale(1.08); }
+.video-answer__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.video-answer__kicker { font-size: var(--fs-caption); font-weight: var(--fw-semibold); color: var(--azure-600);
+  letter-spacing: 0.04em; text-transform: uppercase; }
+.video-answer__who { font-family: var(--font-display); font-weight: var(--fw-semibold); font-size: var(--fs-body-sm);
+  color: var(--text-strong); line-height: 1.35; }
+.video-answer__role { display: block; font-family: var(--font-text); font-weight: var(--fw-regular); color: var(--text-muted); }
+.video-answer__body video::cue { font-family: var(--font-text); background: rgba(14,34,64,0.78); }
+.video-answer__dur { flex-shrink: 0; font-family: var(--font-mono); font-size: var(--fs-caption);
+  color: var(--text-muted); }
+.video-answer[open] .video-answer__thumb i { background: var(--azure-600); }
+.video-answer__body { padding: 0 12px 12px; }
+.video-answer__body video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000;
+  border-radius: var(--radius-md); }
+.video-answer__full { margin-top: 10px; display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px;
+  background: none; border: none; cursor: pointer; font-family: var(--font-text); font-size: var(--fs-body-sm);
+  font-weight: var(--fw-semibold); color: var(--azure-600); }
+.video-answer__full:hover { color: var(--azure-700); }
+.video-answer__full[hidden] { display: none; }
+@media (max-width: 560px) {
+  .video-answer__toggle { gap: 12px; padding-right: 14px; }
+  .video-answer__thumb { width: 80px; }
+}

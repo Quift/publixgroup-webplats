@@ -156,5 +156,21 @@
     "subscribe": "Abonnieren",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, CEO"
+  },
+  "video": {
+    "kicker": "Die Antwort ansehen",
+    "kicker_ceo": "Von unserem Group CEO",
+    "kicker_all": "Unsere CEOs in eigenen Worten",
+    "full": "Das ganze Interview ansehen",
+    "who_all": "Sechs CEOs der PubliX Group",
+    "role_alexander": "Group CEO, PubliX Group",
+    "role_embrace": "CEO, Embrace Safety",
+    "role_aspicore": "CEO, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Planen Sie Ihre Nachfolge?",
+    "title": "Ein neuer Eigentümer, der die nächste Generation stärkt",
+    "p1": "Für viele Gründer ist der nächste Schritt ein Eigentümerwechsel: Ein Gründer geht in den Ruhestand, eine Familie entscheidet über die Zukunft des Unternehmens. Das ist eine große Entscheidung, für Sie und für die Menschen, die das Unternehmen mit Ihnen aufgebaut haben.",
+    "p2": "Mit PubliX bleibt das Unternehmen bestehen und bekommt breitere Schultern. Wir unterstützen die nächste Führungskraft im Tagesgeschäft und bei strategischen Fragen und bringen Kompetenzen ein, die ein Unternehmen Ihrer Größe selten allein einstellen kann."
   }
 }

@@ -125,6 +125,20 @@
       <p>{{narrative.p1}}</p>
       <p>{{narrative.p2}}</p>
       <p>{{narrative.p3}}</p>
+      <details class="video-answer">
+        <summary class="video-answer__toggle">
+          <span class="video-answer__thumb"><img src="{{R}}video/li_1_alexander.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+          <span class="video-answer__text">
+            <span class="video-answer__kicker">{{video.kicker_ceo}}</span>
+            <span class="video-answer__who">Alexander Hübel <span class="video-answer__role">{{video.role_alexander}}</span></span>
+          </span>
+          <span class="video-answer__dur">0:57</span>
+        </summary>
+        <div class="video-answer__body">
+          <video controls playsinline preload="none" poster="{{R}}video/li_1_alexander.jpg" data-src="{{R}}video/li_1_alexander"></video>
+          <button type="button" class="video-answer__full" data-src="{{R}}video/vd_alexander"><i class="ph ph-film-strip"></i> {{video.full}} (3:16)</button>
+        </div>
+      </details>
     </div>
   </div>
 </section>
@@ -194,6 +208,19 @@
     <div class="testimonials__head fade-in">
       <span class="eyebrow eyebrow--question">{{testimonials.eyebrow}}</span>
       <h2 class="section-title">{{testimonials.title}}</h2>
+      <details class="video-answer video-answer--center">
+        <summary class="video-answer__toggle">
+          <span class="video-answer__thumb"><img src="{{R}}video/sammanstallning.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+          <span class="video-answer__text">
+            <span class="video-answer__kicker">{{video.kicker_all}}</span>
+            <span class="video-answer__who">{{video.who_all}}</span>
+          </span>
+          <span class="video-answer__dur">2:07</span>
+        </summary>
+        <div class="video-answer__body">
+          <video controls playsinline preload="none" poster="{{R}}video/sammanstallning.jpg" data-src="{{R}}video/sammanstallning"></video>
+        </div>
+      </details>
     </div>
     <div class="testimonials__grid fade-in fade-in-d1">
       <div class="testimonial">
@@ -236,6 +263,32 @@
   </div>
 </section>
 
+<!-- ======================== SUCCESSION ======================== -->
+<section class="narrative narrative--alt">
+  <div class="container">
+    <div class="narrative__inner fade-in">
+      <span class="eyebrow eyebrow--question">{{succession.eyebrow}}</span>
+      <h2 class="section-title">{{succession.title}}</h2>
+      <p>{{succession.p1}}</p>
+      <p>{{succession.p2}}</p>
+      <details class="video-answer">
+        <summary class="video-answer__toggle">
+          <span class="video-answer__thumb"><img src="{{R}}video/li_2_aspicore.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+          <span class="video-answer__text">
+            <span class="video-answer__kicker">{{video.kicker}}</span>
+            <span class="video-answer__who">Harri Tanner <span class="video-answer__role">{{video.role_aspicore}}</span></span>
+          </span>
+          <span class="video-answer__dur">1:02</span>
+        </summary>
+        <div class="video-answer__body">
+          <video controls playsinline preload="none" poster="{{R}}video/li_2_aspicore.jpg" data-src="{{R}}video/li_2_aspicore"></video>
+          <button type="button" class="video-answer__full" data-src="{{R}}video/vd_aspicore"><i class="ph ph-film-strip"></i> {{video.full}} (2:32)</button>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- ======================== OUR PROCESS ======================== -->
 <section class="timeline-section" id="process" style="padding: var(--section-y) 0;">
   <div class="container">
@@ -243,6 +296,20 @@
       <span class="eyebrow eyebrow--question">{{process.eyebrow}}</span>
       <h2 class="section-title">{{process.title}}</h2>
       <p class="section-sub" style="max-width: 62ch; margin-left: auto; margin-right: auto;">{{process.sub}}</p>
+      <details class="video-answer video-answer--center">
+        <summary class="video-answer__toggle">
+          <span class="video-answer__thumb"><img src="{{R}}video/li_3_embrace.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+          <span class="video-answer__text">
+            <span class="video-answer__kicker">{{video.kicker}}</span>
+            <span class="video-answer__who">Johan Rydberg <span class="video-answer__role">{{video.role_embrace}}</span></span>
+          </span>
+          <span class="video-answer__dur">0:48</span>
+        </summary>
+        <div class="video-answer__body">
+          <video controls playsinline preload="none" poster="{{R}}video/li_3_embrace.jpg" data-src="{{R}}video/li_3_embrace"></video>
+          <button type="button" class="video-answer__full" data-src="{{R}}video/vd_embrace"><i class="ph ph-film-strip"></i> {{video.full}} (2:01)</button>
+        </div>
+      </details>
     </div>
     <div class="timeline">
 
@@ -484,6 +551,7 @@ document.querySelectorAll('.faq__question').forEach(btn => {
 });
 
 </script>
+<script src="{{R}}js/video.js" defer></script>
 <script src="{{R}}js/lang.js"></script>
 <script src="{{R}}js/forms.js"></script>
 </body>

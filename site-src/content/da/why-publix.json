@@ -156,5 +156,21 @@
     "subscribe": "Tilmeld",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, CEO"
+  },
+  "video": {
+    "kicker": "Se svaret",
+    "kicker_ceo": "Fra vores Group CEO",
+    "kicker_all": "Vores CEO’er med egne ord",
+    "full": "Se hele interviewet",
+    "who_all": "Seks CEO’er i PubliX Group",
+    "role_alexander": "Group CEO, PubliX Group",
+    "role_embrace": "CEO, Embrace Safety",
+    "role_aspicore": "CEO, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Overvejer du et generationsskifte?",
+    "title": "En ny ejer, der bakker den næste generation op",
+    "p1": "For mange stiftere er næste skridt et ejerskifte: en stifter, der går på pension, en familie, der skal beslutte virksomhedens fremtid. Det er en stor beslutning, for dig og for dem, der har bygget virksomheden sammen med dig.",
+    "p2": "Med PubliX bliver virksomheden, og den får bredere skuldre. Vi støtter den næste leder i den daglige drift og i de strategiske spørgsmål, og vi henter kompetencer ind, som en virksomhed i jeres størrelse sjældent kan ansætte på egen hånd."
   }
 }

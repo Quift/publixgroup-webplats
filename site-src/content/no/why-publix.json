@@ -156,5 +156,21 @@
     "subscribe": "Abonner",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, administrerende direktør"
+  },
+  "video": {
+    "kicker": "Se svaret",
+    "kicker_ceo": "Fra vår konsernsjef",
+    "kicker_all": "Våre daglige ledere med egne ord",
+    "full": "Se hele intervjuet",
+    "who_all": "Seks daglige ledere i PubliX Group",
+    "role_alexander": "Konsernsjef, PubliX Group",
+    "role_embrace": "Administrerende direktør, Embrace Safety",
+    "role_aspicore": "Administrerende direktør, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Planlegger du et generasjonsskifte?",
+    "title": "En ny eier som støtter neste generasjon",
+    "p1": "For mange gründere er neste steg et eierskifte: en gründer som går av med pensjon, en familie som skal bestemme selskapets fremtid. Det er en stor beslutning, for deg og for dem som har bygget selskapet sammen med deg.",
+    "p2": "Med PubliX blir selskapet værende og får bredere skuldre. Vi støtter neste leder i den daglige driften og i de strategiske spørsmålene, og vi henter inn kompetanse som et selskap av deres størrelse sjelden kan ansette på egen hånd."
   }
 }

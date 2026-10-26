@@ -156,5 +156,21 @@
     "subscribe": "Prenumerera",
     "copyright": "© 2026 PubliX Group AB",
     "ceo_line": "Alexander Hübel, vd"
+  },
+  "video": {
+    "kicker": "Se svaret",
+    "kicker_ceo": "Från vår koncernchef",
+    "kicker_all": "Våra vd:ar med egna ord",
+    "full": "Se hela intervjun",
+    "who_all": "Sex vd:ar i PubliX Group",
+    "role_alexander": "Koncernchef, PubliX Group",
+    "role_embrace": "vd, Embrace Safety",
+    "role_aspicore": "vd, Aspicore"
+  },
+  "succession": {
+    "eyebrow": "Funderar du på ett generationsskifte?",
+    "title": "En ny ägare som backar nästa generation",
+    "p1": "För många grundare är nästa steg ett ägarbyte: en grundare som går i pension, en familj som ska bestämma bolagets framtid. Det är ett stort beslut, för dig och för dem som byggt bolaget tillsammans med dig.",
+    "p2": "Med PubliX blir bolaget kvar och får bredare axlar. Vi stöttar nästa ledare i den dagliga driften och i de strategiska frågorna, och vi tar in kompetens som ett bolag i er storlek sällan kan anställa på egen hand."
   }
 }

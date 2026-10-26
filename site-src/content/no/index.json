@@ -234,5 +234,11 @@
     "bleau_loc": "Aarhus, Danmark",
     "bleau_desc": "moliri: etterlevelsesdrevet digital kommunikasjon for offentlig sektor, der innholdet kontrolleres for tilgjengelighet og sikkerhet før det publiseres.",
     "aspicore_role": "Administrerende direktør"
+  },
+  "video": {
+    "kicker": "Se svaret",
+    "kicker_all": "Våre daglige ledere med egne ord",
+    "full": "Se hele intervjuet",
+    "who_all": "Seks daglige ledere i PubliX Group"
   }
 }
