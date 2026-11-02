@@ -42,7 +42,7 @@ sidor förekommer INTE här:
 
 - Footerns Stockholmsblock (`<h4>Stockholm</h4>` + adress) är IDENTISKT i alla 6 språk på
   cookie/privacy — fi översätter INTE till »Tukholma« här (till skillnad från contact/
-  companies/index) och da/no översätter inte »8tr«. Hårdkodat i mallen per regel 3.
+  companies/index) och da/no översätter inte »7tr«. Hårdkodat i mallen per regel 3.
 - `meta.og_image_alt` är engelsk i alla 6 språk (samma värde, nyckel per konvention).
 - Nyhetsbrevets `aria-label="Email address"` är översatt per språk → nyckel
   `footer.newsletter_aria`.

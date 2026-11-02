@@ -41,7 +41,7 @@ Inget är fixat (SPEC-regel 2) — allt nedan återges byte-exakt.
 - `meta.og_image_alt` är engelsk i alla 6 språk.
 - fi rad 403: CTO-rollen översatt ("teknologiajohtaja, PubliX Group"), övriga språk "CTO, PubliX Group"
   → nyckel `quote.role`.
-- da/no rad 444: kontorsadressen översatt ("Kungsgatan 37, 8. sal" / "8. etasje"), fi rad 443:
+- da/no rad 444: kontorsadressen översatt ("Kungsgatan 37, 7. sal" / "7. etasje"), fi rad 443:
   "Stockholm"-rubriken översatt ("Tukholma") → nycklar `footer.address1`, `footer.office_city`.
 - Testimonial 2 och 3 (Harri Tanner, Janne Salmi) berättar delvis olika historier i EN jämfört
   med översättningarna (t.ex. nämner sv "Sotender", EN inte) — innehållsdivergens, ingen strukturfråga.

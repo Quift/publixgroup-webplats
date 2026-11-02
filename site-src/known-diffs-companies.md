@@ -27,7 +27,7 @@ Allt nedan är BEVARAT byte-exakt (SPEC regel 2) — inget är fixat.
   → nyckel `portfolio.grid_tail` (`"\n"` överallt utom fi: `""`).
 - **fi: footer-rubrik** rad 305: `<h4>Tukholma</h4>` — enda språket som översätter »Stockholm«.
   → nyckel `footer.city`.
-- **no: footer-adressrad** rad 306: `Kungsgatan 37, 8. etasje` — enda språket som översätter »8tr«.
+- **no: footer-adressrad** rad 306: `Kungsgatan 37, 7. etasje` — enda språket som översätter »7tr«.
   → nyckel `footer.address1`.
 
 ## Bevarade egenheter (kvar i mallen, ej nycklar)

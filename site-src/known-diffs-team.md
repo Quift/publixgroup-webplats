@@ -28,8 +28,8 @@ Allt nedan är BEVARAT byte-exakt (SPEC regel 2) — inget är fixat.
   `https://sotender.fi` som alla andra språk har. Ligger i kortets `href`-fält.
 - **fi: footer-rubrik** rad 326: `<h4>Tukholma</h4>` — enda språket som översätter
   »Stockholm«. → nyckel `footer.city`.
-- **da/no: footer-adressrad** rad 327: da `Kungsgatan 37, 8. sal`,
-  no `Kungsgatan 37, 8. etasje` — översätter »8tr« (EN/sv/fi/de: `Kungsgatan 37, 8tr`).
+- **da/no: footer-adressrad** rad 327: da `Kungsgatan 37, 7. sal`,
+  no `Kungsgatan 37, 7. etasje` — översätter »7tr« (EN/sv/fi/de: `Kungsgatan 37, 7tr`).
   → nyckel `footer.address1`.
 
 ## Bevarade egenheter (kvar i mallen, ej nycklar)

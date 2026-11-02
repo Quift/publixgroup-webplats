@@ -26,8 +26,8 @@ Allt nedan är BEVARAT byte-exakt (SPEC regel 2) — inget är fixat. Radnummer 
   → nyckel `ai.section_tail` (`"\n"` överallt utom de: `""`).
 - **fi: footer-rubrik** rad 264: `<h4>Tukholma</h4>` — enda språket som översätter »Stockholm«.
   → nyckel `footer.city`.
-- **da/no: footer-adressrad** rad 265: `Kungsgatan 37, 8. sal` (da) resp.
-  `Kungsgatan 37, 8. etasje` (no) — enda språken som översätter »8tr«.
+- **da/no: footer-adressrad** rad 265: `Kungsgatan 37, 7. sal` (da) resp.
+  `Kungsgatan 37, 7. etasje` (no) — enda språken som översätter »7tr«.
   → nyckel `footer.address1`.
 
 ## Bevarade egenheter (kvar i mallen, ej nycklar)

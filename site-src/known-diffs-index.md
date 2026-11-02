@@ -29,8 +29,8 @@ Alla hanterades som content-nycklar (triviala skillnader per SPEC regel 4) så a
 
 ## Övriga per-språk-avvikelser
 
-- `site/da/index.html` rad 642 — footer-adressen är översatt: `Kungsgatan 37, 8. sal`
-  (no: `8. etasje`; en/sv/fi/de: `8tr`). → nyckel `footer.address1`.
+- `site/da/index.html` rad 642 — footer-adressen är översatt: `Kungsgatan 37, 7. sal`
+  (no: `7. etasje`; en/sv/fi/de: `7tr`). → nyckel `footer.address1`.
 - `site/fi/index.html` rad 641 — footer-rubriken `<h4>` är översatt: `Tukholma`
   (alla andra: `Stockholm`). → nyckel `footer.stockholm`.
 - `site/no/index.html` — Aspicore-rollen skrivs OLIKA i team-sektionen

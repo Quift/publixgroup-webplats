@@ -279,7 +279,7 @@ Om värdena ändras — uppdatera **alla 12 platser** (2 sidor × 6 språk) och 
 ```bash
 grep -rEnH 'Kungsgatan|559485-5487|alexander\.hubel@|info@publixgroup|\+46 76 859 2923' site/ --include="*.html"
 # Alla ska matcha:
-#   Kungsgatan 37, 8tr, 111 56 Stockholm
+#   Kungsgatan 37, 7tr, 111 56 Stockholm
 #   Org. 559485-5487
 #   alexander.hubel@publixgroup.io + info@publixgroup.io
 #   +46 76 859 2923

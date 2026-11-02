@@ -1119,7 +1119,7 @@ function WebFooter({
     onClick: e => e.preventDefault()
   }, "Career")), /*#__PURE__*/React.createElement("div", {
     className: "web-footer__col"
-  }, /*#__PURE__*/React.createElement("h4", null, "Stockholm office"), /*#__PURE__*/React.createElement("span", null, "Kungsgatan 37, 8tr"), /*#__PURE__*/React.createElement("span", null, "111 56 Stockholm, Sweden"), /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React.createElement("h4", null, "Stockholm office"), /*#__PURE__*/React.createElement("span", null, "Kungsgatan 37, 7tr"), /*#__PURE__*/React.createElement("span", null, "111 56 Stockholm, Sweden"), /*#__PURE__*/React.createElement("a", {
     href: "#",
     onClick: e => e.preventDefault()
   }, "Privacy policy"), /*#__PURE__*/React.createElement("a", {

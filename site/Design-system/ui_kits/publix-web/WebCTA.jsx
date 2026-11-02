@@ -32,7 +32,7 @@ function WebFooter({ onNav }) {
         </div>
         <div className="web-footer__col">
           <h4>Stockholm office</h4>
-          <span>Kungsgatan 37, 8tr</span>
+          <span>Kungsgatan 37, 7tr</span>
           <span>111 56 Stockholm, Sweden</span>
           <a href="#" onClick={(e)=>e.preventDefault()}>Privacy policy</a>
           <a href="#" onClick={(e)=>e.preventDefault()}>Cookie policy</a>

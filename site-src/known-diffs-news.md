@@ -24,8 +24,8 @@ Allt nedan är BEVARAT byte-exakt (SPEC regel 2) — inget är fixat.
   `</html>\n` (305 rader). → nyckel `tail` (`"\n"` i en, `""` i övriga).
 - **fi: footer-rubrik** rad 245: `<h4>Tukholma</h4>` — enda språket som översätter »Stockholm«.
   → nyckel `footer.city`.
-- **da/no: footer-adressrad** rad 246: da »Kungsgatan 37, 8. sal«, no »Kungsgatan 37, 8. etasje«
-  — enda språken som översätter »8tr« (en/sv/fi/de har »Kungsgatan 37, 8tr«).
+- **da/no: footer-adressrad** rad 246: da »Kungsgatan 37, 7. sal«, no »Kungsgatan 37, 7. etasje«
+  — enda språken som översätter »7tr« (en/sv/fi/de har »Kungsgatan 37, 7tr«).
   → nyckel `footer.address1`.
 
 ## Bevarade egenheter (kvar i mallen, ej nycklar)
