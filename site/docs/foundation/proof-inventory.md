@@ -80,8 +80,8 @@ status: bootstrapped — utöka vid nya claims
 | PI-A01 | Exakt storleksspann för ICP (TBD med Alexander) | Self-selection för bred |
 | PI-A02 | ~~Alla förvärvsdatum i news korrekta~~ — verifierat 2026-09-09: Koivu var fel (stod 2026-02-23, rätt 2025-12-16), Embrace var fel (stod 2026-04-14, rätt 2026-03-05). Båda rättade. | — |
 | PI-A03 | ~~Bleau-kundsiffrorna (22/29)~~ — **löst 2026-09-09**: Robert bekräftade 22/35/250 per e-post. Se PI-036. | — |
-| PI-A07 | Anställda "~60" är fembolagssiffran och gäller inte efter Bleau. **Ingen ny siffra finns** — Bleau publicerar inget antal. Får INTE uppskattas; hämta från Erik Runsten. | Påhittad siffra på publik site |
-| PI-A08 | Omsättning "SEK 90M+" är också fembolagssiffran — behöver Alexander/Erik efter Bleau | Underskattar gruppen utåt |
+| PI-A07 | Anställda "~60" är fembolagssiffran och gäller inte efter Bleau. **Ingen ny siffra finns** — Bleau publicerar inget antal. Får INTE uppskattas; hämta från Alexander (Erik Runsten har slutat). | Påhittad siffra på publik site |
+| PI-A08 | Omsättning "SEK 90M+" är också fembolagssiffran — behöver Alexander efter Bleau | Underskattar gruppen utåt |
 | PI-A09 | ~~"a market leader in CMS" om Bleau~~ — **löst 2026-09-10**: Alexanders andra revidering tog bort påståendet. Ingen marknadsledarclaim ligger kvar på siten. | — |
 | PI-A10 | "same team" — Alexander behöll teamlöftet även i andra revideringen ("Bleau stays Bleau: same name, same team, same product plan"). Krockar med koncernens fyraårsplan om konvertering av leverans-/supportroller. Publicerat på hans begäran. | Löfte om personal som planen inte bär |
 | PI-A04 | Johan Rydbergs deal-citat finns bara på publixgroup.io — ingen oberoende publicering | Behöver Rydbergs skriftliga godkännande |
