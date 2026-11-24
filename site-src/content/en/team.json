@@ -111,7 +111,8 @@
         "photo": "{{R}}img/team-adam-hjort.jpg",
         "alt": "Adam Hjort",
         "li": "https://www.linkedin.com/in/adam-hjort/",
-        "bio": "Adam leads Tidvis, whose platform runs the daily operations of Swedish personal assistance and LSS providers. His understanding of care workers' everyday reality drives the platform's design and development."
+        "bio": "Adam leads Tidvis, whose platform runs the daily operations of Swedish personal assistance and LSS providers. His understanding of care workers' everyday reality drives the platform's design and development.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Alexander Törnqvist",
@@ -119,7 +120,8 @@
         "photo": "/img/team-alexander-tornqvist.jpg",
         "alt": "Alexander Törnqvist",
         "li": "https://www.linkedin.com/in/alexandertornqvist/",
-        "bio": "Alexander co-founded digiPlant to modernise how foundations and grant providers handle applications. Since joining PubliX, his team has continued to build out SBS Manager."
+        "bio": "Alexander co-founded digiPlant to modernise how foundations and grant providers handle applications. Since joining PubliX, his team has continued to build out SBS Manager.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Harri Tanner",
@@ -127,7 +129,8 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri leads Aspicore, whose Apuraha4 platform manages the full grant lifecycle for Finnish foundations, universities and public authorities, built on two decades of work with grant systems."
+        "bio": "Harri leads Aspicore, whose Apuraha4 platform manages the full grant lifecycle for Finnish foundations, universities and public authorities, built on two decades of work with grant systems.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Janne Salmi",
@@ -135,7 +138,8 @@
         "photo": "/img/team-janne-salmi.png",
         "alt": "Janne Salmi",
         "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
-        "bio": "Janne co-founded Koivu Solutions and built Sotender, the platform that connects Finnish healthcare workers with open shifts and reduces reliance on staffing agencies."
+        "bio": "Janne co-founded Koivu Solutions and built Sotender, the platform that connects Finnish healthcare workers with open shifts and reduces reliance on staffing agencies.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Johan Rydberg",
@@ -143,7 +147,8 @@
         "photo": "{{R}}img/team-johan-rydberg.jpg",
         "alt": "Johan Rydberg",
         "li": "https://www.linkedin.com/in/johan-rydberg-a12565184/",
-        "bio": "Johan leads Embrace Safety, helping municipalities and police authorities run knowledge-based crime prevention and safety promotion work."
+        "bio": "Johan leads Embrace Safety, helping municipalities and police authorities run knowledge-based crime prevention and safety promotion work.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Robert G. Filtenborg",
@@ -151,7 +156,17 @@
         "photo": "{{R}}img/team-robert-filtenborg.jpg",
         "alt": "Robert G. Filtenborg",
         "li": "https://www.linkedin.com/company/bleau-a-s",
-        "bio": "Robert leads Bleau, whose platforms moliri and NemBolig carry public-sector and social housing communication in Denmark. He continues to run the company."
+        "bio": "Robert leads Bleau, whose platforms moliri and NemBolig carry public-sector and social housing communication in Denmark. He continues to run the company.",
+        "li_label": "LinkedIn"
+      },
+      {
+        "name": "Simon McIntyre",
+        "role": "Founder &amp; CEO, Elected Technologies",
+        "photo": "{{R}}img/team-simon-mcintyre.jpg",
+        "alt": "Simon McIntyre",
+        "li": "https://www.electedtechnologies.com/",
+        "li_label": "electedtechnologies.com",
+        "bio": "Simon founded Elected Technologies in 2014 and built Caseworker, the casework system used by elected representatives in 16 parliaments around the world. He continues to run the company."
       }
     ]
   },

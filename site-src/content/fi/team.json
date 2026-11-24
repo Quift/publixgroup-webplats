@@ -111,7 +111,8 @@
         "photo": "{{R}}img/team-adam-hjort.jpg",
         "alt": "Adam Hjort",
         "li": "https://www.linkedin.com/in/adam-hjort/",
-        "bio": "Adam johtaa Tidvisiä, jonka alusta pyörittää ruotsalaisten henkilökohtaisen avun ja LSS-palveluntuottajien päivittäistä toimintaa. Hänen ymmärryksensä hoitotyöntekijöiden arjesta ohjaa alustan suunnittelua ja kehitystä."
+        "bio": "Adam johtaa Tidvisiä, jonka alusta pyörittää ruotsalaisten henkilökohtaisen avun ja LSS-palveluntuottajien päivittäistä toimintaa. Hänen ymmärryksensä hoitotyöntekijöiden arjesta ohjaa alustan suunnittelua ja kehitystä.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Alexander Törnqvist",
@@ -119,7 +120,8 @@
         "photo": "/img/team-alexander-tornqvist.jpg",
         "alt": "Alexander Törnqvist",
         "li": "https://www.linkedin.com/in/alexandertornqvist/",
-        "bio": "Alexander on digiPlantin perustajaosakas, joka lähti uudistamaan tapaa, jolla säätiöt ja apurahoittajat käsittelevät hakemuksia. PubliXiin liittymisen jälkeen hänen tiiminsä on jatkanut SBS Managerin kehittämistä."
+        "bio": "Alexander on digiPlantin perustajaosakas, joka lähti uudistamaan tapaa, jolla säätiöt ja apurahoittajat käsittelevät hakemuksia. PubliXiin liittymisen jälkeen hänen tiiminsä on jatkanut SBS Managerin kehittämistä.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Harri Tanner",
@@ -127,7 +129,8 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri johtaa Aspicorea, jonka Apuraha4-alusta hallinnoi koko apurahaprosessin suomalaisille säätiöille, yliopistoille ja julkisille viranomaisille, kahden vuosikymmenen kokemuksella apurahajärjestelmistä."
+        "bio": "Harri johtaa Aspicorea, jonka Apuraha4-alusta hallinnoi koko apurahaprosessin suomalaisille säätiöille, yliopistoille ja julkisille viranomaisille, kahden vuosikymmenen kokemuksella apurahajärjestelmistä.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Janne Salmi",
@@ -135,7 +138,8 @@
         "photo": "/img/team-janne-salmi.png",
         "alt": "Janne Salmi",
         "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
-        "bio": "Janne on Koivu Solutionsin perustajaosakas ja rakensi Sotenderin, alustan joka yhdistää suomalaiset sote-alan työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrausyrityksistä."
+        "bio": "Janne on Koivu Solutionsin perustajaosakas ja rakensi Sotenderin, alustan joka yhdistää suomalaiset sote-alan työntekijät avoimiin työvuoroihin ja vähentää riippuvuutta henkilöstövuokrausyrityksistä.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Johan Rydberg",
@@ -143,7 +147,8 @@
         "photo": "{{R}}img/team-johan-rydberg.jpg",
         "alt": "Johan Rydberg",
         "li": "https://www.linkedin.com/in/johan-rydberg-a12565184/",
-        "bio": "Johan johtaa Embrace Safetyä auttaen kuntia ja poliisiviranomaisia tekemään tietoon perustuvaa rikosten ehkäisy- ja turvallisuustyötä."
+        "bio": "Johan johtaa Embrace Safetyä auttaen kuntia ja poliisiviranomaisia tekemään tietoon perustuvaa rikosten ehkäisy- ja turvallisuustyötä.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Robert G. Filtenborg",
@@ -151,7 +156,17 @@
         "photo": "{{R}}img/team-robert-filtenborg.jpg",
         "alt": "Robert G. Filtenborg",
         "li": "https://www.linkedin.com/company/bleau-a-s",
-        "bio": "Robert johtaa Bleauta, jonka alustat moliri ja NemBolig kantavat julkisen sektorin ja yleishyödyllisen asumisen viestintää Tanskassa. Hän jatkaa yhtiön johdossa."
+        "bio": "Robert johtaa Bleauta, jonka alustat moliri ja NemBolig kantavat julkisen sektorin ja yleishyödyllisen asumisen viestintää Tanskassa. Hän jatkaa yhtiön johdossa.",
+        "li_label": "LinkedIn"
+      },
+      {
+        "name": "Simon McIntyre",
+        "role": "Perustaja ja toimitusjohtaja, Elected Technologies",
+        "photo": "{{R}}img/team-simon-mcintyre.jpg",
+        "alt": "Simon McIntyre",
+        "li": "https://www.electedtechnologies.com/",
+        "li_label": "electedtechnologies.com",
+        "bio": "Simon perusti Elected Technologiesin vuonna 2014 ja rakensi Caseworkerin, asianhallintajärjestelmän, jota luottamushenkilöt käyttävät 16 parlamentissa eri puolilla maailmaa. Hän jatkaa yrityksen johdossa."
       }
     ]
   },

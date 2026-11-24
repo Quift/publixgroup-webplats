@@ -111,7 +111,8 @@
         "photo": "{{R}}img/team-adam-hjort.jpg",
         "alt": "Adam Hjort",
         "li": "https://www.linkedin.com/in/adam-hjort/",
-        "bio": "Adam leitet Tidvis, dessen Plattform den täglichen Betrieb schwedischer Anbieter von persönlicher Assistenz und LSS-Diensten steuert. Sein Verständnis für die alltägliche Realität von Pflegekräften prägt Design und Entwicklung der Plattform."
+        "bio": "Adam leitet Tidvis, dessen Plattform den täglichen Betrieb schwedischer Anbieter von persönlicher Assistenz und LSS-Diensten steuert. Sein Verständnis für die alltägliche Realität von Pflegekräften prägt Design und Entwicklung der Plattform.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Alexander Törnqvist",
@@ -119,7 +120,8 @@
         "photo": "/img/team-alexander-tornqvist.jpg",
         "alt": "Alexander Törnqvist",
         "li": "https://www.linkedin.com/in/alexandertornqvist/",
-        "bio": "Alexander hat digiPlant mitgegründet, um zu modernisieren, wie Stiftungen und Fördermittelgeber Anträge bearbeiten. Seit dem Beitritt zu PubliX hat sein Team den SBS Manager weiter ausgebaut."
+        "bio": "Alexander hat digiPlant mitgegründet, um zu modernisieren, wie Stiftungen und Fördermittelgeber Anträge bearbeiten. Seit dem Beitritt zu PubliX hat sein Team den SBS Manager weiter ausgebaut.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Harri Tanner",
@@ -127,7 +129,8 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri leitet Aspicore, dessen Plattform Apuraha4 den gesamten Lebenszyklus von Fördermitteln für finnische Stiftungen, Universitäten und Behörden verwaltet, aufgebaut auf zwei Jahrzehnten Arbeit mit Fördermittelsystemen."
+        "bio": "Harri leitet Aspicore, dessen Plattform Apuraha4 den gesamten Lebenszyklus von Fördermitteln für finnische Stiftungen, Universitäten und Behörden verwaltet, aufgebaut auf zwei Jahrzehnten Arbeit mit Fördermittelsystemen.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Janne Salmi",
@@ -135,7 +138,8 @@
         "photo": "/img/team-janne-salmi.png",
         "alt": "Janne Salmi",
         "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
-        "bio": "Janne hat Koivu Solutions mitgegründet und Sotender aufgebaut, die Plattform, die im finnischen Gesundheitswesen Tätige mit offenen Schichten verbindet und die Abhängigkeit von Personalvermittlungen verringert."
+        "bio": "Janne hat Koivu Solutions mitgegründet und Sotender aufgebaut, die Plattform, die im finnischen Gesundheitswesen Tätige mit offenen Schichten verbindet und die Abhängigkeit von Personalvermittlungen verringert.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Johan Rydberg",
@@ -143,7 +147,8 @@
         "photo": "{{R}}img/team-johan-rydberg.jpg",
         "alt": "Johan Rydberg",
         "li": "https://www.linkedin.com/in/johan-rydberg-a12565184/",
-        "bio": "Johan leitet Embrace Safety und unterstützt Kommunen und Polizeibehörden bei wissensbasierter Kriminalprävention und Sicherheitsförderung."
+        "bio": "Johan leitet Embrace Safety und unterstützt Kommunen und Polizeibehörden bei wissensbasierter Kriminalprävention und Sicherheitsförderung.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Robert G. Filtenborg",
@@ -151,7 +156,17 @@
         "photo": "{{R}}img/team-robert-filtenborg.jpg",
         "alt": "Robert G. Filtenborg",
         "li": "https://www.linkedin.com/company/bleau-a-s",
-        "bio": "Robert leitet Bleau, dessen Plattformen moliri und NemBolig die Kommunikation des öffentlichen Sektors und des gemeinnützigen Wohnungsbaus in Dänemark tragen. Er führt das Unternehmen weiter."
+        "bio": "Robert leitet Bleau, dessen Plattformen moliri und NemBolig die Kommunikation des öffentlichen Sektors und des gemeinnützigen Wohnungsbaus in Dänemark tragen. Er führt das Unternehmen weiter.",
+        "li_label": "LinkedIn"
+      },
+      {
+        "name": "Simon McIntyre",
+        "role": "Gründer &amp; CEO, Elected Technologies",
+        "photo": "{{R}}img/team-simon-mcintyre.jpg",
+        "alt": "Simon McIntyre",
+        "li": "https://www.electedtechnologies.com/",
+        "li_label": "electedtechnologies.com",
+        "bio": "Simon gründete Elected Technologies 2014 und baute Caseworker auf, das Fallbearbeitungssystem, das Abgeordnete in 16 Parlamenten weltweit nutzen. Er führt das Unternehmen weiter."
       }
     ]
   },

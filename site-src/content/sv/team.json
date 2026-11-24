@@ -111,7 +111,8 @@
         "photo": "{{R}}img/team-adam-hjort.jpg",
         "alt": "Adam Hjort",
         "li": "https://www.linkedin.com/in/adam-hjort/",
-        "bio": "Adam leder Tidvis, vars plattform driver den dagliga verksamheten hos svenska utförare inom personlig assistans och LSS. Hans förståelse för omsorgspersonalens dagliga verklighet driver plattformens design och utveckling."
+        "bio": "Adam leder Tidvis, vars plattform driver den dagliga verksamheten hos svenska utförare inom personlig assistans och LSS. Hans förståelse för omsorgspersonalens dagliga verklighet driver plattformens design och utveckling.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Alexander Törnqvist",
@@ -119,7 +120,8 @@
         "photo": "/img/team-alexander-tornqvist.jpg",
         "alt": "Alexander Törnqvist",
         "li": "https://www.linkedin.com/in/alexandertornqvist/",
-        "bio": "Alexander var med och grundade digiPlant för att modernisera hur stiftelser och bidragsgivare hanterar ansökningar. Sedan de anslöt sig till PubliX har hans team fortsatt att bygga ut SBS Manager."
+        "bio": "Alexander var med och grundade digiPlant för att modernisera hur stiftelser och bidragsgivare hanterar ansökningar. Sedan de anslöt sig till PubliX har hans team fortsatt att bygga ut SBS Manager.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Harri Tanner",
@@ -127,7 +129,8 @@
         "photo": "{{R}}img/team-harri-tanner.jpg",
         "alt": "Harri Tanner",
         "li": "https://www.linkedin.com/in/harri-tanner/",
-        "bio": "Harri leder Aspicore, vars plattform Apuraha4 hanterar hela bidragslivscykeln för finska stiftelser, universitet och myndigheter, byggd på två decenniers arbete med bidragssystem."
+        "bio": "Harri leder Aspicore, vars plattform Apuraha4 hanterar hela bidragslivscykeln för finska stiftelser, universitet och myndigheter, byggd på två decenniers arbete med bidragssystem.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Janne Salmi",
@@ -135,7 +138,8 @@
         "photo": "/img/team-janne-salmi.png",
         "alt": "Janne Salmi",
         "li": "https://www.linkedin.com/in/janne-salmi-42535810/",
-        "bio": "Janne var med och grundade Koivu Solutions och byggde Sotender, plattformen som kopplar samman finsk vårdpersonal med lediga pass och minskar beroendet av bemanningsföretag."
+        "bio": "Janne var med och grundade Koivu Solutions och byggde Sotender, plattformen som kopplar samman finsk vårdpersonal med lediga pass och minskar beroendet av bemanningsföretag.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Johan Rydberg",
@@ -143,7 +147,8 @@
         "photo": "{{R}}img/team-johan-rydberg.jpg",
         "alt": "Johan Rydberg",
         "li": "https://www.linkedin.com/in/johan-rydberg-a12565184/",
-        "bio": "Johan leder Embrace Safety och hjälper kommuner och polismyndigheter att bedriva kunskapsbaserat brottsförebyggande och trygghetsskapande arbete."
+        "bio": "Johan leder Embrace Safety och hjälper kommuner och polismyndigheter att bedriva kunskapsbaserat brottsförebyggande och trygghetsskapande arbete.",
+        "li_label": "LinkedIn"
       },
       {
         "name": "Robert G. Filtenborg",
@@ -151,7 +156,17 @@
         "photo": "{{R}}img/team-robert-filtenborg.jpg",
         "alt": "Robert G. Filtenborg",
         "li": "https://www.linkedin.com/company/bleau-a-s",
-        "bio": "Robert leder Bleau, vars plattformar moliri och NemBolig bär kommunikationen inom offentlig sektor och allmännyttiga bostäder i Danmark. Han driver bolaget vidare."
+        "bio": "Robert leder Bleau, vars plattformar moliri och NemBolig bär kommunikationen inom offentlig sektor och allmännyttiga bostäder i Danmark. Han driver bolaget vidare.",
+        "li_label": "LinkedIn"
+      },
+      {
+        "name": "Simon McIntyre",
+        "role": "Grundare och vd, Elected Technologies",
+        "photo": "{{R}}img/team-simon-mcintyre.jpg",
+        "alt": "Simon McIntyre",
+        "li": "https://www.electedtechnologies.com/",
+        "li_label": "electedtechnologies.com",
+        "bio": "Simon grundade Elected Technologies 2014 och byggde Caseworker, ärendesystemet som förtroendevalda i 16 parlament runt om i världen använder. Han fortsätter att leda bolaget."
       }
     ]
   },
