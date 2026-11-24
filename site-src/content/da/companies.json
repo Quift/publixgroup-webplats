@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Vores virksomheder — PubliX Group Portefølje",
-    "description": "De seks stifterledede SaaS-virksomheder i PubliX Groups portefølje, som bygger samfundsvigtig software til nordiske offentlige tjenester.",
+    "description": "De syv stifterledede SaaS-virksomheder i PubliX Groups portefølje, som bygger samfundsvigtig software til offentlige tjenester i Norden og Storbritannien.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -123,6 +123,22 @@
       "location": "Aarhus, Danmark",
       "site_url": "https://www.bleau.dk",
       "site_label": "bleau.dk"
+    },
+    {
+      "comment": "Elected Technologies (UK)",
+      "classes": "pf-card pf-card--featured fade-in fade-in-d4",
+      "logo": "elected.png",
+      "logo_alt": "Elected Technologies",
+      "badge_class": "brand",
+      "badge": "Sagsbehandling",
+      "name": "Elected Technologies",
+      "desc": "Elected Technologies udvikler Caseworker, et system til sagsbehandling og korrespondance for folkevalgte og deres kontorer, som bruges i 16 parlamenter verden over. CaseworkerGov gør det samme for kommuner og offentlige myndigheder, og VoterID håndterer valgkreds- og medlemsstyring for parlamentsmedlemmer og politiske partier.",
+      "avatar": "{{R}}img/team-simon-mcintyre.jpg",
+      "founder": "Simon McIntyre",
+      "role": "Stifter &amp; CEO",
+      "location": "Shipston-on-Stour, Storbritannien",
+      "site_url": "https://www.electedtechnologies.com/",
+      "site_label": "electedtechnologies.com"
     }
   ],
   "quote": {

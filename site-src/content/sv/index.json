@@ -235,7 +235,11 @@
     "bleau_role": "vd",
     "bleau_loc": "Aarhus, Danmark",
     "bleau_desc": "moliri: digital kommunikation för offentlig sektor med regelefterlevnad i grunden, där innehållet kontrolleras för tillgänglighet och säkerhet innan det publiceras.",
-    "aspicore_role": "vd"
+    "aspicore_role": "vd",
+    "elected_cat": "Förtroendevalda",
+    "elected_role": "Grundare & vd",
+    "elected_loc": "Shipston-on-Stour, Storbritannien",
+    "elected_desc": "Caseworker: ärendehantering och korrespondens för förtroendevalda och deras kontor, i bruk i 16 parlament runt om i världen, med CaseworkerGov för kommuner och myndigheter."
   },
   "video": {
     "kicker": "Se svaret",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Our Companies — PubliX Group Portfolio",
-    "description": "The six founder-led SaaS companies in the PubliX Group portfolio, building essential software for Nordic public services.",
+    "description": "The seven founder-led SaaS companies in the PubliX Group portfolio, building essential software for public services in the Nordics and the UK.",
     "og_image_alt": "PubliX Group — Nordic public-sector SaaS growth platform"
   },
   "nav": {
@@ -123,6 +123,22 @@
       "location": "Aarhus, Denmark",
       "site_url": "https://www.bleau.dk",
       "site_label": "bleau.dk"
+    },
+    {
+      "comment": "Elected Technologies (UK)",
+      "classes": "pf-card pf-card--featured fade-in fade-in-d4",
+      "logo": "elected.png",
+      "logo_alt": "Elected Technologies",
+      "badge_class": "brand",
+      "badge": "Casework &amp; correspondence",
+      "name": "Elected Technologies",
+      "desc": "Elected Technologies develops Caseworker, a casework and correspondence system for elected representatives and their offices, used in 16 parliaments around the world. CaseworkerGov does the same for councils and public bodies, and VoterID handles constituency and membership management for MPs and political parties.",
+      "avatar": "{{R}}img/team-simon-mcintyre.jpg",
+      "founder": "Simon McIntyre",
+      "role": "Founder &amp; CEO",
+      "location": "Shipston-on-Stour, UK",
+      "site_url": "https://www.electedtechnologies.com/",
+      "site_label": "electedtechnologies.com"
     }
   ],
   "quote": {

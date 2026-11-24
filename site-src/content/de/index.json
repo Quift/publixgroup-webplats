@@ -235,7 +235,11 @@
     "bleau_role": "CEO",
     "bleau_loc": "Aarhus, Dänemark",
     "bleau_desc": "moliri: Compliance-getriebene digitale Kommunikation für den öffentlichen Sektor, bei der Inhalte vor der Veröffentlichung auf Barrierefreiheit und Sicherheit geprüft werden.",
-    "aspicore_role": "CEO"
+    "aspicore_role": "CEO",
+    "elected_cat": "Abgeordnete",
+    "elected_role": "Gründer & CEO",
+    "elected_loc": "Shipston-on-Stour, Großbritannien",
+    "elected_desc": "Caseworker: Fallbearbeitung und Korrespondenz für Abgeordnete und ihre Büros, im Einsatz in 16 Parlamenten weltweit, dazu CaseworkerGov für Kommunen und Behörden."
   },
   "video": {
     "kicker": "Die Antwort ansehen",

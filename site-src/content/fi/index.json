@@ -235,7 +235,11 @@
     "bleau_role": "Toimitusjohtaja",
     "bleau_loc": "Aarhus, Tanska",
     "bleau_desc": "moliri: vaatimustenmukaisuuteen perustuva digitaalinen viestintä julkiselle sektorille, jossa sisältö tarkistetaan saavutettavuuden ja turvallisuuden osalta ennen julkaisua.",
-    "aspicore_role": "Toimitusjohtaja"
+    "aspicore_role": "Toimitusjohtaja",
+    "elected_cat": "Luottamushenkilöt",
+    "elected_role": "Perustaja ja toimitusjohtaja",
+    "elected_loc": "Shipston-on-Stour, Iso-Britannia",
+    "elected_desc": "Caseworker: asianhallinta ja kirjeenvaihto luottamushenkilöille ja heidän toimistoilleen, käytössä 16 parlamentissa eri puolilla maailmaa, sekä CaseworkerGov kunnille ja viranomaisille."
   },
   "video": {
     "kicker": "Katso vastaus",

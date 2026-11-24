@@ -235,7 +235,11 @@
     "bleau_role": "Administrerende direktør",
     "bleau_loc": "Aarhus, Danmark",
     "bleau_desc": "moliri: etterlevelsesdrevet digital kommunikasjon for offentlig sektor, der innholdet kontrolleres for tilgjengelighet og sikkerhet før det publiseres.",
-    "aspicore_role": "Administrerende direktør"
+    "aspicore_role": "Administrerende direktør",
+    "elected_cat": "Folkevalgte",
+    "elected_role": "Gründer & administrerende direktør",
+    "elected_loc": "Shipston-on-Stour, Storbritannia",
+    "elected_desc": "Caseworker: saksbehandling og korrespondanse for folkevalgte og deres kontorer, i bruk i 16 parlamenter verden over, med CaseworkerGov for kommuner og offentlige virksomheter."
   },
   "video": {
     "kicker": "Se svaret",
