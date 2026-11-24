@@ -121,3 +121,33 @@
   width: 100%;
   justify-content: center;
 }
+
+/* ======================== ARTICLE FIGURE & VIDEO ======================== */
+.article-figure {
+  float: right;
+  width: 200px;
+  margin: 6px 0 16px 32px;
+}
+.article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+}
+.article-figure figcaption {
+  margin-top: 8px;
+  font-size: var(--fs-caption);
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+.article-body .video-answer {
+  clear: both;
+  margin: 8px 0 32px;
+}
+@media (max-width: 560px) {
+  .article-figure {
+    float: none;
+    width: 160px;
+    margin: 0 0 24px;
+  }
+}

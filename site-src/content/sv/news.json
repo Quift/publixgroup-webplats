@@ -32,8 +32,20 @@
   },
   "cards": [
     {
-      "comment": "FEATURED: Bleau acquisition",
+      "comment": "FEATURED: Elected Technologies acquisition",
       "classes": "news-card news-card--featured fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/elected.png",
+      "logo_alt": "Elected Technologies",
+      "date": "24 november 2026",
+      "badge": "Förvärv",
+      "title": "PubliX Group förvärvar Elected Technologies och tar steget in i Storbritannien",
+      "excerpt": "Elected Technologies, som utvecklar Caseworker, blir det sjunde bolaget i PubliX Group och det första utanför Norden. Simon McIntyre fortsätter som vd.",
+      "slug": "elected-technologies"
+    },
+    {
+      "comment": "Bleau acquisition",
+      "classes": "news-card fade-in fade-in-d1",
       "category": "acquisition",
       "logo": "Design-system/assets/portfolio/bleau.png",
       "logo_alt": "Bleau A/S",

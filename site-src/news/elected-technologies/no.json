@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "PubliX Group kjøper Elected Technologies, selskapet bak Caseworker, og går inn i Storbritannia",
+    "description": "Elected Technologies, som har systemet Caseworker i bruk i 16 parlamenter, blir det sjuende selskapet i PubliX Group og det første utenfor Norden. Simon McIntyre fortsetter som daglig leder."
+  },
+  "date": {
+    "display": "24. november 2026",
+    "published_iso": "2026-11-24",
+    "modified_iso": "2026-11-24"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Oppkjøp"
+  },
+  "title": "PubliX Group kjøper Elected Technologies, selskapet bak Caseworker, og går inn i Storbritannia",
+  "lead": "Elected Technologies, selskapet fra Warwickshire som har systemet Caseworker i bruk i 16 parlamenter verden over, blir det sjuende selskapet i PubliX Group og det første utenfor Norden. Gründeren, Simon McIntyre, fortsetter som daglig leder.",
+  "body_html": "      <p>PubliX Group har kjøpt Elected Technologies Ltd, som utvikler Caseworker, et system for saksbehandling og korrespondanse for folkevalgte og offentlig sektor. Elected er gruppens sjuende selskap og det første utenfor Norden. Oppkjøpet kommer etter Bleau A/S i Aarhus, som ble med 31. august, og PubliX har nå selskaper i fire land: tre i Sverige, to i Finland, ett i Danmark og ett i Storbritannia.</p>\n      <p>Elected holder til i sørlige Warwickshire og har team i Adelaide i Australia og Ottawa i Canada. Hovedproduktet, Caseworker, samler en organisasjons e-poster, brev og oppgaver på ett sted, med oppfølging og et fullstendig bilde av kontakten mellom en innbygger og dem som representerer og betjener innbyggeren. Caseworker og VoterID brukes allerede av folkevalgte i 16 parlamenter verden over, mens CaseworkerGov gjør det samme for kommuner og offentlige virksomheter, blant annet med støtte for innsynsbegjæringer og andre prosesser der innbyggernes henvendelser skal følges opp.</p>\n      <p>Programvaren til Elected Technologies støtter travle kontorer og organisasjoner som ofte jobber med begrensede ressurser. De nye funksjonene Case Assist og AI Triage henter ut navn og adresser fra innkommende korrespondanse og prioriterer, oppsummerer, kategoriserer og merker hver sak automatisk. Brukeren bestemmer fortsatt hva som skjer videre, men AI-verktøyene foreslår tiltak ut fra hvordan hver kunde jobber, og et menneske er alltid involvert.</p>\n      <p>For dem som jobber i Elected, beholder selskapet navnet, daglig leder og kontorene sine, og PubliX vil ikke slå det sammen med sine eksisterende virksomheter. Kundene beholder sine eksisterende avtaler, inkludert vilkårene for hvordan og hvor dataene deres lagres og behandles, og Elected forblir en partipolitisk uavhengig plattform for folkevalgte.</p>\n      <figure class=\"article-figure\">\n        <img src=\"../../img/team-simon-mcintyre.jpg\" alt=\"Simon McIntyre\" width=\"800\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n        <figcaption>Simon McIntyre, gründer og daglig leder i Elected Technologies</figcaption>\n      </figure>\n      <p>«De siste 11 årene har Elected hatt en fantastisk vekst, men jeg føler fortsatt at det er mye mer å hente, og jeg gleder meg til å fortsette å lede det arbeidet. PubliX blir et fantastisk hjem for oss og gir oss akkurat det vi trenger når vi går inn i det andre tiåret av vekstreisen vår», sier Simon McIntyre, daglig leder og gründer av Elected Technologies.</p>\n      <p>«I PubliX har jeg folk å snakke med som er i samme situasjon som meg. En gang i måneden møter jeg de andre daglige lederne i gruppen, og både jeg og resten av teamet mitt får tilgang til gruppens spesialister og eksperter. Jeg tror virkelig at vi sammen blir mer enn summen av delene. Vi kan bygge på det de allerede har lært, og dele vår egen kunnskap og erfaring tilbake. Til syvende og sist er det bra for alle kundene våre, og det betyr at produktene våre, som så mange er avhengige av, kan forbedres enda raskere.»</p>\n      <details class=\"video-answer\">\n        <summary class=\"video-answer__toggle\">\n          <span class=\"video-answer__thumb\"><img src=\"../../video/vd_simon.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\"><i class=\"ph ph-play\"></i></span>\n          <span class=\"video-answer__text\">\n            <span class=\"video-answer__kicker\">Hvorfor PubliX, med hans egne ord</span>\n            <span class=\"video-answer__who\">Simon McIntyre <span class=\"video-answer__role\">Gründer og daglig leder, Elected Technologies</span></span>\n          </span>\n          <span class=\"video-answer__dur\">2:01</span>\n        </summary>\n        <div class=\"video-answer__body\">\n          <video controls playsinline preload=\"none\" poster=\"../../video/vd_simon.jpg\" data-src=\"../../video/vd_simon\"></video>\n        </div>\n      </details>\n      <p>«Vi valgte Elected for det arbeidet programvaren deres gjør. Sakene som når kontoret til et parlamentsmedlem, er personlige og handler om bolig, helse, stønader eller innvandring, og Caseworker er bygd for å holde orden på hver eneste en av dem. To oppkjøp siden august har tatt oss fra to land til fire, og vi har til hensikt å bygge videre i Storbritannia, også gjennom oppkjøp innen områder nær Electeds. Jeg forventer at de som bruker Caseworker, CaseworkerGov og VoterID, vil merke forskjell på hvor raskt produktene utvikler seg», sier Alexander Hübel, konsernsjef i PubliX Group.</p>\n      <p>Gruppens sentrale team skal jobbe med Elected innen AI, salg og anskaffelser i offentlig sektor, og støtte selskapet i de eksisterende prosessene for IT-sikkerhet og etterlevelse. Elected får også seks søsterselskaper: programvareselskaper som betjener offentlig sektor i Sverige, Finland og Danmark.</p>\n      <p>PubliX Group ser fortsatt etter gründerledede programvareselskaper i Nord-Europa som betjener offentlig sektor, med nåværende fokus på Norden, Storbritannia samt Tyskland, Østerrike og Sveits.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script src=\"{{R}}js/video.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image-v2.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Hopp til innhold",
+    "menu": "Meny",
+    "home": "Hjem",
+    "why": "Hvorfor PubliX",
+    "about": "Om oss",
+    "team": "Team",
+    "companies": "Selskaper",
+    "news": "Nyheter",
+    "contact": "Kontakt",
+    "cta": "Oppdag ditt vekstpotensial"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/elected.png",
+    "logo_alt": "Elected Technologies logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "Om Elected Technologies",
+        "text": "Elected Technologies Ltd er et britisk programvareselskap grunnlagt i 2014 med base i Shipston-on-Stour, Warwickshire. Selskapet utvikler Caseworker, et system for saksbehandling og korrespondanse for folkevalgte og deres kontorer, CaseworkerGov for kommuner og offentlige virksomheter, og VoterID, et system for valgkrets- og medlemsforvaltning for parlamentsmedlemmer og politiske partier. Produktene brukes i 16 parlamenter verden over."
+      }
+    ],
+    "cta": "Se alle selskaper"
+  },
+  "footer": {
+    "privacy": "Personvernerklæring",
+    "cookie": "Informasjonskapselpolicy"
+  }
+}

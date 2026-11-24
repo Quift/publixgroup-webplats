@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "PubliX Group acquires Elected Technologies, maker of Caseworker, and enters the UK",
+    "description": "Elected Technologies, whose Caseworker system is used in 16 parliaments, becomes the seventh company in PubliX Group and its first outside the Nordics. Simon McIntyre stays on as CEO."
+  },
+  "date": {
+    "display": "November 24, 2026",
+    "published_iso": "2026-11-24",
+    "modified_iso": "2026-11-24"
+  },
+  "badge": {
+    "class": "acquisition",
+    "label": "Acquisition"
+  },
+  "title": "PubliX Group acquires Elected Technologies, maker of Caseworker, and enters the UK",
+  "lead": "Elected Technologies, the Warwickshire company whose Caseworker system is used in 16 parliaments around the world, becomes the seventh company in PubliX Group and its first outside the Nordics. Its founder, Simon McIntyre, stays on as CEO.",
+  "body_html": "      <p>PubliX Group has acquired Elected Technologies Ltd, which develops Caseworker, a casework and correspondence system for elected representatives and the government sector. Elected is the group's seventh company and its first outside the Nordics. It follows Bleau A/S of Aarhus, which joined on 31 August, and PubliX now has companies in four countries: three in Sweden, two in Finland, one in Denmark and one in the UK.</p>\n      <p>Elected is based in South Warwickshire and has teams in Adelaide, Australia, and Ottawa, Canada. Its primary product, Caseworker, brings an organisation's emails, letters and tasks into one place, providing tracking and a full picture of the interactions between a citizen and those who represent and serve them. Caseworker and VoterID are already used by representatives in 16 parliaments around the world, while CaseworkerGov does the same for councils and public bodies, including support for freedom of information requests and other voice-of-the-customer processes.</p>\n      <p>Elected Technologies' software supports busy offices and organisations that often operate with limited resources. The new Case Assist and AI Triage features pick out names and addresses from incoming correspondence, and prioritise, summarise, categorise and tag each case automatically. The user still decides what happens next, but the AI tools suggest actions based on the way each client operates, with a human always in the loop.</p>\n      <p>For the people who work at Elected, the company keeps its name, its CEO and its offices, and PubliX will not merge it with its existing businesses. Customers keep their existing agreements, including terms on how and where their data is held and processed, and Elected remains a non-partisan platform in the elected representative space.</p>\n      <figure class=\"article-figure\">\n        <img src=\"../img/team-simon-mcintyre.jpg\" alt=\"Simon McIntyre\" width=\"800\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n        <figcaption>Simon McIntyre, founder and CEO of Elected Technologies</figcaption>\n      </figure>\n      <p>“Over the last 11 years Elected has achieved fantastic growth, but I still feel there’s a lot more to come and I’m excited to continue to lead that. PubliX is going to be a fantastic home for us and will deliver exactly what we need as we navigate the second decade of our growth journey,” said Simon McIntyre, CEO and founder of Elected Technologies.</p>\n      <p>“In PubliX I have people to talk to who are in the same position as me. Once a month I’ll meet the other CEOs in the group, and both I and the rest of my team are gaining access to the group’s specialists and experts. I really believe that working together we’ll be more than the sum of our parts. We can draw on what they’ve already learned and share our own expertise and knowledge back. Ultimately that’s great for all our customers, and will mean our products, that so many people rely on, can improve at an even faster rate.”</p>\n      <details class=\"video-answer\">\n        <summary class=\"video-answer__toggle\">\n          <span class=\"video-answer__thumb\"><img src=\"../video/vd_simon.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\"><i class=\"ph ph-play\"></i></span>\n          <span class=\"video-answer__text\">\n            <span class=\"video-answer__kicker\">Why PubliX, in his own words</span>\n            <span class=\"video-answer__who\">Simon McIntyre <span class=\"video-answer__role\">Founder &amp; CEO, Elected Technologies</span></span>\n          </span>\n          <span class=\"video-answer__dur\">2:01</span>\n        </summary>\n        <div class=\"video-answer__body\">\n          <video controls playsinline preload=\"none\" poster=\"../video/vd_simon.jpg\" data-src=\"../video/vd_simon\"></video>\n        </div>\n      </details>\n      <p>“We chose Elected for the work its software does. The cases that reach an MP’s office are personal, about housing, health, benefits or immigration, and Caseworker is built to keep track of each one. Two acquisitions since August have taken us from two countries to four, and we intend to build further in the UK, including through acquisitions in fields close to Elected’s. I expect the people who use Caseworker, CaseworkerGov and VoterID to see the difference in how quickly the products develop,” said Alexander Hübel, Group CEO of PubliX Group.</p>\n      <p>The group's central team will work with Elected on AI, public-sector sales and procurement, and support it with its existing IT security and compliance processes. Elected also gains six sister companies: fellow software businesses serving public services in Sweden, Finland and Denmark.</p>\n      <p>PubliX Group continues to look for founder-led software companies in Northern Europe that serve the public sector, with the current focus on the Nordics, the UK, and Germany, Austria and Switzerland.</p>",
+  "head_meta": [
+    {
+      "line": "<meta property=\"og:type\" content=\"article\">"
+    },
+    {
+      "line": "<meta property=\"og:title\" content=\"{{meta.title}}\">"
+    },
+    {
+      "line": "<meta property=\"og:description\" content=\"{{meta.description}}\">"
+    },
+    {
+      "line": "<meta property=\"og:url\" content=\"{{PAGE_URL}}\">"
+    },
+    {
+      "line": "<meta name=\"twitter:card\" content=\"summary_large_image\">"
+    }
+  ],
+  "head_after_canonical": [
+    {
+      "line": "<meta property=\"og:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
+    },
+    {
+      "line": "<meta property=\"og:image:width\" content=\"1200\">"
+    },
+    {
+      "line": "<meta property=\"og:image:height\" content=\"630\">"
+    },
+    {
+      "line": "<meta property=\"og:image:alt\" content=\"PubliX Group — Nordic public-sector SaaS growth platform\">"
+    },
+    {
+      "line": "<meta name=\"twitter:image\" content=\"https://publixgroup.io/assets/og-image-v2.jpg\">"
+    },
+    {
+      "line": "<meta name=\"description\" content=\"{{meta.description}}\">"
+    }
+  ],
+  "head_scripts": [
+    {
+      "html": "<script src=\"{{R}}js/consent.js\" defer></script>"
+    },
+    {
+      "html": "<script src=\"{{R}}js/video.js\" defer></script>"
+    },
+    {
+      "html": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"headline\": \"{{title}}\",\n  \"description\": \"{{meta.description}}\",\n  \"url\": \"{{PAGE_URL}}\",\n  \"inLanguage\": \"{{LANG}}\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://publixgroup.io/Design-system/assets/logo/publix-logo.svg\"\n    }\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PubliX Group\"\n  },\n  \"image\": \"https://publixgroup.io/assets/og-image-v2.jpg\",\n  \"datePublished\": \"{{date.published_iso}}\",\n  \"dateModified\": \"{{date.modified_iso}}\"\n}</script>"
+    }
+  ],
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "home": "Home",
+    "why": "Why PubliX",
+    "about": "About",
+    "team": "Team",
+    "companies": "Companies",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Discover your growth potential"
+  },
+  "sidebar": {
+    "logo": "Design-system/assets/portfolio/elected.png",
+    "logo_alt": "Elected Technologies logo",
+    "logo_attrs": " loading=\"lazy\" decoding=\"async\"",
+    "blocks": [
+      {
+        "style": "",
+        "title": "About Elected Technologies",
+        "text": "Elected Technologies Ltd is a UK software company founded in 2014 and based in Shipston-on-Stour, Warwickshire. It develops Caseworker, a casework and correspondence system for elected representatives and their offices, CaseworkerGov for councils and public bodies, and VoterID, a constituency and membership management system for MPs and political parties. Its products are used in 16 parliaments worldwide."
+      }
+    ],
+    "cta": "View all companies"
+  },
+  "footer": {
+    "privacy": "Privacy policy",
+    "cookie": "Cookie policy"
+  }
+}

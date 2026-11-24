@@ -32,8 +32,20 @@
   },
   "cards": [
     {
-      "comment": "FEATURED: Bleau acquisition",
+      "comment": "FEATURED: Elected Technologies acquisition",
       "classes": "news-card news-card--featured fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/elected.png",
+      "logo_alt": "Elected Technologies",
+      "date": "November 24, 2026",
+      "badge": "Acquisition",
+      "title": "PubliX Group acquires Elected Technologies and enters the UK",
+      "excerpt": "Elected Technologies, maker of Caseworker, becomes the seventh company in PubliX Group and its first outside the Nordics. Simon McIntyre stays on as CEO.",
+      "slug": "elected-technologies"
+    },
+    {
+      "comment": "Bleau acquisition",
+      "classes": "news-card fade-in fade-in-d1",
       "category": "acquisition",
       "logo": "Design-system/assets/portfolio/bleau.png",
       "logo_alt": "Bleau A/S",

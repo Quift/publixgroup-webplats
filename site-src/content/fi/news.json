@@ -32,8 +32,20 @@
   },
   "cards": [
     {
-      "comment": "FEATURED: Bleau acquisition",
+      "comment": "FEATURED: Elected Technologies acquisition",
       "classes": "news-card news-card--featured fade-in",
+      "category": "acquisition",
+      "logo": "Design-system/assets/portfolio/elected.png",
+      "logo_alt": "Elected Technologies",
+      "date": "24. marraskuuta 2026",
+      "badge": "Yrityskauppa",
+      "title": "PubliX Group ostaa Elected Technologiesin ja laajentuu Isoon-Britanniaan",
+      "excerpt": "Caseworkeria kehittävä Elected Technologies on PubliX Groupin seitsemäs yritys ja ensimmäinen Pohjoismaiden ulkopuolella. Simon McIntyre jatkaa toimitusjohtajana.",
+      "slug": "elected-technologies"
+    },
+    {
+      "comment": "Bleau acquisition",
+      "classes": "news-card fade-in fade-in-d1",
       "category": "acquisition",
       "logo": "Design-system/assets/portfolio/bleau.png",
       "logo_alt": "Bleau A/S",
