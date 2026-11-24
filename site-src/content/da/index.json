@@ -148,7 +148,9 @@
     "bio_rydberg": "Johan leder Embrace Safety, som hjælper kommuner og politimyndigheder med at drive vidensbaseret kriminalitetsforebyggende og tryghedsskabende arbejde.",
     "role_embrace": "CEO, Embrace Safety",
     "role_bleau": "CEO, Bleau",
-    "bio_filtenborg": "Robert leder Bleau, hvis platforme moliri og NemBolig bærer den digitale kommunikation i den offentlige sektor og i de almene boligorganisationer i Danmark. Han fortsætter med at drive virksomheden."
+    "bio_filtenborg": "Robert leder Bleau, hvis platforme moliri og NemBolig bærer den digitale kommunikation i den offentlige sektor og i de almene boligorganisationer i Danmark. Han fortsætter med at drive virksomheden.",
+    "role_elected": "Stifter og CEO, Elected Technologies",
+    "bio_mcintyre": "Simon stiftede Elected Technologies i 2014 og byggede Caseworker, sagsbehandlingssystemet, som folkevalgte i 16 parlamenter verden over bruger. Han fortsætter med at lede virksomheden."
   },
   "lead": {
     "eyebrow": "Ved ansøgning · Fortroligt",
@@ -239,6 +241,6 @@
     "kicker": "Se svaret",
     "kicker_all": "Vores CEO’er med egne ord",
     "full": "Se hele interviewet",
-    "who_all": "Seks CEO’er i PubliX Group"
+    "who_all": "Seks af CEO’erne i PubliX Group"
   }
 }

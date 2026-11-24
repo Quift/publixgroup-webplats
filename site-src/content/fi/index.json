@@ -148,7 +148,9 @@
     "bio_rydberg": "Johan johtaa Embrace Safetyä auttaen kuntia ja poliisiviranomaisia tekemään tietoon perustuvaa rikosten ehkäisy- ja turvallisuustyötä.",
     "role_embrace": "Toimitusjohtaja, Embrace Safety",
     "role_bleau": "Toimitusjohtaja, Bleau",
-    "bio_filtenborg": "Robert johtaa Bleauta, jonka alustat moliri ja NemBolig kantavat julkisen sektorin ja yleishyödyllisen asumisen viestintää Tanskassa. Hän jatkaa yhtiön johdossa."
+    "bio_filtenborg": "Robert johtaa Bleauta, jonka alustat moliri ja NemBolig kantavat julkisen sektorin ja yleishyödyllisen asumisen viestintää Tanskassa. Hän jatkaa yhtiön johdossa.",
+    "role_elected": "Perustaja ja toimitusjohtaja, Elected Technologies",
+    "bio_mcintyre": "Simon perusti Elected Technologiesin vuonna 2014 ja rakensi Caseworkerin, asianhallintajärjestelmän, jota luottamushenkilöt käyttävät 16 parlamentissa eri puolilla maailmaa. Hän jatkaa yrityksen johdossa."
   },
   "lead": {
     "eyebrow": "Hakemuksesta · Luottamuksellinen",
@@ -239,6 +241,6 @@
     "kicker": "Katso vastaus",
     "kicker_all": "Toimitusjohtajamme omin sanoin",
     "full": "Katso koko haastattelu",
-    "who_all": "Kuusi toimitusjohtajaa PubliX Groupista"
+    "who_all": "Kuusi PubliX Groupin toimitusjohtajista"
   }
 }

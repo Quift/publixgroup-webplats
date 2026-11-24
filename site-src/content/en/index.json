@@ -148,7 +148,9 @@
     "bio_rydberg": "Johan leads Embrace Safety, helping municipalities and police authorities run knowledge-based crime prevention and safety promotion work.",
     "role_embrace": "CEO, Embrace Safety",
     "role_bleau": "CEO, Bleau",
-    "bio_filtenborg": "Robert leads Bleau, whose platforms moliri and NemBolig carry public-sector and social housing communication in Denmark. He continues to run the company."
+    "bio_filtenborg": "Robert leads Bleau, whose platforms moliri and NemBolig carry public-sector and social housing communication in Denmark. He continues to run the company.",
+    "role_elected": "Founder &amp; CEO, Elected Technologies",
+    "bio_mcintyre": "Simon founded Elected Technologies in 2014 and built Caseworker, the casework system used by elected representatives in 16 parliaments around the world. He continues to run the company."
   },
   "lead": {
     "eyebrow": "By application · Confidential",
@@ -239,6 +241,6 @@
     "kicker": "Watch the answer",
     "kicker_all": "Our CEOs in their own words",
     "full": "Watch the full interview",
-    "who_all": "Six CEOs in the PubliX Group"
+    "who_all": "Six of the CEOs in PubliX Group"
   }
 }
