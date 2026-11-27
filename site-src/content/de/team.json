@@ -224,6 +224,13 @@
         "name": "Bleau",
         "desc": "Öffentliche Kommunikation",
         "href": "https://www.bleau.dk"
+      },
+      {
+        "logo": "elected.png",
+        "alt": "Elected Technologies",
+        "name": "Elected Technologies",
+        "desc": "Vorgangsmanagement",
+        "href": "https://www.electedtechnologies.com/"
       }
     ]
   },

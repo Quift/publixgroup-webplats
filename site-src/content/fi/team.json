@@ -224,6 +224,13 @@
         "name": "Bleau",
         "desc": "Julkisen sektorin viestintä",
         "href": "https://www.bleau.dk"
+      },
+      {
+        "logo": "elected.png",
+        "alt": "Elected Technologies",
+        "name": "Elected Technologies",
+        "desc": "Asianhallinta",
+        "href": "https://www.electedtechnologies.com/"
       }
     ]
   },
