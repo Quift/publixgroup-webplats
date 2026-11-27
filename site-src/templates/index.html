@@ -49,6 +49,15 @@
   "sameAs": [
     "https://www.linkedin.com/company/publixgroup/"
   ],
+  "subOrganization": [
+    { "@type": "Organization", "name": "Tidvis", "url": "https://tidvis.se" },
+    { "@type": "Organization", "name": "digiPlant", "url": "https://www.digiplant.se/sv/" },
+    { "@type": "Organization", "name": "Aspicore", "url": "https://aspicore.com" },
+    { "@type": "Organization", "name": "Koivu Solutions", "url": "https://sotender.io" },
+    { "@type": "Organization", "name": "Embrace Safety", "url": "https://www.embrace-safety.se/" },
+    { "@type": "Organization", "name": "Bleau", "url": "https://www.bleau.dk/" },
+    { "@type": "Organization", "name": "Elected Technologies", "url": "https://www.electedtechnologies.com/" }
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Kungsgatan 37, 7tr",
@@ -62,7 +71,8 @@
     "DK",
     "NO",
     "FI",
-    "DE"
+    "DE",
+    "GB"
   ]
 }</script>
 <script src="{{R}}js/consent.js" defer></script>
@@ -97,6 +107,9 @@
   </div>
 </header>
 
+<main id="main">
+<article>
+
 <!-- ======================== HERO ======================== -->
 <section class="hero" id="top">
   <div class="container hero__grid">
@@ -113,19 +126,19 @@
       </div>
       <div class="hero__proof">
         <div class="hero__proof-logos">
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/tidvis.jpg" alt="" loading="lazy" decoding="async"></div>
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/digiplant.png" alt="" loading="lazy" decoding="async"></div>
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/sotender.png" alt="" loading="lazy" decoding="async"></div>
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/aspicore.png" alt="" loading="lazy" decoding="async"></div>
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/embrace.png" alt="" loading="lazy" decoding="async"></div>
-          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/bleau.png" alt="" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/tidvis.jpg" alt="Tidvis" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/digiplant.png" alt="digiPlant" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/sotender.png" alt="Koivu Solutions (Sotender)" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/aspicore.png" alt="Aspicore" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/embrace.png" alt="Embrace Safety" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
+          <div class="hero__proof-logo"><img src="{{R}}Design-system/assets/portfolio/bleau.png" alt="Bleau" data-fit="28x28 cover" loading="lazy" decoding="async"></div>
         </div>
         <span>{{hero.proof}}</span>
       </div>
     </div>
 
     <div class="hero__visual fade-in fade-in-d1">
-      <img class="hero__image" src="{{R}}img/hero-team.webp" alt="{{hero.img_alt}}" loading="lazy" decoding="async">
+      <img class="hero__image" src="{{R}}img/hero-team.webp" alt="{{hero.img_alt}}" data-fit="512x512 cover" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
@@ -173,22 +186,22 @@
       <div class="usp__visual">
         <div class="usp__cards">
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-clients.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-clients.png" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp1.card1_title}}</h3>
             <p>{{usp1.card1_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-marketing.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-marketing.png" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp1.card2_title}}</h3>
             <p>{{usp1.card2_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-crosssell.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-crosssell.webp" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp1.card3_title}}</h3>
             <p>{{usp1.card3_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-intros.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-intros.webp" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp1.card4_title}}</h3>
             <p>{{usp1.card4_text}}</p>
           </div>
@@ -210,7 +223,7 @@
         <p>{{usp2.p3}}</p>
         <details class="video-answer">
           <summary class="video-answer__toggle">
-            <span class="video-answer__thumb"><img src="{{R}}video/li_6_digiplant.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+            <span class="video-answer__thumb"><img src="{{R}}video/li_6_digiplant.jpg" alt="" data-fit="112x63 cover" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
             <span class="video-answer__text">
               <span class="video-answer__kicker">{{video.kicker}}</span>
               <span class="video-answer__who">Alexander Törnqvist <span class="video-answer__role">{{team.role_digiplant}}</span></span>
@@ -218,7 +231,7 @@
             <span class="video-answer__dur">0:43</span>
           </summary>
           <div class="video-answer__body">
-            <video controls playsinline preload="none" poster="{{R}}video/li_6_digiplant.jpg" data-src="{{R}}video/li_6_digiplant"></video>
+            <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_6_digiplant.jpg 960x540 cover}}" data-src="{{R}}video/li_6_digiplant"></video>
             <button type="button" class="video-answer__full" data-src="{{R}}video/vd_digiplant"><i class="ph ph-film-strip"></i> {{video.full}} (1:52)</button>
           </div>
         </details>
@@ -250,7 +263,7 @@
         <p>{{usp3.p3}}</p>
         <details class="video-answer">
           <summary class="video-answer__toggle">
-            <span class="video-answer__thumb"><img src="{{R}}video/li_7_tidvis.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+            <span class="video-answer__thumb"><img src="{{R}}video/li_7_tidvis.jpg" alt="" data-fit="112x63 cover" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
             <span class="video-answer__text">
               <span class="video-answer__kicker">{{video.kicker}}</span>
               <span class="video-answer__who">Adam Hjort <span class="video-answer__role">{{team.role_ceo_tidvis}}</span></span>
@@ -258,7 +271,7 @@
             <span class="video-answer__dur">0:38</span>
           </summary>
           <div class="video-answer__body">
-            <video controls playsinline preload="none" poster="{{R}}video/li_7_tidvis.jpg" data-src="{{R}}video/li_7_tidvis"></video>
+            <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_7_tidvis.jpg 960x540 cover}}" data-src="{{R}}video/li_7_tidvis"></video>
             <button type="button" class="video-answer__full" data-src="{{R}}video/vd_tidvis"><i class="ph ph-film-strip"></i> {{video.full}} (1:27)</button>
           </div>
         </details>
@@ -295,22 +308,22 @@
       <div class="usp__visual">
         <div class="usp__cards">
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-ai.webp" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-ai.webp" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp4.card1_title}}</h3>
             <p>{{usp4.card1_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-automation.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-automation.png" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp4.card2_title}}</h3>
             <p>{{usp4.card2_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-techstack.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-techstack.png" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp4.card3_title}}</h3>
             <p>{{usp4.card3_text}}</p>
           </div>
           <div class="usp__card">
-            <img src="{{R}}img/illustrations/usp-growth.png" alt="" class="usp__card-illus" loading="lazy" decoding="async">
+            <img src="{{R}}img/illustrations/usp-growth.png" alt="" data-fit="215x100 contain" class="usp__card-illus" loading="lazy" decoding="async">
             <h3>{{usp4.card4_title}}</h3>
             <p>{{usp4.card4_text}}</p>
           </div>
@@ -332,7 +345,7 @@
         <p>{{usp5.p3}}</p>
         <details class="video-answer">
           <summary class="video-answer__toggle">
-            <span class="video-answer__thumb"><img src="{{R}}video/li_4_koivu.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+            <span class="video-answer__thumb"><img src="{{R}}video/li_4_koivu.jpg" alt="" data-fit="112x63 cover" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
             <span class="video-answer__text">
               <span class="video-answer__kicker">{{video.kicker}}</span>
               <span class="video-answer__who">Janne Salmi <span class="video-answer__role">{{team.role_koivu}}</span></span>
@@ -340,7 +353,7 @@
             <span class="video-answer__dur">0:44</span>
           </summary>
           <div class="video-answer__body">
-            <video controls playsinline preload="none" poster="{{R}}video/li_4_koivu.jpg" data-src="{{R}}video/li_4_koivu"></video>
+            <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_4_koivu.jpg 960x540 cover}}" data-src="{{R}}video/li_4_koivu"></video>
             <button type="button" class="video-answer__full" data-src="{{R}}video/vd_koivu"><i class="ph ph-film-strip"></i> {{video.full}} (1:29)</button>
           </div>
         </details>
@@ -373,8 +386,26 @@
         <button onclick="goCo(1)" aria-label="Next"><i class="ph ph-caret-right"></i></button>
       </div>
     </div>
-    <div class="co-card" id="co-card"></div>
-    <div class="co-dots" id="co-dots"></div>
+    <div class="co-card" id="co-card">
+    <div class="co-card__media">
+      <div class="co-logo"><img src="{{R}}Design-system/assets/portfolio/tidvis.jpg" alt="Tidvis" data-fit="215x64 contain" loading="lazy" decoding="async"></div>
+      <span class="co-badge co-badge--brand">{{co.tidvis_cat}}</span>
+    </div>
+    <div class="co-card__body">
+      <h3 class="co-card__name">Tidvis</h3>
+      <p class="co-card__desc">{{co.tidvis_desc}}</p>
+      <div class="co-card__foot">
+        <div class="co-person">
+          <div class="co-avatar"><img src="{{R}}img/team-adam-hjort.jpg" alt="Adam Hjort" data-fit="40x40 cover" loading="lazy" decoding="async"></div>
+          <div>
+            <div class="co-person__name">Adam Hjort</div>
+            <div class="co-person__role">{{co.tidvis_role}} · {{co.tidvis_loc}}</div>
+          </div>
+        </div>
+        <a class="btn btn--secondary btn--sm" href="https://tidvis.se" target="_blank">tidvis.se <i class="ph ph-arrow-up-right"></i></a>
+      </div>
+    </div></div>
+    <div class="co-dots" id="co-dots"><button class="co-dot co-dot--active" onclick="setCo(0)">Tidvis</button><button class="co-dot" onclick="setCo(1)">digiPlant</button><button class="co-dot" onclick="setCo(2)">Aspicore</button><button class="co-dot" onclick="setCo(3)">Koivu Solutions</button><button class="co-dot" onclick="setCo(4)">Embrace Safety</button><button class="co-dot" onclick="setCo(5)">Bleau</button><button class="co-dot" onclick="setCo(6)">Elected Technologies</button></div>
   </div>
 </section>
 
@@ -389,7 +420,7 @@
     <div class="team__grid team__grid--mgmt fade-in">
       <div class="team__member" data-bio="{{team.bio_hubel}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-alexander-hubel.jpg" alt="Alexander Hübel" loading="lazy" decoding="async">
+          <img src="/img/team-alexander-hubel.jpg" alt="Alexander Hübel" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Alexander Hübel</h3>
         <p class="team__role">{{team.role_ceo}}</p>
@@ -397,7 +428,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_astrom}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-marcus-astrom.webp" alt="Marcus Åström" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-marcus-astrom.webp" alt="Marcus Åström" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Marcus Åström</h3>
         <p class="team__role">{{team.role_ma}}</p>
@@ -405,7 +436,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_zeits}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-patrick-zeits.jpg" alt="Patrick Zeits" loading="lazy" decoding="async">
+          <img src="/img/team-patrick-zeits.jpg" alt="Patrick Zeits" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Patrick Zeits</h3>
         <p class="team__role">{{team.role_cto}}</p>
@@ -420,7 +451,7 @@
     <div class="team__grid team__grid--board fade-in">
       <div class="team__member" data-bio="{{team.bio_sallner}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-patrik-sallner.webp" alt="Patrik Sallner" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-patrik-sallner.webp" alt="Patrik Sallner" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Patrik Sallner</h3>
         <p class="team__role">{{team.role_chairman}}</p>
@@ -428,7 +459,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_wrede}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-viktor-wrede.jpg" alt="Viktor Wrede" loading="lazy" decoding="async">
+          <img src="/img/team-viktor-wrede.jpg" alt="Viktor Wrede" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Viktor Wrede</h3>
         <p class="team__role">{{team.role_board_external}}</p>
@@ -436,7 +467,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_barklof}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-anders-barklof.webp" alt="Anders Barklöf" loading="lazy" decoding="async">
+          <img src="/img/team-anders-barklof.webp" alt="Anders Barklöf" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Anders Barklöf</h3>
         <p class="team__role">{{team.role_board_aspira}}</p>
@@ -444,7 +475,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_holm}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-anton-holm.webp" alt="Anton Holm" loading="lazy" decoding="async">
+          <img src="/img/team-anton-holm.webp" alt="Anton Holm" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Anton Holm</h3>
         <p class="team__role">{{team.role_board_aspira}}</p>
@@ -452,7 +483,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_salmi_board}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async">
+          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Janne Salmi</h3>
         <p class="team__role">{{team.role_board_entrepreneur}}</p>
@@ -460,7 +491,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_tornqvist_board}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async">
+          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Alexander Törnqvist</h3>
         <p class="team__role">{{team.role_board_entrepreneur}}</p>
@@ -475,7 +506,7 @@
     <div class="team__grid team__grid--founders fade-in">
       <div class="team__member" data-bio="{{team.bio_hjort}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-adam-hjort.jpg" alt="Adam Hjort" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-adam-hjort.jpg" alt="Adam Hjort" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Adam Hjort</h3>
         <p class="team__role">{{team.role_ceo_tidvis}}</p>
@@ -483,7 +514,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_tornqvist_leader}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async">
+          <img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Alexander Törnqvist</h3>
         <p class="team__role">{{team.role_digiplant}}</p>
@@ -491,7 +522,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_tanner}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Harri Tanner</h3>
         <p class="team__role">{{team.role_aspicore}}</p>
@@ -499,7 +530,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_salmi_leader}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async">
+          <img src="/img/team-janne-salmi.png" alt="Janne Salmi" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Janne Salmi</h3>
         <p class="team__role">{{team.role_koivu}}</p>
@@ -507,7 +538,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_rydberg}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-johan-rydberg.jpg" alt="Johan Rydberg" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-johan-rydberg.jpg" alt="Johan Rydberg" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Johan Rydberg</h3>
         <p class="team__role">{{team.role_embrace}}</p>
@@ -515,7 +546,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_filtenborg}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-robert-filtenborg.jpg" alt="Robert G. Filtenborg" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-robert-filtenborg.jpg" alt="Robert G. Filtenborg" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Robert G. Filtenborg</h3>
         <p class="team__role">{{team.role_bleau}}</p>
@@ -523,7 +554,7 @@
       </div>
       <div class="team__member" data-bio="{{team.bio_mcintyre}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{R}}img/team-simon-mcintyre.jpg" alt="Simon McIntyre" loading="lazy" decoding="async">
+          <img src="{{R}}img/team-simon-mcintyre.jpg" alt="Simon McIntyre" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">Simon McIntyre</h3>
         <p class="team__role">{{team.role_elected}}</p>
@@ -619,7 +650,7 @@
       <h2 class="section-title">{{testi.title}}</h2>
       <details class="video-answer video-answer--center">
         <summary class="video-answer__toggle">
-          <span class="video-answer__thumb"><img src="{{R}}video/sammanstallning.jpg" alt="" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
+          <span class="video-answer__thumb"><img src="{{R}}video/sammanstallning.jpg" alt="" data-fit="112x63 cover" loading="lazy" decoding="async"><i class="ph ph-play"></i></span>
           <span class="video-answer__text">
             <span class="video-answer__kicker">{{video.kicker_all}}</span>
             <span class="video-answer__who">{{video.who_all}}</span>
@@ -627,7 +658,7 @@
           <span class="video-answer__dur">1:58</span>
         </summary>
         <div class="video-answer__body">
-          <video controls playsinline preload="none" poster="{{R}}video/sammanstallning.jpg" data-src="{{R}}video/sammanstallning"></video>
+          <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/sammanstallning.jpg 960x540 cover}}" data-src="{{R}}video/sammanstallning"></video>
         </div>
       </details>
     </div>
@@ -635,7 +666,7 @@
       <div class="testimonial">
         <p class="testimonial__quote">{{testi.t1_quote}}</p>
         <div class="testimonial__author">
-          <div class="testimonial__photo"><img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" loading="lazy" decoding="async"></div>
+          <div class="testimonial__photo"><img src="/img/team-alexander-tornqvist.jpg" alt="Alexander Törnqvist" data-fit="48x48 cover" loading="lazy" decoding="async"></div>
           <div>
             <p class="testimonial__name">Alexander Törnqvist</p>
             <p class="testimonial__role">{{testi.t1_role}}</p>
@@ -645,7 +676,7 @@
       <div class="testimonial">
         <p class="testimonial__quote">{{testi.t2_quote}}</p>
         <div class="testimonial__author">
-          <div class="testimonial__photo"><img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" loading="lazy" decoding="async"></div>
+          <div class="testimonial__photo"><img src="{{R}}img/team-harri-tanner.jpg" alt="Harri Tanner" data-fit="48x48 cover" loading="lazy" decoding="async"></div>
           <div>
             <p class="testimonial__name">Harri Tanner</p>
             <p class="testimonial__role">{{testi.t2_role}}</p>
@@ -655,7 +686,7 @@
       <div class="testimonial">
         <p class="testimonial__quote">{{testi.t3_quote}}</p>
         <div class="testimonial__author">
-          <div class="testimonial__photo"><img src="/img/team-janne-salmi.png" alt="Janne Salmi" loading="lazy" decoding="async"></div>
+          <div class="testimonial__photo"><img src="/img/team-janne-salmi.png" alt="Janne Salmi" data-fit="48x48 cover" loading="lazy" decoding="async"></div>
           <div>
             <p class="testimonial__name">Janne Salmi</p>
             <p class="testimonial__role">{{testi.t3_role}}</p>
@@ -677,10 +708,13 @@
         <a class="btn btn--on-navy btn--lg" href="{{review_href}}">{{nav.cta}} <i class="ph ph-arrow-right"></i></a>
         <span class="micro-cta" style="color: var(--navy-300);">{{cta.micro}}</span>
       </div>
-      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.email_btn}}</a>
+      <a class="btn btn--on-navy-outline btn--lg" href="contact.html#contact-form">{{cta.email_btn}}</a>
     </div>
   </div>
 </section>
+
+</article>
+</main>
 
 <footer class="footer">
   <div class="container footer__inner">
@@ -727,32 +761,32 @@
 <script>
 const COMPANIES = [
   { id:"tidvis", name:"Tidvis", cat:"{{co.tidvis_cat}}", tone:"brand",
-    logo:"{{R}}Design-system/assets/portfolio/tidvis.jpg",
-    person:"Adam Hjort", photo:"{{R}}img/team-adam-hjort.jpg", role:"{{co.tidvis_role}}", loc:"{{co.tidvis_loc}}", url:"tidvis.se",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/tidvis.jpg 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/tidvis.jpg 215x64 contain}}",
+    person:"Adam Hjort", photo:"{{fit:1 {{R}}img/team-adam-hjort.jpg 40x40 cover}}", photo2:"{{fit:2 {{R}}img/team-adam-hjort.jpg 40x40 cover}}", role:"{{co.tidvis_role}}", loc:"{{co.tidvis_loc}}", url:"tidvis.se",
     desc:"{{co.tidvis_desc}}" },
   { id:"digiplant", name:"digiPlant", cat:"{{co.assoc_cat}}", tone:"info",
-    logo:"{{R}}Design-system/assets/portfolio/digiplant.png",
-    person:"Alexander Törnqvist", photo:"/img/team-alexander-tornqvist.jpg", role:"{{co.role_cofounder}}", loc:"{{co.orebro_loc}}", href:"https://www.digiplant.se/sv/", url:"digiplant.se",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/digiplant.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/digiplant.png 215x64 contain}}",
+    person:"Alexander Törnqvist", photo:"{{fit:1 /img/team-alexander-tornqvist.jpg 40x40 cover}}", photo2:"{{fit:2 /img/team-alexander-tornqvist.jpg 40x40 cover}}", role:"{{co.role_cofounder}}", loc:"{{co.orebro_loc}}", href:"https://www.digiplant.se/sv/", url:"digiplant.se",
     desc:"{{co.digiplant_desc}}" },
   { id:"aspicore", name:"Aspicore", cat:"{{co.assoc_cat}}", tone:"info",
-    logo:"{{R}}Design-system/assets/portfolio/aspicore.png",
-    person:"Harri Tanner", photo:"{{R}}img/team-harri-tanner.jpg", role:"{{co.aspicore_role}}", loc:"{{co.aspicore_loc}}", url:"aspicore.com",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/aspicore.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/aspicore.png 215x64 contain}}",
+    person:"Harri Tanner", photo:"{{fit:1 {{R}}img/team-harri-tanner.jpg 40x40 cover}}", photo2:"{{fit:2 {{R}}img/team-harri-tanner.jpg 40x40 cover}}", role:"{{co.aspicore_role}}", loc:"{{co.aspicore_loc}}", url:"aspicore.com",
     desc:"{{co.aspicore_desc}}" },
   { id:"koivu", name:"Koivu Solutions", cat:"{{co.koivu_cat}}", tone:"success",
-    logo:"{{R}}Design-system/assets/portfolio/sotender.png",
-    person:"Janne Salmi", photo:"/img/team-janne-salmi.png", role:"{{co.role_cofounder}}", loc:"{{co.koivu_loc}}", url:"sotender.io",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/sotender.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/sotender.png 215x64 contain}}",
+    person:"Janne Salmi", photo:"{{fit:1 /img/team-janne-salmi.png 40x40 cover}}", photo2:"{{fit:2 /img/team-janne-salmi.png 40x40 cover}}", role:"{{co.role_cofounder}}", loc:"{{co.koivu_loc}}", url:"sotender.io",
     desc:"{{co.koivu_desc}}" },
   { id:"embrace", name:"Embrace Safety", cat:"{{co.embrace_cat}}", tone:"warning",
-    logo:"{{R}}Design-system/assets/portfolio/embrace.png",
-    person:"Johan Rydberg", photo:"{{R}}img/team-johan-rydberg.jpg", role:"{{co.embrace_role}}", loc:"{{co.orebro_loc}}", href:"https://www.embrace-safety.se/", url:"embrace-safety.se",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/embrace.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/embrace.png 215x64 contain}}",
+    person:"Johan Rydberg", photo:"{{fit:1 {{R}}img/team-johan-rydberg.jpg 40x40 cover}}", photo2:"{{fit:2 {{R}}img/team-johan-rydberg.jpg 40x40 cover}}", role:"{{co.embrace_role}}", loc:"{{co.orebro_loc}}", href:"https://www.embrace-safety.se/", url:"embrace-safety.se",
     desc:"{{co.embrace_desc}}" },
   { id:"bleau", name:"Bleau", cat:"{{co.bleau_cat}}", tone:"info",
-    logo:"{{R}}Design-system/assets/portfolio/bleau.png",
-    person:"Robert G. Filtenborg", photo:"{{R}}img/team-robert-filtenborg.jpg", role:"{{co.bleau_role}}", loc:"{{co.bleau_loc}}", href:"https://www.bleau.dk/", url:"bleau.dk",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/bleau.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/bleau.png 215x64 contain}}",
+    person:"Robert G. Filtenborg", photo:"{{fit:1 {{R}}img/team-robert-filtenborg.jpg 40x40 cover}}", photo2:"{{fit:2 {{R}}img/team-robert-filtenborg.jpg 40x40 cover}}", role:"{{co.bleau_role}}", loc:"{{co.bleau_loc}}", href:"https://www.bleau.dk/", url:"bleau.dk",
     desc:"{{co.bleau_desc}}" },
   { id:"elected", name:"Elected Technologies", cat:"{{co.elected_cat}}", tone:"brand",
-    logo:"{{R}}Design-system/assets/portfolio/elected.png",
-    person:"Simon McIntyre", photo:"{{R}}img/team-simon-mcintyre.jpg", role:"{{co.elected_role}}", loc:"{{co.elected_loc}}", href:"https://www.electedtechnologies.com/", url:"electedtechnologies.com",
+    logo:"{{fit:1 {{R}}Design-system/assets/portfolio/elected.png 215x64 contain}}", logo2:"{{fit:2 {{R}}Design-system/assets/portfolio/elected.png 215x64 contain}}",
+    person:"Simon McIntyre", photo:"{{fit:1 {{R}}img/team-simon-mcintyre.jpg 40x40 cover}}", photo2:"{{fit:2 {{R}}img/team-simon-mcintyre.jpg 40x40 cover}}", role:"{{co.elected_role}}", loc:"{{co.elected_loc}}", href:"https://www.electedtechnologies.com/", url:"electedtechnologies.com",
     desc:"{{co.elected_desc}}" },
 ];
 let coIdx = 0;
@@ -761,7 +795,7 @@ function renderCo() {
   const c = COMPANIES[coIdx];
   document.getElementById('co-card').innerHTML = `
     <div class="co-card__media">
-      <div class="co-logo"><img src="${c.logo}" alt="${c.name}" loading="lazy" decoding="async"></div>
+      <div class="co-logo"><img src="${c.logo}" srcset="${c.logo} 1x, ${c.logo2} 2x" alt="${c.name}" loading="lazy" decoding="async"></div>
       <span class="co-badge co-badge--${c.tone}">${c.cat}</span>
     </div>
     <div class="co-card__body">
@@ -769,7 +803,7 @@ function renderCo() {
       <p class="co-card__desc">${c.desc}</p>
       <div class="co-card__foot">
         <div class="co-person">
-          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" alt="${c.person}" loading="lazy" decoding="async">` : initials(c.person)}</div>
+          <div class="co-avatar">${c.photo ? `<img src="${c.photo}" srcset="${c.photo} 1x, ${c.photo2} 2x" alt="${c.person}" loading="lazy" decoding="async">` : initials(c.person)}</div>
           <div>
             <div class="co-person__name">${c.person}</div>
             <div class="co-person__role">${c.role} · ${c.loc}</div>

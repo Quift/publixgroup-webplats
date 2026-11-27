@@ -65,6 +65,9 @@
   </div>
 </header>
 
+<main id="main">
+<article>
+
 <!-- ======================== HERO ======================== -->
 <section class="why-hero" id="top">
   <div class="container" style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center;">
@@ -135,7 +138,7 @@
           <span class="video-answer__dur">0:53</span>
         </summary>
         <div class="video-answer__body">
-          <video controls playsinline preload="none" poster="{{R}}video/li_1_alexander.jpg" data-src="{{R}}video/li_1_alexander"></video>
+          <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_1_alexander.jpg 960x540 cover}}" data-src="{{R}}video/li_1_alexander"></video>
           <button type="button" class="video-answer__full" data-src="{{R}}video/vd_alexander"><i class="ph ph-film-strip"></i> {{video.full}} (3:02)</button>
         </div>
       </details>
@@ -218,7 +221,7 @@
           <span class="video-answer__dur">1:58</span>
         </summary>
         <div class="video-answer__body">
-          <video controls playsinline preload="none" poster="{{R}}video/sammanstallning.jpg" data-src="{{R}}video/sammanstallning"></video>
+          <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/sammanstallning.jpg 960x540 cover}}" data-src="{{R}}video/sammanstallning"></video>
         </div>
       </details>
     </div>
@@ -281,7 +284,7 @@
           <span class="video-answer__dur">0:58</span>
         </summary>
         <div class="video-answer__body">
-          <video controls playsinline preload="none" poster="{{R}}video/li_2_aspicore.jpg" data-src="{{R}}video/li_2_aspicore"></video>
+          <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_2_aspicore.jpg 960x540 cover}}" data-src="{{R}}video/li_2_aspicore"></video>
           <button type="button" class="video-answer__full" data-src="{{R}}video/vd_aspicore"><i class="ph ph-film-strip"></i> {{video.full}} (2:21)</button>
         </div>
       </details>
@@ -306,7 +309,7 @@
           <span class="video-answer__dur">0:44</span>
         </summary>
         <div class="video-answer__body">
-          <video controls playsinline preload="none" poster="{{R}}video/li_3_embrace.jpg" data-src="{{R}}video/li_3_embrace"></video>
+          <video controls playsinline preload="none" poster="{{fit:1 {{R}}video/li_3_embrace.jpg 960x540 cover}}" data-src="{{R}}video/li_3_embrace"></video>
           <button type="button" class="video-answer__full" data-src="{{R}}video/vd_embrace"><i class="ph ph-film-strip"></i> {{video.full}} (1:51)</button>
         </div>
       </details>
@@ -473,13 +476,16 @@
     <p class="cta-bottom__sub">{{cta.sub}}</p>
     <div class="cta-bottom__actions">
       <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
-      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.btn_email}}</a>
+      <a class="btn btn--on-navy-outline btn--lg" href="contact.html#contact-form">{{cta.btn_email}}</a>
     </div>
     <span class="micro-cta" style="color: var(--navy-300); justify-content: center; margin-top: 16px; cursor: default;">{{cta.micro}}</span>
   </div>
 </section>
 
 <!-- ======================== FOOTER ======================== -->
+</article>
+</main>
+
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">

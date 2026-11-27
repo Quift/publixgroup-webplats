@@ -26,7 +26,8 @@
     "role": "CEO, PubliX Group",
     "general": "General inquiries",
     "office": "Office",
-    "call": "Call Alexander directly"
+    "call": "Call Alexander directly",
+    "message": "Send a message"
   },
   "form": {
     "title": "...or send a message",

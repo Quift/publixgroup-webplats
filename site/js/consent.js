@@ -58,16 +58,23 @@
     return a ? a.getAttribute('href') : 'cookie-policy.html';
   }
 
+  // The gtag snippet sits in <head> on every page (build.js, Consent Mode v2 basic):
+  // consent defaults to denied and nothing is measured until this runs on "Accept".
   function loadGA() {
     if (window.__publixGaLoaded) return;
     window.__publixGaLoaded = true;
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
-    document.head.appendChild(s);
     window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
+    if (typeof window.gtag !== 'function') {
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+    }
+    if (!document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+    }
+    window.gtag('consent', 'update', { analytics_storage: 'granted' });
     window.gtag('config', GA_ID);
   }
 
@@ -76,6 +83,7 @@
   // och cookies som redan satts måste raderas aktivt (_ga ligger kvar i ~2 år).
   function disableGA() {
     window['ga-disable-' + GA_ID] = true;
+    if (typeof window.gtag === 'function') window.gtag('consent', 'update', { analytics_storage: 'denied' });
     var host = location.hostname;
     var domains = ['', host, '.' + host];
     var parts = host.split('.');

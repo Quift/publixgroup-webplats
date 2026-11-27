@@ -61,6 +61,9 @@
   </div>
 </header>
 
+<main id="main">
+<article>
+
 <!-- ======================== HERO ======================== -->
 <section class="career-hero" id="top">
   <div class="container fade-in">
@@ -80,7 +83,7 @@
     <div class="team__grid team__grid--mgmt fade-in">
 {{#each team.mgmt}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+          <img src="{{.photo}}" alt="{{.alt}}" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">{{.name}}</h3>
         <p class="team__role">{{.role}}</p>
@@ -95,7 +98,7 @@
     <div class="team__grid team__grid--board fade-in">
 {{#each team.board}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+          <img src="{{.photo}}" alt="{{.alt}}" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">{{.name}}</h3>
         <p class="team__role">{{.role}}</p>
@@ -110,7 +113,7 @@
     <div class="team__grid team__grid--founders fade-in">
 {{#each team.founders}}      <div class="team__member" data-bio="{{.bio}}" style="cursor: pointer;">
         <div class="team__photo">
-          <img src="{{.photo}}" alt="{{.alt}}" loading="lazy" decoding="async">
+          <img src="{{.photo}}" alt="{{.alt}}" data-fit="264x353 cover top" loading="lazy" decoding="async">
         </div>
         <h3 class="team__name">{{.name}}</h3>
         <p class="team__role">{{.role}}</p>
@@ -166,13 +169,16 @@
     <p class="cta-bottom__sub">{{cta.sub}}</p>
     <div class="cta-bottom__actions">
       <a class="btn btn--on-navy btn--lg" href="index.html#review">{{cta.btn}} <i class="ph ph-arrow-right"></i></a>
-      <a class="btn btn--on-navy-outline btn--lg" href="mailto:alexander.hubel@publixgroup.io">{{cta.btn2}}</a>
+      <a class="btn btn--on-navy-outline btn--lg" href="contact.html#contact-form">{{cta.btn2}}</a>
     </div>
   </div>
 </section>
 
 
 <!-- ======================== FOOTER ======================== -->
+</article>
+</main>
+
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">

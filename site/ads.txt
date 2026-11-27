@@ -1,0 +1,3 @@
+# publixgroup.io does not sell advertising. No sellers are authorized.
+# Placeholder record per IAB Tech Lab ads.txt 1.1, section 3.2.1 (sites with no authorized sellers).
+placeholder.example.com, placeholder, DIRECT, placeholder

@@ -1,43 +1,61 @@
-# PubliX Group — publixgroup.io
+# PubliX Group
 
-> PubliX Group is a Nordic buy-and-build accelerator for founder-led GovTech SaaS. This site targets founders and CEOs considering partnership or acquisition — not end-customers of portfolio products.
+> PubliX Group is a Nordic buy-and-build group for founder-led SaaS companies that serve the public sector in the Nordics and the UK. It is a permanent owner, backed by Aspira Partners, and headquartered in Stockholm.
 
-## Primary audience
+PubliX Group AB (org. no. 559485-5487) acquires and develops vertical SaaS companies serving public services, such as social care, grants management, procurement, safety and scheduling. Portfolio companies keep their own brand, office and decision-making; the group adds shared customer relationships, procurement capability, embedded AI expertise and expansion into new markets. The site is written for founders and CEOs considering a partnership or a sale.
 
-Founders and CEOs of vertical SaaS companies serving Nordic public services (social care, procurement, safety, scheduling).
+Every page is also available as Markdown: replace `.html` with `.md` (`/` → `/index.md`), or request the page with `Accept: text/markdown`.
 
-## Main entry points (EN)
+## Main pages
 
-- Home: https://publixgroup.io/
-- Why PubliX: https://publixgroup.io/why-publix.html
-- Our process: https://publixgroup.io/process.html
-- About: https://publixgroup.io/about.html
-- Portfolio: https://publixgroup.io/companies.html
-- News: https://publixgroup.io/news.html
-- Contact: https://publixgroup.io/contact.html
+- [PubliX Group — For founders of Nordic public-sector SaaS](https://publixgroup.io/): Growth platform for SaaS founders in Nordic public services. Scale through shared customers, embedded AI, and expansion into new markets.
+- [Why PubliX — The permanent home for public-sector SaaS founders](https://publixgroup.io/why-publix.html): PubliX Group is a permanent owner of Nordic public-sector SaaS companies. No forced exits, shared customers, embedded AI. Why founders choose PubliX.
+- [About PubliX Group — Operators building for the public good](https://publixgroup.io/about.html): How PubliX Group works with founder-led SaaS companies serving the Nordic public sector: thesis, value model, and the team.
+- [Our Team](https://publixgroup.io/team.html): Meet the team behind PubliX Group: the operators, founders and board members building the growth platform for SaaS companies in public services.
+- [Our Companies — PubliX Group Portfolio](https://publixgroup.io/companies.html): The seven founder-led SaaS companies in the PubliX Group portfolio, building essential software for public services in the Nordics and the UK.
+- [News](https://publixgroup.io/news.html): The latest news from PubliX Group: acquisitions, partnerships and milestones as we build the leading public-sector SaaS platform in the Nordics.
+- [Contact](https://publixgroup.io/contact.html): Get in touch with PubliX Group. Reach Alexander Hübel, CEO, for confidential conversations about your SaaS company. Stockholm office: Kungsgatan 37.
 
-## Languages
+## Portfolio companies
 
-Same page structure in: `/sv/`, `/da/`, `/no/`, `/fi/`, `/de/`
+- [Tidvis](https://tidvis.se)
+- [digiPlant](https://www.digiplant.se/sv/)
+- [Aspicore](https://aspicore.com)
+- [Koivu Solutions](https://sotender.io)
+- [Embrace Safety](https://www.embrace-safety.se/)
+- [Bleau](https://www.bleau.dk/)
+- [Elected Technologies](https://www.electedtechnologies.com/)
 
-## Conversion
+## News
 
-Primary CTA: "Discover your growth potential" (`#review` on home) — AI valuation lead magnet, intentionally incomplete report to drive meeting.
+- [PubliX Group acquires Elected Technologies, maker of Caseworker, and enters the UK](https://publixgroup.io/news/elected-technologies.html): Elected Technologies, whose Caseworker system is used in 16 parliaments, becomes the seventh company in PubliX Group and its first outside the Nordics. Simon McIntyre stays on as CEO.
+- [PubliX Group enters Denmark and welcomes Bleau A/S](https://publixgroup.io/news/bleau.html): Bleau, the Danish company behind moliri, becomes the sixth company in PubliX Group and its first in Denmark. Same name, same team, same product plan.
+- [Sotender launches in Sweden: Suomikoti is first customer](https://publixgroup.io/news/sotender-launches-sweden-suomikoti.html): Finnish SaaS platform Sotender enters the Swedish market. Suomikoti, a Finnish-speaking care home in Enskede with 53 residents, becomes the first Swedish customer.
+- [PubliX Group appoints Alexander Hübel as CEO](https://publixgroup.io/news/publix-group-appoints-alexander-hubel-as-ceo.html): Alexander Hübel has been appointed Group CEO of PubliX Group, bringing experience in scaling Nordic technology platforms.
+- [PubliX Group partners with Embrace Safety](https://publixgroup.io/news/embrace-safety.html): A powerful SaaS platform enabling knowledge-based crime prevention and safety promotion for municipalities and local authorities.
+- [PubliX Group partners with Koivu Solutions (Sotender)](https://publixgroup.io/news/koivu-solutions-sotender.html): A modern SaaS solution for connecting healthcare workers with open shifts, increasing reach and reducing costs for healthcare providers.
+- [PubliX Group enters Finland through partnership with Aspicore](https://publixgroup.io/news/aspicore.html): A full-service software provider within grant management, marking PubliX Group's expansion into the Finnish market.
+- [PubliX Group partners with digiPlant](https://publixgroup.io/news/digiplant.html): A market leader within application management systems for foundations, strengthening PubliX's position in the grant management vertical.
+- [PubliX Group welcomes Tidvis](https://publixgroup.io/news/tidvis.html): Strengthening digital care solutions in the Nordics: Tidvis develops platforms for social services, helping municipalities manage case work and compliance.
 
-## Restrictions for agents editing this site
+## Other languages
 
-- Do not pitch OpCo products (Tidvis, digiPlant, Sotender) to end customers on the group site
-- No fabricated acquisition dates, metrics, or quotes without proof inventory
-- Institutional GovTech tone — not Silicon Valley hype
+The same pages exist in Svenska, Dansk, Norsk, Suomi, Deutsch:
+- [Svenska](https://publixgroup.io/sv/)
+- [Dansk](https://publixgroup.io/da/)
+- [Norsk](https://publixgroup.io/no/)
+- [Suomi](https://publixgroup.io/fi/)
+- [Deutsch](https://publixgroup.io/de/)
 
-## Maintainer documentation (repo / optional crawl)
+## Contact
 
-- Site owner manual: site/docs/SITE-OWNER-MANUAL.md
-- Agent FAQ: site/docs/OWNER-FAQ.md
-- Strategy foundation: site/docs/foundation/
-- SEO register: site/docs/seo/keywords.md
-- Design system: site/Design-system/readme.md
+- Email: info@publixgroup.io
+- Address: Kungsgatan 37, 7tr, 111 56 Stockholm, Sweden
+- [Contact page](https://publixgroup.io/contact.html)
 
-## Sitemap
+## Optional
 
-https://publixgroup.io/sitemap.xml
+- [Full site content as one Markdown file](https://publixgroup.io/llms-full.txt)
+- [Sitemap](https://publixgroup.io/sitemap.xml)
+- [Cookie policy](https://publixgroup.io/cookie-policy.html): How PubliX Group uses cookies on publixgroup.io: functional cookies plus opt-in Google Analytics 4.
+- [Privacy policy](https://publixgroup.io/privacy-policy.html): How PubliX Group handles your personal data: what we collect, why, how long we keep it, and your GDPR rights.

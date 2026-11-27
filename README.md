@@ -21,6 +21,28 @@ node build.js --check  # verifiera att site/ matchar källan
 
 Format och regler: [`site-src/SPEC.md`](site-src/SPEC.md).
 
+### AI-läsbarhet (genereras av bygget)
+
+`node build.js` skriver också, utan att något behöver redigeras för hand:
+
+- en `.md`-variant bredvid varje sida (innehållet i `<main>`), länkad med `<link rel="alternate" type="text/markdown">`
+- `site/llms.txt` och `site/llms-full.txt` ur de engelska sidorna och pressreleaserna — **redigera inte för hand**
+- extra JSON-LD: WebSite + FAQPage på startsidan, FAQPage på Why PubliX
+
+`netlify/edge-functions/markdown.ts` serverar `.md`-varianten när en AI-agent frågar
+(`Accept: text/markdown` eller GPTBot/ClaudeBot/PerplexityBot m.fl.). Googlebot och webbläsare får HTML.
+Kontroll: [klartil.ai](https://klartil.ai/?scanurl=publixgroup.io).
+
+### Prestanda (genereras av bygget)
+
+- **Bilder:** sätt `data-fit="BxH cover|contain [top]"` på en `<img>` (B×H = visad storlek i CSS-px) så skapar
+  bygget WebP-varianter 1x + 2x i `site/img/_v/` och skriver om `src`/`srcset`. I JS-strängar: `{{fit:1 src BxH mode}}`
+  (1x) och `{{fit:2 …}}` (2x). Lägg alltid till `data-fit` på nya porträtt, logotyper och illustrationer.
+- **CSS:** sidans `<link rel="stylesheet">`-rader slås ihop till `site/css/bundle/{hash}.css` (en förfrågan). Länka
+  CSS som vanligt i mallarna — paketeringen sker automatiskt. Redigera aldrig filerna i `css/bundle/`.
+- `target="_blank"` får `rel="noopener"` automatiskt.
+- Kontroll: [seositecheckup](https://seositecheckup.com/seo-audit/publixgroup.io).
+
 ## Redigera siten med AI-agenter
 
 **Skill:** [`.claude/skills/publix-site-edit/SKILL.md`](.claude/skills/publix-site-edit/SKILL.md)

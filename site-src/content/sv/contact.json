@@ -26,7 +26,8 @@
     "role": "vd, PubliX Group",
     "general": "Allmänna förfrågningar",
     "office": "Kontor",
-    "call": "Ring Alexander direkt"
+    "call": "Ring Alexander direkt",
+    "message": "Skicka ett meddelande"
   },
   "form": {
     "title": "...eller skicka ett meddelande",

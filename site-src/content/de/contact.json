@@ -26,7 +26,8 @@
     "role": "CEO, PubliX Group",
     "general": "Allgemeine Anfragen",
     "office": "Büro",
-    "call": "Alexander direkt anrufen"
+    "call": "Alexander direkt anrufen",
+    "message": "Nachricht senden"
   },
   "form": {
     "title": "...oder eine Nachricht senden",

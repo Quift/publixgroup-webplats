@@ -137,6 +137,10 @@ html[lang="de"] .stats-bar__label {
 .team__grid--board,
 .team__grid--founders { grid-template-columns: repeat(4, 1fr); }
 
+/* Decorative dot patterns: keep the SVG's own proportions inside whatever box the
+   section gives it (same rendering as the SVG's default preserveAspectRatio). */
+img[class$="__pattern"] { object-fit: contain; }
+
 /* ============================ BOTTOM CTA ============================ */
 .cta-bottom {
   position: relative; background: var(--surface-navy);

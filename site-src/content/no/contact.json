@@ -26,7 +26,8 @@
     "role": "Administrerende direktør, PubliX Group",
     "general": "Generelle henvendelser",
     "office": "Kontor",
-    "call": "Ring Alexander direkte"
+    "call": "Ring Alexander direkte",
+    "message": "Send en melding"
   },
   "form": {
     "title": "...eller send en melding",

@@ -26,7 +26,8 @@
     "role": "CEO, PubliX Group",
     "general": "Generelle henvendelser",
     "office": "Kontor",
-    "call": "Ring til Alexander direkte"
+    "call": "Ring til Alexander direkte",
+    "message": "Send en besked"
   },
   "form": {
     "title": "...eller send en besked",

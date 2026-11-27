@@ -26,7 +26,8 @@
     "role": "Toimitusjohtaja, PubliX Group",
     "general": "Yleiset tiedustelut",
     "office": "Toimisto",
-    "call": "Soita Alexanderille suoraan"
+    "call": "Soita Alexanderille suoraan",
+    "message": "Lähetä viesti"
   },
   "form": {
     "title": "...tai lähetä viesti",
